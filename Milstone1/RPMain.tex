@@ -1,0 +1,82 @@
+\documentclass[a4paper]{article}
+
+\input{packages}
+
+%\renewcommand{\baselinestretch}{1.5}
+\pagestyle{fancy}
+\fancyhead{}
+%\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+
+%------underline setting--------
+\renewcommand{\ULdepth}{1.8pt}
+
+%%==============================
+%%
+%%==============================
+\begin{document}
+
+\include{title_page1}
+%-------------------------
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+
+\setcounter{page}{1}
+
+%%==============================
+%%			CONTENT
+%%==============================
+
+
+\input{abstract}
+\input{objectives}
+\input{background}
+\input{significance}
+\input{method}
+\input{ethical_issues}
+\input{data_storage}
+\input{facility_resources}
+\input{timeline}
+%\input{notes}
+%\input{tablenotes}
+
+%\newpage
+%\textcolor{red}{•	Include a discussion of the motivation and advantages for rolling contact for in-hand manipulation\\
+%•	Reduce the length of the discussion on modelling the kinematics of rolling motion\\
+%•	Add a brief review of path planning for two general objects under nonholonomic constraints\\
+%•	Simply the aims: remove specific techniques and algorithms, and describe the broad aim of the project general terms, and in one or two sentences. Ensure that specific objectives are framed so that the aim can be achieved.\\
+%•	Include a section which describes how a discretised model will be produced such that the discrete planning algorithms described can be applied. How is this discrete model to be obtained from the continuous-time models discussed?\\
+%•	If optimal planning is discussed, ensure you are specific about in what sense the solution is optimal. In some cases, optimality is not required, only a satisfactory or satisficing solution in the sense of a cost function being below some bound. In such cases, sampling-based solutions (such as RRT) are appropriate.\\
+%•	Please also review the writing for grammatical correctness (seek some assistance on this if needed).\\
+%•	Note Robot Operating System (not Software) in Table 1.}\\
+
+%%==============================
+%%			%references
+%%==============================
+\cleardoublepage
+\bibliographystyle{ieeetr} %
+
+%\bibliographystyle{plain} % only number
+%\bibliographystyle{plainnat} % Author-year
+%\bibliographystyle{unsrtnat} %sort in number
+%\bibliography{refers, RC_RollingBall, RC_LeiCui, RC_basemanipulation, RC_MotionPlanning, RC_Bicchi, RC_Kinematics, Kinematics, DiscreteKinematics, InHandManipulation, tactile, disdiffgeo}
+
+\bibliography{citation}
+\addcontentsline{toc}{section}{\numberline{}{REFERENCES}}
+
+%%=============================={}
+%%			%Appendix
+%%==============================
+\cleardoublepage
+\appendix
+\section{APPENDIX}
+\label{appendix:A}
+
+\centering
+\includegraphics[scale=0.8]{DataManagement.pdf}
+
+\includepdf[pages=2]{DataManagement.pdf}
+
+\end{document}

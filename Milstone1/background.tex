@@ -1,0 +1,255 @@
+\section{BACKGROUND}
+\uline{Introduction.} 
+Rolling contact has been studied considerably in the literature. Rolling contact is described different types by point contact \cite{Cai86_PlanarMotion_PointContact, Cai87_SpatialMotion_PointContact} , line contact \cite{Cai88_SpatialMotion_LineContact}, and surface contact \cite{Borisov08_ChaplypinBall_FixSphere}. Many researches in the field of geometry \cite{Montana88_Kinematics_Contact_Grasp}, controllability \cite{Marigo00_RollingBodies_Controllability}, motion planning \cite{Z.Li91_NonholonomicMotionPlanning} or robot manipulation \cite{Murray-Li_EbookRobotic_Manipulation} demonstrated that rolling contact in terms of robot manipulation, especially in multifingered robot hands, has played an important role in recent decades. However such simple end-effector through multifingered robot hands can relocate only a few objects and the dexterity of robotic in-hand manipulation still need to study.\\
+
+%Rolling manifolds[]\\
+
+\noindent\uline{Research focus.}
+The purpose of this research firstly focuses on the continuous and discrete path planning generation methods and then employs discrete rolling contact theory in in-hand manipulation and enhances robot hands working dexterously in discrete space as the motivation of this study. The optimal path planning is also considered to eliminate the cost of the process of path generation. Therefore, developing the discrete contact theory in terms of differential geometry is significantly considered in this research. Experimental validation is the final step to test the whole system including physical robot.
+
+\subsection{Rolling Contact}
+%-------------------------------------------------------
+%				Classical Nonholonomic system
+%-------------------------------------------------------
+%\uline{Classical nonholonomic system}.
+
+%-------------------------------------------------------
+%				Rolling contact in continuous space
+%-------------------------------------------------------
+\noindent\uline{Rolling contact in continuous space.} 
+Rolling contact through ball-plate and rolling sphere problems of nonholonomic systems has been intensively investigated in the past by many researchers \cite{Robert00_BallRolling_OnSphere, Borisov08_ChaplypinBall_FixSphere, Borisov08_Dynamics_NonHolonomic, Borisov08_ExplicitIntegration_NonHolonomic}. Later than, Hartmann \cite{Hartmann00_Blending_ContactCurves} applied a numerical blending method to develop the classical rolling ball method in terms of constant and variable radius through analyzing the Voronoi surface, Bezier surface and G$^2$-blending surface. Especially, the rolling sphere model by Brockett \cite{Brockett93_NonholonomicKinematic} has the asymptotic stability problem of the five dimensional nonholonomic systems that can be transformed into a chained form system. A specific  geometric formulation in terms of curvature of rolling motion between a sphere and two arbitrarily shape fingers was derived by Montana \cite{Montana88_Kinematics_Contact_Grasp}, of which this paper refers to the special case - a rolling sphere and a plate. This rolling contact condition is formulated as a contact equation via the differential geometry concepts - a well-known nonholonomic constraint.\\
+
+%-------------------------------------------------------
+%				Kinematic of rolling contact
+%-------------------------------------------------------
+
+\noindent\uline{Kinematic of rolling contact}.
+%\textcolor{red}{•Reduce the length of the discussion on modelling the kinematics of rolling motion}\\ 
+%A simple definition of kinematic chain is a coordinate transformation that demonstrates the relationship between the position and orientation of an object and the fingers \cite{Montana95_kinematic-multifingered}. 
+A part of rolling contact is considered in terms of the kinematics which are essentially analyzed from dynamics 
+\cite{Sarkar97_DynamicControl_3D_RC, Arimoto03_DynamicForceTorque_MeanRC, Svinin13_Dynamic_MP_SphereRollingRobot}, controllability \cite{Yun92_Control_RC, Zribi99_Control_RC, Marigo00_Control_RollingBody, Nakashima05_ControlGraspManipulation_RC} and motion planning 
+\cite{Cai86_PlanarMotion_PointContact, Z.Li89_MotionPlanning_Dex.Manipulation, Chelouah01_MotionPlanning_RollingSurfaces, Svinin08_MotionPlanning_RollingSphere}. 
+The majority of study in multifingered robot hands has been involved in differential equations based on kinematic. Cai and Roth \cite{Cai86_PlanarMotion_PointContact} used Taylor series expansion to derive the first and second order of kinematics of sliding-rolling. 
+%Salisbury and Craig \cite{Salisbury-Roth83_Kinematic_Force_ArticulatedMEHand} explicitly stated that the contact degree of freedom are virtual joint. These authors also developed the analysis of the contacts between bodies which have the constraints within the effects of friction while \cite{Z.Li89_UnifiedControl, Murray90_GraspingManipulation} discussed the constraints on the fingertips with friction can be arbitrary kinematics constraints. 
+Okamura \cite{Okamura_2000_Overview_DM} developed Jacobian relationships in developing dexterous manipulation kinematics. However, the system may be over-constrained or under-constrained that hardly maintains the rolling contact property. 
+Another series of study about kinematics in terms of rolling contact was conducted by Lei 
+\cite{Lei10_Geometric.Kinematics_PointContact, Lei12_Polynomial_Inverse.Kinematics, Lei12_ReciprocityBased_SVD_Inverse.Kinematics,
+Lei15_sliding.rolling.loci_kinematics,
+Lei15_PolynomialFormulation_InverseKinematics, 
+Lei17_In-Hand_Forward.Inverse.Kinematics, Lei18_Rolling.Contact_Kinematics_Multifinger}. The author applied the theory of Darboux moving frames method in differential geometry to demonstrate the contact equation between an object and multifingered robot hands and generate the forward and inverse kinematics of in-hand manipulation.\\
+
+%-------------------------------------------------------
+%				Cantan's moving frame
+%-------------------------------------------------------
+
+\noindent\uline{Contact theory via Cartan's moving frame method}. Cartan's moving frame method is essential approach for geometric objects in contact kinematics \cite{H.Cartan96,E.Cartan02}. The method  was widely applied in the computation of symmetry groups, partial differential equations \cite{Mansfield01_AlgorithmSymmetric_Diff, Morozov02_MovingFrame}, geometrical curves and surfaces \cite{Beffa03_relative_Absolute_DiffInvariant, Beffa06_PoissonGeometry_DiffInvariant} or finite dimensional transformation group from Lie algebras \cite{Boyko06_LieAlgebra, Boyko07_LieAlgebra}; however, there has been little attention to the robotic field. One of the remarkable studies from Lei \cite{Lei10_Darboux-Frame} is to explore differential geometries in terms of curvatures of shapes through the spin motion to establish the contact theory. \\
+%\cite{Lei09_coordinate-free_instantaneous_kinematics, Lei10_Geometric.Kinematics_PointContact,  Lei15_sliding.rolling.loci_kinematics, Lei15_PolynomialFormulation_InverseKinematics}
+
+ 
+
+%-------------------------------------------------------
+%				Rolling contact in discrete space
+%-------------------------------------------------------
+\subsection{Motion Planning and Path Planning}
+\uline{Introduction.} 
+Motion planning is the most important task of robotics research \citep*{Sudsang_2000_Grasping_In-hand_manipulation},\citep*{Pajarinen_2017_R.Manipulation_POMDP} in static and dynamic environment as an emerging area for a long time. The path planning strategy for robotic research can be categorized into traditional methods and discrete approach or also divided into two folds as the local path planning and the global path planning strategy. However, most of the previous studies focus on mobile robots, unmanned aerial vehicle (UAV) or autonomous sef-driving car while only few research has been implemented on the rolling contact of robotic in-hand manipulation. 
+
+\subsubsection{Traditional Motion Planning}
+%The topic on motion planning can be divided into three main categories as follows. 
+Reaching the final configuration and reducing the cost of path generation within the minimum distance and time are the most important tasks of robotic motion planning. There are various approaches proposed/implemented by many researchers that are highlighted below.\\
+
+\noindent\uline{Roadmap approach.} 
+Roadmap is one of the classical techniques has been focused on the precise motion planning where the configuration-free space is withdrawn into the system of 1D lines. The connectivities of the free space \textit{F} are captured by a network of 1D curves such as Voronoi diagrams, roadmap \cite{Canny88_PhDThesis}, Star-shaped roadmap (a deterministic sampling approach) \cite{Varadhan05_StarshapedRM} and criticality based method \cite{Latombe99_JourneyRobotics}. There are some drawbacks on these methods including the computation of free space and less practical algorithms for computing these methods of large environment.\\
+
+%-------------------------------------------------------
+%				
+%-------------------------------------------------------
+\noindent\uline{Classical cell decomposition approach.}
+Another classical method of motion planning is called cell decomposition which is divided into full cell, empty cell and mixed cell \cite{Latombe91_FastPlaner}. The advantages of this method is to compute the planning process incrementally which represent a sequence of cell connecting. The borders between all the cells, which are assigned as the function of the environment, may represent the favourable circumstances of the cell decomposition method. However, the method is still not to compute the free space precisely that can be approached as a dual to the roadmap method.\\
+
+%-------------------------------------------------------
+%				
+%-------------------------------------------------------
+\noindent\uline{Potential field category.} 
+It is quite different from two previous approaches that the connectivity graph in potential field method is not required to pre-compute in the process of path generation. In stead, searching of a path is guided by a heuristics and constructed by an artificial potential function which is represented the sum of potentials (achieving the goal configuration and avoiding the obstacles) \cite{Khatib85_ObstacleAvoidance}. The potential field is distinct across to avoid obstacles in each time-step. The advantage of this method is that various its application can be applied for the movement of nonholonomic mobile robots or human-robot interaction. \\
+
+
+%-------------------------------------------------------
+%				Non-holonomic motion planning
+%-------------------------------------------------------
+
+\noindent\uline{Non-holonomic motion planning.} Non-holonomic motion planning has received much attention in the past. The simply definition of non-holonomic robot motion planning is the movement of the robot from an initial configuration to a desired configuration  \cite{Z.Li89_MotionPlanning_Nonholonomic, Z.Li91_NonholonomicMotionPlanning, Murray93_NonholonomicMP}. 
+The motion planning of the object to acquire a desired configuration and the grasp planning in terms of contact force optimization are two main categories of dexterous motion planning \cite{Okamura_2000_Overview_DM}. 
+Specific motion planning of rolling surfaces in terms of chained-form has been introduced by several authors such as Brockett \cite{Brockett82_ControlTheory_RiemannianGeo} who introduced sinusoidal inputs then the method was developed in more detail by Murray et. al \cite{Murray-Li_EbookRobotic_Manipulation}. 
+However, a challenge from these studies is that the triangularized form of the system equation could not transform into chained-form.\\
+
+%However, the article \cite{Bicchi95_Dex.Manipulation_Rolling} could not transform the triangularized form of the system equation into chained-form while Monaco \cite{Monaco92_MP_DigitalControl} investigated non-holonomic chained systems through the two constant inputs where they achieved the interactive planning schemes.\\
+
+%\noindent\uline{Optimal motion planning.} using Reinforcement learning, and clearance based path optimization for MP: \cite{Gomez11_RL_MotionPlanning, Geraerts04_PathOptimization_MP}\\ 
+%\cite{Khalidi18_TStar} T*: A heuristic search based algorithm for motion planning with temporal goals $=>$ Combine with Temnporal Goal to optimize the graph search. 
+
+\noindent\uline{Path planning for two general objects.}
+Rolling contact between two objects under nonholonomic constraint is usually a difficult task to work with. In terms of path planning under rolling constraint, the study \cite{Z.Li90_MotionRigidBody_RC} used the Gauss-Bonnet theorem in differential geometry to generate a path for the contact between two unit balls. The approach of path planning was considered through a nonlinear control problem in terms of the control vector fields and the control inputs. The study applied the geometric data such as curvature forms, metric tensors and connection forms in order to find an admissible path between two contact configuration under nonholonomic rolling constraints.\\
+
+%\textcolor{red}{•Add a brief review of path planning for two general objects under nonholonomic constraints}\\
+%-------------------------------------------------------
+%				Discrete Planning
+%-------------------------------------------------------
+\subsubsection{Path planning in discrete space}
+\noindent\uline{From continuous to discrete.} Path planning of robots in complex environments has received quite a lot of attention in the past while only a few studies have focused on discrete space. Interestingly, combining computation frameworks and the discrete algorithms was considered in recent studies to capture the complex environment \citep*{Belta_2005_Discrete_MP}. 
+This method is combined with the continuous path planning \cite{Mitchell03_ContinuousPathPlanning} that can generate or model the kinematics, control laws and a path of the robots. Therefore, the computational framework for automatic path planning for robots in unknown environment in discrete space also needs to be considered.\\
+
+%-------------------------------------------------------
+%There are few studies on discrete space.\\ \textit{From Belta \citep*{Belta_2005_Discrete_MP}. There has been interest recently in creating computational frameworks combining the discrete algorithms capturing the complexity of the environment with the continuous approaches modeling the kinematics or dynamics of the robots. 
+
+
+
+\noindent\uline{Discrete path planning.} Planning techniques are categorized into different aspects. The basic idea of discrete path planning in the most cases is that state-space models will be used to demonstrate the distinct situation in which the task of a planning algorithm solves the sequence actions transforming from a initial state to other states \cite{LaValle06_PlanningAlgorithm}.
+For example, Thomas \citep*{Thomas_2003_Trajectory} applied Delaunay triangulations to discretize the environment, and cubic spline representations are proposed to meet robot kinematic constraints.
+Considering the continuous curvature on smooth curves has been integrated within the probabilistic approaches in order to compute the piecewise smooth paths for a car-like vehicle as a four-dimensional system \citep*{Lamiraux_2001_Smooth_MP}. Whereas, dealing with nonholonomic constraints, a sampling-based road map technique was proposed in \citep*{Cheng_2001_RRT_trajectory}. Based on decomposing space into cells \citep*{Conner_2003_Potential_Func}, a potential field without local minima was assigned with polygonal partitions of planar environments to solve the Laplace's equation problems in each cell exist.\\
+
+
+
+%-------------------------------------------------------
+\noindent\uline{Probability cell decomposition.} The simple idea of this method is to determine a path between an initial configuration and the goal configuration in the way of dividing the free space into cells. There are two terms of the method including an approximation cell decomposition and an exact cell decomposition\cite{Lingelbach04_PP_ProbabilisticCellDecomposition, Rosell05_PP_Harmonic_ProbabilisticCellDecomposition}. 
+The former methodology refers to a decomposition in which the cells is bounded approximation by the free space that can allow the robot finalizes the motion planning tasks with complex geometries to achieve connectivity paths.
+Exact cell decomposition has the first step to decompose the free space into trapezoidal triangular cells then nodes which represent cells in the connectivity graph are adjacent in the configuration space.
+However, there are intensive time and memory on the computation of decompositions and limited volume of the configuration space, which rise exponentially with the DOFs of system.\\ 
+
+
+
+%-------------------------------------------------------
+\noindent\uline{Randomized potential field algorithm.} Precomputation of a connectivity graph of the global path-planning which contains the guide for grid search in the configuration space is the high cost for computation system. Using the properties of potential function \cite{Barraquand91_MP_DisctributedRepresenation}
+can generate no systematic way to escape the minima at the goal configuration. The technique in the first step is the best-first search which does not require to reach a local minimum of the potential function in hight-dimensional configuration spaces. Then the search algorithm which proceeds along the negated gradient of the potential function until the goal configuration is achieved. The most powerful of this method is to discretize the configuration space and the work space into a hierarchical bitmap grid that can be applied for many DOFs of robots.\\
+
+%-------------------------------------------------------
+\noindent\uline{Rapidly-exploring Random Trees (RRTs) and RRT-Connect.} RRTs is a randomized data structure technique to solve a planning problem \cite{Lavalle98rapidly_exploringrandom}.
+The method does not require any connections of nearby configurations. It can be applied for path planning problems in terms of the nonholonomic constraints and high degree of freedom. The method still remains on the trajectory optimization problems. Another study in \cite{Kuffner00_RRTConnect} improved the RRTs method called RRT-Connect technique which combines the RRTs and a greedy heuristic to speed up the exploration of configuration (state) space and the connection from an initial configuration to other goals. However, these challenging issues still remain in terms of computational geometry such as the artificial bias which can be given from searching nearest-neighbour to the convergence rate.\\
+%Following \citep*{Cheng_2001_RRT_trajectory} page3\\
+
+
+
+
+%-------------------------------------------------------
+\noindent\uline{Probabilistic Roadmap Planer-PRM.}
+The PRM technique has been successful for path planning problems, which was implemented in different sites \cite{Amato96_PRM_PathPlanning, Kavraki95_Thesis_RandomNetworks_FastPlanning, Overmars92_RandomApproach_MP}. 
+The PRM computation consists of two phases: the preprocessing phase and the query phase. Repeating the generating random free configuration space can generate a probabilistic roadmap in the preprocessing phase. The nodes of the graph and the paths are computed through local planner that can create the graph edges. In the query phase, there is starting by connection between the initial and the goal configuration by a Dijkstra's shortest path query \cite{Geraerts04_Comprative_PRM}. Finding complete edges from connecting nodes in the roadmap to generate a graph search is the feasible path for the planning problem. Nevertheless, Probabilistic Roadmap Planner method should be optimized due to some reasons such as the low quality of searching process - the graph is a tree, not cycle graphs and involving straight-line motion which generates the first order discontinuities at the nodes. \\
+
+
+
+%---======---=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+%-------------------------------------------------------
+\noindent\uline{Heuristic search method.} 
+The fundamental robotic path planning problem is to represent the environment as a graph involving the set of possible robot location and a set of edges that can generate the paths. The popular method for determining the least-cost paths is A* as Heuristic based search algorithm in  \cite{Hart68_HeuristicDetermination,
+Nilsson82_Principles_AI, 
+Rankin_1996_A_star_Search}.
+The search algorithm must expand the fewest possible nodes in order to make searching for an admissible path. Then the evaluation of available nodes is needed to determine the next efficient nodes.
+The initial search approached by A* takes two steps to generate an optimal path in which receiving information from one of the initial cells in free space and replanning from scratch when the environment has changed to expand a new cell.
+However, the A* computation process needs high configuration processors to successfully reach various nodes. In the real world scenarios, the search operating sometimes may be performed with inaccurate planning graphs.\\
+%From \cite{Ferguson05_HeuristicPathPlanning, Hoang15_HeuristicPathPlanning}.\\
+
+%-------------------------------------------------------
+\noindent\uline{Dynamic programming.}
+Dynamic programming (DP) is a technique of robot path planning problem solving to calculate the distance of the goal configuration from all the initial configuration in the grid map \cite{Bellman57_DynamicProgramming}. 
+The environment in most robot path planning issues is implemented by a topologically organized map where the connections between each grid points and their neighbouring grid points are built. The distances at every iteration are updated to constitute the neighbour cells when the environment is discretized into a grid of points. 
+As proof in \cite{Bellman57_DynamicProgramming}, the DP method can provide a simple approximation to optimize the trajectory solution that does not suffer from the curse of dimensionality. 
+A criticism of DP that has precluded the practical implementation in path planning problems is somewhat more difficult for executing the DP algorithm due to time consuming \cite{Kala12_RobotPP_DynamicPlanning}.
+The efficient cost is the property of the DP method by sub-dividing the complex problems into sub-problems and converging various steps of solving sub-problems. However, the expense of the DP algorithm is not as overwhelming nowadays thanks to the faster and stronger computer and the parallel-processing computer which can efficiently execute the expanding nodes.  \\
+
+%-------------------------------------------------------
+\noindent\uline{Genetic algorithm technique.} The genetic algorithm was initially proposed by Holland \cite{Holland75_GAMethod} as a non-conventional method. The GAs method has been applied for a wide assortment of problems such as natural genetic operators-reproduction, mutation, and crossover. GAs benefits the great solutions for upgrade problems to find an optimal path of the mobile robots from an initial configuration to the goal configuration in a grid environment. The GA technique currently is used to find the shortest path in terms of less number of generations in different environments such as indoor, moderate or complex scattered environment. However, the GAs tend to find a feasible path without considering the distribution and location of obstacles in the unknown environment.\\
+
+%-------------------------------------------------------
+%\noindent\uline{Temporal-difference learning.} From Sutton Bartol.\\
+
+
+%-------------------------------------------------------
+%\noindent\uline{Other general search methods.} Breadth first, Depth first, Dijkstra's algorithm, Backward search, Bidirectional search. Monte Carlo methods. Temporal-difference learning.\\
+
+
+%-------------------------------------------------------
+%				Optimal path Planning
+%-------------------------------------------------------
+\noindent\uline{Optimal path planning.}
+In order to optimal paths which are generated from various path planning techniques, an introduction of a new method based on the randomization and the dynamic programming was proposed in \cite{Sallaberger95_OptimalPP_DP_Randomization}.
+The method normally is used to optimize paths for mobile robots and articulated robot manipulation. Using only the dynamic programming can lead to cost of calculating the path segments from one cell to other grid cells because of the large size of the search space, especially for curse dimensional issues. To overcome this problem, the use of randomization in the discretized grid within the dynamic programming may reduce the cost path. Considering the orthogonal neighbour relations that are connections between a node and orthogonal one another can decrease the computations. 
+Another study in \cite{Devarus16_Optimal_PathPlanning} called Sampling-based algorithm based on the Rapidly-exploring Random Tree (RRT) algorithm by combining the Transition-based RRT (T-RRT) and RRT* can solve complex high-dimensional path planning problems and converge faster to the optimal path. \\ 
+
+%\textcolor{red}{•If optimal planning is discussed, ensure you are specific about in what sense the solution is optimal. In some cases, optimality is not required, only a satisfactory or satisficing solution in the sense of a cost function being below some bound. In such cases, sampling-based solutions (such as RRT) are appropriate.}\\
+
+%==============================================================
+\subsection{Discrete Polyhedron Path Planning}
+\noindent\uline{Introduction.} Manipulation of industrial parts mostly based on the robotics problems in the different domains like car assembly manipulation. The multifingered robot hands has been used to manipulate the object flexibility. However, the application of this term may applied for regrasping \cite{tournassoud1987regrasping, goldberg1993feeding}, pushing and tilting objects \cite{erdmann1993mechanical, peshkin1988planning} with integrating into the end-effectors in industrial robots. In this study, I will focus on the geometry contact from rolling contact manipulation in the nonholonomic behaviour.\\
+
+
+%\textcolor{red}{•Include a section which describes how a discretised model will be produced such that the discrete planning algorithms described can be applied. How is this discrete model to be obtained from the continuous-time models discussed?}\\
+
+\noindent\uline{Discretised continuous-time models.}
+While the classical differential geometry focus on the smooth geometric shapes, discrete differential geometry investigates geometric shapes with a finite number of elements such as polyhedra \cite{Discrete_ComputationalBook}. In terms of rolling contact in discrete space, the models will be discretized into discrete surfaces or quadrilateral faces which called discrete parametrized surfaces. The study of rolling contact between two models will be focused on the contacts of discrete surfaces, with an emphasis on the geometrical structures of discrete systems.   \\
+
+
+
+\noindent\uline{Polyhedron manipulation.}
+There are various types of a polyhedron moving on a plane such as sliding on a face, rolling through the edges or pivoting about the vertex. The planning motions of rolling polyhedra parts through the edges was clearly represented in \cite{Marigo97_PolyhedraManipulation_rolling}. The paper showed the rotations of a polyhedron based on edges into a fixed plane under considering a polynomial time for planning tasks. Experimental work is implemented in the article to represent manipulation of rolling polyhedron on a plane.
+The set of configurations has different structures with different polyhedra that can be reached by rolling their edges. An example from the article showed that a unit cube will reach the next position by rolling $\pi/2$ along the edges on a square mesh. However, it is quite different from a truncated pyramid that one wishes can be represented for the achievement of the arbitrary configuration.\\
+
+\noindent\uline{A simple case of disk rolling on a plane.}
+The paper \cite{Erdmann91_polyhedronRolling_on_table} focused on the finite friction contact between the faces of polyhedron and the table regarding to disk rolling on a tiltable table. In the simple experiment was conducted in the paper, a polyhedron surface was discretized in a list of surfaces. The author used Markov transition which corresponds to the face-to-face contact between polyhedron surfaces and the table in order to perform the rolling contact theory under considering the infinite friction and ignoring the inertial and impact forces. The orientation is described through tilting of the table that represents the two degrees of motion freedom. A $\theta$ title angle of the table tilting from the horizontal axis ranging from $0$ to $\pi/2$ assumed nearly instantaneously. This paper solved the simple problems of orienting parts on a plane through combination of probabilistic and geometrical analyses in terms of nonholonomic system.\\
+
+
+\noindent\uline{Polyhedra-based rolling planning motion.}
+Marigo \cite{Marigo2000_Polyhedral} proposed the path planning for polyhedron in the case of octahedron with 8 faces rolling and translating on a plane.
+For the octahedron rolling algorithm, a list of faces containing the vertices and edges stored parts of polyhedron. The defect angles are also computed for each of vertices. The algorithm was given a polyhedron with a set of geometrical parameters and a desired final configuration. The steps of planning include translating and rolling until achieving the final configuration. However, the algorithm may not satisfy with the accuracy for more general polyhedra.\\
+
+
+
+
+
+%\noindent\uline{Dexterous polyhedron rolling} Another aspect of an object orientation was described in (Rus92) that the finger tracking with the fixed fingers was applied to manipulate the axis and angle of the object rotation. The implementation of instantaneous rotations focused on tetrahedra and for arbitrary polyhedra. In the case of tetrahedra rotation, the path planning was built by knowing the instantaneous finger motion from the given initial configuration to desired instantaneous motion of the object. \\ 
+
+
+
+%\noindent\uline{Convex polygon avoid obstacles} Convex polygon moving and rotate in free space to avoid obstacles [6] "A subdivision algorithm in configuration space for findpath with rotation"\\ Polygon moving to avoid polygon obstacles in the environment [5]\\ Polyhedral object moving to avoid polyhedral objects in a static environment [13] \\
+
+
+%==============================================================
+\subsection{Robotics In-hand Manipulation}
+\noindent\uline{Dexterous manipulation.} Simple definition of dexterous manipulation is to manipulate motions of an object and to move the object from an initial configuration to a desired configuration via a given trajectory \cite{Okamura_2000_Overview_DM, Bullock11_Classify_HandManipulation, Ma_2011_dexterity_DM}. The dexterous manipulation of an object using multi-fingered robot hand is one of the problems. Li et. al \cite{Z.Li89_MotionPlanning_Dex.Manipulation} proposed grasp planning algorithm in terms of stability and manipulability and the control algorithm for the coordinated manipulation by a multi-fingered hand. Bicchi et. al \cite{Bicchi95_Dex.Manipulation_Rolling, Bicchi_2000_RC_Dexterous} demonstrated the technique to achieve the dexterous manipulation via rolling contacts. 
+The author used a continuous method proposed by Sussmann \cite{Sussman93_Continuous_Nonholonomic_Path} which implemented the dexterous manipulation of an object of arbitrary shape. 
+Developing the technique for dexterous manipulation by integrating the theory of kinematics and nonholonomic motion planing, Han \cite{Han97_Dex.Manipulation_RC} conducted an experiment on dexterous manipulation with multifingered robotic hands with rolling contact.\\
+
+%==============================================================
+%\noindent\uline{Reinforcement learning for dexterous manipu%lation}From (RL for Dexterous Manipulation TaskBachelor thesis).\citep*{Wright_1989_dexterity} \textit{a taxonomy of different human grasps is introduced and various motion primitives are identified. Two possible primitives, for example, are acquiring an optimal grasp or turning a grasped object about one axis.}\\
+
+
+%==============================================================
+\noindent\uline{Tactile feedback in in-hand manipulation.} Tactile sensing in robot hands is mostly conducted as the continuous sensing to enhance the dexterity and ability of object manipulation \cite{Howard89_SurveyofRobot_TactileSensing}.
+Tactile feedback plays an essential role for dexterous multifingered-robot hand manipulation tasks. With additional information from tactile sensors, the robustness and the ability to react can be improved by detecting instabilities, disturbances or slippage \cite{Bekiroglu_GraspStability_Tactile, MiaoLi_GraspAdaption_Tactile}. However, there are some tools such as the moving frame and curvatures from the geometric differential properties has not been discussed in rolling contact in in-hand manipulation.\\
+
+%==============================================================
+\noindent\uline{Manipulation by rolling contact.} Since rolling contact is nonholonomic constraint, the multifingered robot manipulation by rolling contact plays an important role in the improvement of dexterous manipulation. Generally, the manipulation by rolling contact has been considered in different view points including manipulation of objects by multifingered robot hands or consideration of contact points for nonholonomic systems. The study of a three-fingered robot hand manipulating an object has been considered by Cole et al \cite{Cole89_Kinematics_multifingered-RC} that was extended by Sarkar et al \cite{Sarkar97_DynamicControl_3D_RC} in terms of manipulating an object under the pure rolling contact. However, these studies have not been utilized and the study of the contact point has not been demonstrated enough.\\
+
+%\noindent\uline{Control-Manipulation} Classical methods for manipulation and craft sophosticated control rules \citep*{Han_Trinkle_1998_DM_Rolling, Cherif_1999_planning, Doulgeri_2013_RC}. It works on a well known environment or for a small number of tasks.\\
+
+
+%-------------------------------------------------------
+%				Contact in manipulating
+%-------------------------------------------------------
+%\noindent\uline{Contact in manipulating.} Manipulating the objects via contacts may divide into different types such as point-contact with friction (or "hard finger”), or "soft finger”, and complete-constraint contacts (or "very-soft-finger”). Sliding and rolling conditions also are important aspects of contact modeling. The contact point moves on the contacting surfaces as they rotate with respect to each other or not which is considered as an idealized situation of contact between surfaces with infinite relative curvature.\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

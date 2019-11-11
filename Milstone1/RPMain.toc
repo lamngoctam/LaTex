@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}ABSTRACT}{1}{section.1}
+\contentsline {section}{\numberline {2}OBJECTIVES}{1}{section.2}
+\contentsline {section}{\numberline {3}BACKGROUND}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Rolling Contact}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Motion Planning and Path Planning}{2}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Traditional Motion Planning}{2}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Path planning in discrete space}{3}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Discrete Polyhedron Path Planning}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Robotics In-hand Manipulation}{6}{subsection.3.4}
+\contentsline {section}{\numberline {4}SIGNIFICANCE}{6}{section.4}
+\contentsline {section}{\numberline {5}RESEARCH METHOD}{7}{section.5}
+\contentsline {section}{\numberline {6}ETHICAL ISSUES}{7}{section.6}
+\contentsline {section}{\numberline {7}DATA STORAGE}{7}{section.7}
+\contentsline {section}{\numberline {8}FACILITY AND RESOURCES}{7}{section.8}
+\contentsline {section}{\numberline {9}TIME LINE}{7}{section.9}
+\contentsline {section}{\hbox to\@tempdima {\hfil }{REFERENCES}}{13}{section*.5}
+\contentsline {section}{\numberline {A}APPENDIX}{14}{appendix.A}

@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: RPMain.aux
+A level-1 auxiliary file: title_page1.aux
+The style file: ieeetr.bst
+Database file #1: citation.bib
+Warning--I'm ignoring Kavraki95_Thesis_RandomNetworks_FastPlanning's extra "type" field
+--line 4071 of file citation.bib
+Warning--empty year in Hartmann00_Blending_ContactCurves
+Warning--can't use both author and editor fields in Brockett93_NonholonomicKinematic
+Warning--empty year in Arimoto03_DynamicForceTorque_MeanRC
+Warning--empty publisher in Svinin13_Dynamic_MP_SphereRollingRobot
+Warning--empty year in Lei10_Geometric.Kinematics_PointContact
+Warning--empty journal in Lei12_Polynomial_Inverse.Kinematics
+Warning--can't use both author and editor fields in Brockett82_ControlTheory_RiemannianGeo
+Warning--empty year in Kuffner00_RRTConnect
+Warning--empty year in Amato96_PRM_PathPlanning
+Warning--empty school in Kavraki95_Thesis_RandomNetworks_FastPlanning
+Warning--can't use both author and editor fields in Geraerts04_Comprative_PRM
+Warning--empty publisher in Discrete_ComputationalBook
+Warning--empty year in Bullock11_Classify_HandManipulation
+Warning--empty year in Bicchi95_Dex.Manipulation_Rolling
+Warning--empty year in Sussman93_Continuous_Nonholonomic_Path
+Warning--empty year in Han97_Dex.Manipulation_RC
+Warning--empty year in Bagnell12_IntegratedSystem_AutonomousRoboticsManipulation
+(There were 18 warnings)

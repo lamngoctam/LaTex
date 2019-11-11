@@ -1,0 +1,63 @@
+
+\section{Table Notes}
+
+
+\begin{table}[ht]
+\centering
+\caption{Thicker horizontal lines above and below the table.}
+\begin{tabular}{lcc}
+\toprule
+&Treatment A&Treatment B\\ 
+\hline
+%\midrule
+John Smith&1&2\\
+Jane Doe&--&3\\
+Mary Johnson&4&5\\
+\bottomrule
+\end{tabular}
+\end{table}%
+
+
+Sometimes very long tables must be presented which may also go over pages. \\
+
+
+\begin{table}[ht!]
+     \centering
+     \caption{Caption text} 
+     \begin{tabular}{|p{5cm}|p{5cm}|}
+        \toprule 	
+	\bfseries{Resources} &\bfseries{Provider}\\ \hline
+	Robot Operating Software & Open Source\\
+	MatLab                  & Curtin University\\
+	ABB Robotic Arm         & Curtin University\\
+	Computer and Printing   & Curtin University\\
+	\bottomrule
+      \end{tabular}
+    \end{table}
+    
+\begin{table}[h]
+ \centering
+     \caption{Long table} 
+\begin{tabularx}{\textwidth}{X|l}
+  \textbf{Symptom} & \textbf{Metric} \\
+\hline
+Class that & ATFD is more than a few\\
+Class that & WMC is high\\
+Class that & TCC is low\\
+\end{tabularx}
+\end{table}
+
+
+\begin{table}[ht]
+\caption{Repetition of custom-defined column type.}
+\begin{center}
+\begin{tabular}{*{3}{V}}
+\hline
+aaa&bbb&ccc\\
+\hline
+aaa&bbb&ccc\\
+aaa&bbb&ccc\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

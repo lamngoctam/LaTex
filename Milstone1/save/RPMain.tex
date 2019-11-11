@@ -1,0 +1,137 @@
+\documentclass[a4paper]{article}
+%page setting
+\usepackage[left=25mm, right=25mm, top=25mm, bottom=25mm]{geometry}
+
+%pakages
+%\usepackage[colorlinks=true]{hyperref}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+
+%Table-related commands
+\usepackage{array}
+\usepackage[table,xcdraw]{xcolor}
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\newcolumntype{s}{>{\columncolor[HTML]{AAACED}} p{3cm}}
+%-------------------------------------------------------
+\usepackage{import}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{subfigure}
+%-------------------------
+%\usepackage[nottoc, notlot, notlof]{tocbibind}
+\parindent 0ex
+%\setlength{\parindent}{4em}
+%\setlength{\parskip}{1em}  %spacce btw paragraphs
+\renewcommand{\baselinestretch}{1.5}{}
+
+
+%%==============================
+%%
+%%==============================
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\vspace{1cm}
+\large{\textbf{RESEARCH PROPOSAL}}
+\line(1,0){400}\\
+\vfill
+
+\line(1,0){400}\\[1mm]
+\huge{\textbf{Research Title}}\\[1mm]
+\large{\textbf{- This is a Sample Title -}}\\[1mm]
+\line(1,0){400}\\[1mm]
+\vfill
+
+By NAME\\
+Candidate N0\\
+\vfill
+
+Dr. NAME\\
+Dr. NAME\\
+Dr. NAME\\
+
+\today\\
+\end{center}
+\end{titlepage}
+
+%-------------------------
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+
+\setcounter{page}{1}
+\section{INTRODUCTION}
+\section{ABSTRACT}
+\section{OBJECTIVES}
+"Provide a clearly defined statement of the objectives of the research." Sometimes only one objective; sometimes one board AIM, and several objectives.\\
+Use active verbs, i.e. propose, create, construct, demonstrate, define, establish, differentiate.
+\section{BACKGROUND}
+\cite{cole1989kinematics}
+\cite{525325}
+\cite{sadeghi2009review}
+
+
+\subsection{Method 1}
+\begin{equation}
+\frac{x}{y}, \quad
+\frac{\delta{f}}{\delta(x)},\quad
+\frac{\partial^{2}{f}}{\partial{x}{^2}}
+\end{equation}
+
+\subsection{Method 2}
+\subsection{Method 3}
+\subsection{Method 4}
+\section{SIGNIFICANT}
+\newpage
+\section{RESEARCH METHOD}
+\begin{center}
+\input{2DGrid}
+\end{center}
+
+\input{coord_rotation1}
+\input{coord_rotation2}
+
+\newpage
+\begin{center}
+\begin{figure}
+\subfigure[abc]{
+\input{coord_rotation1}
+}
+\hfill
+\subfigure[abc]{
+\input{coord_rotation2}
+}
+\end{figure}
+\end{center}
+
+\newpage
+\begin{figure}[H]
+\centering
+\input{coord_rotation1}
+\caption{Example TikZ picture1 that has nothing special to offer.}
+\label{fig_Squares1}
+\input{coord_rotation2}
+\caption{Example TikZ picture2 that has nothing special to offer.}
+\label{fig_Squares2}
+
+\end{figure}
+
+\include{diagram}
+\include{notes}
+
+\newpage
+\bibliographystyle{ieeetran}
+\bibliography{citation}
+
+
+
+
+\end{document}

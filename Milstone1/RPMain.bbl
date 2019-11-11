@@ -1,0 +1,487 @@
+\begin{thebibliography}{10}
+
+\bibitem{Cai86_PlanarMotion_PointContact}
+C.~Chun~Sheng and B.~Roth, ``On the planar motion of rigid bodies with point
+  contact,'' {\em Mechanism and Machine Theory}, vol.~21, no.~6, pp.~453--466,
+  1986.
+
+\bibitem{Cai87_SpatialMotion_PointContact}
+C.~Chun~Sheng and B.~Roth, ``On the spatial motion of a rigid body with point
+  contact,'' in {\em Proceedings. 1987 IEEE International Conference on
+  Robotics and Automation}, vol.~4, pp.~686--695, 1987.
+
+\bibitem{Cai88_SpatialMotion_LineContact}
+C.~Cai and B.~Roth, ``On the spatial motion of a rigid body with line
+  contact,'' in {\em Proceedings. 1988 IEEE International Conference on
+  Robotics and Automation}, pp.~1036--1041 Vol.2, 1988.
+
+\bibitem{Borisov08_ChaplypinBall_FixSphere}
+A.~V. Borisov, Y.~N. Fedorov, and I.~S. Mamaev, ``Chaplygin ball over a fixed
+  sphere: an explicit integration,'' {\em Regular and Chaotic Dynamics},
+  vol.~13, no.~6, pp.~557--571, 2008.
+
+\bibitem{Montana88_Kinematics_Contact_Grasp}
+D.~J. Montana, ``The kinematics of contact and grasp,'' {\em The International
+  Journal of Robotics Research}, vol.~7, no.~3, pp.~17--32, 1988.
+
+\bibitem{Marigo00_RollingBodies_Controllability}
+A.~Marigo and A.~Bicchi, ``Rolling bodies with regular surface: controllability
+  theory and applications,'' {\em IEEE Transactions on Automatic Control},
+  vol.~45, no.~9, pp.~1586--1599, 2000.
+
+\bibitem{Z.Li91_NonholonomicMotionPlanning}
+Z.~Li and J.~Canny, ``Nonholonomic motion planning,'' {\em 1991 IEEE
+  International Conference on Robotics and Automation}, vol.~192, pp.~XV, 448,
+  1991.
+
+\bibitem{Murray-Li_EbookRobotic_Manipulation}
+R.~M. Murray, S.~S. Sastry, and L.~Zexiang, {\em A Mathematical Introduction to
+  Robotic Manipulation}.
+\newblock Boca Raton, FL, USA: CRC Press, Inc., 1994.
+
+\bibitem{Robert00_BallRolling_OnSphere}
+R.~Muszyński and K.~Tchoń, ``Singularities and mobility of nonholonomic
+  systems: The ball rolling on a plane,'' {\em IFAC Proceedings Volumes},
+  vol.~33, no.~27, pp.~593--598, 2000.
+
+\bibitem{Borisov08_Dynamics_NonHolonomic}
+A.~V. Borisov and I.~S. Mamaev, ``Conservation laws, hierarchy of dynamics and
+  explicit integration of nonholonomic systems,'' {\em Regular and Chaotic
+  Dynamics}, vol.~13, no.~5, pp.~443--490, 2008.
+
+\bibitem{Borisov08_ExplicitIntegration_NonHolonomic}
+A.~V. Borisov, I.~S. Mamaev, and V.~G. Marikhin, ``Explicit integration of one
+  problem in nonholonomic mechanics,'' {\em Doklady Physics}, vol.~53, no.~10,
+  pp.~525--528, 2008.
+
+\bibitem{Hartmann00_Blending_ContactCurves}
+E.~Hartmann, ``G/sup n/-blending with rolling ball contact curves,'' in {\em
+  Proceedings Geometric Modeling and Processing 2000. Theory and Applications},
+  pp.~385--389.
+
+\bibitem{Brockett93_NonholonomicKinematic}
+R.~W. Brockett and L.~Dai, {\em Non-holonomic Kinematics and the Role of
+  Elliptic Functions in Constructive Controllability}, pp.~1--21.
+\newblock Boston, MA: Springer US, 1993.
+
+\bibitem{Sarkar97_DynamicControl_3D_RC}
+N.~Sarkar, Y.~Xiaoping, and V.~Kumar, ``Dynamic control of 3-d rolling contacts
+  in two-arm manipulation,'' {\em IEEE Transactions on Robotics and
+  Automation}, vol.~13, no.~3, pp.~364--376, 1997.
+
+\bibitem{Arimoto03_DynamicForceTorque_MeanRC}
+S.~Arimoto, M.~Yoshida, and J.~Bae, ``Dynamic force/torque closure for 2d and
+  3d objects by means of rolling contacts with robot fingers,'' in {\em IEEE
+  International Conference on Robotics, Intelligent Systems and Signal
+  Processing, 2003. Proceedings. 2003}, vol.~1, pp.~178--183 vol.1.
+
+\bibitem{Svinin13_Dynamic_MP_SphereRollingRobot}
+M.~Svinin and H.~Shigeyuki, {\em On the dynamics and motion planning for a
+  rolling system With variable inertia}.
+\newblock 2007.
+
+\bibitem{Yun92_Control_RC}
+X.~Yun, V.~Kumar, N.~Sarkar, and E.~Paljug, ``Control of multiple arms with
+  rolling constraints,'' in {\em Proceedings 1992 IEEE International Conference
+  on Robotics and Automation}, pp.~2193--2198 vol.3, 1992.
+
+\bibitem{Zribi99_Control_RC}
+M.~Zribi, J.~Chen, and M.~S. Mahmoud, ``Coordination and control of
+  multi-fingered robot hands with rolling and sliding contacts,'' {\em Journal
+  of Intelligent and Robotic Systems}, vol.~24, no.~2, pp.~125--149, 1999.
+
+\bibitem{Marigo00_Control_RollingBody}
+A.~Marigo and A.~Bicchi, ``Rolling bodies with regular surface: controllability
+  theory and applications,'' {\em IEEE Transactions on Automatic Control},
+  vol.~45, no.~9, pp.~1586--1599, 2000.
+
+\bibitem{Nakashima05_ControlGraspManipulation_RC}
+A.~Nakashima, K.~Nagase, and Y.~Hayakawa, ``Simultaneous control of
+  grasp/manipulation and contact points with rolling contact,'' {\em IFAC
+  Proceedings Volumes}, vol.~38, no.~1, pp.~415--420, 2005.
+
+\bibitem{Z.Li89_MotionPlanning_Dex.Manipulation}
+Z.~Li, J.~F. Canny, and S.~S. Sastry, ``On motion planning for dexterous
+  manipulation. i. the problem formulation,'' in {\em Proceedings, 1989
+  International Conference on Robotics and Automation}, pp.~775--780 vol.2,
+  1989.
+
+\bibitem{Chelouah01_MotionPlanning_RollingSurfaces}
+A.~Chelouah and Y.~Chitour, ``Motion planning of rolling surfaces,'' in {\em
+  Proceedings of the 40th IEEE Conference on Decision and Control (Cat.
+  No.01CH37228)}, vol.~1, pp.~502--507 vol.1, 2001.
+
+\bibitem{Svinin08_MotionPlanning_RollingSphere}
+M.~Svinin and S.~Hosoe, ``Motion planning algorithms for a rolling sphere with
+  limited contact area,'' {\em IEEE Transactions on Robotics}, vol.~24, no.~3,
+  pp.~612--625, 2008.
+
+\bibitem{Okamura_2000_Overview_DM}
+A.~M. Okamura, N.~Smaby, and M.~R. Cutkosky, ``An overview of dexterous
+  manipulation,'' in {\em Robotics and Automation, 2000. Proceedings. ICRA'00.
+  IEEE International Conference on}, vol.~1, pp.~255--262, IEEE, 2000.
+
+\bibitem{Lei10_Geometric.Kinematics_PointContact}
+L.~Cui and J.~S. Dai, ``Geometric kinematics of rigid bodies with point
+  contact,'' in {\em Advances in Robot Kinematics: Motion in Man and Machine}
+  (J.~Lenarcic and M.~M. Stanisic, eds.), pp.~429--436, Springer Netherlands.
+
+\bibitem{Lei12_Polynomial_Inverse.Kinematics}
+L.~Cui and J.~S. Dai, ``A polynomial approach to inverse kinematics of rolling
+  contact,'' no.~45035, pp.~1563--1570, 2012.
+\newblock 10.1115/DETC2012-70852.
+
+\bibitem{Lei12_ReciprocityBased_SVD_Inverse.Kinematics}
+L.~Cui and J.~S. Dai, ``Reciprocity-based singular value decomposition for
+  inverse kinematic analysis of the metamorphic multifingered hand,'' {\em
+  Transactions of the ASME Journal of Mechanisms and Robotics}, vol.~4, no.~3,
+  pp.~--, 2012.
+\newblock 10.1115/1.4006187.
+
+\bibitem{Lei15_sliding.rolling.loci_kinematics}
+L.~Cui and J.~S. Dai, ``From sliding–rolling loci to instantaneous
+  kinematics: An adjoint approach,'' {\em Mechanism and Machine Theory},
+  vol.~85, pp.~161--171, 2015.
+
+\bibitem{Lei15_PolynomialFormulation_InverseKinematics}
+L.~Cui and J.~S. Dai, ``A polynomial formulation of inverse kinematics of
+  rolling contact,'' {\em Journal of Mechanisms and Robotics}, vol.~7, no.~4,
+  pp.~041003--041003--9, 2015.
+\newblock 10.1115/1.4029498.
+
+\bibitem{Lei17_In-Hand_Forward.Inverse.Kinematics}
+L.~Cui, J.~Sun, and J.~S. Dai, ``In-hand forward and inverse kinematics with
+  rolling contact,'' {\em Robotica}, vol.~35, no.~12, pp.~2381--2399, 2017.
+
+\bibitem{Lei18_Rolling.Contact_Kinematics_Multifinger}
+L.~Cui and J.~S. Dai, ``Rolling contact in kinematics of multifingered robotic
+  hands,'' in {\em Advances in Robot Kinematics 2016} (J.~Lenarčič and J.-P.
+  Merlet, eds.), pp.~217--224, Cham: Springer International Publishing, 2018.
+
+\bibitem{H.Cartan96}
+H.~Cartan, {\em Differential Forms}.
+\newblock New York: Dover Publisher, 1996.
+
+\bibitem{E.Cartan02}
+E.~J. Cartan, {\em Riemannian Geometry in an Orthogonal Frame}.
+\newblock Singapore : World Scientific, 2002.
+
+\bibitem{Mansfield01_AlgorithmSymmetric_Diff}
+E.~L. Mansfield, ``Algorithms for symmetric differential systems,'' {\em
+  Foundations of Computational Mathematics}, vol.~1, no.~4, pp.~335--383, 2001.
+
+\bibitem{Morozov02_MovingFrame}
+M.~Oleg, ``Moving coframes and symmetries of differential equations,'' {\em
+  Journal of Physics A: Mathematical and General}, vol.~35, no.~12, p.~2965,
+  2002.
+
+\bibitem{Beffa03_relative_Absolute_DiffInvariant}
+G.~M. Beffa, ``Relative and absolute differential invariants for conformal
+  curves,'' {\em Journal of Lie Theory}, vol.~13, no.~1, pp.~231--245, 2003.
+
+\bibitem{Beffa06_PoissonGeometry_DiffInvariant}
+G.~M. Beffa and xed, ``Poisson geometry of differential invariants of curves in
+  some nonsemisimple homogeneous spaces,'' {\em Proceedings of the American
+  Mathematical Society}, vol.~134, no.~3, pp.~779--791, 2006.
+
+\bibitem{Boyko06_LieAlgebra}
+B.~Vyacheslav, P.~Jiri, and P.~Roman, ``Computation of invariants of lie
+  algebras by means of moving frames,'' {\em Journal of Physics A: Mathematical
+  and General}, vol.~39, no.~20, p.~5749, 2006.
+
+\bibitem{Boyko07_LieAlgebra}
+V.~Boyko, J.~Patera, and R.~Popovych, ``Invariants of solvable lie algebras
+  with triangular nilradicals and diagonal nilindependent elements,'' {\em
+  Linear Algebra and its Applications}, vol.~428, no.~4, pp.~834--854, 2008.
+
+\bibitem{Lei10_Darboux-Frame}
+L.~Cui and J.~S. Dai, ``A darboux-frame-based formulation of spin-rolling
+  motion of rigid objects with point contact,'' {\em IEEE Transactions on
+  Robotics}, vol.~26, no.~2, pp.~383--388, 2010.
+
+\bibitem{Sudsang_2000_Grasping_In-hand_manipulation}
+A.~Sudsang, N.~Srinivasa, {\em et~al.}, ``Grasping and in-hand manipulation:
+  Geometry and algorithms,'' {\em Algorithmica}, vol.~26, no.~3-4,
+  pp.~466--493, 2000.
+
+\bibitem{Pajarinen_2017_R.Manipulation_POMDP}
+J.~Pajarinen and V.~Kyrki, ``Robotic manipulation of multiple objects as a
+  pomdp,'' {\em Artificial Intelligence}, vol.~247, pp.~213--228, 2017.
+
+\bibitem{Canny88_PhDThesis}
+J.~F. Canny, {\em Complexity of Robot Motion Planning}.
+\newblock PhD thesis, ACM Doctoral Dissertation Award, MIT Press, 1988.
+
+\bibitem{Varadhan05_StarshapedRM}
+G.~Varadhan and D.~Manocha, ``Star-shaped roadmaps - a deterministic sampling
+  approach for complete motion planning,'' in {\em Robotics: Science and
+  Systems}, 2005.
+
+\bibitem{Latombe99_JourneyRobotics}
+J.~Latombe, ``Motion planning: {A} journey of robots, molecules, digital
+  actors, and other artifacts,'' {\em I. J. Robotics Res.}, vol.~18, no.~11,
+  pp.~1119--1128, 1999.
+
+\bibitem{Latombe91_FastPlaner}
+J.~Latombe, ``A fast path planner for a car-like indoor mobile robot,'' in {\em
+  Proceedings of the 9th National Conference on Artificial Intelligence,
+  Anaheim, CA, USA, July 14-19, 1991, Volume 2.}, pp.~659--665, 1991.
+
+\bibitem{Khatib85_ObstacleAvoidance}
+O.~Khatib, ``Real-time obstacle avoidance for manipulators and mobile robots,''
+  in {\em Proceedings. 1985 IEEE International Conference on Robotics and
+  Automation}, vol.~2, pp.~500--505, March 1985.
+
+\bibitem{Z.Li89_MotionPlanning_Nonholonomic}
+S.~Sastry and Z.~Li, ``Robot motion planning with nonholonomic constraints,''
+  in {\em Proceedings of the 28th IEEE Conference on Decision and Control},
+  pp.~211--216 vol.1, 1989.
+
+\bibitem{Murray93_NonholonomicMP}
+R.~M. Murray and S.~S. Sastry, ``Nonholonomic motion planning: steering using
+  sinusoids,'' {\em IEEE Transactions on Automatic Control}, vol.~38, no.~5,
+  pp.~700--716, 1993.
+
+\bibitem{Brockett82_ControlTheory_RiemannianGeo}
+R.~W. Brockett, {\em Control Theory and Singular Riemannian Geometry},
+  pp.~11--27.
+\newblock New York, NY: Springer New York, 1982.
+
+\bibitem{Z.Li90_MotionRigidBody_RC}
+Z.~Li and J.~Canny, ``Motion of two rigid bodies with rolling constraint,''
+  {\em IEEE Transactions on Robotics and Automation}, vol.~6, no.~1,
+  pp.~62--72, 1990.
+
+\bibitem{Belta_2005_Discrete_MP}
+C.~Belta, V.~Isler, and G.~J. Pappas, ``Discrete abstractions for robot motion
+  planning and control in polygonal environments,'' {\em IEEE Transactions on
+  Robotics}, vol.~21, no.~5, pp.~864--874, 2005.
+
+\bibitem{Mitchell03_ContinuousPathPlanning}
+I.~M. Mitchell and S.~Sastry, ``Continuous path planning with multiple
+  constraints,'' in {\em 42nd IEEE International Conference on Decision and
+  Control (IEEE Cat. No.03CH37475)}, vol.~5, pp.~5502--5507 Vol.5, 2003.
+
+\bibitem{LaValle06_PlanningAlgorithm}
+S.~M. LaValle, {\em Planning Algorithms}.
+\newblock New York, NY, USA: Cambridge University Press, 2006.
+
+\bibitem{Thomas_2003_Trajectory}
+J.~Thomas, A.~Blair, and N.~Barnes, ``Towards an efficient optimal trajectory
+  planner for multiple mobile robots,'' in {\em Intelligent Robots and Systems,
+  2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ International Conference on},
+  vol.~3, pp.~2291--2296, IEEE, 2003.
+
+\bibitem{Lamiraux_2001_Smooth_MP}
+F.~Lamiraux and J.-P. Lammond, ``Smooth motion planning for car-like
+  vehicles,'' {\em IEEE Transactions on Robotics and Automation}, vol.~17,
+  no.~4, pp.~498--501, 2001.
+
+\bibitem{Cheng_2001_RRT_trajectory}
+P.~Cheng, Z.~Shen, and S.~La~Valle, ``Rrt-based trajectory design for
+  autonomous automobiles and spacecraft,'' {\em Archives of control sciences},
+  vol.~11, no.~3/4, pp.~167--194, 2001.
+
+\bibitem{Conner_2003_Potential_Func}
+D.~C. Conner, A.~A. Rizzi, and H.~Choset, ``Composition of local potential
+  functions for global robot control and navigation,'' in {\em Intelligent
+  Robots and Systems, 2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ
+  International Conference on}, vol.~4, pp.~3546--3551, IEEE, 2003.
+
+\bibitem{Lingelbach04_PP_ProbabilisticCellDecomposition}
+F.~Lingelbach, ``Path planning using probabilistic cell decomposition,'' in
+  {\em IEEE International Conference on Robotics and Automation, 2004.
+  Proceedings. ICRA '04. 2004}, vol.~1, pp.~467--472 Vol.1, 2004.
+
+\bibitem{Rosell05_PP_Harmonic_ProbabilisticCellDecomposition}
+J.~Rosell and P.~Iniguez, ``Path planning using harmonic functions and
+  probabilistic cell decomposition,'' in {\em Proceedings of the 2005 IEEE
+  International Conference on Robotics and Automation}, pp.~1803--1808, 2005.
+
+\bibitem{Barraquand91_MP_DisctributedRepresenation}
+J.~Barraquand and J.-C. Latombe, ``Robot motion planning: A distributed
+  representation approach,'' {\em The International Journal of Robotics
+  Research}, vol.~10, no.~6, pp.~628--649, 1991.
+
+\bibitem{Lavalle98rapidly_exploringrandom}
+S.~M. Lavalle, ``Rapidly-exploring random trees: A new tool for path
+  planning,'' tech. rep., Department of Computer Science; Iowa State
+  University, 1998.
+
+\bibitem{Kuffner00_RRTConnect}
+J.~J. Kuffner and S.~M. LaValle, ``Rrt-connect: An efficient approach to
+  single-query path planning,'' in {\em Proceedings 2000 ICRA. Millennium
+  Conference. IEEE International Conference on Robotics and Automation.
+  Symposia Proceedings (Cat. No.00CH37065)}, vol.~2, pp.~995--1001 vol.2.
+
+\bibitem{Amato96_PRM_PathPlanning}
+N.~M. Amato and Y.~Wu, ``A randomized roadmap method for path and manipulation
+  planning,'' in {\em Proceedings of IEEE International Conference on Robotics
+  and Automation}, vol.~1, pp.~113--120 vol.1.
+
+\bibitem{Kavraki95_Thesis_RandomNetworks_FastPlanning}
+L.~E. Kavraki, {\em Random Networks in Configuration Space for Fast Path
+  Planning}.
+\newblock Phd, 1995.
+
+\bibitem{Overmars92_RandomApproach_MP}
+M.~H. Overmars, ``A random approach to motion planning,'' report, Utrecht
+  University, 1992.
+
+\bibitem{Geraerts04_Comprative_PRM}
+R.~Geraerts and M.~H. Overmars, {\em A Comparative Study of Probabilistic
+  Roadmap Planners}, pp.~43--57.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2004.
+
+\bibitem{Hart68_HeuristicDetermination}
+P.~H. Raphael, N.~Nilsson, and Bertram, ``A formal basis for the heuristic
+  determination of minimum cost paths,'' {\em {IEEE} Transactions on Systems
+  Science and Cybernetics}, vol.~4, pp.~100--107, 1968.
+
+\bibitem{Nilsson82_Principles_AI}
+N.~J. Nilsson, {\em Principles of Artificial Intelligence}.
+\newblock Springer-Verlag Berlin Heidelberg, 1982.
+
+\bibitem{Rankin_1996_A_star_Search}
+A.~L. Rankin and C.~D. Crane~III, ``A multi-purpose off-line path planner based
+  on an a* search algorithm,'' in {\em Proceedings of the ASME Design
+  Engineering Technical Conferences}, pp.~1--10, Citeseer, 1996.
+
+\bibitem{Bellman57_DynamicProgramming}
+R.~Bellman, {\em Dynamic Programming}.
+\newblock Princeton, NJ, USA: Princeton University Press, 1~ed., 1957.
+
+\bibitem{Kala12_RobotPP_DynamicPlanning}
+R.~Kala, A.~Shukla, and R.~Tiwari, ``Robot path planning using dynamic
+  programming with accelerating nodes,'' 2012.
+
+\bibitem{Holland75_GAMethod}
+J.~H. Holland, {\em Adaptation in Natural and Artificial Systems}.
+\newblock In University of Michigan Press, Ann Arbor., 1975.
+
+\bibitem{Sallaberger95_OptimalPP_DP_Randomization}
+C.~S. Sallaberger and G.~M.~T. D'Eleuterio, ``Optimal robotic path planning
+  using dynamic programming and randomization,'' {\em Acta Astronautica},
+  vol.~35, no.~2, pp.~143--156, 1995.
+
+\bibitem{Devarus16_Optimal_PathPlanning}
+D.~Devaurs, T.~Siméon, and J.~Cortés, ``Optimal path planning in complex cost
+  spaces with sampling-based algorithms,'' {\em IEEE Transactions on Automation
+  Science and Engineering}, vol.~13, no.~2, pp.~415--424, 2016.
+
+\bibitem{tournassoud1987regrasping}
+P.~Tournassoud, T.~Lozano-P{\'e}rez, and E.~Mazer, ``Regrasping,'' in {\em
+  Robotics and Automation. Proceedings. 1987 IEEE International Conference on},
+  vol.~4, pp.~1924--1928, IEEE, 1987.
+
+\bibitem{goldberg1993feeding}
+K.~Goldberg, ``Feeding and sorting algorithms for the parallel--jaw gripper,''
+  in {\em Proc. 6th Int. Symposium on Robotics Research}, 1993.
+
+\bibitem{erdmann1993mechanical}
+M.~Erdmann, M.~T. Mason, and G.~Van{\v{e}}{\v{c}}ek, ``Mechanical parts
+  orienting: The case of a polyhedron on a table,'' {\em Algorithmica},
+  vol.~10, no.~2-4, pp.~226--247, 1993.
+
+\bibitem{peshkin1988planning}
+M.~A. Peshkin and A.~C. Sanderson, ``Planning robotic manipulation strategies
+  for workpieces that slide,'' {\em IEEE Journal on Robotics and Automation},
+  vol.~4, no.~5, pp.~524--531, 1988.
+
+\bibitem{Discrete_ComputationalBook}
+C.~D. Toth, J.~O'Rourke, and J.~E. Goodman, {\em Handbook of Discrete and
+  Computational Geometry, Second Edition}.
+\newblock 2~ed., 2004.
+
+\bibitem{Marigo97_PolyhedraManipulation_rolling}
+A.~Marigo, Y.~Chitour, and A.~Bicchi, ``Manipulation of polyhedral parts by
+  rolling,'' in {\em Proceedings of International Conference on Robotics and
+  Automation}, vol.~4, pp.~2992--2997 vol.4, 1997.
+
+\bibitem{Erdmann91_polyhedronRolling_on_table}
+M.~{Erdmann}, M.~T. {Mason}, and G.~{Vanecek}, ``Mechanical parts orienting:
+  the case of a polyhedron on a table,'' in {\em Proceedings. 1991 IEEE
+  International Conference on Robotics and Automation}, pp.~360--365 vol.1,
+  April 1991.
+
+\bibitem{Marigo2000_Polyhedral}
+A.~Marigo, M.~Ceccarelli, S.~Piccinocchi, and A.~Bicchi, ``Planning motions of
+  polyhedral parts by rolling,'' {\em Algorithmica}, vol.~26, pp.~560--576, Apr
+  2000.
+
+\bibitem{Bullock11_Classify_HandManipulation}
+I.~M. Bullock and A.~M. Dollar, ``Classifying human manipulation behavior,'' in
+  {\em 2011 IEEE International Conference on Rehabilitation Robotics},
+  pp.~1--6.
+
+\bibitem{Ma_2011_dexterity_DM}
+R.~R. Ma and A.~M. Dollar, ``On dexterity and dexterous manipulation,'' in {\em
+  Advanced Robotics (ICAR), 2011 15th International Conference on}, pp.~1--7,
+  IEEE, 2011.
+
+\bibitem{Bicchi95_Dex.Manipulation_Rolling}
+A.~Bicchi and R.~Sorrentino, ``Dexterous manipulation through rolling,'' in
+  {\em Proceedings of 1995 IEEE International Conference on Robotics and
+  Automation}, vol.~1, pp.~452--457 vol.1.
+
+\bibitem{Bicchi_2000_RC_Dexterous}
+A.~Bicchi and A.~Marigo, ``Rolling contacts and dexterous manipulation,'' in
+  {\em Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE International
+  Conference on}, vol.~1, pp.~282--287, IEEE, 2000.
+
+\bibitem{Sussman93_Continuous_Nonholonomic_Path}
+H.~Sussmann, ``A continuation method for nonholonomic path-finding problems,''
+  in {\em Proceedings of 32nd IEEE Conference on Decision and Control},
+  pp.~2718--2723 vol.3.
+
+\bibitem{Han97_Dex.Manipulation_RC}
+L.~Han, Y.~S. Guan, Z.~X. Li, Q.~Shi, and J.~C. Trinkle, ``Dextrous
+  manipulation with rolling contacts,'' in {\em Proceedings of International
+  Conference on Robotics and Automation}, vol.~2, pp.~992--997 vol.2.
+
+\bibitem{Howard89_SurveyofRobot_TactileSensing}
+H.~R. Nicholls and M.~H. Lee, ``A survey of robot tactile sensing technology,''
+  {\em The International Journal of Robotics Research}, vol.~8, no.~3,
+  pp.~3--30, 1989.
+
+\bibitem{Bekiroglu_GraspStability_Tactile}
+Y.~Bekiroglu, J.~Laaksonen, J.~A. Jorgensen, V.~Kyrki, and D.~Kragic,
+  ``Assessing grasp stability based on learning and haptic data,'' {\em IEEE
+  Transactions on Robotics}, vol.~27, no.~3, pp.~616--629, 2011.
+
+\bibitem{MiaoLi_GraspAdaption_Tactile}
+M.~Li, Y.~Bekiroglu, D.~Kragic, and A.~Billard, ``Learning of grasp adaptation
+  through experience and tactile sensing,'' in {\em 2014 IEEE/RSJ International
+  Conference on Intelligent Robots and Systems}, pp.~3339--3346, 2014.
+
+\bibitem{Cole89_Kinematics_multifingered-RC}
+A.~B.~A. Cole, J.~E. Hauser, and S.~S. Sastry, ``Kinematics and control of
+  multifingered hands with rolling contact,'' {\em IEEE Transactions on
+  Automatic Control}, vol.~34, no.~4, pp.~398--404, 1989.
+
+\bibitem{Lei14_Teleoperation_ThumbRobotHand}
+L.~Cui, U.~Cupcic, and J.~S. Dai, ``An optimization approach to teleoperation
+  of the thumb of a humanoid robot hand,'' {\em Journal of Mechanical Design},
+  vol.~136, no.~9, 2014.
+\newblock 10.1115/1.4027759.
+
+\bibitem{Bagnell12_IntegratedSystem_AutonomousRoboticsManipulation}
+J.~A. Bagnell, F.~Cavalcanti, L.~Cui, T.~Galluzzo, M.~Hebert, M.~Kazemi,
+  M.~Klingensmith, J.~Libby, T.~Y. Liu, N.~Pollard, M.~Pivtoraiko, J.~Valois,
+  and R.~Zhu, ``An integrated system for autonomous robotics manipulation,'' in
+  {\em 2012 IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pp.~2955--2962.
+
+\bibitem{Lei09_coordinate-free_instantaneous_kinematics}
+L.~Cui and J.~S. Dai, ``A coordinate-free approach to instantaneous kinematics
+  of two rigid objects with rolling contact and its implications for trajectory
+  planning,'' in {\em 2009 IEEE International Conference on Robotics and
+  Automation}, pp.~612--617, 2009.
+
+\bibitem{Lei10_PhDThesis}
+L.~Cui, {\em Differential Geometry Based Kinematics of Sliding-Rolling Contact
+  and Its Use for Multifingered Hands}.
+\newblock Ph{D} {T}hesis, King's College London, Centre for Robotics Research,
+  London, UK, 2010.
+
+\end{thebibliography}
