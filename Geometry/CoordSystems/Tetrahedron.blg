@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'Tetrahedron.blg'
+[25] biber-MSWIN64:315> INFO - === 
+[41] Biber.pm:375> INFO - Reading 'Tetrahedron.bcf'
+[123] Utils.pm:300> WARN - No data sources defined!
