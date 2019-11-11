@@ -5,8 +5,13 @@
 3. Fix error with bibliography: 
   - Change BibTeX.exe to Biber.exe from Options -> Configure TexMaker -> TEX Commands -> Bib(la)Tex. Example: ""C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/biber.exe" %"
   - \usepackage{biblatex}
+  
     \addbibresource{citation.bib}
+    
     \begin{document}
+    
     ....
+    
     \printbibliography
+    
     \end{document}
