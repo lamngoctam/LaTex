@@ -52,7 +52,7 @@ Lei17_In-Hand_Forward.Inverse.Kinematics, Lei18_Rolling.Contact_Kinematics_Multi
 %-------------------------------------------------------
 \subsection{Motion Planning and Path Planning}
 \uline{Introduction.} 
-Motion planning is the most important task of robotics research \citep*{Sudsang_2000_Grasping_In-hand_manipulation},\citep*{Pajarinen_2017_R.Manipulation_POMDP} in static and dynamic environment as an emerging area for a long time. The path planning strategy for robotic research can be categorized into traditional methods and discrete approach or also divided into two folds as the local path planning and the global path planning strategy. However, most of the previous studies focus on mobile robots, unmanned aerial vehicle (UAV) or autonomous sef-driving car while only few research has been implemented on the rolling contact of robotic in-hand manipulation. 
+Motion planning is the most important task of robotics research \cite*{Sudsang_2000_Grasping_In-hand_manipulation},\cite*{Pajarinen_2017_R.Manipulation_POMDP} in static and dynamic environment as an emerging area for a long time. The path planning strategy for robotic research can be categorized into traditional methods and discrete approach or also divided into two folds as the local path planning and the global path planning strategy. However, most of the previous studies focus on mobile robots, unmanned aerial vehicle (UAV) or autonomous sef-driving car while only few research has been implemented on the rolling contact of robotic in-hand manipulation. 
 
 \subsubsection{Traditional Motion Planning}
 %The topic on motion planning can be divided into three main categories as follows. 
@@ -96,7 +96,7 @@ Rolling contact between two objects under nonholonomic constraint is usually a d
 %				Discrete Planning
 %-------------------------------------------------------
 \subsubsection{Path planning in discrete space}
-\noindent\uline{From continuous to discrete.} Path planning of robots in complex environments has received quite a lot of attention in the past while only a few studies have focused on discrete space. Interestingly, combining computation frameworks and the discrete algorithms was considered in recent studies to capture the complex environment \citep*{Belta_2005_Discrete_MP}. 
+\noindent\uline{From continuous to discrete.} Path planning of robots in complex environments has received quite a lot of attention in the past while only a few studies have focused on discrete space. Interestingly, combining computation frameworks and the discrete algorithms was considered in recent studies to capture the complex environment \cite*{Belta_2005_Discrete_MP}. 
 This method is combined with the continuous path planning \cite{Mitchell03_ContinuousPathPlanning} that can generate or model the kinematics, control laws and a path of the robots. Therefore, the computational framework for automatic path planning for robots in unknown environment in discrete space also needs to be considered.\\
 
 %-------------------------------------------------------
@@ -105,8 +105,8 @@ This method is combined with the continuous path planning \cite{Mitchell03_Conti
 
 
 \noindent\uline{Discrete path planning.} Planning techniques are categorized into different aspects. The basic idea of discrete path planning in the most cases is that state-space models will be used to demonstrate the distinct situation in which the task of a planning algorithm solves the sequence actions transforming from a initial state to other states \cite{LaValle06_PlanningAlgorithm}.
-For example, Thomas \citep*{Thomas_2003_Trajectory} applied Delaunay triangulations to discretize the environment, and cubic spline representations are proposed to meet robot kinematic constraints.
-Considering the continuous curvature on smooth curves has been integrated within the probabilistic approaches in order to compute the piecewise smooth paths for a car-like vehicle as a four-dimensional system \citep*{Lamiraux_2001_Smooth_MP}. Whereas, dealing with nonholonomic constraints, a sampling-based road map technique was proposed in \citep*{Cheng_2001_RRT_trajectory}. Based on decomposing space into cells \citep*{Conner_2003_Potential_Func}, a potential field without local minima was assigned with polygonal partitions of planar environments to solve the Laplace's equation problems in each cell exist.\\
+For example, Thomas \cite*{Thomas_2003_Trajectory} applied Delaunay triangulations to discretize the environment, and cubic spline representations are proposed to meet robot kinematic constraints.
+Considering the continuous curvature on smooth curves has been integrated within the probabilistic approaches in order to compute the piecewise smooth paths for a car-like vehicle as a four-dimensional system \cite*{Lamiraux_2001_Smooth_MP}. Whereas, dealing with nonholonomic constraints, a sampling-based road map technique was proposed in \cite*{Cheng_2001_RRT_trajectory}. Based on decomposing space into cells \cite*{Conner_2003_Potential_Func}, a potential field without local minima was assigned with polygonal partitions of planar environments to solve the Laplace's equation problems in each cell exist.\\
 
 
 

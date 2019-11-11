@@ -1,24 +1,28 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: RPMain.aux
-A level-1 auxiliary file: title_page1.aux
-The style file: ieeetr.bst
-Database file #1: citation.bib
-Warning--I'm ignoring Kavraki95_Thesis_RandomNetworks_FastPlanning's extra "type" field
---line 4071 of file citation.bib
-Warning--empty year in Hartmann00_Blending_ContactCurves
-Warning--can't use both author and editor fields in Brockett93_NonholonomicKinematic
-Warning--empty year in Arimoto03_DynamicForceTorque_MeanRC
-Warning--empty publisher in Svinin13_Dynamic_MP_SphereRollingRobot
-Warning--empty year in Lei10_Geometric.Kinematics_PointContact
-Warning--empty journal in Lei12_Polynomial_Inverse.Kinematics
-Warning--can't use both author and editor fields in Brockett82_ControlTheory_RiemannianGeo
-Warning--empty year in Kuffner00_RRTConnect
-Warning--empty year in Amato96_PRM_PathPlanning
-Warning--empty school in Kavraki95_Thesis_RandomNetworks_FastPlanning
-Warning--can't use both author and editor fields in Geraerts04_Comprative_PRM
-Warning--empty publisher in Discrete_ComputationalBook
-Warning--empty year in Bullock11_Classify_HandManipulation
-Warning--empty year in Bicchi95_Dex.Manipulation_Rolling
-Warning--empty year in Sussman93_Continuous_Nonholonomic_Path
-Warning--empty year in Han97_Dex.Manipulation_RC
-Warning--empty year in Bagnell12_IntegratedSystem_AutonomousRoboticsManipulation
-(There were 18 warnings)
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'RPMain.blg'
+[23] biber-MSWIN64:315> INFO - === 
+[40] Biber.pm:375> INFO - Reading 'RPMain.bcf'
+[128] Biber.pm:905> INFO - Found 51 citekeys in bib section 0
+[140] Biber.pm:4196> INFO - Processing section 0
+[142] Utils.pm:75> INFO - Globbing data source 'citation.bib'
+[149] Utils.pm:91> INFO - Globbed data source 'citation.bib' to citation.bib
+[160] Biber.pm:4373> INFO - Looking for bibtex format file 'citation.bib' for section 0
+[184] bibtex.pm:1462> INFO - LaTeX decoding ...
+[594] bibtex.pm:1281> INFO - Found BibTeX data source 'citation.bib'
+[658] Utils.pm:300> WARN - ISBN '1050-4729' in entry 'Munoz95_Dex.Manipulation_Geo' is invalid - run biber with '--validate_datamodel' for details.
+[674] Utils.pm:300> WARN - ISBN '2153-0866' in entry 'Lei-Bagnell12_Tactile_Autonomous' is invalid - run biber with '--validate_datamodel' for details.
+[678] Utils.pm:300> WARN - ISBN '1050-4729' in entry 'HaoDang11_Tactile_BlindGrasping' is invalid - run biber with '--validate_datamodel' for details.
+[684] Utils.pm:300> WARN - ISBN '2153-0858' in entry 'Rothling07_Dex.Manipulators_Tactile' is invalid - run biber with '--validate_datamodel' for details.
+[734] Utils.pm:300> WARN - ISBN '2153-0866' in entry 'Bagnell12_IntegratedSystem_AutonomousRoboticsManipulation' is invalid - run biber with '--validate_datamodel' for details.
+[738] Utils.pm:300> WARN - ISBN '1050-4729' in entry 'Lei09_coordinate-free_instantaneous_kinematics' is invalid - run biber with '--validate_datamodel' for details.
+[781] Utils.pm:300> WARN - Range field 'pages' in entry 'Lei12_ReciprocityBased_SVD_Inverse.Kinematics' is malformed, falling back to literal
+[815] Utils.pm:300> WARN - ISBN '1050-4729' in entry 'Burlet04_MP_MDP' is invalid - run biber with '--validate_datamodel' for details.
+[819] Utils.pm:300> WARN - ISBN '1082-3409' in entry 'Ferguson04_MDP_Pathplanning' is invalid - run biber with '--validate_datamodel' for details.
+[840] Utils.pm:300> WARN - ISBN '0743-1619' in entry 'Chasparis05_PP_LinearProgramming' is invalid - run biber with '--validate_datamodel' for details.
+[911] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[911] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[911] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[911] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[958] bbl.pm:648> INFO - Writing 'RPMain.bbl' with encoding 'UTF-8'
+[986] bbl.pm:751> INFO - Output to RPMain.bbl
+[991] Biber.pm:110> INFO - WARNINGS: 10

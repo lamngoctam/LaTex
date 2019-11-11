@@ -1,487 +1,2141 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Lei-Bagnell12_Tactile_Autonomous}{inproceedings}{}
+      \name{author}{13}{}{%
+        {{hash=02dcce672cff0bb7150a91e9bab67289}{%
+           family={Bagnell},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ba56d51bed05ce21bbb2432017fe80de}{%
+           family={Cavalcanti},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a4cddd4f3f8cbef87dab590418f9e3c5}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d77bf71bb70a4bf21e6d4bb93b070cbd}{%
+           family={Galluzzo},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8b03bb23aa0f76cea426114e503fa272}{%
+           family={Hebert},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74efde0f1f9ed729f74f3a18b318c1aa}{%
+           family={Kazemi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=34f54baa8fb29783aeb8706fc117a7f4}{%
+           family={Klingensmith},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8025bed49e6fdc719de61221a14d6e96}{%
+           family={Libby},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ce25b2e41007fa29dba7d9f0fc0d09c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi Y.},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=ac6b4f148c155d351bb3f27f2da7716e}{%
+           family={Pollard},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1f032ad4b3764f9f3815981d09056353}{%
+           family={Pivtoraiko},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=30aa08fbdba6452cb5ca0a72ff94144e}{%
+           family={Valois},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a159460809b3009ce97031863bc91325}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{581879917a5987438f8630f92e1dd311}
+      \strng{fullhash}{9f53922cf41590199ba9692bb0b3e285}
+      \strng{bibnamehash}{581879917a5987438f8630f92e1dd311}
+      \strng{authorbibnamehash}{581879917a5987438f8630f92e1dd311}
+      \strng{authornamehash}{581879917a5987438f8630f92e1dd311}
+      \strng{authorfullhash}{9f53922cf41590199ba9692bb0b3e285}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{2153-0866}
+      \field{title}{An integrated system for autonomous robotics manipulation}
+      \field{type}{Conference Proceedings}
+      \field{year}{2012}
+      \field{pages}{2955\bibrangedash 2962}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS.2012.6385888
+      \endverb
+      \keyw{audio signal processing control engineering computing manipulators mobile robots path planning integrated system autonomous robotics manipulation software components robotics system designed dexterous manipulation tasks perception core functionality planning core functionality control core functionality logical task structure execution time reduction 3D perception real-time planning force compliant motions audio processing object grasping behavior tree architecture Robot sensing systems Planning Software Computer architecture Grasping Software algorithms}
+    \endentry
+    \entry{Bagnell12_IntegratedSystem_AutonomousRoboticsManipulation}{inproceedings}{}
+      \name{author}{13}{}{%
+        {{hash=02dcce672cff0bb7150a91e9bab67289}{%
+           family={Bagnell},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ba56d51bed05ce21bbb2432017fe80de}{%
+           family={Cavalcanti},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a4cddd4f3f8cbef87dab590418f9e3c5}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d77bf71bb70a4bf21e6d4bb93b070cbd}{%
+           family={Galluzzo},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8b03bb23aa0f76cea426114e503fa272}{%
+           family={Hebert},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74efde0f1f9ed729f74f3a18b318c1aa}{%
+           family={Kazemi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=34f54baa8fb29783aeb8706fc117a7f4}{%
+           family={Klingensmith},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8025bed49e6fdc719de61221a14d6e96}{%
+           family={Libby},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ce25b2e41007fa29dba7d9f0fc0d09c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi Y.},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=ac6b4f148c155d351bb3f27f2da7716e}{%
+           family={Pollard},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1f032ad4b3764f9f3815981d09056353}{%
+           family={Pivtoraiko},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=30aa08fbdba6452cb5ca0a72ff94144e}{%
+           family={Valois},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a159460809b3009ce97031863bc91325}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{581879917a5987438f8630f92e1dd311}
+      \strng{fullhash}{9f53922cf41590199ba9692bb0b3e285}
+      \strng{bibnamehash}{581879917a5987438f8630f92e1dd311}
+      \strng{authorbibnamehash}{581879917a5987438f8630f92e1dd311}
+      \strng{authornamehash}{581879917a5987438f8630f92e1dd311}
+      \strng{authorfullhash}{9f53922cf41590199ba9692bb0b3e285}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{2153-0866}
+      \field{title}{An integrated system for autonomous robotics manipulation}
+      \field{type}{Conference Proceedings}
+      \field{pages}{2955\bibrangedash 2962}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS.2012.6385888
+      \endverb
+    \endentry
+    \entry{Bellman57_MDP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bb51e859e70aaedef4ed1f3bb67779b}{%
+           family={Bellman},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{fullhash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{bibnamehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{authorbibnamehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{authornamehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{authorfullhash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0095-9057}
+      \field{journaltitle}{Journal of Mathematics and Mechanics}
+      \field{title}{A Markovian decision process}
+      \field{type}{Journal Article}
+      \field{year}{1957}
+      \field{pages}{679\bibrangedash 684}
+      \range{pages}{6}
+    \endentry
+    \entry{Bellman57_DynamicProgramming}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7bb51e859e70aaedef4ed1f3bb67779b}{%
+           family={Bellman},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{fullhash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{bibnamehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{authorbibnamehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{authornamehash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \strng{authorfullhash}{7bb51e859e70aaedef4ed1f3bb67779b}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Dynamic Programming}
+      \field{year}{1957}
+      \verb{urlraw}
+      \verb http://books.google.com/books?id=fyVtp3EMxasC&pg=PR5&dq=dynamic+programming+richard+e+bellman&client=firefox-a#v=onepage&q=dynamic%20programming%20richard%20e%20bellman&f=false
+      \endverb
+      \verb{url}
+      \verb http://books.google.com/books?id=fyVtp3EMxasC&pg=PR5&dq=dynamic+programming+richard+e+bellman&client=firefox-a#v=onepage&q=dynamic%20programming%20richard%20e%20bellman&f=false
+      \endverb
+    \endentry
+    \entry{Belta_2005_Discrete_MP}{article}{}
+      \name{author}{3}{}{%
+        {{hash=826cd766160d9baf0e344510b73d921a}{%
+           family={Belta},
+           familyi={B\bibinitperiod},
+           given={Calin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=87b8d080b88aecea246d4901006d26ea}{%
+           family={Isler},
+           familyi={I\bibinitperiod},
+           given={Volkan},
+           giveni={V\bibinitperiod}}}%
+        {{hash=13515e3859af5918925e99eddb9a9079}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={George\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4b6cc3c01de2b0c4174052234e13b155}
+      \strng{fullhash}{4b6cc3c01de2b0c4174052234e13b155}
+      \strng{bibnamehash}{4b6cc3c01de2b0c4174052234e13b155}
+      \strng{authorbibnamehash}{4b6cc3c01de2b0c4174052234e13b155}
+      \strng{authornamehash}{4b6cc3c01de2b0c4174052234e13b155}
+      \strng{authorfullhash}{4b6cc3c01de2b0c4174052234e13b155}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{number}{5}
+      \field{title}{Discrete abstractions for robot motion planning and control in polygonal environments}
+      \field{volume}{21}
+      \field{year}{2005}
+      \field{pages}{864\bibrangedash 874}
+      \range{pages}{11}
+    \endentry
+    \entry{Bertsekas87_DynamicProgramming}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9d82cb170e490607a367aba73aa5668c}{%
+           family={Bertsekas},
+           familyi={B\bibinitperiod},
+           given={Dimitri\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Englewood Cliffs, N.J. : Prentice-Hall}%
+      }
+      \strng{namehash}{9d82cb170e490607a367aba73aa5668c}
+      \strng{fullhash}{9d82cb170e490607a367aba73aa5668c}
+      \strng{bibnamehash}{9d82cb170e490607a367aba73aa5668c}
+      \strng{authorbibnamehash}{9d82cb170e490607a367aba73aa5668c}
+      \strng{authornamehash}{9d82cb170e490607a367aba73aa5668c}
+      \strng{authorfullhash}{9d82cb170e490607a367aba73aa5668c}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dynamic programming: deterministic and stochastic models}
+      \field{year}{1987}
+    \endentry
+    \entry{Bicchi_2000_Hands_Dexterous}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cc43c52cecb0f037579498ca80c711a1}{%
+           family={Bicchi},
+           familyi={B\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{cc43c52cecb0f037579498ca80c711a1}
+      \strng{fullhash}{cc43c52cecb0f037579498ca80c711a1}
+      \strng{bibnamehash}{cc43c52cecb0f037579498ca80c711a1}
+      \strng{authorbibnamehash}{cc43c52cecb0f037579498ca80c711a1}
+      \strng{authornamehash}{cc43c52cecb0f037579498ca80c711a1}
+      \strng{authorfullhash}{cc43c52cecb0f037579498ca80c711a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on robotics and automation}
+      \field{number}{6}
+      \field{title}{Hands for dexterous manipulation and robust grasping: A difficult road toward simplicity}
+      \field{volume}{16}
+      \field{year}{2000}
+      \field{pages}{652\bibrangedash 662}
+      \range{pages}{11}
+    \endentry
+    \entry{Bobenko10_Discrete_Curvature}{article}{}
+      \name{author}{3}{}{%
+        {{hash=de33eb21fa045fb0eb6dbe74baabe728}{%
+           family={Bobenko},
+           familyi={B\bibinitperiod},
+           given={Alexander\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=6bd527fe9d535f6533ba4af27fbe9590}{%
+           family={Pottmann},
+           familyi={P\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cec41fc3230afcdb20b1599aaf8f6c0e}{%
+           family={Wallner},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbd32224571ae367fa006f734fc922ba}
+      \strng{fullhash}{cbd32224571ae367fa006f734fc922ba}
+      \strng{bibnamehash}{cbd32224571ae367fa006f734fc922ba}
+      \strng{authorbibnamehash}{cbd32224571ae367fa006f734fc922ba}
+      \strng{authornamehash}{cbd32224571ae367fa006f734fc922ba}
+      \strng{authorfullhash}{cbd32224571ae367fa006f734fc922ba}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider a general theory of curvatures of discrete surfaces equipped with edgewise parallel Gauss images, and where mean and Gaussian curvatures of faces are derived from the faces’ areas and mixed areas. Remarkably these notions are capable of unifying notable previously defined classes of surfaces, such as discrete isothermic minimal surfaces and surfaces of constant mean curvature. We discuss various types of natural Gauss images, the existence of principal curvatures, constant curvature surfaces, Christoffel duality, Koenigs nets, contact element nets, s-isothermic nets, and interesting special cases such as discrete Delaunay surfaces derived from elliptic billiards.}
+      \field{issn}{1432-1807}
+      \field{journaltitle}{Mathematische Annalen}
+      \field{number}{1}
+      \field{title}{A curvature theory for discrete surfaces based on mesh parallelity}
+      \field{type}{Journal Article}
+      \field{volume}{348}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s00208-009-0467-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00208-009-0467-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00208-009-0467-9
+      \endverb
+    \endentry
+    \entry{Martin04_Quadrilateral_Discrete}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=8add9dc2ba7224b850940cb36272d725}{%
+           family={Boier-Martin},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Ioana},
+           giveni={I\bibinitperiod}}}%
+        {{hash=4c734169444d9e8af7bde21a3b771daa}{%
+           family={Rushmeier},
+           familyi={R\bibinitperiod},
+           given={Holly},
+           giveni={H\bibinitperiod}}}%
+        {{hash=43480269b63c2f6044a12b0439811629}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Jingyi},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {1057459}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{97b78982200b0d97b305dbbad3326294}
+      \strng{fullhash}{97b78982200b0d97b305dbbad3326294}
+      \strng{bibnamehash}{97b78982200b0d97b305dbbad3326294}
+      \strng{authorbibnamehash}{97b78982200b0d97b305dbbad3326294}
+      \strng{authornamehash}{97b78982200b0d97b305dbbad3326294}
+      \strng{authorfullhash}{97b78982200b0d97b305dbbad3326294}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2004 Eurographics/ACM SIGGRAPH symposium on Geometry processing}
+      \field{title}{Parameterization of triangle meshes over quadrilateral domains}
+      \field{type}{Conference Proceedings}
+      \field{year}{2004}
+      \field{pages}{193\bibrangedash 203}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/1057432.1057459
+      \endverb
+    \endentry
+    \entry{Burlet04_MP_MDP}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=fac3787b69abf5125ffa2a2fccd19e8d}{%
+           family={Burlet},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b07940949844929a8219fd2ee50bba1a}{%
+           family={Aycard},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1272a4e90914e35dbb5be27107098f52}{%
+           family={Fraichard},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5867344a4d0da859e9228fd84951f9f6}
+      \strng{fullhash}{5867344a4d0da859e9228fd84951f9f6}
+      \strng{bibnamehash}{5867344a4d0da859e9228fd84951f9f6}
+      \strng{authorbibnamehash}{5867344a4d0da859e9228fd84951f9f6}
+      \strng{authornamehash}{5867344a4d0da859e9228fd84951f9f6}
+      \strng{authorfullhash}{5867344a4d0da859e9228fd84951f9f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Conference on Robotics and Automation, 2004. Proceedings. ICRA '04. 2004}
+      \field{isbn}{1050-4729}
+      \field{title}{Robust motion planning using Markov decision processes and quadtree decomposition}
+      \field{type}{Conference Proceedings}
+      \field{volume}{3}
+      \field{year}{2004}
+      \field{pages}{2820\bibrangedash 2825 Vol.3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2004.1307488
+      \endverb
+    \endentry
+    \entry{Chasparis05_PP_LinearProgramming}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5a688f5117cffeb5cc981438f1d824d0}{%
+           family={Chasparis},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi C.},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1eb246bb907c25c571013460b1571342}{%
+           family={Shamma},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{36a799463ec6d989a7676c8da109caef}
+      \strng{fullhash}{36a799463ec6d989a7676c8da109caef}
+      \strng{bibnamehash}{36a799463ec6d989a7676c8da109caef}
+      \strng{authorbibnamehash}{36a799463ec6d989a7676c8da109caef}
+      \strng{authornamehash}{36a799463ec6d989a7676c8da109caef}
+      \strng{authorfullhash}{36a799463ec6d989a7676c8da109caef}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005, American Control Conference, 2005.}
+      \field{isbn}{0743-1619}
+      \field{title}{Linear-programming-based multi-vehicle path planning with adversaries}
+      \field{type}{Conference Proceedings}
+      \field{year}{2005}
+      \field{pages}{1072\bibrangedash 1077 vol. 2}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ACC.2005.1470103
+      \endverb
+    \endentry
+    \entry{Lei10_PhDThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {King's College London}%
+      }
+      \list{location}{1}{%
+        {Centre for Robotics Research, London, UK}%
+      }
+      \strng{namehash}{d22cf63412f5bb89dcde7965f3514581}
+      \strng{fullhash}{d22cf63412f5bb89dcde7965f3514581}
+      \strng{bibnamehash}{d22cf63412f5bb89dcde7965f3514581}
+      \strng{authorbibnamehash}{d22cf63412f5bb89dcde7965f3514581}
+      \strng{authornamehash}{d22cf63412f5bb89dcde7965f3514581}
+      \strng{authorfullhash}{d22cf63412f5bb89dcde7965f3514581}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential Geometry Based Kinematics of Sliding-Rolling Contact and Its Use for Multifingered Hands}
+      \field{type}{Ph{D} {T}hesis}
+      \field{year}{2010}
+    \endentry
+    \entry{Lei14_Teleoperation_ThumbRobotHand}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=858f512a03a10eea36a6db0ac860d5df}{%
+           family={Cupcic},
+           familyi={C\bibinitperiod},
+           given={Ugo},
+           giveni={U\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e30eb5b10dd206858220c5beb2aafdc2}
+      \strng{fullhash}{e30eb5b10dd206858220c5beb2aafdc2}
+      \strng{bibnamehash}{e30eb5b10dd206858220c5beb2aafdc2}
+      \strng{authorbibnamehash}{e30eb5b10dd206858220c5beb2aafdc2}
+      \strng{authornamehash}{e30eb5b10dd206858220c5beb2aafdc2}
+      \strng{authorfullhash}{e30eb5b10dd206858220c5beb2aafdc2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The complex kinematic structure of a human thumb makes it difficult to capture and control the thumb motions. A further complication is that mapping the fingertip position alone leads to inadequate grasping postures for current robotic hands, many of which are equipped with tactile sensors on the volar side of the fingers. This paper aimed to use a data glove as the input device to teleoperate the thumb of a humanoid robotic hand. An experiment protocol was developed with only minimum hardware involved to compensate for the differences in kinematic structures between a robotic hand and a human hand. A nonlinear constrained-optimization formulation was proposed to map and calibrate the motion of a human thumb to that of a robotic thumb by minimizing the maximum errors (minimax algorithms) of fingertip position while subject to the constraint of the normals of the surfaces of the thumb and the index fingertips within a friction cone. The proposed approach could be extended to other teleoperation applications, where the master and slave devices differ in kinematic structure.}
+      \field{issn}{1050-0472}
+      \field{journaltitle}{Journal of Mechanical Design}
+      \field{note}{10.1115/1.4027759}
+      \field{number}{9}
+      \field{title}{An Optimization Approach to Teleoperation of the Thumb of a Humanoid Robot Hand}
+      \field{type}{Journal Article}
+      \field{volume}{136}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1115/1.4027759
+      \endverb
+      \keyw{ROBUST ESTIMATION ESTIMATORS ROTATION MINIMAX DESIGN SYSTEM}
+    \endentry
+    \entry{Lei09_coordinate-free_instantaneous_kinematics}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{1050-4729}
+      \field{title}{A coordinate-free approach to instantaneous kinematics of two rigid objects with rolling contact and its implications for trajectory planning}
+      \field{type}{Conference Proceedings}
+      \field{year}{2009}
+      \field{pages}{612\bibrangedash 617}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2009.5152249
+      \endverb
+    \endentry
+    \entry{Lei10_Darboux-Frame}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-3098}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{number}{2}
+      \field{title}{A Darboux-Frame-Based Formulation of Spin-Rolling Motion of Rigid Objects With Point Contact}
+      \field{type}{Journal Article}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{383\bibrangedash 388}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TRO.2010.2040201
+      \endverb
+    \endentry
+    \entry{Lei12_Polynomial_Inverse.Kinematics}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{10.1115/DETC2012-70852}
+      \field{number}{45035}
+      \field{title}{A Polynomial Approach to Inverse Kinematics of Rolling Contact}
+      \field{type}{Journal Article}
+      \field{year}{2012}
+      \field{pages}{1563\bibrangedash 1570}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1115/DETC2012-70852
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1115/DETC2012-70852
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1115/DETC2012-70852
+      \endverb
+    \endentry
+    \entry{Lei15_PolynomialFormulation_InverseKinematics}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1942-4302}
+      \field{journaltitle}{Journal of Mechanisms and Robotics}
+      \field{note}{10.1115/1.4029498}
+      \field{number}{4}
+      \field{title}{A Polynomial Formulation of Inverse Kinematics of Rolling Contact}
+      \field{type}{Journal Article}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{pages}{041003-041003\bibrangedash 9}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1115/1.4029498
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1115/1.4029498
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1115/1.4029498
+      \endverb
+    \endentry
+    \entry{Lei15_sliding.rolling.loci_kinematics}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0094-114X}
+      \field{journaltitle}{Mechanism and Machine Theory}
+      \field{title}{From sliding–rolling loci to instantaneous kinematics: An adjoint approach}
+      \field{type}{Journal Article}
+      \field{volume}{85}
+      \field{year}{2015}
+      \field{pages}{161\bibrangedash 171}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.mechmachtheory.2014.11.015
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0094114X14002973
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0094114X14002973
+      \endverb
+      \keyw{Adjoint Contact Rolling Sliding Kinematics Differential geometry}
+    \endentry
+    \entry{Lei10_Geometric.Kinematics_PointContact}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c86a916f8b0243d6bcabb2e170f7861a}{%
+           family={Lenarcic},
+           familyi={L\bibinitperiod},
+           given={Jadran},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b3f074d1588cdec5188c90bdd3e1a4a3}{%
+           family={Stanisic},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{editorbibnamehash}{271d916a40bc557bdf9be92519c5e9fc}
+      \strng{editornamehash}{271d916a40bc557bdf9be92519c5e9fc}
+      \strng{editorfullhash}{271d916a40bc557bdf9be92519c5e9fc}
+      \field{extraname}{6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Robot Kinematics: Motion in Man and Machine}
+      \field{isbn}{978-90-481-9262-5}
+      \field{title}{Geometric Kinematics of Rigid Bodies with Point Contact}
+      \field{type}{Conference Proceedings}
+      \field{pages}{429\bibrangedash 436}
+      \range{pages}{8}
+    \endentry
+    \entry{Lei11_Posture.Workspace_Multifinger}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1942-4302}
+      \field{journaltitle}{Journal of Mechanisms and Robotics}
+      \field{note}{10.1115/1.4003414}
+      \field{number}{2}
+      \field{title}{Posture, Workspace, and Manipulability of the Metamorphic Multifingered Hand With an Articulated Palm}
+      \field{type}{Journal Article}
+      \field{volume}{3}
+      \field{year}{2011}
+      \field{pages}{021001-021001\bibrangedash 7}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1115/1.4003414
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1115/1.4003414
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1115/1.4003414
+      \endverb
+    \endentry
+    \entry{Lei12_ReciprocityBased_SVD_Inverse.Kinematics}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \field{extraname}{8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1942-4302}
+      \field{journaltitle}{Transactions of the ASME Journal of Mechanisms and Robotics}
+      \field{note}{10.1115/1.4006187}
+      \field{number}{3}
+      \field{title}{Reciprocity-Based Singular Value Decomposition for Inverse Kinematic Analysis of the Metamorphic Multifingered Hand}
+      \field{type}{Journal Article}
+      \field{volume}{4}
+      \field{year}{2012}
+      \field{pages}{-}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1115/1.4006187
+      \endverb
+      \warn{\item Range field 'pages' in entry 'Lei12_ReciprocityBased_SVD_Inverse.Kinematics' is malformed, falling back to literal}
+    \endentry
+    \entry{Lei18_Rolling.Contact_Kinematics_Multifinger}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=f1a79a73b7c37b71c91e9464d3798ad7}{%
+           family={Lenarčič},
+           familyi={L\bibinitperiod},
+           given={Jadran},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dfe9fb42778083cd8ab2b7693472b326}{%
+           family={Merlet},
+           familyi={M\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{fullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{bibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorbibnamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authornamehash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{authorfullhash}{cc4de8905d132ddd689095cf708d53a1}
+      \strng{editorbibnamehash}{d18cc4552362f223baf289f30dd9ed57}
+      \strng{editornamehash}{d18cc4552362f223baf289f30dd9ed57}
+      \strng{editorfullhash}{d18cc4552362f223baf289f30dd9ed57}
+      \field{extraname}{9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Robot Kinematics 2016}
+      \field{isbn}{978-3-319-56802-7}
+      \field{title}{Rolling Contact in Kinematics of Multifingered Robotic Hands}
+      \field{type}{Book Section}
+      \field{year}{2018}
+      \field{pages}{217\bibrangedash 224}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/978-3-319-56802-7_23
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-56802-7_23
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-56802-7_23
+      \endverb
+    \endentry
+    \entry{Lei17_In-Hand_Forward.Inverse.Kinematics}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=93b1ba7220c247c8eeee203940d19435}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3644b2fe5d4d9c8b9b9665960ca202b6}
+      \strng{fullhash}{3644b2fe5d4d9c8b9b9665960ca202b6}
+      \strng{bibnamehash}{3644b2fe5d4d9c8b9b9665960ca202b6}
+      \strng{authorbibnamehash}{3644b2fe5d4d9c8b9b9665960ca202b6}
+      \strng{authornamehash}{3644b2fe5d4d9c8b9b9665960ca202b6}
+      \strng{authorfullhash}{3644b2fe5d4d9c8b9b9665960ca202b6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0263-5747}
+      \field{journaltitle}{Robotica}
+      \field{number}{12}
+      \field{title}{In-hand forward and inverse kinematics with rolling contact}
+      \field{type}{Journal Article}
+      \field{volume}{35}
+      \field{year}{2017}
+      \field{pages}{2381\bibrangedash 2399}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1017/S026357471700008X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/article/inhand-forward-and-inverse-kinematics-with-rolling-contact/E27011ABA54251EA31B3186D42D4BD1C
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/article/inhand-forward-and-inverse-kinematics-with-rolling-contact/E27011ABA54251EA31B3186D42D4BD1C
+      \endverb
+    \endentry
+    \entry{Lei07_Euclidean_Invariants}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=feb30b2982aba98a6f6ed6ec176fac1c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Delun},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{220e03af585059463b5890b036869819}
+      \strng{fullhash}{220e03af585059463b5890b036869819}
+      \strng{bibnamehash}{220e03af585059463b5890b036869819}
+      \strng{authorbibnamehash}{220e03af585059463b5890b036869819}
+      \strng{authornamehash}{220e03af585059463b5890b036869819}
+      \strng{authorfullhash}{220e03af585059463b5890b036869819}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{10.1115/DETC2007-34466}
+      \field{number}{48094}
+      \field{title}{A Euclidean Invariants Based Study of Circular Surfaces With Fixed Radius}
+      \field{type}{Journal Article}
+      \field{year}{2007}
+      \field{pages}{1235\bibrangedash 1244}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1115/DETC2007-34466
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1115/DETC2007-34466
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1115/DETC2007-34466
+      \endverb
+    \endentry
+    \entry{Lei09_Kinematic.Geometry_Circular.Surfaces}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=feb30b2982aba98a6f6ed6ec176fac1c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Delun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{be9f1535446d930c07410ed356ccdebd}
+      \strng{fullhash}{be9f1535446d930c07410ed356ccdebd}
+      \strng{bibnamehash}{be9f1535446d930c07410ed356ccdebd}
+      \strng{authorbibnamehash}{be9f1535446d930c07410ed356ccdebd}
+      \strng{authornamehash}{be9f1535446d930c07410ed356ccdebd}
+      \strng{authorfullhash}{be9f1535446d930c07410ed356ccdebd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1050-0472}
+      \field{journaltitle}{Journal of Mechanical Design}
+      \field{note}{10.1115/1.3212679}
+      \field{number}{10}
+      \field{title}{Kinematic Geometry of Circular Surfaces With a Fixed Radius Based on Euclidean Invariants}
+      \field{type}{Journal Article}
+      \field{volume}{131}
+      \field{year}{2009}
+      \field{pages}{101009-101009\bibrangedash 8}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1115/1.3212679
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1115/1.3212679
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1115/1.3212679
+      \endverb
+    \endentry
+    \entry{Lei09_Orientation-Workspace_Metahand}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4b89bdaf258b8a1ec4c768e087024ad8}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=feb30b2982aba98a6f6ed6ec176fac1c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Delun.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4a1808efdf5bc02c61b1c031aa95de7}
+      \strng{fullhash}{a4a1808efdf5bc02c61b1c031aa95de7}
+      \strng{bibnamehash}{a4a1808efdf5bc02c61b1c031aa95de7}
+      \strng{authorbibnamehash}{a4a1808efdf5bc02c61b1c031aa95de7}
+      \strng{authornamehash}{a4a1808efdf5bc02c61b1c031aa95de7}
+      \strng{authorfullhash}{a4a1808efdf5bc02c61b1c031aa95de7}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-3098}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{number}{4}
+      \field{title}{Orientation and Workspace Analysis of the Multifingered Metamorphic Hand—Metahand}
+      \field{type}{Journal Article}
+      \field{volume}{25}
+      \field{year}{2009}
+      \field{pages}{942\bibrangedash 947}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TRO.2009.2017138
+      \endverb
+    \endentry
+    \entry{HaoDang11_Tactile_BlindGrasping}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4267b0cac760f6ae79e2bfeb89b29857}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4ce8a6ec79813deb15f4f26947117a7b}{%
+           family={Weisz},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2611e3f0688f9e3b469375eae2053def}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a1d15653c777e062237762c133ab437}
+      \strng{fullhash}{9a1d15653c777e062237762c133ab437}
+      \strng{bibnamehash}{9a1d15653c777e062237762c133ab437}
+      \strng{authorbibnamehash}{9a1d15653c777e062237762c133ab437}
+      \strng{authornamehash}{9a1d15653c777e062237762c133ab437}
+      \strng{authorfullhash}{9a1d15653c777e062237762c133ab437}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{1050-4729}
+      \field{title}{Blind grasping: Stable robotic grasping using tactile feedback and hand kinematics}
+      \field{type}{Conference Proceedings}
+      \field{year}{2011}
+      \field{pages}{5917\bibrangedash 5922}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICRA.2011.5979679
+      \endverb
+      \keyw{control engineering computing digital simulation feedback learning (artificial intelligence) manipulator kinematics stability support vector machines tactile sensors blind grasping stable robotic grasping tactile feedback hand kinematics machine learning approach hand kinematic data soft finger contact model Grasplt! robotic grasping simulator robotic hand Columbia grasp database support vector machine robotic hand kinematics Grasping Kinematics Computational modeling Planning}
+    \endentry
+    \entry{Ferguson04_MDP_Pathplanning}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e7ce90fc92737ab4db503094ac02876e}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2b27eb45700cc9002483c454e38467f2}{%
+           family={Stentz},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f200fd2d01c4ff408da70711779ecff0}
+      \strng{fullhash}{f200fd2d01c4ff408da70711779ecff0}
+      \strng{bibnamehash}{f200fd2d01c4ff408da70711779ecff0}
+      \strng{authorbibnamehash}{f200fd2d01c4ff408da70711779ecff0}
+      \strng{authornamehash}{f200fd2d01c4ff408da70711779ecff0}
+      \strng{authorfullhash}{f200fd2d01c4ff408da70711779ecff0}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{16th IEEE International Conference on Tools with Artificial Intelligence}
+      \field{isbn}{1082-3409}
+      \field{title}{Focussed processing of MDPs for path planning}
+      \field{type}{Conference Proceedings}
+      \field{year}{2004}
+      \field{pages}{310\bibrangedash 317}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICTAI.2004.64
+      \endverb
+    \endentry
+    \entry{Hameiri03_Darboux_Curvature_Discrete}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a0b451bd0a3ac7a59bc4de8f138a4582}{%
+           family={Hameiri},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=158042eb5740d57085106a374b5e779a}{%
+           family={Shimshoni},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{08ec5999ac1894836c630c2576d5ca4d}
+      \strng{fullhash}{08ec5999ac1894836c630c2576d5ca4d}
+      \strng{bibnamehash}{08ec5999ac1894836c630c2576d5ca4d}
+      \strng{authorbibnamehash}{08ec5999ac1894836c630c2576d5ca4d}
+      \strng{authornamehash}{08ec5999ac1894836c630c2576d5ca4d}
+      \strng{authorfullhash}{08ec5999ac1894836c630c2576d5ca4d}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1083-4419}
+      \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)}
+      \field{number}{4}
+      \field{title}{Estimating the principal curvatures and the Darboux frame from real 3-D range data}
+      \field{type}{Journal Article}
+      \field{volume}{33}
+      \field{year}{2003}
+      \field{pages}{626\bibrangedash 637}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TSMCB.2003.814304
+      \endverb
+      \keyw{computational geometry computational complexity image segmentation image classification curve fitting parameter estimation principal curvature estimation Darboux frame 3D range data three dimensional range data geometric properties noise 3D range imaging equipment polyhedral meshes surface approximation discrete noisy range data sampled points free-form objects complexity scanning Data mining Testing Layout Feature extraction Robustness Clouds Libraries Registers Computer science}
+    \endentry
+    \entry{Howard60_DP_MDP}{book}{}
+      \name{author}{1}{}{%
+        {{hash=05a2fc9b7560322dc0c43806e2bce7e9}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Ronald\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford, England}%
+      }
+      \strng{namehash}{05a2fc9b7560322dc0c43806e2bce7e9}
+      \strng{fullhash}{05a2fc9b7560322dc0c43806e2bce7e9}
+      \strng{bibnamehash}{05a2fc9b7560322dc0c43806e2bce7e9}
+      \strng{authorbibnamehash}{05a2fc9b7560322dc0c43806e2bce7e9}
+      \strng{authornamehash}{05a2fc9b7560322dc0c43806e2bce7e9}
+      \strng{authorfullhash}{05a2fc9b7560322dc0c43806e2bce7e9}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dynamic programming and Markov processes}
+      \field{type}{Book}
+      \field{year}{1964}
+    \endentry
+    \entry{Kalker_1991_RC}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=811922fb3ac27c665fbb73bcc72ad628}{%
+           family={Kalker},
+           familyi={K\bibinitperiod},
+           given={JJ},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{811922fb3ac27c665fbb73bcc72ad628}
+      \strng{fullhash}{811922fb3ac27c665fbb73bcc72ad628}
+      \strng{bibnamehash}{811922fb3ac27c665fbb73bcc72ad628}
+      \strng{authorbibnamehash}{811922fb3ac27c665fbb73bcc72ad628}
+      \strng{authornamehash}{811922fb3ac27c665fbb73bcc72ad628}
+      \strng{authorfullhash}{811922fb3ac27c665fbb73bcc72ad628}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mechanics and Fatigue in Wheel/Rail Contact}
+      \field{title}{Wheel--rail rolling contact theory}
+      \field{year}{1991}
+      \field{pages}{243\bibrangedash 261}
+      \range{pages}{19}
+    \endentry
+    \entry{Meyer03_Discrete_Diff.Geo_2Manifolds}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ad0e4e2a367bbe936ddc6e7be5e11312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e47369dae07290555d7bd0a8b0bfd22}{%
+           family={Desbrun},
+           familyi={D\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aff2d50d22a268c0b1b9ab454f36b729}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=273cac178fe6e7e13b4f6079436d8657}{%
+           family={Barr},
+           familyi={B\bibinitperiod},
+           given={Alan\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d37ecf3c5fe8ff48dcb557a67a19a594}{%
+           family={Hege},
+           familyi={H\bibinitperiod},
+           given={Hans-Christian},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=6381fa6ee5871c31f568ee8dd01932fe}{%
+           family={Polthier},
+           familyi={P\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{572e9ffd82c1b1d7ad4d329dfdbb86a4}
+      \strng{fullhash}{2a17532a867f413b61159bab09eb629c}
+      \strng{bibnamehash}{572e9ffd82c1b1d7ad4d329dfdbb86a4}
+      \strng{authorbibnamehash}{572e9ffd82c1b1d7ad4d329dfdbb86a4}
+      \strng{authornamehash}{572e9ffd82c1b1d7ad4d329dfdbb86a4}
+      \strng{authorfullhash}{2a17532a867f413b61159bab09eb629c}
+      \strng{editorbibnamehash}{2542cf3676fd4e6e809b83411b55dd8d}
+      \strng{editornamehash}{2542cf3676fd4e6e809b83411b55dd8d}
+      \strng{editorfullhash}{2542cf3676fd4e6e809b83411b55dd8d}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a unified and consistent set of flexible tools to approximate important geometric attributes, including normal vectors and curvatures on arbitrary triangle meshes. We present a consistent derivation of these first and second order differential properties using averaging Voronoi cells and the mixed Finite-Element/Finite-Volume method, and compare them to existing formulations. Building upon previous work in discrete geometry, these operators are closely related to the continuous case, guaranteeing an appropriate extension from the continuous to the discrete setting: they respect most intrinsic properties of the continuous differential operators. We show that these estimates are optimal in accuracy under mild smoothness conditions, and demonstrate their numerical quality. We also present applications of these operators, such as mesh smoothing, enhancement, and quality checking, and show results of denoising in higher dimensions, such as for tensor images.}
+      \field{booktitle}{Visualization and Mathematics III}
+      \field{isbn}{978-3-662-05105-4}
+      \field{title}{Discrete Differential-Geometry Operators for Triangulated 2-Manifolds}
+      \field{type}{Conference Proceedings}
+      \field{year}{2003}
+      \field{pages}{35\bibrangedash 57}
+      \range{pages}{23}
+    \endentry
+    \entry{Miller68_MDP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=729b261af54688b0e420c2dc120dd19b}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Bruce\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{729b261af54688b0e420c2dc120dd19b}
+      \strng{fullhash}{729b261af54688b0e420c2dc120dd19b}
+      \strng{bibnamehash}{729b261af54688b0e420c2dc120dd19b}
+      \strng{authorbibnamehash}{729b261af54688b0e420c2dc120dd19b}
+      \strng{authornamehash}{729b261af54688b0e420c2dc120dd19b}
+      \strng{authorfullhash}{729b261af54688b0e420c2dc120dd19b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-247X}
+      \field{journaltitle}{Journal of Mathematical Analysis and Applications}
+      \field{number}{3}
+      \field{title}{Finite state continuous time Markov decision processes with an infinite planning horizon}
+      \field{type}{Journal Article}
+      \field{volume}{22}
+      \field{year}{1968}
+      \field{pages}{552\bibrangedash 569}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0022-247X(68)90194-7
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/0022247X68901947
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0022247X68901947
+      \endverb
+    \endentry
+    \entry{Montana88_Kinematics_Contact_Grasp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f31c190de014338b8fc44ab7764d86f5}{%
+           family={Montana},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f31c190de014338b8fc44ab7764d86f5}
+      \strng{fullhash}{f31c190de014338b8fc44ab7764d86f5}
+      \strng{bibnamehash}{f31c190de014338b8fc44ab7764d86f5}
+      \strng{authorbibnamehash}{f31c190de014338b8fc44ab7764d86f5}
+      \strng{authornamehash}{f31c190de014338b8fc44ab7764d86f5}
+      \strng{authorfullhash}{f31c190de014338b8fc44ab7764d86f5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0278-3649}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{3}
+      \field{title}{The Kinematics of Contact and Grasp}
+      \field{type}{Journal Article}
+      \field{volume}{7}
+      \field{year}{1988}
+      \field{pages}{17\bibrangedash 32}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1177/027836498800700302
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/027836498800700302
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/027836498800700302
+      \endverb
+    \endentry
+    \entry{Muhager16_MDP_Clothes}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=93628020792d2bf4c9d001800f6012fc}{%
+           family={Mouhagir},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=42ab33aa8f5c5fcff638f3e2b34c5b18}{%
+           family={Talj},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=29a202332a138e98e39989d958cd9f2f}{%
+           family={Cherfaoui},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=71de947f579ea944f6434dad69a6afe4}{%
+           family={Guillemard},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f2e6b71bdfae945575bfa7172b8ef9d5}{%
+           family={Aioun},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{71417e24ded1c0e7bd97227c53ad2d26}
+      \strng{fullhash}{e704bdf0df82dccf0197da090f2f6ac2}
+      \strng{bibnamehash}{71417e24ded1c0e7bd97227c53ad2d26}
+      \strng{authorbibnamehash}{71417e24ded1c0e7bd97227c53ad2d26}
+      \strng{authornamehash}{71417e24ded1c0e7bd97227c53ad2d26}
+      \strng{authorfullhash}{e704bdf0df82dccf0197da090f2f6ac2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE Intelligent Vehicles Symposium (IV)}
+      \field{title}{A Markov Decision Process-based approach for trajectory planning with clothoid tentacles}
+      \field{type}{Conference Proceedings}
+      \field{year}{2016}
+      \field{pages}{1254\bibrangedash 1259}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IVS.2016.7535551
+      \endverb
+    \endentry
+    \entry{Munoz95_Dex.Manipulation_Geo}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b1bfeb51fdc9192f64c763f6a8ba2230}{%
+           family={Munoz},
+           familyi={M\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=600628fc9b531e1a5a3a89f6cbbb501f}{%
+           family={Bard},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=60c5dece5c4965f5f351cc495ef87d15}{%
+           family={Najera},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7512fafb955db42ad97d9771905dfdca}
+      \strng{fullhash}{7512fafb955db42ad97d9771905dfdca}
+      \strng{bibnamehash}{7512fafb955db42ad97d9771905dfdca}
+      \strng{authorbibnamehash}{7512fafb955db42ad97d9771905dfdca}
+      \strng{authornamehash}{7512fafb955db42ad97d9771905dfdca}
+      \strng{authorfullhash}{7512fafb955db42ad97d9771905dfdca}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 1995 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{1050-4729}
+      \field{title}{Dexterous manipulation: a geometrical reasoning point of view}
+      \field{type}{Conference Proceedings}
+      \field{volume}{1}
+      \field{pages}{458\bibrangedash 463 vol.1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1995.525326
+      \endverb
+    \endentry
+    \entry{Okamura_2000_Overview_DM}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=bac61a3e8656a1a0694c87bf2a42acae}{%
+           family={Okamura},
+           familyi={O\bibinitperiod},
+           given={Allison\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=62e85df55bc8eb07614678f2e700ef27}{%
+           family={Smaby},
+           familyi={S\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fe576beb0bf48b22891a4325e3818931}{%
+           family={Cutkosky},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{32d2c4ea9c29600895367a54450e0bcf}
+      \strng{fullhash}{32d2c4ea9c29600895367a54450e0bcf}
+      \strng{bibnamehash}{32d2c4ea9c29600895367a54450e0bcf}
+      \strng{authorbibnamehash}{32d2c4ea9c29600895367a54450e0bcf}
+      \strng{authornamehash}{32d2c4ea9c29600895367a54450e0bcf}
+      \strng{authorfullhash}{32d2c4ea9c29600895367a54450e0bcf}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE International Conference on}
+      \field{title}{An overview of dexterous manipulation}
+      \field{volume}{1}
+      \field{year}{2000}
+      \field{pages}{255\bibrangedash 262}
+      \range{pages}{8}
+    \endentry
+    \entry{Puterman14_Book_MDP_DiscreteDP}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b4258b9291d903d97b69d703eebf790a}{%
+           family={Puterman},
+           familyi={P\bibinitperiod},
+           given={Martin\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4258b9291d903d97b69d703eebf790a}
+      \strng{fullhash}{b4258b9291d903d97b69d703eebf790a}
+      \strng{bibnamehash}{b4258b9291d903d97b69d703eebf790a}
+      \strng{authorbibnamehash}{b4258b9291d903d97b69d703eebf790a}
+      \strng{authornamehash}{b4258b9291d903d97b69d703eebf790a}
+      \strng{authorfullhash}{b4258b9291d903d97b69d703eebf790a}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1118625870}
+      \field{title}{Markov decision processes: discrete stochastic dynamic programming}
+      \field{type}{Book}
+      \field{year}{2014}
+    \endentry
+    \entry{Book_Rosenberg77_DynamicsDiscrete}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e372b1f50d7e43e266ea4b19ecde3550}{%
+           family={Rosenberg},
+           familyi={R\bibinitperiod},
+           given={Reinhardt\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Boston, MA}%
+      }
+      \strng{namehash}{e372b1f50d7e43e266ea4b19ecde3550}
+      \strng{fullhash}{e372b1f50d7e43e266ea4b19ecde3550}
+      \strng{bibnamehash}{e372b1f50d7e43e266ea4b19ecde3550}
+      \strng{authorbibnamehash}{e372b1f50d7e43e266ea4b19ecde3550}
+      \strng{authornamehash}{e372b1f50d7e43e266ea4b19ecde3550}
+      \strng{authorfullhash}{e372b1f50d7e43e266ea4b19ecde3550}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analytical Dynamics of Discrete Systems}
+      \field{type}{Book}
+      \field{year}{1977}
+      \field{pages}{XVIII\bibrangessep 426}
+      \range{pages}{2}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-1-4684-8318-5
+      \endverb
+    \endentry
+    \entry{Rothling07_Dex.Manipulators_Tactile}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=5d07287d43f9c567e3378517853162e8}{%
+           family={Rothling},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a1272f8714b34405d09ee8dad8ec04e1}{%
+           family={Haschke},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6e5b78e59dfb0b9a0a99ee474aa356aa}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2cf7d4ab324e08ec60edf083cf696d14}{%
+           family={Ritter},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2ca1aa43bedf7ae71c6b6c2feaf2544}
+      \strng{fullhash}{db47bfc911aed3f831c4fca358d60d32}
+      \strng{bibnamehash}{c2ca1aa43bedf7ae71c6b6c2feaf2544}
+      \strng{authorbibnamehash}{c2ca1aa43bedf7ae71c6b6c2feaf2544}
+      \strng{authornamehash}{c2ca1aa43bedf7ae71c6b6c2feaf2544}
+      \strng{authorfullhash}{db47bfc911aed3f831c4fca358d60d32}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2007 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{2153-0858}
+      \field{title}{Platform portable anthropomorphic grasping with the bielefeld 20-DOF shadow and 9-DOF TUM hand}
+      \field{type}{Conference Proceedings}
+      \field{year}{2007}
+      \field{pages}{2951\bibrangedash 2956}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2007.4398963
+      \endverb
+      \keyw{dexterous manipulators grippers learning systems robot vision speech processing platform portable anthropomorphic grasping anthropomorphic hand three-fingered hydraulic TUM hand dextrous pneumatic Bielefeld Shadow hand reach-pre-grasp-grasp scheme human grasping imitation learning Anthropomorphism Grasping Humans Service robots Robot kinematics Fingers Intelligent robots Robustness Optimization methods Orbital robotics}
+    \endentry
+    \entry{Sudsang00_Grasping_In-handManipulation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c003d80d5931b4d6f11b06434d7310f6}{%
+           family={Sudsang},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dd2db3dff5aa214baaa72013fd18be3e}{%
+           family={ponce},
+           familyi={p\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=074e5b11b902afb74676e6008d288e39}{%
+           family={Srinivasa},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a471d5683ddefefd40e3189d9bf80bf3}
+      \strng{fullhash}{a471d5683ddefefd40e3189d9bf80bf3}
+      \strng{bibnamehash}{a471d5683ddefefd40e3189d9bf80bf3}
+      \strng{authorbibnamehash}{a471d5683ddefefd40e3189d9bf80bf3}
+      \strng{authornamehash}{a471d5683ddefefd40e3189d9bf80bf3}
+      \strng{authorfullhash}{a471d5683ddefefd40e3189d9bf80bf3}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper addresses the problem of grasping and manipulating three-dimensional objects with a reconfigurable gripper that consists of two parallel plates whose distance can be adjusted by a computer-controlled actuator. The bottom plate is a bare plane, and the top plate carries a rectangular grid of actuated pins that can translate in discrete increments under computer control. We propose to use this gripper to immobilize objects through frictionless contacts with three of the pins and the bottom plate, and to manipulate an object within a grasp by planning the sequence of pin configurations that will bring this object to a desired position and orientation. A detailed analysis of the problem geometry in configuration space is used to devise simple and efficient algorithms for grasp and manipulation planning. The proposed approach has been implemented and preliminary simulation experiments are discussed.}
+      \field{issn}{1432-0541}
+      \field{journaltitle}{Algorithmica}
+      \field{number}{3}
+      \field{title}{Grasping and In-Hand Manipulation: Geometry and Algorithms}
+      \field{type}{Journal Article}
+      \field{volume}{26}
+      \field{year}{2000}
+      \field{pages}{466\bibrangedash 493}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s004539910021
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s004539910021
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s004539910021
+      \endverb
+    \endentry
+    \entry{Sullivan08_Curvature_DiscreteSurface}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=8a1026a095b7e4ed143f3b6f86ad3b13}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=de33eb21fa045fb0eb6dbe74baabe728}{%
+           family={Bobenko},
+           familyi={B\bibinitperiod},
+           given={Alexander\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=8a1026a095b7e4ed143f3b6f86ad3b13}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=aff2d50d22a268c0b1b9ab454f36b729}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f78d48d2643d689692036d03a7958e8c}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={Günter\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Basel}%
+      }
+      \list{publisher}{1}{%
+        {Birkhäuser Basel}%
+      }
+      \strng{namehash}{8a1026a095b7e4ed143f3b6f86ad3b13}
+      \strng{fullhash}{8a1026a095b7e4ed143f3b6f86ad3b13}
+      \strng{bibnamehash}{8a1026a095b7e4ed143f3b6f86ad3b13}
+      \strng{authorbibnamehash}{8a1026a095b7e4ed143f3b6f86ad3b13}
+      \strng{authornamehash}{8a1026a095b7e4ed143f3b6f86ad3b13}
+      \strng{authorfullhash}{8a1026a095b7e4ed143f3b6f86ad3b13}
+      \strng{editorbibnamehash}{80a5284f8b33fb423b9f48b6064824a3}
+      \strng{editornamehash}{80a5284f8b33fb423b9f48b6064824a3}
+      \strng{editorfullhash}{f3746922837f273e8c752f9dd77f7348}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We discuss notions of Gauss curvature and mean curvature for polyhedral surfaces. The discretizations are guided by the principle of preserving integral relations for curvatures, like the Gauss-Bonnet theorem and the mean-curvature force balance equation.}
+      \field{booktitle}{Discrete Differential Geometry}
+      \field{isbn}{978-3-7643-8621-4}
+      \field{title}{Curvatures of Smooth and Discrete Surfaces}
+      \field{type}{Book Section}
+      \field{year}{2008}
+      \field{pages}{175\bibrangedash 188}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-7643-8621-4_9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-7643-8621-4_9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-7643-8621-4_9
+      \endverb
+    \endentry
+    \entry{SuttonBarto18_RLbook}{book}{}
+      \name{author}{2}{}{%
+        {{hash=eb920e5277d3d5fd0903f3cd41e11871}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=32a0a208f8bcf56a13b0a8e618aa806a}{%
+           family={Barto},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{fullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{bibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorbibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authornamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorfullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0262352702}
+      \field{title}{Reinforcement learning: An introduction}
+      \field{type}{Book}
+      \field{year}{2018}
+    \endentry
+    \entry{Trinkle90_Planning_DexManipulation}{article}{}
+      \name{author}{2}{}{%
+        {{hash=67a284329dd38e9b3fb43deb44747926}{%
+           family={Trinkle},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f314367dfeda04871f4599d0155a143a}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab2d0216f66933fb1da290274769066e}
+      \strng{fullhash}{ab2d0216f66933fb1da290274769066e}
+      \strng{bibnamehash}{ab2d0216f66933fb1da290274769066e}
+      \strng{authorbibnamehash}{ab2d0216f66933fb1da290274769066e}
+      \strng{authornamehash}{ab2d0216f66933fb1da290274769066e}
+      \strng{authorfullhash}{ab2d0216f66933fb1da290274769066e}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0278-3649}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{3}
+      \field{title}{Planning for Dexterous Manipulation with Sliding Contacts}
+      \field{type}{Journal Article}
+      \field{volume}{9}
+      \field{year}{1990}
+      \field{pages}{24\bibrangedash 48}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1177/027836499000900302
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/027836499000900302
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/027836499000900302
+      \endverb
+    \endentry
+    \entry{Trinkle_1991_framework_Planning_DM}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8572e1aa048bc3747de6890767d38ded}{%
+           family={Trinkle},
+           familyi={T\bibinitperiod},
+           given={Jeffrey\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6e8e91350de2bf7cd7da99c0f336e52e}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={Jerry\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{31d8061aba1d32c77e46a57c1a0b5326}
+      \strng{fullhash}{31d8061aba1d32c77e46a57c1a0b5326}
+      \strng{bibnamehash}{31d8061aba1d32c77e46a57c1a0b5326}
+      \strng{authorbibnamehash}{31d8061aba1d32c77e46a57c1a0b5326}
+      \strng{authornamehash}{31d8061aba1d32c77e46a57c1a0b5326}
+      \strng{authorfullhash}{31d8061aba1d32c77e46a57c1a0b5326}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Robotics and Automation, 1991. Proceedings., 1991 IEEE International Conference on}
+      \field{title}{A framework for planning dexterous manipulation}
+      \field{year}{1991}
+      \field{pages}{1245\bibrangedash 1251}
+      \range{pages}{7}
+    \endentry
+    \entry{White93_ApplicationMDP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=19b56b5827a4ae29fe67870684641447}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{19b56b5827a4ae29fe67870684641447}
+      \strng{fullhash}{19b56b5827a4ae29fe67870684641447}
+      \strng{bibnamehash}{19b56b5827a4ae29fe67870684641447}
+      \strng{authorbibnamehash}{19b56b5827a4ae29fe67870684641447}
+      \strng{authornamehash}{19b56b5827a4ae29fe67870684641447}
+      \strng{authorfullhash}{19b56b5827a4ae29fe67870684641447}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[A collection of papers on the application of Markov decision processes is surveyed and classified according to the use of real life data, structural results and special computational schemes. Observations are made about various features of the applications.]}
+      \field{issn}{01605682, 14769360}
+      \field{journaltitle}{The Journal of the Operational Research Society}
+      \field{number}{11}
+      \field{title}{A Survey of Applications of Markov Decision Processes}
+      \field{type}{Journal Article}
+      \field{volume}{44}
+      \field{year}{1993}
+      \field{pages}{1073\bibrangedash 1096}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.2307/2583870
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2583870
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2583870
+      \endverb
+    \endentry
+    \entry{White85_ApplicationMDP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aa320bd099c1a6093a33260ddcecd3f3}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Douglas\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa320bd099c1a6093a33260ddcecd3f3}
+      \strng{fullhash}{aa320bd099c1a6093a33260ddcecd3f3}
+      \strng{bibnamehash}{aa320bd099c1a6093a33260ddcecd3f3}
+      \strng{authorbibnamehash}{aa320bd099c1a6093a33260ddcecd3f3}
+      \strng{authornamehash}{aa320bd099c1a6093a33260ddcecd3f3}
+      \strng{authorfullhash}{aa320bd099c1a6093a33260ddcecd3f3}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[In the first few years of an ongoing survey of applications of Markov decision processes where the results have been implemented or have had some influence on decisions, few applications have been identified where the results have been implemented but there appears to be an increasing effort to model many phenomena as Markov decision processes.]}
+      \field{issn}{00922102, 1526551X}
+      \field{journaltitle}{Interfaces}
+      \field{number}{6}
+      \field{title}{Real Applications of Markov Decision Processes}
+      \field{type}{Journal Article}
+      \field{volume}{15}
+      \field{year}{1985}
+      \field{pages}{73\bibrangedash 83}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25060766
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25060766
+      \endverb
+    \endentry
+    \entry{Xu13_Geo.Diff_Discrete}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09d2b0e97058f1c7a542116a53b3b73c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guoliang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{09d2b0e97058f1c7a542116a53b3b73c}
+      \strng{fullhash}{09d2b0e97058f1c7a542116a53b3b73c}
+      \strng{bibnamehash}{09d2b0e97058f1c7a542116a53b3b73c}
+      \strng{authorbibnamehash}{09d2b0e97058f1c7a542116a53b3b73c}
+      \strng{authornamehash}{09d2b0e97058f1c7a542116a53b3b73c}
+      \strng{authorfullhash}{09d2b0e97058f1c7a542116a53b3b73c}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The numerical integration of geometric partial differential equations is used in many applications such as image processing, surface processing, computer graphics and computer-aided geometric design. Discrete approximations of several first- and second-order geometric differential operators, such as the tangential gradient operator, the second tangential operator, the Laplace–Beltrami operator and the Giaquinta–Hildebrandt operator, are utilized in the numerical integrations. In this paper, we consider consistent discretized approximations of these operators based on a quadratic fitting scheme. An asymptotic error analysis is conducted which shows that under very mild conditions the discrete approximations of the first- and second-order geometric differential operators have quadratic and linear convergence rates, respectively.}
+      \field{issn}{0168-9274}
+      \field{journaltitle}{Applied Numerical Mathematics}
+      \field{title}{Consistent approximations of several geometric differential operators and their convergence}
+      \field{type}{Journal Article}
+      \field{volume}{69}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apnum.2013.02.002
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0168927413000184
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0168927413000184
+      \endverb
+      \keyw{Geometric differential operators Consistent discretized approximations Triangular surface mesh Error analysis}
+    \endentry
+    \entry{Yang12_PP_LinearProgramming}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=527f0ca92e7ed462c77915036481c907}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ab2b2eab89ff430c732b6463e153d62a}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7fc1f626087edf07f8df670944037429}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{89ffd24b039b9846a1d01696eab77e3a}
+      \strng{fullhash}{89ffd24b039b9846a1d01696eab77e3a}
+      \strng{bibnamehash}{89ffd24b039b9846a1d01696eab77e3a}
+      \strng{authorbibnamehash}{89ffd24b039b9846a1d01696eab77e3a}
+      \strng{authornamehash}{89ffd24b039b9846a1d01696eab77e3a}
+      \strng{authorfullhash}{89ffd24b039b9846a1d01696eab77e3a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 Proceedings of International Conference on Modelling, Identification and Control}
+      \field{title}{Path planning methods for mobile robots with linear programming}
+      \field{type}{Conference Proceedings}
+      \field{year}{2012}
+      \field{pages}{641\bibrangedash 646}
+      \range{pages}{6}
+    \endentry
+    \entry{Yousef_2011_Tactile_Sensing}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f29a86665596d313c7e7f6541b7da919}{%
+           family={Yousef},
+           familyi={Y\bibinitperiod},
+           given={Hanna},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f0e4ea366ff044f922da059d88874eb6}{%
+           family={Boukallel},
+           familyi={B\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5bf63c227795d500546d12bb64e235ab}{%
+           family={Althoefer},
+           familyi={A\bibinitperiod},
+           given={Kaspar},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{37a5ba0f68bf44ba73b10a25597d8976}
+      \strng{fullhash}{37a5ba0f68bf44ba73b10a25597d8976}
+      \strng{bibnamehash}{37a5ba0f68bf44ba73b10a25597d8976}
+      \strng{authorbibnamehash}{37a5ba0f68bf44ba73b10a25597d8976}
+      \strng{authornamehash}{37a5ba0f68bf44ba73b10a25597d8976}
+      \strng{authorfullhash}{37a5ba0f68bf44ba73b10a25597d8976}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors and Actuators A: physical}
+      \field{number}{2}
+      \field{title}{Tactile sensing for dexterous in-hand manipulation in robotics—A review}
+      \field{volume}{167}
+      \field{year}{2011}
+      \field{pages}{171\bibrangedash 187}
+      \range{pages}{17}
+    \endentry
+    \entry{Zhang14_Tactile_DynamicGrasping}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=6987c26bf5f9b6e119893b5d925c7b8c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1fee2641bf9ea47765fe56495173b9f9}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3ec87bc7ea6c30336921d17589923a69}{%
+           family={Jingdong},
+           familyi={J\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ccf87731e812c2775e6cdb36ce249710}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=240f15f7d0b589c89d5552453f46785d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{47fcee5bef758c9a691e95658bdc10e3}
+      \strng{fullhash}{76b983ced0de93fab7da4d9b211cd615}
+      \strng{bibnamehash}{47fcee5bef758c9a691e95658bdc10e3}
+      \strng{authorbibnamehash}{47fcee5bef758c9a691e95658bdc10e3}
+      \strng{authornamehash}{47fcee5bef758c9a691e95658bdc10e3}
+      \strng{authorfullhash}{76b983ced0de93fab7da4d9b211cd615}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceeding of the 11th World Congress on Intelligent Control and Automation}
+      \field{title}{Multifingered robot hand dynamic grasping control based on fingertip three-axis tactile sensor feedback}
+      \field{type}{Conference Proceedings}
+      \field{year}{2014}
+      \field{pages}{3321\bibrangedash 3326}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/WCICA.2014.7053265
+      \endverb
+      \keyw{dexterous manipulators discrete systems feedback force control friction tactile sensors fingertip three-axis tactile sensor feedback dynamic grasping force control multifingered robot hand fingertip force friction cone real-time control finger-shaped fingertip three-axis tactile sensor quantum tunnelling composite QTC shear force Force Grasping Thumb Dynamic grasping control Three-axis tactile sensor}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{Cai86_PlanarMotion_PointContact}
-C.~Chun~Sheng and B.~Roth, ``On the planar motion of rigid bodies with point
-  contact,'' {\em Mechanism and Machine Theory}, vol.~21, no.~6, pp.~453--466,
-  1986.
-
-\bibitem{Cai87_SpatialMotion_PointContact}
-C.~Chun~Sheng and B.~Roth, ``On the spatial motion of a rigid body with point
-  contact,'' in {\em Proceedings. 1987 IEEE International Conference on
-  Robotics and Automation}, vol.~4, pp.~686--695, 1987.
-
-\bibitem{Cai88_SpatialMotion_LineContact}
-C.~Cai and B.~Roth, ``On the spatial motion of a rigid body with line
-  contact,'' in {\em Proceedings. 1988 IEEE International Conference on
-  Robotics and Automation}, pp.~1036--1041 Vol.2, 1988.
-
-\bibitem{Borisov08_ChaplypinBall_FixSphere}
-A.~V. Borisov, Y.~N. Fedorov, and I.~S. Mamaev, ``Chaplygin ball over a fixed
-  sphere: an explicit integration,'' {\em Regular and Chaotic Dynamics},
-  vol.~13, no.~6, pp.~557--571, 2008.
-
-\bibitem{Montana88_Kinematics_Contact_Grasp}
-D.~J. Montana, ``The kinematics of contact and grasp,'' {\em The International
-  Journal of Robotics Research}, vol.~7, no.~3, pp.~17--32, 1988.
-
-\bibitem{Marigo00_RollingBodies_Controllability}
-A.~Marigo and A.~Bicchi, ``Rolling bodies with regular surface: controllability
-  theory and applications,'' {\em IEEE Transactions on Automatic Control},
-  vol.~45, no.~9, pp.~1586--1599, 2000.
-
-\bibitem{Z.Li91_NonholonomicMotionPlanning}
-Z.~Li and J.~Canny, ``Nonholonomic motion planning,'' {\em 1991 IEEE
-  International Conference on Robotics and Automation}, vol.~192, pp.~XV, 448,
-  1991.
-
-\bibitem{Murray-Li_EbookRobotic_Manipulation}
-R.~M. Murray, S.~S. Sastry, and L.~Zexiang, {\em A Mathematical Introduction to
-  Robotic Manipulation}.
-\newblock Boca Raton, FL, USA: CRC Press, Inc., 1994.
-
-\bibitem{Robert00_BallRolling_OnSphere}
-R.~Muszyński and K.~Tchoń, ``Singularities and mobility of nonholonomic
-  systems: The ball rolling on a plane,'' {\em IFAC Proceedings Volumes},
-  vol.~33, no.~27, pp.~593--598, 2000.
-
-\bibitem{Borisov08_Dynamics_NonHolonomic}
-A.~V. Borisov and I.~S. Mamaev, ``Conservation laws, hierarchy of dynamics and
-  explicit integration of nonholonomic systems,'' {\em Regular and Chaotic
-  Dynamics}, vol.~13, no.~5, pp.~443--490, 2008.
-
-\bibitem{Borisov08_ExplicitIntegration_NonHolonomic}
-A.~V. Borisov, I.~S. Mamaev, and V.~G. Marikhin, ``Explicit integration of one
-  problem in nonholonomic mechanics,'' {\em Doklady Physics}, vol.~53, no.~10,
-  pp.~525--528, 2008.
-
-\bibitem{Hartmann00_Blending_ContactCurves}
-E.~Hartmann, ``G/sup n/-blending with rolling ball contact curves,'' in {\em
-  Proceedings Geometric Modeling and Processing 2000. Theory and Applications},
-  pp.~385--389.
-
-\bibitem{Brockett93_NonholonomicKinematic}
-R.~W. Brockett and L.~Dai, {\em Non-holonomic Kinematics and the Role of
-  Elliptic Functions in Constructive Controllability}, pp.~1--21.
-\newblock Boston, MA: Springer US, 1993.
-
-\bibitem{Sarkar97_DynamicControl_3D_RC}
-N.~Sarkar, Y.~Xiaoping, and V.~Kumar, ``Dynamic control of 3-d rolling contacts
-  in two-arm manipulation,'' {\em IEEE Transactions on Robotics and
-  Automation}, vol.~13, no.~3, pp.~364--376, 1997.
-
-\bibitem{Arimoto03_DynamicForceTorque_MeanRC}
-S.~Arimoto, M.~Yoshida, and J.~Bae, ``Dynamic force/torque closure for 2d and
-  3d objects by means of rolling contacts with robot fingers,'' in {\em IEEE
-  International Conference on Robotics, Intelligent Systems and Signal
-  Processing, 2003. Proceedings. 2003}, vol.~1, pp.~178--183 vol.1.
-
-\bibitem{Svinin13_Dynamic_MP_SphereRollingRobot}
-M.~Svinin and H.~Shigeyuki, {\em On the dynamics and motion planning for a
-  rolling system With variable inertia}.
-\newblock 2007.
-
-\bibitem{Yun92_Control_RC}
-X.~Yun, V.~Kumar, N.~Sarkar, and E.~Paljug, ``Control of multiple arms with
-  rolling constraints,'' in {\em Proceedings 1992 IEEE International Conference
-  on Robotics and Automation}, pp.~2193--2198 vol.3, 1992.
-
-\bibitem{Zribi99_Control_RC}
-M.~Zribi, J.~Chen, and M.~S. Mahmoud, ``Coordination and control of
-  multi-fingered robot hands with rolling and sliding contacts,'' {\em Journal
-  of Intelligent and Robotic Systems}, vol.~24, no.~2, pp.~125--149, 1999.
-
-\bibitem{Marigo00_Control_RollingBody}
-A.~Marigo and A.~Bicchi, ``Rolling bodies with regular surface: controllability
-  theory and applications,'' {\em IEEE Transactions on Automatic Control},
-  vol.~45, no.~9, pp.~1586--1599, 2000.
-
-\bibitem{Nakashima05_ControlGraspManipulation_RC}
-A.~Nakashima, K.~Nagase, and Y.~Hayakawa, ``Simultaneous control of
-  grasp/manipulation and contact points with rolling contact,'' {\em IFAC
-  Proceedings Volumes}, vol.~38, no.~1, pp.~415--420, 2005.
-
-\bibitem{Z.Li89_MotionPlanning_Dex.Manipulation}
-Z.~Li, J.~F. Canny, and S.~S. Sastry, ``On motion planning for dexterous
-  manipulation. i. the problem formulation,'' in {\em Proceedings, 1989
-  International Conference on Robotics and Automation}, pp.~775--780 vol.2,
-  1989.
-
-\bibitem{Chelouah01_MotionPlanning_RollingSurfaces}
-A.~Chelouah and Y.~Chitour, ``Motion planning of rolling surfaces,'' in {\em
-  Proceedings of the 40th IEEE Conference on Decision and Control (Cat.
-  No.01CH37228)}, vol.~1, pp.~502--507 vol.1, 2001.
-
-\bibitem{Svinin08_MotionPlanning_RollingSphere}
-M.~Svinin and S.~Hosoe, ``Motion planning algorithms for a rolling sphere with
-  limited contact area,'' {\em IEEE Transactions on Robotics}, vol.~24, no.~3,
-  pp.~612--625, 2008.
-
-\bibitem{Okamura_2000_Overview_DM}
-A.~M. Okamura, N.~Smaby, and M.~R. Cutkosky, ``An overview of dexterous
-  manipulation,'' in {\em Robotics and Automation, 2000. Proceedings. ICRA'00.
-  IEEE International Conference on}, vol.~1, pp.~255--262, IEEE, 2000.
-
-\bibitem{Lei10_Geometric.Kinematics_PointContact}
-L.~Cui and J.~S. Dai, ``Geometric kinematics of rigid bodies with point
-  contact,'' in {\em Advances in Robot Kinematics: Motion in Man and Machine}
-  (J.~Lenarcic and M.~M. Stanisic, eds.), pp.~429--436, Springer Netherlands.
-
-\bibitem{Lei12_Polynomial_Inverse.Kinematics}
-L.~Cui and J.~S. Dai, ``A polynomial approach to inverse kinematics of rolling
-  contact,'' no.~45035, pp.~1563--1570, 2012.
-\newblock 10.1115/DETC2012-70852.
-
-\bibitem{Lei12_ReciprocityBased_SVD_Inverse.Kinematics}
-L.~Cui and J.~S. Dai, ``Reciprocity-based singular value decomposition for
-  inverse kinematic analysis of the metamorphic multifingered hand,'' {\em
-  Transactions of the ASME Journal of Mechanisms and Robotics}, vol.~4, no.~3,
-  pp.~--, 2012.
-\newblock 10.1115/1.4006187.
-
-\bibitem{Lei15_sliding.rolling.loci_kinematics}
-L.~Cui and J.~S. Dai, ``From sliding–rolling loci to instantaneous
-  kinematics: An adjoint approach,'' {\em Mechanism and Machine Theory},
-  vol.~85, pp.~161--171, 2015.
-
-\bibitem{Lei15_PolynomialFormulation_InverseKinematics}
-L.~Cui and J.~S. Dai, ``A polynomial formulation of inverse kinematics of
-  rolling contact,'' {\em Journal of Mechanisms and Robotics}, vol.~7, no.~4,
-  pp.~041003--041003--9, 2015.
-\newblock 10.1115/1.4029498.
-
-\bibitem{Lei17_In-Hand_Forward.Inverse.Kinematics}
-L.~Cui, J.~Sun, and J.~S. Dai, ``In-hand forward and inverse kinematics with
-  rolling contact,'' {\em Robotica}, vol.~35, no.~12, pp.~2381--2399, 2017.
-
-\bibitem{Lei18_Rolling.Contact_Kinematics_Multifinger}
-L.~Cui and J.~S. Dai, ``Rolling contact in kinematics of multifingered robotic
-  hands,'' in {\em Advances in Robot Kinematics 2016} (J.~Lenarčič and J.-P.
-  Merlet, eds.), pp.~217--224, Cham: Springer International Publishing, 2018.
-
-\bibitem{H.Cartan96}
-H.~Cartan, {\em Differential Forms}.
-\newblock New York: Dover Publisher, 1996.
-
-\bibitem{E.Cartan02}
-E.~J. Cartan, {\em Riemannian Geometry in an Orthogonal Frame}.
-\newblock Singapore : World Scientific, 2002.
-
-\bibitem{Mansfield01_AlgorithmSymmetric_Diff}
-E.~L. Mansfield, ``Algorithms for symmetric differential systems,'' {\em
-  Foundations of Computational Mathematics}, vol.~1, no.~4, pp.~335--383, 2001.
-
-\bibitem{Morozov02_MovingFrame}
-M.~Oleg, ``Moving coframes and symmetries of differential equations,'' {\em
-  Journal of Physics A: Mathematical and General}, vol.~35, no.~12, p.~2965,
-  2002.
-
-\bibitem{Beffa03_relative_Absolute_DiffInvariant}
-G.~M. Beffa, ``Relative and absolute differential invariants for conformal
-  curves,'' {\em Journal of Lie Theory}, vol.~13, no.~1, pp.~231--245, 2003.
-
-\bibitem{Beffa06_PoissonGeometry_DiffInvariant}
-G.~M. Beffa and xed, ``Poisson geometry of differential invariants of curves in
-  some nonsemisimple homogeneous spaces,'' {\em Proceedings of the American
-  Mathematical Society}, vol.~134, no.~3, pp.~779--791, 2006.
-
-\bibitem{Boyko06_LieAlgebra}
-B.~Vyacheslav, P.~Jiri, and P.~Roman, ``Computation of invariants of lie
-  algebras by means of moving frames,'' {\em Journal of Physics A: Mathematical
-  and General}, vol.~39, no.~20, p.~5749, 2006.
-
-\bibitem{Boyko07_LieAlgebra}
-V.~Boyko, J.~Patera, and R.~Popovych, ``Invariants of solvable lie algebras
-  with triangular nilradicals and diagonal nilindependent elements,'' {\em
-  Linear Algebra and its Applications}, vol.~428, no.~4, pp.~834--854, 2008.
-
-\bibitem{Lei10_Darboux-Frame}
-L.~Cui and J.~S. Dai, ``A darboux-frame-based formulation of spin-rolling
-  motion of rigid objects with point contact,'' {\em IEEE Transactions on
-  Robotics}, vol.~26, no.~2, pp.~383--388, 2010.
-
-\bibitem{Sudsang_2000_Grasping_In-hand_manipulation}
-A.~Sudsang, N.~Srinivasa, {\em et~al.}, ``Grasping and in-hand manipulation:
-  Geometry and algorithms,'' {\em Algorithmica}, vol.~26, no.~3-4,
-  pp.~466--493, 2000.
-
-\bibitem{Pajarinen_2017_R.Manipulation_POMDP}
-J.~Pajarinen and V.~Kyrki, ``Robotic manipulation of multiple objects as a
-  pomdp,'' {\em Artificial Intelligence}, vol.~247, pp.~213--228, 2017.
-
-\bibitem{Canny88_PhDThesis}
-J.~F. Canny, {\em Complexity of Robot Motion Planning}.
-\newblock PhD thesis, ACM Doctoral Dissertation Award, MIT Press, 1988.
-
-\bibitem{Varadhan05_StarshapedRM}
-G.~Varadhan and D.~Manocha, ``Star-shaped roadmaps - a deterministic sampling
-  approach for complete motion planning,'' in {\em Robotics: Science and
-  Systems}, 2005.
-
-\bibitem{Latombe99_JourneyRobotics}
-J.~Latombe, ``Motion planning: {A} journey of robots, molecules, digital
-  actors, and other artifacts,'' {\em I. J. Robotics Res.}, vol.~18, no.~11,
-  pp.~1119--1128, 1999.
-
-\bibitem{Latombe91_FastPlaner}
-J.~Latombe, ``A fast path planner for a car-like indoor mobile robot,'' in {\em
-  Proceedings of the 9th National Conference on Artificial Intelligence,
-  Anaheim, CA, USA, July 14-19, 1991, Volume 2.}, pp.~659--665, 1991.
-
-\bibitem{Khatib85_ObstacleAvoidance}
-O.~Khatib, ``Real-time obstacle avoidance for manipulators and mobile robots,''
-  in {\em Proceedings. 1985 IEEE International Conference on Robotics and
-  Automation}, vol.~2, pp.~500--505, March 1985.
-
-\bibitem{Z.Li89_MotionPlanning_Nonholonomic}
-S.~Sastry and Z.~Li, ``Robot motion planning with nonholonomic constraints,''
-  in {\em Proceedings of the 28th IEEE Conference on Decision and Control},
-  pp.~211--216 vol.1, 1989.
-
-\bibitem{Murray93_NonholonomicMP}
-R.~M. Murray and S.~S. Sastry, ``Nonholonomic motion planning: steering using
-  sinusoids,'' {\em IEEE Transactions on Automatic Control}, vol.~38, no.~5,
-  pp.~700--716, 1993.
-
-\bibitem{Brockett82_ControlTheory_RiemannianGeo}
-R.~W. Brockett, {\em Control Theory and Singular Riemannian Geometry},
-  pp.~11--27.
-\newblock New York, NY: Springer New York, 1982.
-
-\bibitem{Z.Li90_MotionRigidBody_RC}
-Z.~Li and J.~Canny, ``Motion of two rigid bodies with rolling constraint,''
-  {\em IEEE Transactions on Robotics and Automation}, vol.~6, no.~1,
-  pp.~62--72, 1990.
-
-\bibitem{Belta_2005_Discrete_MP}
-C.~Belta, V.~Isler, and G.~J. Pappas, ``Discrete abstractions for robot motion
-  planning and control in polygonal environments,'' {\em IEEE Transactions on
-  Robotics}, vol.~21, no.~5, pp.~864--874, 2005.
-
-\bibitem{Mitchell03_ContinuousPathPlanning}
-I.~M. Mitchell and S.~Sastry, ``Continuous path planning with multiple
-  constraints,'' in {\em 42nd IEEE International Conference on Decision and
-  Control (IEEE Cat. No.03CH37475)}, vol.~5, pp.~5502--5507 Vol.5, 2003.
-
-\bibitem{LaValle06_PlanningAlgorithm}
-S.~M. LaValle, {\em Planning Algorithms}.
-\newblock New York, NY, USA: Cambridge University Press, 2006.
-
-\bibitem{Thomas_2003_Trajectory}
-J.~Thomas, A.~Blair, and N.~Barnes, ``Towards an efficient optimal trajectory
-  planner for multiple mobile robots,'' in {\em Intelligent Robots and Systems,
-  2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ International Conference on},
-  vol.~3, pp.~2291--2296, IEEE, 2003.
-
-\bibitem{Lamiraux_2001_Smooth_MP}
-F.~Lamiraux and J.-P. Lammond, ``Smooth motion planning for car-like
-  vehicles,'' {\em IEEE Transactions on Robotics and Automation}, vol.~17,
-  no.~4, pp.~498--501, 2001.
-
-\bibitem{Cheng_2001_RRT_trajectory}
-P.~Cheng, Z.~Shen, and S.~La~Valle, ``Rrt-based trajectory design for
-  autonomous automobiles and spacecraft,'' {\em Archives of control sciences},
-  vol.~11, no.~3/4, pp.~167--194, 2001.
-
-\bibitem{Conner_2003_Potential_Func}
-D.~C. Conner, A.~A. Rizzi, and H.~Choset, ``Composition of local potential
-  functions for global robot control and navigation,'' in {\em Intelligent
-  Robots and Systems, 2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ
-  International Conference on}, vol.~4, pp.~3546--3551, IEEE, 2003.
-
-\bibitem{Lingelbach04_PP_ProbabilisticCellDecomposition}
-F.~Lingelbach, ``Path planning using probabilistic cell decomposition,'' in
-  {\em IEEE International Conference on Robotics and Automation, 2004.
-  Proceedings. ICRA '04. 2004}, vol.~1, pp.~467--472 Vol.1, 2004.
-
-\bibitem{Rosell05_PP_Harmonic_ProbabilisticCellDecomposition}
-J.~Rosell and P.~Iniguez, ``Path planning using harmonic functions and
-  probabilistic cell decomposition,'' in {\em Proceedings of the 2005 IEEE
-  International Conference on Robotics and Automation}, pp.~1803--1808, 2005.
-
-\bibitem{Barraquand91_MP_DisctributedRepresenation}
-J.~Barraquand and J.-C. Latombe, ``Robot motion planning: A distributed
-  representation approach,'' {\em The International Journal of Robotics
-  Research}, vol.~10, no.~6, pp.~628--649, 1991.
-
-\bibitem{Lavalle98rapidly_exploringrandom}
-S.~M. Lavalle, ``Rapidly-exploring random trees: A new tool for path
-  planning,'' tech. rep., Department of Computer Science; Iowa State
-  University, 1998.
-
-\bibitem{Kuffner00_RRTConnect}
-J.~J. Kuffner and S.~M. LaValle, ``Rrt-connect: An efficient approach to
-  single-query path planning,'' in {\em Proceedings 2000 ICRA. Millennium
-  Conference. IEEE International Conference on Robotics and Automation.
-  Symposia Proceedings (Cat. No.00CH37065)}, vol.~2, pp.~995--1001 vol.2.
-
-\bibitem{Amato96_PRM_PathPlanning}
-N.~M. Amato and Y.~Wu, ``A randomized roadmap method for path and manipulation
-  planning,'' in {\em Proceedings of IEEE International Conference on Robotics
-  and Automation}, vol.~1, pp.~113--120 vol.1.
-
-\bibitem{Kavraki95_Thesis_RandomNetworks_FastPlanning}
-L.~E. Kavraki, {\em Random Networks in Configuration Space for Fast Path
-  Planning}.
-\newblock Phd, 1995.
-
-\bibitem{Overmars92_RandomApproach_MP}
-M.~H. Overmars, ``A random approach to motion planning,'' report, Utrecht
-  University, 1992.
-
-\bibitem{Geraerts04_Comprative_PRM}
-R.~Geraerts and M.~H. Overmars, {\em A Comparative Study of Probabilistic
-  Roadmap Planners}, pp.~43--57.
-\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2004.
-
-\bibitem{Hart68_HeuristicDetermination}
-P.~H. Raphael, N.~Nilsson, and Bertram, ``A formal basis for the heuristic
-  determination of minimum cost paths,'' {\em {IEEE} Transactions on Systems
-  Science and Cybernetics}, vol.~4, pp.~100--107, 1968.
-
-\bibitem{Nilsson82_Principles_AI}
-N.~J. Nilsson, {\em Principles of Artificial Intelligence}.
-\newblock Springer-Verlag Berlin Heidelberg, 1982.
-
-\bibitem{Rankin_1996_A_star_Search}
-A.~L. Rankin and C.~D. Crane~III, ``A multi-purpose off-line path planner based
-  on an a* search algorithm,'' in {\em Proceedings of the ASME Design
-  Engineering Technical Conferences}, pp.~1--10, Citeseer, 1996.
-
-\bibitem{Bellman57_DynamicProgramming}
-R.~Bellman, {\em Dynamic Programming}.
-\newblock Princeton, NJ, USA: Princeton University Press, 1~ed., 1957.
-
-\bibitem{Kala12_RobotPP_DynamicPlanning}
-R.~Kala, A.~Shukla, and R.~Tiwari, ``Robot path planning using dynamic
-  programming with accelerating nodes,'' 2012.
-
-\bibitem{Holland75_GAMethod}
-J.~H. Holland, {\em Adaptation in Natural and Artificial Systems}.
-\newblock In University of Michigan Press, Ann Arbor., 1975.
-
-\bibitem{Sallaberger95_OptimalPP_DP_Randomization}
-C.~S. Sallaberger and G.~M.~T. D'Eleuterio, ``Optimal robotic path planning
-  using dynamic programming and randomization,'' {\em Acta Astronautica},
-  vol.~35, no.~2, pp.~143--156, 1995.
-
-\bibitem{Devarus16_Optimal_PathPlanning}
-D.~Devaurs, T.~Siméon, and J.~Cortés, ``Optimal path planning in complex cost
-  spaces with sampling-based algorithms,'' {\em IEEE Transactions on Automation
-  Science and Engineering}, vol.~13, no.~2, pp.~415--424, 2016.
-
-\bibitem{tournassoud1987regrasping}
-P.~Tournassoud, T.~Lozano-P{\'e}rez, and E.~Mazer, ``Regrasping,'' in {\em
-  Robotics and Automation. Proceedings. 1987 IEEE International Conference on},
-  vol.~4, pp.~1924--1928, IEEE, 1987.
-
-\bibitem{goldberg1993feeding}
-K.~Goldberg, ``Feeding and sorting algorithms for the parallel--jaw gripper,''
-  in {\em Proc. 6th Int. Symposium on Robotics Research}, 1993.
-
-\bibitem{erdmann1993mechanical}
-M.~Erdmann, M.~T. Mason, and G.~Van{\v{e}}{\v{c}}ek, ``Mechanical parts
-  orienting: The case of a polyhedron on a table,'' {\em Algorithmica},
-  vol.~10, no.~2-4, pp.~226--247, 1993.
-
-\bibitem{peshkin1988planning}
-M.~A. Peshkin and A.~C. Sanderson, ``Planning robotic manipulation strategies
-  for workpieces that slide,'' {\em IEEE Journal on Robotics and Automation},
-  vol.~4, no.~5, pp.~524--531, 1988.
-
-\bibitem{Discrete_ComputationalBook}
-C.~D. Toth, J.~O'Rourke, and J.~E. Goodman, {\em Handbook of Discrete and
-  Computational Geometry, Second Edition}.
-\newblock 2~ed., 2004.
-
-\bibitem{Marigo97_PolyhedraManipulation_rolling}
-A.~Marigo, Y.~Chitour, and A.~Bicchi, ``Manipulation of polyhedral parts by
-  rolling,'' in {\em Proceedings of International Conference on Robotics and
-  Automation}, vol.~4, pp.~2992--2997 vol.4, 1997.
-
-\bibitem{Erdmann91_polyhedronRolling_on_table}
-M.~{Erdmann}, M.~T. {Mason}, and G.~{Vanecek}, ``Mechanical parts orienting:
-  the case of a polyhedron on a table,'' in {\em Proceedings. 1991 IEEE
-  International Conference on Robotics and Automation}, pp.~360--365 vol.1,
-  April 1991.
-
-\bibitem{Marigo2000_Polyhedral}
-A.~Marigo, M.~Ceccarelli, S.~Piccinocchi, and A.~Bicchi, ``Planning motions of
-  polyhedral parts by rolling,'' {\em Algorithmica}, vol.~26, pp.~560--576, Apr
-  2000.
-
-\bibitem{Bullock11_Classify_HandManipulation}
-I.~M. Bullock and A.~M. Dollar, ``Classifying human manipulation behavior,'' in
-  {\em 2011 IEEE International Conference on Rehabilitation Robotics},
-  pp.~1--6.
-
-\bibitem{Ma_2011_dexterity_DM}
-R.~R. Ma and A.~M. Dollar, ``On dexterity and dexterous manipulation,'' in {\em
-  Advanced Robotics (ICAR), 2011 15th International Conference on}, pp.~1--7,
-  IEEE, 2011.
-
-\bibitem{Bicchi95_Dex.Manipulation_Rolling}
-A.~Bicchi and R.~Sorrentino, ``Dexterous manipulation through rolling,'' in
-  {\em Proceedings of 1995 IEEE International Conference on Robotics and
-  Automation}, vol.~1, pp.~452--457 vol.1.
-
-\bibitem{Bicchi_2000_RC_Dexterous}
-A.~Bicchi and A.~Marigo, ``Rolling contacts and dexterous manipulation,'' in
-  {\em Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE International
-  Conference on}, vol.~1, pp.~282--287, IEEE, 2000.
-
-\bibitem{Sussman93_Continuous_Nonholonomic_Path}
-H.~Sussmann, ``A continuation method for nonholonomic path-finding problems,''
-  in {\em Proceedings of 32nd IEEE Conference on Decision and Control},
-  pp.~2718--2723 vol.3.
-
-\bibitem{Han97_Dex.Manipulation_RC}
-L.~Han, Y.~S. Guan, Z.~X. Li, Q.~Shi, and J.~C. Trinkle, ``Dextrous
-  manipulation with rolling contacts,'' in {\em Proceedings of International
-  Conference on Robotics and Automation}, vol.~2, pp.~992--997 vol.2.
-
-\bibitem{Howard89_SurveyofRobot_TactileSensing}
-H.~R. Nicholls and M.~H. Lee, ``A survey of robot tactile sensing technology,''
-  {\em The International Journal of Robotics Research}, vol.~8, no.~3,
-  pp.~3--30, 1989.
-
-\bibitem{Bekiroglu_GraspStability_Tactile}
-Y.~Bekiroglu, J.~Laaksonen, J.~A. Jorgensen, V.~Kyrki, and D.~Kragic,
-  ``Assessing grasp stability based on learning and haptic data,'' {\em IEEE
-  Transactions on Robotics}, vol.~27, no.~3, pp.~616--629, 2011.
-
-\bibitem{MiaoLi_GraspAdaption_Tactile}
-M.~Li, Y.~Bekiroglu, D.~Kragic, and A.~Billard, ``Learning of grasp adaptation
-  through experience and tactile sensing,'' in {\em 2014 IEEE/RSJ International
-  Conference on Intelligent Robots and Systems}, pp.~3339--3346, 2014.
-
-\bibitem{Cole89_Kinematics_multifingered-RC}
-A.~B.~A. Cole, J.~E. Hauser, and S.~S. Sastry, ``Kinematics and control of
-  multifingered hands with rolling contact,'' {\em IEEE Transactions on
-  Automatic Control}, vol.~34, no.~4, pp.~398--404, 1989.
-
-\bibitem{Lei14_Teleoperation_ThumbRobotHand}
-L.~Cui, U.~Cupcic, and J.~S. Dai, ``An optimization approach to teleoperation
-  of the thumb of a humanoid robot hand,'' {\em Journal of Mechanical Design},
-  vol.~136, no.~9, 2014.
-\newblock 10.1115/1.4027759.
-
-\bibitem{Bagnell12_IntegratedSystem_AutonomousRoboticsManipulation}
-J.~A. Bagnell, F.~Cavalcanti, L.~Cui, T.~Galluzzo, M.~Hebert, M.~Kazemi,
-  M.~Klingensmith, J.~Libby, T.~Y. Liu, N.~Pollard, M.~Pivtoraiko, J.~Valois,
-  and R.~Zhu, ``An integrated system for autonomous robotics manipulation,'' in
-  {\em 2012 IEEE/RSJ International Conference on Intelligent Robots and
-  Systems}, pp.~2955--2962.
-
-\bibitem{Lei09_coordinate-free_instantaneous_kinematics}
-L.~Cui and J.~S. Dai, ``A coordinate-free approach to instantaneous kinematics
-  of two rigid objects with rolling contact and its implications for trajectory
-  planning,'' in {\em 2009 IEEE International Conference on Robotics and
-  Automation}, pp.~612--617, 2009.
-
-\bibitem{Lei10_PhDThesis}
-L.~Cui, {\em Differential Geometry Based Kinematics of Sliding-Rolling Contact
-  and Its Use for Multifingered Hands}.
-\newblock Ph{D} {T}hesis, King's College London, Centre for Robotics Research,
-  London, UK, 2010.
-
-\end{thebibliography}
