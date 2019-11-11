@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'Geometry_Slide.blg'
+[24] biber-MSWIN64:315> INFO - === 
+[40] Biber.pm:375> INFO - Reading 'Geometry_Slide.bcf'
+[122] Utils.pm:300> WARN - No data sources defined!
