@@ -1,0 +1,27 @@
+%grid-2D-coordinates
+
+\begin{tikzpicture}
+\draw[step=1cm,gray,very thin] (-2,-2) grid (6,6);
+\draw[thick,->] (0,0) -- (4.5,0) node[anchor=north west] {x axis};
+\draw[thick,->] (0,0) -- (0,4.5) node[anchor=south east] {y axis};
+
+\foreach \x in {0,1,2,3,4}
+   \draw (\x cm,1pt) -- (\x cm,-1pt) node[anchor=north] {$\x$};
+\foreach \y in {0,1,2,3,4}
+    \draw (1pt,\y cm) -- (-1pt,\y cm) node[anchor=east] {$\y$};
+
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\draw[step=0.25cm,gray,very thin] (-1,-1) grid (1,1);
+	\draw[fill,color=blue!30,draw=red,line width=2pt, opacity=0.5] (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- cycle;
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\draw (0,0) grid(5,6);
+	\draw (-2,8) rectangle(0,0);
+	\draw (0,0) circle (2);
+	\draw (5,5) circle (3 and 5);
+	\draw (5,8) arc(-90:90:5);
+\end{tikzpicture}
+

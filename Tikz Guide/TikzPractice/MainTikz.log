@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  11 NOV 2019 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  11 NOV 2019 15:27
 entering extended mode
-**./RPMain.tex
-(RPMain.tex
+**./MainTikz.tex
+(MainTikz.tex
 LaTeX2e <2019-10-01> patch level 1
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
@@ -868,6 +868,169 @@ gure.cfg")
 \subfig@top=\skip71
 \subfig@bottom=\skip72
 )
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+/shapes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibraryautomata.code.tex"
+File: tikzlibraryautomata.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+/shapes\pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodepartlowerbox=\box51
+\pgfnodeparttwobox=\box52
+\pgfnodepartthreebox=\box53
+\pgfnodepartfourbox=\box54
+\pgfnodeparttwentybox=\box55
+\pgfnodepartnineteenbox=\box56
+\pgfnodeparteighteenbox=\box57
+\pgfnodepartseventeenbox=\box58
+\pgfnodepartsixteenbox=\box59
+\pgfnodepartfifteenbox=\box60
+\pgfnodepartfourteenbox=\box61
+\pgfnodepartthirteenbox=\box62
+\pgfnodeparttwelvebox=\box63
+\pgfnodepartelevenbox=\box64
+\pgfnodeparttenbox=\box65
+\pgfnodepartninebox=\box66
+\pgfnodeparteightbox=\box67
+\pgfnodepartsevenbox=\box68
+\pgfnodepartsixbox=\box69
+\pgfnodepartfivebox=\box70
+)))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplo
+ts.sty"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotscore.code.tex"
+\t@pgfplots@toka=\toks41
+\t@pgfplots@tokb=\toks42
+\t@pgfplots@tokc=\toks43
+\pgfplots@tmpa=\dimen267
+\c@pgfplots@coordindex=\count156
+\c@pgfplots@scanlineindex=\count157
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\
+pgfplotssysgeneric.code.tex"))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs
+\pgfplotslibrary.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldp
+gfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+\pgflibraryfpu.code.tex"))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsutil.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsliststructure.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsliststructureext.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count158
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsmatrix.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/numt
+able\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count159
+\t@pgfplotstable@a=\toks44
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsdeque.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsbinary.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsbinary.data.code.tex"))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsutil.verb.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs
+\pgflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count160
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\
+pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotscolormap.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotscolor.code.tex"))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsstackedplots.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsplothandlers.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsmeshplothandler.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsmeshplotimage.code.tex")))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.scaling.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotscoordprocessing.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.errorbars.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.markers.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsticks.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.paths.code.tex")
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\p
+gfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen268
+\pgfdecoratedremainingdistance=\dimen269
+\pgfdecoratedinputsegmentcompleteddistance=\dimen270
+\pgfdecoratedinputsegmentremainingdistance=\dimen271
+\pgf@decorate@distancetomove=\dimen272
+\pgf@decorate@repeatstate=\count161
+\pgfdecorationsegmentamplitude=\dimen273
+\pgfdecorationsegmentlength=\dimen274
+)
+\tikz@lib@dec@box=\box71
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+/decorations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+/decorations\pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count162
+\pgfplots@xmin@reg=\dimen275
+\pgfplots@xmax@reg=\dimen276
+\pgfplots@ymin@reg=\dimen277
+\pgfplots@ymax@reg=\dimen278
+\pgfplots@zmin@reg=\dimen279
+\pgfplots@zmax@reg=\dimen280
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+\pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpag
 es.sty"
 Package: pdfpages 2019/09/21 v0.5n Insert pages of external PDF documents (AM)
@@ -876,18 +1039,18 @@ Package: pdfpages 2019/09/21 v0.5n Insert pages of external PDF documents (AM)
 .sty"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
-\AM@pagewidth=\dimen267
-\AM@pageheight=\dimen268
+\AM@pagewidth=\dimen281
+\AM@pageheight=\dimen282
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdft
 ex.def"
 File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box51
-\AM@global@opts=\toks41
-\AM@toc@title=\toks42
-\c@AM@survey=\count156
-\AM@templatesizebox=\box52
+\AM@pagebox=\box72
+\AM@global@opts=\toks45
+\AM@toc@title=\toks46
+\c@AM@survey=\count163
+\AM@templatesizebox=\box73
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.sty"
@@ -896,53 +1059,53 @@ Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.s
 ty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count157
+\lrq@indent=\count164
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.d
 ef"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count158
-\c@listtotal=\count159
-\c@listcount=\count160
-\c@liststart=\count161
-\c@liststop=\count162
-\c@citecount=\count163
-\c@citetotal=\count164
-\c@multicitecount=\count165
-\c@multicitetotal=\count166
-\c@instcount=\count167
-\c@maxnames=\count168
-\c@minnames=\count169
-\c@maxitems=\count170
-\c@minitems=\count171
-\c@citecounter=\count172
-\c@maxcitecounter=\count173
-\c@savedcitecounter=\count174
-\c@uniquelist=\count175
-\c@uniquename=\count176
-\c@refsection=\count177
-\c@refsegment=\count178
-\c@maxextratitle=\count179
-\c@maxextratitleyear=\count180
-\c@maxextraname=\count181
-\c@maxextradate=\count182
-\c@maxextraalpha=\count183
-\c@abbrvpenalty=\count184
-\c@highnamepenalty=\count185
-\c@lownamepenalty=\count186
-\c@maxparens=\count187
-\c@parenlevel=\count188
-\blx@tempcnta=\count189
-\blx@tempcntb=\count190
-\blx@tempcntc=\count191
-\blx@maxsection=\count192
-\blx@maxsegment@0=\count193
-\blx@notetype=\count194
-\blx@parenlevel@text=\count195
-\blx@parenlevel@foot=\count196
-\blx@sectionciteorder@0=\count197
-\blx@entrysetcounter=\count198
+\c@tabx@nest=\count165
+\c@listtotal=\count166
+\c@listcount=\count167
+\c@liststart=\count168
+\c@liststop=\count169
+\c@citecount=\count170
+\c@citetotal=\count171
+\c@multicitecount=\count172
+\c@multicitetotal=\count173
+\c@instcount=\count174
+\c@maxnames=\count175
+\c@minnames=\count176
+\c@maxitems=\count177
+\c@minitems=\count178
+\c@citecounter=\count179
+\c@maxcitecounter=\count180
+\c@savedcitecounter=\count181
+\c@uniquelist=\count182
+\c@uniquename=\count183
+\c@refsection=\count184
+\c@refsegment=\count185
+\c@maxextratitle=\count186
+\c@maxextratitleyear=\count187
+\c@maxextraname=\count188
+\c@maxextradate=\count189
+\c@maxextraalpha=\count190
+\c@abbrvpenalty=\count191
+\c@highnamepenalty=\count192
+\c@lownamepenalty=\count193
+\c@maxparens=\count194
+\c@parenlevel=\count195
+\blx@tempcnta=\count196
+\blx@tempcntb=\count197
+\blx@tempcntc=\count198
+\blx@maxsection=\count199
+\blx@maxsegment@0=\count266
+\blx@notetype=\count267
+\blx@parenlevel@text=\count268
+\blx@parenlevel@foot=\count269
+\blx@sectionciteorder@0=\count270
+\blx@entrysetcounter=\count271
 \labelnumberwidth=\skip73
 \labelalphawidth=\skip74
 \biblabelsep=\skip75
@@ -954,9 +1117,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write4
 \blx@langwohyphens=\language82
-\c@mincomprange=\count199
-\c@maxcomprange=\count266
-\c@mincompwidth=\count267
+\c@mincomprange=\count272
+\c@maxcomprange=\count273
+\c@mincompwidth=\count274
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -966,74 +1129,74 @@ File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count268
-\c@savedafterword=\count269
-\c@annotator=\count270
-\c@savedannotator=\count271
-\c@author=\count272
-\c@savedauthor=\count273
-\c@bookauthor=\count274
-\c@savedbookauthor=\count275
-\c@commentator=\count276
-\c@savedcommentator=\count277
-\c@editor=\count278
-\c@savededitor=\count279
-\c@editora=\count280
-\c@savededitora=\count281
-\c@editorb=\count282
-\c@savededitorb=\count283
-\c@editorc=\count284
-\c@savededitorc=\count285
-\c@foreword=\count286
-\c@savedforeword=\count287
-\c@holder=\count288
-\c@savedholder=\count289
-\c@introduction=\count290
-\c@savedintroduction=\count291
-\c@namea=\count292
-\c@savednamea=\count293
-\c@nameb=\count294
-\c@savednameb=\count295
-\c@namec=\count296
-\c@savednamec=\count297
-\c@translator=\count298
-\c@savedtranslator=\count299
-\c@shortauthor=\count300
-\c@savedshortauthor=\count301
-\c@shorteditor=\count302
-\c@savedshorteditor=\count303
-\c@labelname=\count304
-\c@savedlabelname=\count305
-\c@institution=\count306
-\c@savedinstitution=\count307
-\c@lista=\count308
-\c@savedlista=\count309
-\c@listb=\count310
-\c@savedlistb=\count311
-\c@listc=\count312
-\c@savedlistc=\count313
-\c@listd=\count314
-\c@savedlistd=\count315
-\c@liste=\count316
-\c@savedliste=\count317
-\c@listf=\count318
-\c@savedlistf=\count319
-\c@location=\count320
-\c@savedlocation=\count321
-\c@organization=\count322
-\c@savedorganization=\count323
-\c@origlocation=\count324
-\c@savedoriglocation=\count325
-\c@origpublisher=\count326
-\c@savedorigpublisher=\count327
-\c@publisher=\count328
-\c@savedpublisher=\count329
-\c@language=\count330
-\c@savedlanguage=\count331
-\c@origlanguage=\count332
-\c@savedoriglanguage=\count333
-\c@pageref=\count334
-\c@savedpageref=\count335
+\c@afterword=\count275
+\c@savedafterword=\count276
+\c@annotator=\count277
+\c@savedannotator=\count278
+\c@author=\count279
+\c@savedauthor=\count280
+\c@bookauthor=\count281
+\c@savedbookauthor=\count282
+\c@commentator=\count283
+\c@savedcommentator=\count284
+\c@editor=\count285
+\c@savededitor=\count286
+\c@editora=\count287
+\c@savededitora=\count288
+\c@editorb=\count289
+\c@savededitorb=\count290
+\c@editorc=\count291
+\c@savededitorc=\count292
+\c@foreword=\count293
+\c@savedforeword=\count294
+\c@holder=\count295
+\c@savedholder=\count296
+\c@introduction=\count297
+\c@savedintroduction=\count298
+\c@namea=\count299
+\c@savednamea=\count300
+\c@nameb=\count301
+\c@savednameb=\count302
+\c@namec=\count303
+\c@savednamec=\count304
+\c@translator=\count305
+\c@savedtranslator=\count306
+\c@shortauthor=\count307
+\c@savedshortauthor=\count308
+\c@shorteditor=\count309
+\c@savedshorteditor=\count310
+\c@labelname=\count311
+\c@savedlabelname=\count312
+\c@institution=\count313
+\c@savedinstitution=\count314
+\c@lista=\count315
+\c@savedlista=\count316
+\c@listb=\count317
+\c@savedlistb=\count318
+\c@listc=\count319
+\c@savedlistc=\count320
+\c@listd=\count321
+\c@savedlistd=\count322
+\c@liste=\count323
+\c@savedliste=\count324
+\c@listf=\count325
+\c@savedlistf=\count326
+\c@location=\count327
+\c@savedlocation=\count328
+\c@organization=\count329
+\c@savedorganization=\count330
+\c@origlocation=\count331
+\c@savedoriglocation=\count332
+\c@origpublisher=\count333
+\c@savedorigpublisher=\count334
+\c@publisher=\count335
+\c@savedpublisher=\count336
+\c@language=\count337
+\c@savedlanguage=\count338
+\c@origlanguage=\count339
+\c@savedoriglanguage=\count340
+\c@pageref=\count341
+\c@savedpageref=\count342
 \shorthandwidth=\skip81
 \shortjournalwidth=\skip82
 \shortserieswidth=\skip83
@@ -1061,19 +1224,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.def"
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count336
-\c@textcitetotal=\count337
-\c@textcitemaxnames=\count338
-\c@biburlbigbreakpenalty=\count339
-\c@biburlbreakpenalty=\count340
-\c@biburlnumpenalty=\count341
-\c@biburlucpenalty=\count342
-\c@biburllcpenalty=\count343
+\c@textcitecount=\count343
+\c@textcitetotal=\count344
+\c@textcitemaxnames=\count345
+\c@biburlbigbreakpenalty=\count346
+\c@biburlbreakpenalty=\count347
+\c@biburlnumpenalty=\count348
+\c@biburlucpenalty=\count349
+\c@biburllcpenalty=\count350
 \biburlbigskip=\muskip12
 \biburlnumskip=\muskip13
 \biburlucskip=\muskip14
 \biburllcskip=\muskip15
-\c@smartand=\count344
+\c@smartand=\count351
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1087,8 +1250,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\st
 andard.bbx"
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count345
-\c@bbx:relatedtotal=\count346
+\c@bbx:relatedcount=\count352
+\c@bbx:relatedtotal=\count353
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1122,25 +1285,38 @@ Package biblatex Info: ... file 'english.lbx' found.
 glish.lbx"
 File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
-\@quotelevel=\count347
-\@quotereset=\count348
- (RPMain.aux (title_page1.aux))
-\openout1 = `RPMain.aux'.
+\@quotelevel=\count354
+\@quotereset=\count355
+ (MainTikz.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Warning: Label `f' multiply defined.
+
+
+LaTeX Warning: Label `g' multiply defined.
+
+
+LaTeX Warning: Label `s' multiply defined.
+
+
+LaTeX Warning: Label `t' multiply defined.
+
+)
+\openout1 = `MainTikz.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1176,8 +1352,8 @@ LaTeX Font Info:    ... okay on input line 20.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 20.
+\AtBeginShipoutBox=\box74
+Package hyperref Info: Link coloring OFF on input line 7.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
 f.sty"
@@ -1191,30 +1367,30 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count349
+\c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
- (RPMain.out) (RPMain.out)
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
+ (MainTikz.out) (MainTikz.out)
 \@outlinefile=\write5
-\openout5 = `RPMain.out'.
+\openout5 = `MainTikz.out'.
 
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen269
-\scratchbox=\box54
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen270
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count357
+\scratchdimen=\dimen283
+\scratchbox=\box75
+\nofMPsegments=\count358
+\nofMParguments=\count359
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count360
+\MPscratchDim=\dimen284
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
+\everyMPtoPDFconversion=\toks48
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
 df-base.sty"
@@ -1235,6 +1411,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
+your preamble.
+ on input line 7.
+
+
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pdflsc
 ape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -1248,340 +1431,88 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `RPMain.bcf'.
+\openout4 = `MainTikz.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'RPMain.bbl' found.
- (RPMain.bbl
+Package biblatex Info: ... file 'MainTikz.bbl' found.
+ (MainTikz.bbl)
+Package biblatex Info: Reference section=0 on input line 7.
+Package biblatex Info: Reference segment=0 on input line 7.
+ (MainTikz.toc)
+\tf@toc=\write6
+\openout6 = `MainTikz.toc'.
 
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Lei12_ReciprocityBased_SVD_Inverse.Kinematics':
-
-(biblatex)                - Range field 'pages' in entry 'Lei12_ReciprocityBase
-d_SVD_Inverse.Kinematics' is malformed, falling back to literal.
-
-)
-Package biblatex Info: Reference section=0 on input line 20.
-Package biblatex Info: Reference segment=0 on input line 20.
-\openout2 = `title_page1.aux'.
-
- (title_page1.tex
-<Curtinlogo.jpg, id=26, 770.88pt x 128.48pt>
-File: Curtinlogo.jpg Graphic file (type jpg)
-<use Curtinlogo.jpg>
-Package pdftex.def Info: Curtinlogo.jpg  used on input line 7.
-(pdftex.def)             Requested size: 455.24411pt x 75.87311pt.
  [1
 
-
-{C:/Users/19107262/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Curtin
-logo.jpg>]) (RPMain.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+{C:/Users/19107262/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Practic
+e1.tex (Flowchart.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.f
 d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.f
 d"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) (Nodes.tex)pdfTeX warning (ext4): destination with the same identifier (name
+{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \newpage
+              [1
+
+] (AutomataGraph.tex) [2] (PlottingData.tex
+PGFPlots: reading {./data/friction.txt}
+PGFPlots: reading {./data/generator.txt}
+PGFPlots: reading {./data/simulated_total.txt}
+PGFPlots: reading {./data/theoretical_total.txt}
+PGFPlots: reading {./data/friction.txt}
+PGFPlots: reading {./data/generator.txt}
+PGFPlots: reading {./data/simulated_total.txt}
+PGFPlots: reading {./data/theoretical_total.txt}
 ))
-\tf@toc=\write6
-\openout6 = `RPMain.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 \clearpage
-                [1
-
-] (notes.tex
-<image/good_abstract.png, id=49, 514.92375pt x 452.69125pt>
-File: image/good_abstract.png Graphic file (type png)
-<use image/good_abstract.png>
-Package pdftex.def Info: image/good_abstract.png  used on input line 9.
-(pdftex.def)             Requested size: 257.46124pt x 226.34506pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-(2DGrid.tex) (coord_rotation1.tex) (coord_rotation2.texpdfTeX warning (ext4): d
-estination with the same identifier (name{page.1}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.95 \end{tikzpicture}
-                       [1
-
- <./image/good_abstract.png (PNG copy)>]) [2]
-(coord_rotation1.tex) (coord_rotation2.tex)
-Overfull \hbox (8.9582pt too wide) in paragraph at lines 46--51
-[][]  [][]
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
-3.
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
+LaTeX Warning: Empty bibliography on input line 25.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+ (MainTikz.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+Package rerunfilecheck Info: File `MainTikz.out' has not changed.
+(rerunfilecheck)             Checksum: 3C81539D75D6E50D20FBC9246770B9BB;180.
 
- []
 
+LaTeX Warning: There were multiply-defined labels.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Package logreq Info: Writing requests to 'MainTikz.run.xml'.
+\openout1 = `MainTikz.run.xml'.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
-
-<image/SuttonBartoI_RL.png, id=180, 871.45575pt x 311.36325pt>
-File: image/SuttonBartoI_RL.png Graphic file (type png)
-<use image/SuttonBartoI_RL.png>
-Package pdftex.def Info: image/SuttonBartoI_RL.png  used on input line 164.
-(pdftex.def)             Requested size: 227.62206pt x 81.3231pt.
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
-
- []
-
-[7 <./image/SuttonBartoI_RL.png>]) (tablenotes.tex
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [8] [9]
-Overfull \hbox (276.70168pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 J. A. Bag-nell et al. ``An in-te-grated sys-tem for au-tonomo
-us robotics ma-nip-u-la-tion''. In: |   [].
- []
-
-
-Overfull \hbox (276.70168pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 J. A. Bag-nell et al. ``An in-te-grated sys-tem for au-tonomo
-us robotics ma-nip-u-la-tion''. In: |   [],
- []
-
-
-Overfull \hbox (8.35892pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 Richard Bell-man. ``A Marko-vian de-ci-sion pro-cess''. In: |
-   [] (1957),
- []
-
-
-Overfull \hbox (3.21452pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 Dimitri P Bert-sekas. |   []. En-gle-wood Cliffs,
- []
-
-
-Overfull \hbox (103.3386pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 quadri-lat-eral do-mains''. In: |   [].
- []
-
-
-Overfull \hbox (143.10258pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 and quadtree de-com-po-si-tion''. In: |   [].
- []
-
-
-Overfull \hbox (1.36224pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 ad-ver-saries''. In: |   [] 2005, 1072{1077 vol.
- []
-
-
-Overfull \hbox (178.49155pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 jects with rolling con-tact and its im-pli-ca-tions for tra-jec
--tory plan-ning''. In: |   [].
- []
-
-[10
-
-]
-Overfull \hbox (220.79207pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 Lei Cui and Jian S. Dai. ``Ge-o-met-ric Kine-mat-ics of Rigid
- Bod-ies with Point Con-tact''. In: |   [].
- []
-
-
-Overfull \hbox (85.96355pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 Anal-y-sis of the Meta-mor-phic Mul-ti-fin-gered Hand''. In: | 
-  []
- []
-
-
-Overfull \hbox (7.58333pt too wide) in paragraph at lines 89--89
-|   []\OT1/cmr/m/n/10 . Ed. by Jad-ran Lenarcic and Jean-Pierre Mer-let. Cham
-: Springer
- []
-
-
-Overfull \hbox (21.72017pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 dius Based on Eu-clidean In-vari-ants''. In: |   [] 131.10 (200
-9). 10.1115/1.3212679,
- []
-
-
-Overfull \hbox (238.39151pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 D. Fer-gu-son and A. Stentz. ``Fo-cussed pro-cess-ing of MDPs
- for path plan-ning''. In: |   [].
- []
-
-
-Overfull \hbox (52.8195pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 David J. Mon-tana. ``The Kine-mat-ics of Con-tact and Grasp''
-. In: |   []
- []
-
-[11]
-Overfull \hbox (2.8867pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 view''. In: |   []. Vol. 1,
- []
-
-
-Overfull \hbox (14.68564pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 In: |   []. Vol. 1.
- []
-
-
-Overfull \hbox (31.65788pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 and 9-DOF TUM hand''. In: |   [].
- []
-
-
-Overfull \hbox (2.20833pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 John M. Sul-li-van. ``Cur-va-tures of Smooth and Dis-crete Su
-r-faces''. In: |   [].
- []
-
-
-Overfull \hbox (6.63123pt too wide) in paragraph at lines 89--89
-|   []\OT1/cmr/m/n/10 . IEEE. 1991,
- []
-
-
-Overfull \hbox (103.06232pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/10 D. J. White. ``A Sur-vey of Ap-pli-ca-tions of Markov De-ci-s
-ion Pro-cesses''. In: |   []
- []
-
-
-Overfull \hbox (38.32452pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/10 tac-tile sen-sor feed-back''. In: |   [].
- []
-
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
- (RPMain.aux (title_page1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
-Package rerunfilecheck Info: File `RPMain.out' has not changed.
-(rerunfilecheck)             Checksum: 2EF93D70F2472376B1D708AA7267EBC0;276.
-Package logreq Info: Writing requests to 'RPMain.run.xml'.
-\openout1 = `RPMain.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 28141 strings out of 492453
- 541928 string characters out of 3118674
- 975835 words of memory out of 3000000
- 31892 multiletter control sequences out of 15000+200000
- 11138 words of font info for 44 fonts, out of 3000000 for 9000
+ 38938 strings out of 492453
+ 903761 string characters out of 3118674
+ 1445475 words of memory out of 3000000
+ 42639 multiletter control sequences out of 15000+200000
+ 6358 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,63p,1323b,1441s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,15n,106p,1684b,2036s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/19107262/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/19107262/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/19
-107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/19107262/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/19107262/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/191072
-62/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
-:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/19107262/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Use
-rs/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-tt10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on RPMain.pdf (14 pages, 671641 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/19107262/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/1910
+7262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb>
+Output written on MainTikz.pdf (4 pages, 90347 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

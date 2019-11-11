@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'MainTikz.blg'
+[26] biber-MSWIN64:315> INFO - === 
+[42] Biber.pm:375> INFO - Reading 'MainTikz.bcf'
+[144] Biber.pm:905> INFO - Found 0 citekeys in bib section 0
+[151] Utils.pm:300> WARN - The file 'MainTikz.bcf' does not contain any citations!
+[164] bbl.pm:648> INFO - Writing 'MainTikz.bbl' with encoding 'UTF-8'
+[164] bbl.pm:751> INFO - Output to MainTikz.bbl
+[169] Biber.pm:110> INFO - WARNINGS: 1

@@ -38,6 +38,16 @@
 \usepackage{tikz}
 \usepackage{tikz-3dplot}
 \usepackage{subfigure}
+
+\usetikzlibrary{shapes.geometric} %draw the flow chart
+
+\usetikzlibrary{positioning} % https://tex.stackexchange.com/questions/94386/package-pgf-math-error-unknown-operator-o-or-of
+
+\usetikzlibrary{automata} %for graph-automata
+
+\usepackage{pgfplots} %for plotting data
+
+
 %-------------------------
 %\usepackage[nottoc, notlot, notlof]{tocbibind}
 
@@ -48,3 +58,15 @@
 
 \usepackage{biblatex}
 \addbibresource{citation.bib}
+
+
+
+%-------------- page editors -----------------------
+%\renewcommand{\baselinestretch}{1.5}
+\pagestyle{fancy}
+\fancyhead{}
+%\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+%------underline setting--------
+\renewcommand{\ULdepth}{1.8pt}

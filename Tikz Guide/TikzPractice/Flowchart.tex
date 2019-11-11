@@ -1,0 +1,24 @@
+% ---------------- flowchart ---------------
+
+\centering
+\begin{tikzpicture}[
+	io/.style={trapezium, trapezium left angle=70, trapezium right angle=110, fill=magenta!10, draw=magenta},
+    op/.style={rectangle, fill=orange!10, draw=orange},
+    cn/.style={diamond, aspect=2, inner sep=2pt, fill=red!10, draw=red},
+    node distance=5mm, thick]
+    \node[io] (in) {Input $a,b$};
+    \node[op, below=of in] (div) {$r=a \mod b$};
+    \node[op, below=of div] (set) {$a=b,\ b=r$};
+    \node[cn, below=of set] (cond) {$b=0?$};
+    \node[io, below=of cond] (out) {Output $a$};
+    %
+    \path[->]
+      (in) edge (div)
+      (div) edge (set)
+      (set) edge (cond)
+      (cond) edge node[right] {Yes} (out);
+    \draw[->] (cond) -- node[below] {No} ++(1.5,0) |- (div);
+
+\end{tikzpicture}
+\break
+%%--------------------------------------

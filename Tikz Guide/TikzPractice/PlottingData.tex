@@ -1,0 +1,59 @@
+%\newpage
+\begin{tikzpicture}
+    \begin{axis}[name=plot, xlabel={x(Ns/m)},ylabel={y(J)},ymin=0,ymax=1.6]
+    
+    \addplot[black,mark=triangle*] table{./data/friction.txt};\label{f}
+    \addplot[red,mark=o] table{./data/generator.txt};\label{g}
+    \addplot[blue] table{./data/simulated_total.txt};\label{s}
+    \addplot[green,dashed] table{./data/theoretical_total.txt};\label{t}
+	
+	% Define two points for drawing an arrow to the "matched" point
+%    \node[] (C) at (axis cs: 1,0.5) {};
+%    \node[] (B) at (axis cs: 2.5,0.5) {};
+    \end{axis}
+	
+	% Create a node to act as the legend  
+    \node[anchor=north,fill=white,draw=black] (legend) at 
+    ($(plot.north east)-(0 mm, 1 mm)$){
+    	\begin{tabular}{l l}
+        	f & \ref{f} \\
+	        g & \ref{g} \\
+    	    s & \ref{s} \\
+        	t & \ref{t} \\
+	    \end{tabular} 
+	    };
+    
+%	\draw[triangle 45-] (C.east)--(B.west);
+%	\node[anchor=west] (label) at (B) {matched};
+
+\end{tikzpicture}
+\caption{Example of plotting data1}
+
+\vspace{30pt}
+
+\begin{tikzpicture}
+    \begin{axis}[name=plot, xlabel={x(Ns/m)},ylabel={y(J)},ymin=0,ymax=1.6]
+    
+    \addplot[black,mark=triangle*] table{./data/friction.txt};\label{f}
+    \addplot[red,mark=o] table{./data/generator.txt};\label{g}
+    \addplot[blue] table{./data/simulated_total.txt};\label{s}
+    \addplot[green,dashed] table{./data/theoretical_total.txt};\label{t}
+	
+	% Define two points for drawing an arrow to the "matched" point
+    \node[] (C) at (axis cs: 1,.5) {};
+    \node[] (B) at (axis cs: 2.5,.5) {};
+    \end{axis}
+	
+	% Create a node to act as the legend  
+    \node[anchor=north,fill=white,draw=black] (legend) at ($(plot.north)-(0 mm, 1 mm)$) {\begin{tabular}{l l l l}
+        f & \ref{f}  & g & \ref{g} \\
+        s & \ref{s}  & t & \ref{t} \\
+    \end{tabular} };
+    
+	\draw[triangle 45-] (C.east)--(B.west);
+	\node[anchor=west] (label) at (B) {matched};
+
+\end{tikzpicture}
+\caption{Example of plotting data2}
+
+\vspace{30pt}
