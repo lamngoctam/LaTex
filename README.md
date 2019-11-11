@@ -10,3 +10,12 @@
     ....    
     \printbibliography    
     \end{document}
+4. References:
+- https://tex.stackexchange.com/questions/406205/no-citation-bibdata-or-bibstyle-commands
+- https://tex.stackexchange.com/questions/154751/biblatex-with-biber-configuring-my-editor-to-avoid-undefined-citations
+- https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX
+- https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib/299286#299286
+5. Guide for writing Thesis on LaTex:
+https://www.dickimaw-books.com/latex/thesis/thesis-screen.pdf
+6. Bib LaTex Package:
+https://www.emse.fr/~picard/files/biblatex.pdf
