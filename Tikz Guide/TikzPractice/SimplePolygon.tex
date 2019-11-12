@@ -1,0 +1,43 @@
+
+\begin{tikzpicture}[scale=1.5, transform shape]
+	
+			\tkzInit[xmin=-3,xmax=4.5, ymin=-.5, ymax=2.8]
+			\tkzClip
+			
+			\tkzDefPoint(0,0){A}
+			\tkzDefPoint(4,0){B}
+			\tkzDefPoint(130:3){C}
+			
+			
+			
+			\tkzDefLine[orthogonal=through C](A,B)\tkzGetPoint{c}
+			\tkzInterLL(A,B)(C,c)\tkzGetPoint{C'}
+			
+	
+			\tkzMarkAngle[size=.5,arrows=->,>=stealth,color=red](B,A,C)
+			\tkzMarkAngle[size=.4,arrows=->,>=stealth,color=blue](C,A,C')
+			\tkzMarkRightAngle[size=.3,fill=blue!20,draw opacity=0](A,C',C)
+			
+			
+			\tkzDrawSegment[dashed](C,C')
+			\tkzDrawLine[add=0cm and 1cm,dashed](A,C')
+			
+			
+			
+			\tkzDrawPolygon(A,B,C)
+			\tkzDrawPoints(A,B,C,C')
+			\tkzLabelPoints[below](A,C')
+			\tkzLabelPoints[right](B)
+			\tkzLabelPoints[above](C)
+			
+			\begin{scope}[font=\footnotesize]
+			\tkzLabelSegment[below](A,B){$c$}
+			\tkzLabelSegment(A,C){$b$}
+			\tkzLabelSegment[above](B,C){$a$}
+			\tkzLabelSegment[left](C,C'){$h$}
+			\tkzLabelAngle[pos=.7](B,A,C){$\widehat{A}$}
+			\tkzLabelAngle[pos=1.1,below](C,A,C'){$\ang{180}-\widehat{A}$}
+			\end{scope}
+			
+\end{tikzpicture}
+\caption{Draw Polygon with  }
