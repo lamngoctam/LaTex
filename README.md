@@ -19,3 +19,18 @@
 https://www.dickimaw-books.com/latex/thesis/thesis-screen.pdf
 6. Bib LaTex Package:
 https://www.emse.fr/~picard/files/biblatex.pdf
+
+## Running Sagemath in TexMaker
+1. Install miktex 2.9 64-bit, full install.
+2. Install TexMaker 64-bit, full install.
+3. Install Sagemath from http://www.sagemath.org/
+4. VIP step: This can be done copying al files in *c:\Program Files\SageMath 8.9\runtime\opt\sagemath-8.6\local\share\texmf\tex\latex\sagetex* into *c:\Program Files\MiKTeX 2.9\tex\latex\sagetex* or *C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sagetex*
+
+5. \usepackage{sagetex} in Latex
+6. Open Sagemath 8.9, NOT Sagemath 8.9 Shell or Sagemat 8.6 Notebook. 
+7. Using 'cd'&'ls' command to find the Latex folder.
+8. Run load('fileName.sagetex.sage') in Sagemath Console : fileName is the same file name of Latex, but *.sagetex.sage
+9. Compile Latex file again in TexMaker
+  
+  - Example: From http://www.sagemath.org/tour-research.html
+  - Ref: https://ask.sagemath.org/question/39812/how-to-use-sagetex-with-windows/
