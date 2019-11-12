@@ -6,10 +6,27 @@
    \usepackage{tikz}
    \usetikzlibrary{calc}
 	
+	\usepackage{sagetex}
+	
    \usepackage{biblatex}
    	
    \begin{document}
 
+
+   \section{SageTex Examples}
+ 	
+	This is a small calculation:
+	The sum of $1+2+\sqrt{3} = \sage{1+2+sqrt(3)}$.
+	
+	Here you can see a $sin()$-Function:
+	\begin{center}
+		\sageplot{plot(sin(x), x, 0, 2*pi)}	
+	\end{center}
+
+	\vspace{3cm}
+	
+ 
+   \section{Geometry}
    \begin{minipage}{0.23 \textwidth}
 
    \begin{center}
@@ -161,6 +178,11 @@
    \end{center}
 
    \end{minipage}
+   %----------
    
+   
+
+
+
    \printbibliography
    \end{document}

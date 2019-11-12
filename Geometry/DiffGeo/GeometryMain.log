@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  11 NOV 2019 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  12 NOV 2019 16:17
 entering extended mode
 **./GeometryMain.tex
 (GeometryMain.tex
@@ -390,6 +390,83 @@ File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ayer/tikz/libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sagetex\sagetex
+.sty"
+Package: sagetex 2019/01/09 v3.3 embedding Sage into LaTeX documents
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.
+sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read2
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyvrb\fancyv
+rb.sty"
+Package: fancyvrb 2019/10/22
+ Style option: `fancyvrb' v3.3 <2019/10/22> (tvz)
+\FV@CodeLineNo=\count109
+\FV@InFile=\read3
+\FV@TabBox=\box38
+\c@FancyVerbLine=\count110
+\FV@StepNumber=\count111
+\FV@OutFile=\write4
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listin
+gs.sty"
+\lst@mode=\count112
+\lst@gtempboxa=\box39
+\lst@token=\toks29
+\lst@length=\count113
+\lst@currlwidth=\dimen155
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen158
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmis
+c.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box40
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listin
+gs.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/makecmds\makecm
+ds.sty"
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.s
+ty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.s
+ty"
+Package: iftex 2019/10/24 v1.0a TeX engine tests
+))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifxetex
+.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\c@ST@inline=\count120
+\c@ST@plot=\count121
+\c@ST@cmdline=\count122
+\sagetexindent=\skip43
+ (GeometryMain.sagetex.sout)
+\sagecommandlineskip=\skip44
+)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.sty"
 Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
@@ -406,18 +483,10 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluate
 x.sty"
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.s
-ty"
-Package: iftex 2019/10/24 v1.0a TeX engine tests
-))
+)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxc
 mds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.s
-ty"
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -427,7 +496,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolb
 ox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count109
+\etb@tempcnta=\count123
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvopti
 ons.sty"
@@ -444,74 +513,71 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.s
 ty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count110
+\lrq@indent=\count124
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.d
 ef"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
-"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count111
-\c@listtotal=\count112
-\c@listcount=\count113
-\c@liststart=\count114
-\c@liststop=\count115
-\c@citecount=\count116
-\c@citetotal=\count117
-\c@multicitecount=\count118
-\c@multicitetotal=\count119
-\c@instcount=\count120
-\c@maxnames=\count121
-\c@minnames=\count122
-\c@maxitems=\count123
-\c@minitems=\count124
-\c@citecounter=\count125
-\c@maxcitecounter=\count126
-\c@savedcitecounter=\count127
-\c@uniquelist=\count128
-\c@uniquename=\count129
-\c@refsection=\count130
-\c@refsegment=\count131
-\c@maxextratitle=\count132
-\c@maxextratitleyear=\count133
-\c@maxextraname=\count134
-\c@maxextradate=\count135
-\c@maxextraalpha=\count136
-\c@abbrvpenalty=\count137
-\c@highnamepenalty=\count138
-\c@lownamepenalty=\count139
-\c@maxparens=\count140
-\c@parenlevel=\count141
-\blx@tempcnta=\count142
-\blx@tempcntb=\count143
-\blx@tempcntc=\count144
-\blx@maxsection=\count145
-\blx@maxsegment@0=\count146
-\blx@notetype=\count147
-\blx@parenlevel@text=\count148
-\blx@parenlevel@foot=\count149
-\blx@sectionciteorder@0=\count150
-\blx@entrysetcounter=\count151
-\labelnumberwidth=\skip43
-\labelalphawidth=\skip44
-\biblabelsep=\skip45
-\bibitemsep=\skip46
-\bibnamesep=\skip47
-\bibinitsep=\skip48
-\bibparsep=\skip49
-\bibhang=\skip50
-\blx@bcfin=\read2
-\blx@bcfout=\write4
+\c@tabx@nest=\count125
+\c@listtotal=\count126
+\c@listcount=\count127
+\c@liststart=\count128
+\c@liststop=\count129
+\c@citecount=\count130
+\c@citetotal=\count131
+\c@multicitecount=\count132
+\c@multicitetotal=\count133
+\c@instcount=\count134
+\c@maxnames=\count135
+\c@minnames=\count136
+\c@maxitems=\count137
+\c@minitems=\count138
+\c@citecounter=\count139
+\c@maxcitecounter=\count140
+\c@savedcitecounter=\count141
+\c@uniquelist=\count142
+\c@uniquename=\count143
+\c@refsection=\count144
+\c@refsegment=\count145
+\c@maxextratitle=\count146
+\c@maxextratitleyear=\count147
+\c@maxextraname=\count148
+\c@maxextradate=\count149
+\c@maxextraalpha=\count150
+\c@abbrvpenalty=\count151
+\c@highnamepenalty=\count152
+\c@lownamepenalty=\count153
+\c@maxparens=\count154
+\c@parenlevel=\count155
+\blx@tempcnta=\count156
+\blx@tempcntb=\count157
+\blx@tempcntc=\count158
+\blx@maxsection=\count159
+\blx@maxsegment@0=\count160
+\blx@notetype=\count161
+\blx@parenlevel@text=\count162
+\blx@parenlevel@foot=\count163
+\blx@sectionciteorder@0=\count164
+\blx@entrysetcounter=\count165
+\labelnumberwidth=\skip45
+\labelalphawidth=\skip46
+\biblabelsep=\skip47
+\bibitemsep=\skip48
+\bibnamesep=\skip49
+\bibinitsep=\skip50
+\bibparsep=\skip51
+\bibhang=\skip52
+\blx@bcfin=\read4
+\blx@bcfout=\write5
 \blx@langwohyphens=\language82
-\c@mincomprange=\count152
-\c@maxcomprange=\count153
-\c@mincompwidth=\count154
+\c@mincomprange=\count166
+\c@maxcomprange=\count167
+\c@mincompwidth=\count168
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -521,88 +587,88 @@ File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count155
-\c@savedafterword=\count156
-\c@annotator=\count157
-\c@savedannotator=\count158
-\c@author=\count159
-\c@savedauthor=\count160
-\c@bookauthor=\count161
-\c@savedbookauthor=\count162
-\c@commentator=\count163
-\c@savedcommentator=\count164
-\c@editor=\count165
-\c@savededitor=\count166
-\c@editora=\count167
-\c@savededitora=\count168
-\c@editorb=\count169
-\c@savededitorb=\count170
-\c@editorc=\count171
-\c@savededitorc=\count172
-\c@foreword=\count173
-\c@savedforeword=\count174
-\c@holder=\count175
-\c@savedholder=\count176
-\c@introduction=\count177
-\c@savedintroduction=\count178
-\c@namea=\count179
-\c@savednamea=\count180
-\c@nameb=\count181
-\c@savednameb=\count182
-\c@namec=\count183
-\c@savednamec=\count184
-\c@translator=\count185
-\c@savedtranslator=\count186
-\c@shortauthor=\count187
-\c@savedshortauthor=\count188
-\c@shorteditor=\count189
-\c@savedshorteditor=\count190
-\c@labelname=\count191
-\c@savedlabelname=\count192
-\c@institution=\count193
-\c@savedinstitution=\count194
-\c@lista=\count195
-\c@savedlista=\count196
-\c@listb=\count197
-\c@savedlistb=\count198
-\c@listc=\count199
-\c@savedlistc=\count266
-\c@listd=\count267
-\c@savedlistd=\count268
-\c@liste=\count269
-\c@savedliste=\count270
-\c@listf=\count271
-\c@savedlistf=\count272
-\c@location=\count273
-\c@savedlocation=\count274
-\c@organization=\count275
-\c@savedorganization=\count276
-\c@origlocation=\count277
-\c@savedoriglocation=\count278
-\c@origpublisher=\count279
-\c@savedorigpublisher=\count280
-\c@publisher=\count281
-\c@savedpublisher=\count282
-\c@language=\count283
-\c@savedlanguage=\count284
-\c@origlanguage=\count285
-\c@savedoriglanguage=\count286
-\c@pageref=\count287
-\c@savedpageref=\count288
-\shorthandwidth=\skip51
-\shortjournalwidth=\skip52
-\shortserieswidth=\skip53
-\shorttitlewidth=\skip54
-\shortauthorwidth=\skip55
-\shorteditorwidth=\skip56
-\locallabelnumberwidth=\skip57
-\locallabelalphawidth=\skip58
-\localshorthandwidth=\skip59
-\localshortjournalwidth=\skip60
-\localshortserieswidth=\skip61
-\localshorttitlewidth=\skip62
-\localshortauthorwidth=\skip63
-\localshorteditorwidth=\skip64
+\c@afterword=\count169
+\c@savedafterword=\count170
+\c@annotator=\count171
+\c@savedannotator=\count172
+\c@author=\count173
+\c@savedauthor=\count174
+\c@bookauthor=\count175
+\c@savedbookauthor=\count176
+\c@commentator=\count177
+\c@savedcommentator=\count178
+\c@editor=\count179
+\c@savededitor=\count180
+\c@editora=\count181
+\c@savededitora=\count182
+\c@editorb=\count183
+\c@savededitorb=\count184
+\c@editorc=\count185
+\c@savededitorc=\count186
+\c@foreword=\count187
+\c@savedforeword=\count188
+\c@holder=\count189
+\c@savedholder=\count190
+\c@introduction=\count191
+\c@savedintroduction=\count192
+\c@namea=\count193
+\c@savednamea=\count194
+\c@nameb=\count195
+\c@savednameb=\count196
+\c@namec=\count197
+\c@savednamec=\count198
+\c@translator=\count199
+\c@savedtranslator=\count266
+\c@shortauthor=\count267
+\c@savedshortauthor=\count268
+\c@shorteditor=\count269
+\c@savedshorteditor=\count270
+\c@labelname=\count271
+\c@savedlabelname=\count272
+\c@institution=\count273
+\c@savedinstitution=\count274
+\c@lista=\count275
+\c@savedlista=\count276
+\c@listb=\count277
+\c@savedlistb=\count278
+\c@listc=\count279
+\c@savedlistc=\count280
+\c@listd=\count281
+\c@savedlistd=\count282
+\c@liste=\count283
+\c@savedliste=\count284
+\c@listf=\count285
+\c@savedlistf=\count286
+\c@location=\count287
+\c@savedlocation=\count288
+\c@organization=\count289
+\c@savedorganization=\count290
+\c@origlocation=\count291
+\c@savedoriglocation=\count292
+\c@origpublisher=\count293
+\c@savedorigpublisher=\count294
+\c@publisher=\count295
+\c@savedpublisher=\count296
+\c@language=\count297
+\c@savedlanguage=\count298
+\c@origlanguage=\count299
+\c@savedoriglanguage=\count300
+\c@pageref=\count301
+\c@savedpageref=\count302
+\shorthandwidth=\skip53
+\shortjournalwidth=\skip54
+\shortserieswidth=\skip55
+\shorttitlewidth=\skip56
+\shortauthorwidth=\skip57
+\shorteditorwidth=\skip58
+\locallabelnumberwidth=\skip59
+\locallabelalphawidth=\skip60
+\localshorthandwidth=\skip61
+\localshortjournalwidth=\skip62
+\localshortserieswidth=\skip63
+\localshorttitlewidth=\skip64
+\localshortauthorwidth=\skip65
+\localshorteditorwidth=\skip66
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -616,19 +682,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.def"
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count289
-\c@textcitetotal=\count290
-\c@textcitemaxnames=\count291
-\c@biburlbigbreakpenalty=\count292
-\c@biburlbreakpenalty=\count293
-\c@biburlnumpenalty=\count294
-\c@biburlucpenalty=\count295
-\c@biburllcpenalty=\count296
+\c@textcitecount=\count303
+\c@textcitetotal=\count304
+\c@textcitemaxnames=\count305
+\c@biburlbigbreakpenalty=\count306
+\c@biburlbreakpenalty=\count307
+\c@biburlnumpenalty=\count308
+\c@biburlucpenalty=\count309
+\c@biburllcpenalty=\count310
 \biburlbigskip=\muskip11
 \biburlnumskip=\muskip12
 \biburlucskip=\muskip13
 \biburllcskip=\muskip14
-\c@smartand=\count297
+\c@smartand=\count311
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -642,8 +708,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\st
 andard.bbx"
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count298
-\c@bbx:relatedtotal=\count299
+\c@bbx:relatedcount=\count312
+\c@bbx:relatedtotal=\count313
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -677,38 +743,38 @@ Package biblatex Info: ... file 'english.lbx' found.
 glish.lbx"
 File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
-\@quotelevel=\count300
-\@quotereset=\count301
+\@quotelevel=\count314
+\@quotereset=\count315
  (GeometryMain.aux)
 \openout1 = `GeometryMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  ABD: EveryShipout initializing macros
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
-\scratchdimen=\dimen155
-\scratchbox=\box38
-\nofMPsegments=\count303
-\nofMParguments=\count304
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count305
-\MPscratchDim=\dimen156
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count316
+\scratchdimen=\dimen159
+\scratchbox=\box41
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen160
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks31
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
 df-base.sty"
@@ -729,56 +795,72 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\c@lstlisting=\count322
+\ST@sf=\write6
+\openout6 = `GeometryMain.sagetex.sage'.
+
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `GeometryMain.bcf'.
+\openout5 = `GeometryMain.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'GeometryMain.bbl' found.
  (GeometryMain.bbl)
-Package biblatex Info: Reference section=0 on input line 11.
-Package biblatex Info: Reference segment=0 on input line 11.
+Package biblatex Info: Reference section=0 on input line 13.
+Package biblatex Info: Reference segment=0 on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 19.
+<sage-plots-for-GeometryMain.tex/plot-0.pdf, id=4, 455.29123pt x 341.63634pt>
+File: sage-plots-for-GeometryMain.tex/plot-0.pdf Graphic file (type pdf)
+<use sage-plots-for-GeometryMain.tex/plot-0.pdf>
+Package pdftex.def Info: sage-plots-for-GeometryMain.tex/plot-0.pdf  used on in
+put line 23.
+(pdftex.def)             Requested size: 455.29012pt x 341.6355pt.
 
-Overfull \hbox (4.0877pt too wide) in paragraph at lines 51--52
+Overfull \hbox (4.0877pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 134.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 134.
-
-LaTeX Warning: Empty bibliography on input line 165.
-
 [1
 
-{C:/Users/19107262/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(GeometryMain.aux)
+{C:/Users/19107262/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./sage-p
+lots-for-GeometryMain.tex/plot-0.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 151.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 151.
+
+
+LaTeX Warning: Empty bibliography on input line 187.
+
+*********************************************************************
+[2] (GeometryMain.aux)
 Package logreq Info: Writing requests to 'GeometryMain.run.xml'.
 \openout1 = `GeometryMain.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18772 strings out of 492453
- 380531 string characters out of 3118674
- 797676 words of memory out of 3000000
- 22867 multiletter control sequences out of 15000+200000
- 5771 words of font info for 21 fonts, out of 3000000 for 9000
+ 20643 strings out of 492453
+ 408656 string characters out of 3118674
+ 832738 words of memory out of 3000000
+ 24700 multiletter control sequences out of 15000+200000
+ 6376 words of font info for 23 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,54p,807b,745s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/19107262/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/19107262/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on GeometryMain.pdf (1 page, 48010 bytes).
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/19107262/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/19107262/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/1910
+7262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb>
+Output written on GeometryMain.pdf (2 pages, 78104 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 19 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 24 words of extra memory for PDF output out of 10000 (max. 10000000)
 
