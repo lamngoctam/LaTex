@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'WritingTips.blg'
+[35] biber-MSWIN64:315> INFO - === 
+[53] Biber.pm:375> INFO - Reading 'WritingTips.bcf'
+[138] Biber.pm:905> INFO - Found 0 citekeys in bib section 0
+[144] Utils.pm:300> WARN - The file 'WritingTips.bcf' does not contain any citations!
+[152] bbl.pm:648> INFO - Writing 'WritingTips.bbl' with encoding 'UTF-8'
+[153] bbl.pm:751> INFO - Output to WritingTips.bbl
+[154] Biber.pm:110> INFO - WARNINGS: 1

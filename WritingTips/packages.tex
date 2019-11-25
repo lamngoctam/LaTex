@@ -1,0 +1,79 @@
+
+%page setting
+\usepackage[utf8]{inputenc}
+\usepackage[left=25mm, right=25mm, top=25mm, bottom=25mm]{geometry}
+
+
+%\usepackage[colorlinks=true]{hyperref}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{enumerate}
+\usepackage{fancyhdr} %footer-header
+
+%%%%%%%%%%%-------------- page editors -----------------------
+%\renewcommand{\baselinestretch}{1.5}
+\pagestyle{fancy}
+\fancyhead{}
+%\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+
+%------underline setting--------
+\usepackage{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+
+%%%%%%%%%%%--------Table-related commands------
+\usepackage{array} 
+%To automatically break longer lines of text within cells, define fixed-width columns
+\usepackage[table,xcdraw]{xcolor}
+
+%\usepackage{multirow}
+\usepackage{tabularx} % length of table
+\usepackage{caption}  % space btw caption and table
+
+\usepackage{booktabs}
+% produce heavier lines as table frame (\toprule, \bottomrule) and lighter lines within a table (\midrule).
+
+%link: https://texblog.org/2017/02/06/proper-tables-with-latex/
+\newcolumntype{V}{>{\bf\centering\arraybackslash} m{0.2\linewidth} } %Repeat column type
+%------------------
+\usepackage{stackengine}
+
+%%%%%%%%%%%--------------Tikz-------------------------------
+\usepackage{import}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{subfigure}
+
+\usetikzlibrary{shapes.geometric} % draw the flow chart
+\usetikzlibrary{positioning} 
+% https://tex.stackexchange.com/questions/94386/package-pgf-math-error-unknown-operator-o-or-of
+\usetikzlibrary{automata}         % for graph-automata
+\usepackage{pgfplots}             % for plotting data
+%-----------------------------------------------
+%         PACKAGES for \tkzDefPoints,\tkzPolygon
+%-----------------------------------------------
+\usepackage{tkz-euclide} % will load tkz-base
+\usepackage{siunitx} 	 % to display angle in degree \ang{180}
+\usetkzobj{all}			 % loads all objects used by tkz-euclide
+
+%%%%%%%%%%\usepackage{verbatim} 
+% a  drawing of a tetrahedron inscibed in a parallelepipe from https://www.overleaf.com/project/5dc97a9a3af030000156a35f
+%%%%%%%%%%%-------------------------
+%%%%%%%%%%%\usepackage[nottoc, notlot, notlof]{tocbibind}
+%%%%%%%%%%
+%%%%%%%%%%%\usepackage{cite}
+%%%%%%%%%%%\usepackage{natbib}  
+%%%%%%%%%%%\usepackage[numbers,sort&compress]{natbib} 
+% sort of citation
+
+\usepackage{pdfpages}
+\usepackage{biblatex}
+\addbibresource{citation.bib}
+
