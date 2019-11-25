@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}ABSTRACT}{1}{section.1}% 
+\contentsline {section}{\numberline {2}INTRODUCTION}{1}{section.2}% 
+\contentsline {section}{\numberline {3}PROBLEM FORMULATION}{1}{section.3}% 
+\contentsline {section}{\numberline {4}ALGORITHM\textbackslash METHODOLOGY}{1}{section.4}% 
+\contentsline {section}{\numberline {5}EVALUATION}{1}{section.5}% 
+\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE WORK}{1}{section.6}% 
+\contentsline {section}{\numberline {7}ETHICAL ISSUES}{2}{section.7}% 
+\contentsline {section}{\numberline {8}DATA STORAGE}{2}{section.8}% 
+\contentsline {section}{\numberline {9}FACILITY AND RESOURCES}{2}{section.9}% 
+\contentsline {section}{\numberline {10}TIME LINE}{2}{section.10}% 
+\contentsline {section}{\numberline {11}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{3}{section.11}% 
+\contentsline {section}{\numberline {A}APPENDIX}{5}{appendix.A}% 
