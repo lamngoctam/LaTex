@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  25 NOV 2019 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  6 DEC 2019 15:06
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
-LaTeX2e <2019-10-01> patch level 1
+LaTeX2e <2019-10-01> patch level 3
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
 s"
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo
 "
-File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -44,7 +44,7 @@ Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.s
 ty"
-Package: iftex 2019/10/24 v1.0a TeX engine tests
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.
 sty"
@@ -71,31 +71,21 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ry.cfg"))
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperr
 ef.sty"
-Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
-
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobs
-ub-hyperref.sty"
-Package: hobsub-hyperref 2019/10/27
-hobsub not currently supported, see hobsub.dtx to extract original code
+Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxc
 mds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdft
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdft
 excmds.sty"
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infw
-arerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\inf
+warerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluate
-x.sty"
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -107,7 +97,11 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etex
 cmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-))
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluate
+x.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)))
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvde
 finekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
@@ -128,17 +122,17 @@ Package: xcolor-patch 2016/05/16 xcolor patch
 h.sty"
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 )))
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\letltx
-macro.sty"
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-))
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\let
+ltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhoo
 k.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvopti
-ons.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopt
+ions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen111
 \Hy@linkcounter=\count91
@@ -146,7 +140,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc
 .def"
-File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -160,20 +154,20 @@ Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 ef.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4540.
-Package hyperref Info: Link nesting OFF on input line 4545.
-Package hyperref Info: Hyper index ON on input line 4548.
-Package hyperref Info: Plain pages OFF on input line 4555.
-Package hyperref Info: Backreferencing OFF on input line 4560.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4793.
+Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count94
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5152.
+LaTeX Info: Redefining \url on input line 5147.
 \XeTeXLinkMargin=\dimen112
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\bits
@@ -188,15 +182,15 @@ Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 \Fld@menulength=\count95
 \Field@Width=\dimen113
 \Fld@charsize=\dimen114
-Package hyperref Info: Hyper figures OFF on input line 6423.
-Package hyperref Info: Link nesting OFF on input line 6428.
-Package hyperref Info: Hyper index ON on input line 6431.
-Package hyperref Info: backreferencing OFF on input line 6438.
-Package hyperref Info: Link coloring OFF on input line 6443.
-Package hyperref Info: Link coloring with OCG OFF on input line 6448.
-Package hyperref Info: PDF/A mode OFF on input line 6453.
-LaTeX Info: Redefining \ref on input line 6493.
-LaTeX Info: Redefining \pageref on input line 6497.
+Package hyperref Info: Hyper figures OFF on input line 6418.
+Package hyperref Info: Link nesting OFF on input line 6423.
+Package hyperref Info: Hyper index ON on input line 6426.
+Package hyperref Info: backreferencing OFF on input line 6433.
+Package hyperref Info: Link coloring OFF on input line 6438.
+Package hyperref Info: Link coloring with OCG OFF on input line 6443.
+Package hyperref Info: PDF/A mode OFF on input line 6448.
+LaTeX Info: Redefining \ref on input line 6488.
+LaTeX Info: Redefining \pageref on input line 6492.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbe
 gshi.sty"
@@ -210,7 +204,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdfte
 x.def"
-File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\atvery
 end.sty"
@@ -229,7 +223,7 @@ uecounter.sty"
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+86.
 )
 \Hy@SectionHShift=\skip43
 )
@@ -239,7 +233,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
 cs.sty"
-Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.s
 ty"
@@ -279,7 +273,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath
 .sty"
-Package: amsmath 2019/04/01 v2.17c AMS math features
+Package: amsmath 2019/11/16 v2.17d AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
@@ -338,8 +332,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip45
 \multlinetaggap=\skip46
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssym
 b.sty"
@@ -426,11 +420,11 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
 .sty"
-Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+Package: caption 2019/10/18 v3.4a Customizing captions (AR)
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
 3.sty"
-Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen136
 \captionmargin@=\dimen137
@@ -439,9 +433,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@indent=\dimen140
 \caption@parindent=\dimen141
 \caption@hangindent=\dimen142
+Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count117
-\c@ContinuedFloat=\count118
+\c@continuedfloat=\count118
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
@@ -1187,11 +1182,11 @@ j-marks.tex"
 .sty"
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.
 sty"
-Package: expl3 2019-10-28 L3 programming layer (loader) 
+Package: expl3 2019-11-07 L3 programming layer (loader) 
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-
 code.tex"
-Package: expl3 2019-10-28 L3 programming layer (code)
+Package: expl3 2019-11-07 L3 programming layer (code)
 \c_max_int=\count185
 \l_tmpa_int=\count186
 \l_tmpb_int=\count187
@@ -1424,27 +1419,6 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 -obj-angles.tex")
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tkz-euclide\tkz
 -obj-protractor.tex")
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpag
-es.sty"
-Package: pdfpages 2019/09/21 v0.5n Insert pages of external PDF documents (AM)
-
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic
-.sty"
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-)
-\AM@pagewidth=\dimen336
-\AM@pageheight=\dimen337
-
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdft
-ex.def"
-File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box98
-\AM@global@opts=\toks50
-\AM@toc@title=\toks51
-\c@AM@survey=\count360
-\AM@templatesizebox=\box99
-)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.sty"
 Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
@@ -1452,53 +1426,53 @@ Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.s
 ty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count361
+\lrq@indent=\count360
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.d
 ef"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count362
-\c@listtotal=\count363
-\c@listcount=\count364
-\c@liststart=\count365
-\c@liststop=\count366
-\c@citecount=\count367
-\c@citetotal=\count368
-\c@multicitecount=\count369
-\c@multicitetotal=\count370
-\c@instcount=\count371
-\c@maxnames=\count372
-\c@minnames=\count373
-\c@maxitems=\count374
-\c@minitems=\count375
-\c@citecounter=\count376
-\c@maxcitecounter=\count377
-\c@savedcitecounter=\count378
-\c@uniquelist=\count379
-\c@uniquename=\count380
-\c@refsection=\count381
-\c@refsegment=\count382
-\c@maxextratitle=\count383
-\c@maxextratitleyear=\count384
-\c@maxextraname=\count385
-\c@maxextradate=\count386
-\c@maxextraalpha=\count387
-\c@abbrvpenalty=\count388
-\c@highnamepenalty=\count389
-\c@lownamepenalty=\count390
-\c@maxparens=\count391
-\c@parenlevel=\count392
-\blx@tempcnta=\count393
-\blx@tempcntb=\count394
-\blx@tempcntc=\count395
-\blx@maxsection=\count396
-\blx@maxsegment@0=\count397
-\blx@notetype=\count398
-\blx@parenlevel@text=\count399
-\blx@parenlevel@foot=\count400
-\blx@sectionciteorder@0=\count401
-\blx@entrysetcounter=\count402
+\c@tabx@nest=\count361
+\c@listtotal=\count362
+\c@listcount=\count363
+\c@liststart=\count364
+\c@liststop=\count365
+\c@citecount=\count366
+\c@citetotal=\count367
+\c@multicitecount=\count368
+\c@multicitetotal=\count369
+\c@instcount=\count370
+\c@maxnames=\count371
+\c@minnames=\count372
+\c@maxitems=\count373
+\c@minitems=\count374
+\c@citecounter=\count375
+\c@maxcitecounter=\count376
+\c@savedcitecounter=\count377
+\c@uniquelist=\count378
+\c@uniquename=\count379
+\c@refsection=\count380
+\c@refsegment=\count381
+\c@maxextratitle=\count382
+\c@maxextratitleyear=\count383
+\c@maxextraname=\count384
+\c@maxextradate=\count385
+\c@maxextraalpha=\count386
+\c@abbrvpenalty=\count387
+\c@highnamepenalty=\count388
+\c@lownamepenalty=\count389
+\c@maxparens=\count390
+\c@parenlevel=\count391
+\blx@tempcnta=\count392
+\blx@tempcntb=\count393
+\blx@tempcntc=\count394
+\blx@maxsection=\count395
+\blx@maxsegment@0=\count396
+\blx@notetype=\count397
+\blx@parenlevel@text=\count398
+\blx@parenlevel@foot=\count399
+\blx@sectionciteorder@0=\count400
+\blx@entrysetcounter=\count401
 \labelnumberwidth=\skip87
 \labelalphawidth=\skip88
 \biblabelsep=\skip89
@@ -1510,9 +1484,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language82
-\c@mincomprange=\count403
-\c@maxcomprange=\count404
-\c@mincompwidth=\count405
+\c@mincomprange=\count402
+\c@maxcomprange=\count403
+\c@mincompwidth=\count404
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1520,76 +1494,78 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 .def"
 File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'nature.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count406
-\c@savedafterword=\count407
-\c@annotator=\count408
-\c@savedannotator=\count409
-\c@author=\count410
-\c@savedauthor=\count411
-\c@bookauthor=\count412
-\c@savedbookauthor=\count413
-\c@commentator=\count414
-\c@savedcommentator=\count415
-\c@editor=\count416
-\c@savededitor=\count417
-\c@editora=\count418
-\c@savededitora=\count419
-\c@editorb=\count420
-\c@savededitorb=\count421
-\c@editorc=\count422
-\c@savededitorc=\count423
-\c@foreword=\count424
-\c@savedforeword=\count425
-\c@holder=\count426
-\c@savedholder=\count427
-\c@introduction=\count428
-\c@savedintroduction=\count429
-\c@namea=\count430
-\c@savednamea=\count431
-\c@nameb=\count432
-\c@savednameb=\count433
-\c@namec=\count434
-\c@savednamec=\count435
-\c@translator=\count436
-\c@savedtranslator=\count437
-\c@shortauthor=\count438
-\c@savedshortauthor=\count439
-\c@shorteditor=\count440
-\c@savedshorteditor=\count441
-\c@labelname=\count442
-\c@savedlabelname=\count443
-\c@institution=\count444
-\c@savedinstitution=\count445
-\c@lista=\count446
-\c@savedlista=\count447
-\c@listb=\count448
-\c@savedlistb=\count449
-\c@listc=\count450
-\c@savedlistc=\count451
-\c@listd=\count452
-\c@savedlistd=\count453
-\c@liste=\count454
-\c@savedliste=\count455
-\c@listf=\count456
-\c@savedlistf=\count457
-\c@location=\count458
-\c@savedlocation=\count459
-\c@organization=\count460
-\c@savedorganization=\count461
-\c@origlocation=\count462
-\c@savedoriglocation=\count463
-\c@origpublisher=\count464
-\c@savedorigpublisher=\count465
-\c@publisher=\count466
-\c@savedpublisher=\count467
-\c@language=\count468
-\c@savedlanguage=\count469
-\c@origlanguage=\count470
-\c@savedoriglanguage=\count471
-\c@pageref=\count472
-\c@savedpageref=\count473
+\c@afterword=\count405
+\c@savedafterword=\count406
+\c@annotator=\count407
+\c@savedannotator=\count408
+\c@author=\count409
+\c@savedauthor=\count410
+\c@bookauthor=\count411
+\c@savedbookauthor=\count412
+\c@commentator=\count413
+\c@savedcommentator=\count414
+\c@editor=\count415
+\c@savededitor=\count416
+\c@editora=\count417
+\c@savededitora=\count418
+\c@editorb=\count419
+\c@savededitorb=\count420
+\c@editorc=\count421
+\c@savededitorc=\count422
+\c@foreword=\count423
+\c@savedforeword=\count424
+\c@holder=\count425
+\c@savedholder=\count426
+\c@introduction=\count427
+\c@savedintroduction=\count428
+\c@namea=\count429
+\c@savednamea=\count430
+\c@nameb=\count431
+\c@savednameb=\count432
+\c@namec=\count433
+\c@savednamec=\count434
+\c@translator=\count435
+\c@savedtranslator=\count436
+\c@shortauthor=\count437
+\c@savedshortauthor=\count438
+\c@shorteditor=\count439
+\c@savedshorteditor=\count440
+\c@labelname=\count441
+\c@savedlabelname=\count442
+\c@institution=\count443
+\c@savedinstitution=\count444
+\c@lista=\count445
+\c@savedlista=\count446
+\c@listb=\count447
+\c@savedlistb=\count448
+\c@listc=\count449
+\c@savedlistc=\count450
+\c@listd=\count451
+\c@savedlistd=\count452
+\c@liste=\count453
+\c@savedliste=\count454
+\c@listf=\count455
+\c@savedlistf=\count456
+\c@location=\count457
+\c@savedlocation=\count458
+\c@organization=\count459
+\c@savedorganization=\count460
+\c@origlocation=\count461
+\c@savedoriglocation=\count462
+\c@origpublisher=\count463
+\c@savedorigpublisher=\count464
+\c@publisher=\count465
+\c@savedpublisher=\count466
+\c@language=\count467
+\c@savedlanguage=\count468
+\c@origlanguage=\count469
+\c@savedoriglanguage=\count470
+\c@pageref=\count471
+\c@savedpageref=\count472
 \shorthandwidth=\skip95
 \shortjournalwidth=\skip96
 \shortserieswidth=\skip97
@@ -1617,20 +1593,32 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.def"
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count474
-\c@textcitetotal=\count475
-\c@textcitemaxnames=\count476
-\c@biburlbigbreakpenalty=\count477
-\c@biburlbreakpenalty=\count478
-\c@biburlnumpenalty=\count479
-\c@biburlucpenalty=\count480
-\c@biburllcpenalty=\count481
+\c@textcitecount=\count473
+\c@textcitetotal=\count474
+\c@textcitemaxnames=\count475
+\c@biburlbigbreakpenalty=\count476
+\c@biburlbreakpenalty=\count477
+\c@biburlnumpenalty=\count478
+\c@biburlucpenalty=\count479
+\c@biburllcpenalty=\count480
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count482
+\c@smartand=\count481
 )
+Package biblatex Info: Trying to load bibliography style 'nature'...
+Package biblatex Info: ... file 'nature.bbx' found.
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature
+\nature.bbx"
+File: nature.bbx 2018/10/18 v1.3c biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\nu
+meric-comp.bbx"
+File: numeric-comp.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -1643,15 +1631,23 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\st
 andard.bbx"
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count483
-\c@bbx:relatedtotal=\count484
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+\c@bbx:relatedcount=\count482
+\c@bbx:relatedtotal=\count483
+))))
+Package biblatex Info: Trying to load citation style 'nature'...
+Package biblatex Info: ... file 'nature.cbx' found.
+
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature
+\nature.cbx"
+File: nature.cbx 2018/10/18 v1.3c biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\nu
-meric.cbx"
-File: numeric.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+meric-comp.cbx"
+File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count484
+\c@cbx@tempcntb=\count485
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1663,7 +1659,7 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-)
+))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -1678,40 +1674,40 @@ Package biblatex Info: ... file 'english.lbx' found.
 glish.lbx"
 File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
-\@quotelevel=\count485
-\@quotereset=\count486
+\@quotelevel=\count486
+\@quotereset=\count487
  (mainMilestone.aux)
 \openout1 = `mainMilestone.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=472.03123pt
-* \textheight=652.70622pt
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
@@ -1719,7 +1715,7 @@ LaTeX Font Info:    ... okay on input line 9.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
+* \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -1732,8 +1728,8 @@ LaTeX Font Info:    ... okay on input line 9.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box100
-Package hyperref Info: Link coloring OFF on input line 9.
+\AtBeginShipoutBox=\box98
+Package hyperref Info: Link coloring OFF on input line 10.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
 f.sty"
@@ -1747,11 +1743,11 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count487
+\c@section@level=\count488
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (mainMilestone.out) (mainMilestone.out)
 \@outlinefile=\write5
 \openout5 = `mainMilestone.out'.
@@ -1760,32 +1756,23 @@ LaTeX Info: Redefining \nameref on input line 9.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count488
-\scratchdimen=\dimen338
-\scratchbox=\box101
-\nofMPsegments=\count489
-\nofMParguments=\count490
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count491
-\MPscratchDim=\dimen339
-\MPnumerator=\count492
-\makeMPintoPDFobject=\count493
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count489
+\scratchdimen=\dimen336
+\scratchbox=\box99
+\nofMPsegments=\count490
+\nofMParguments=\count491
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count492
+\MPscratchDim=\dimen337
+\MPnumerator=\count493
+\makeMPintoPDFobject=\count494
+\everyMPtoPDFconversion=\toks51
 )
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
-df-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext
-.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
+stopdf-base.sty"
+Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
@@ -1795,7 +1782,7 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 9.
+ on input line 10.
 
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -1883,16 +1870,6 @@ Dictionary: translator-basic-dictionary, Language: English
 -abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pdflsc
-ape.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape
-.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1901,15 +1878,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'mainMilestone.bbl' found.
  (mainMilestone.bbl)
-Package biblatex Info: Reference section=0 on input line 9.
-Package biblatex Info: Reference segment=0 on input line 9.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.f
 d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.f
 d"
@@ -1941,7 +1920,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
@@ -1983,61 +1967,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 
-     [1
+l.5 \noindent
+             \uline{Should do}: [1
 
-]) [2]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--49
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-[3]
+) [2]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 
-LaTeX Warning: Empty bibliography on input line 54.
+Underfull \hbox (badness 10000) in paragraph at lines 44--52
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
-(mainMilestone.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+ []
+
+[3] [4
+
+] [5
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+ (mainMilestone.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `mainMilestone.out' has not changed.
-(rerunfilecheck)             Checksum: 5A2844F38F54299BF658AFDFB055CB06;405.
+(rerunfilecheck)             Checksum: E111201128B5BE340D5687D1C9AB037E;449.
 Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 \openout1 = `mainMilestone.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 53632 strings out of 492453
- 1212769 string characters out of 3118674
- 1759797 words of memory out of 3000000
- 57181 multiletter control sequences out of 15000+200000
- 537321 words of font info for 45 fonts, out of 3000000 for 9000
+ 53244 strings out of 492450
+ 1208482 string characters out of 3118604
+ 1748869 words of memory out of 3000000
+ 56794 multiletter control sequences out of 15000+200000
+ 537622 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,100p,1140b,745s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,12n,100p,1140b,1218s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/19107262/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/19107262/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/191
-07262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti10.pfb>
-Output written on mainMilestone.pdf (4 pages, 102500 bytes).
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/1
+9107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti10.pfb><C:/Users/19107262/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on mainMilestone.pdf (6 pages, 138250 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 

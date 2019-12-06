@@ -1,8 +1,9 @@
-%\documentclass[a4paper]{article}
+\documentclass[a4paper]{article}
 
-\documentclass{article}
+%\documentclass[onecolumn]{IEEEtran}
 
 \input{packages}
+
 %%==============================
 %%
 %%==============================
@@ -28,6 +29,8 @@
 \input{discussion}
 \input{conclusion}
 
+Refer to the Data Management Plan in Appendix \ref{appendix:A}.
+
 %%--------------------------
 %\input{ethical_issues}
 %\input{data_storage}
@@ -47,20 +50,31 @@
 •	Please also review the writing for grammatical correctness (seek some assistance on this if needed).\\
 •	Note Robot Operating System (not Software) in Table 1.\\
 
+\cite{Antonio04_NewPRM},
+\cite{Kavraki02_Random_ConfigurationSpace_PP},\cite{Cai87_SpatialMotion_PointContact},\cite{Holland75_GAMethod},
+\cite{Alouges10_MotionPlanning_RollingBody}.
+\cite{Barraquand91_MP_DisctributedRepresenation}
 %%==============================
 %%			%references
 %%==============================
 \cleardoublepage
-\printbibliography
+%----for biber
+\normalem
+\printbibliography 
+
+%----for bibtex
+%\normalem %remove underline of references
+%\bibliographystyle{ieeetran}
+%\bibliography{citation}
 
 %%=============================={}
 %%			%Appendix
 %%==============================
 
-%\cleardoublepage
-%\appendix
-%\section{APPENDIX}
-%\label{appendix:A}
+\cleardoublepage
+\appendix
+\section{APPENDIX}
+\label{appendix:A}
 %
 %\centering
 %\includegraphics[scale=0.8]{DataManagement.pdf}

@@ -6,6 +6,7 @@
 
 %\usepackage[colorlinks=true]{hyperref}
 \usepackage{hyperref}
+
 \usepackage{url}
 \usepackage{graphicx}
 \usepackage{float}
@@ -65,15 +66,25 @@
 
 %%%%%%%%%%\usepackage{verbatim} 
 % a  drawing of a tetrahedron inscibed in a parallelepipe from https://www.overleaf.com/project/5dc97a9a3af030000156a35f
-%%%%%%%%%%%-------------------------
-%%%%%%%%%%%\usepackage[nottoc, notlot, notlof]{tocbibind}
-%%%%%%%%%%
-%%%%%%%%%%%\usepackage{cite}
-%%%%%%%%%%%\usepackage{natbib}  
-%%%%%%%%%%%\usepackage[numbers,sort&compress]{natbib} 
-% sort of citation
 
-\usepackage{pdfpages}
-\usepackage{biblatex}
+
+%%%--------References----------
+%\usepackage[numbers,sort&compress]{natbib}
+
+%\usepackage[square,sort,comma,numbers]{natbib}
+%\usepackage[nottoc,notlof,notlot]{tocbibind} 
+%\renewcommand\bibname{REFERENCES}
+
+% https://gking.harvard.edu/files/natnotes2.pdf  -> # types of natbib
+
+
+%-------- for biber reference
+%\usepackage{pdfpages}
+\usepackage[style=nature, backend=biber]{biblatex}
+
+
+%\usepackage[backend=biber,style=nature,citestyle=numeric-comp,sorting=ynt,defernumbers=true]{biblatex}
+
 \addbibresource{citation.bib}
+
 
