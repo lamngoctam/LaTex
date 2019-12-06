@@ -7,7 +7,7 @@
   - Change BibTeX.exe to Biber.exe from Options -> Configure TexMaker -> TEX Commands -> Bib(la)Tex. Example: `"C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/biber.exe" %"`
     - [ ] `\usepackage{biblatex}`
     - [ ] `\addbibresource{citation.bib}  `
-    - [ ] 
+    - [ ] `...`
     - [ ] `\begin{document}`    
     - [ ] ` ....    `
     - [ ] `\printbibliography    `
@@ -18,10 +18,10 @@
     - [ ] `\usepackage[numbers,sort&compress]{natbib} `
     - [ ]  
     - [ ] `\begin{document}`    
-    - [ ] ` ....    `
-    - [ ] `\normalem %remove underline of references
+    - [ ] ` .... `
+    - [ ] `\normalem %remove underline of references`
     - [ ] `\bibliographystyle{ieeetran}`
-    - [ ] `\bibliography{citation}   ``
+    - [ ] `\bibliography{citation} `
     - [ ] `\end{document}`
 4. References:
 - https://tex.stackexchange.com/questions/406205/no-citation-bibdata-or-bibstyle-commands
