@@ -6,14 +6,23 @@
 - [ ] **For biber**
   - Change BibTeX.exe to Biber.exe from Options -> Configure TexMaker -> TEX Commands -> Bib(la)Tex. Example: `"C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/biber.exe" %"`
     - [ ] `\usepackage{biblatex}`
-    - [ ] `\addbibresource{citation.bib}  `  
+    - [ ] `\addbibresource{citation.bib}  `
+    - [ ] 
     - [ ] `\begin{document}`    
     - [ ] ` ....    `
     - [ ] `\printbibliography    `
     - [ ] `\end{document}`
  - [ ] **For bibtex**
   - Options -> Configure TexMaker: `"C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/bibtex.exe" %"`
-  
+    - [ ] `\documentclass[onecolumn]{IEEEtran} %optional - or \documentclass[a4paper]{article}`
+    - [ ] `\usepackage[numbers,sort&compress]{natbib} `
+    - [ ]  
+    - [ ] `\begin{document}`    
+    - [ ] ` ....    `
+    - [ ] `\normalem %remove underline of references
+    - [ ] `\bibliographystyle{ieeetran}`
+    - [ ] `\bibliography{citation}   ``
+    - [ ] `\end{document}`
 4. References:
 - https://tex.stackexchange.com/questions/406205/no-citation-bibdata-or-bibstyle-commands
 - https://tex.stackexchange.com/questions/154751/biblatex-with-biber-configuring-my-editor-to-avoid-undefined-citations
