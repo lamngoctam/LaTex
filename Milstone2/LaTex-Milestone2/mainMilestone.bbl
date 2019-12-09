@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Barraquand91_MP_DisctributedRepresenation}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5bc1f0ca797e56ec552a9d15531742c9}{%
+           family={Barraquand},
+           familyi={B\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1b7494703264d3e562759a836f6d716}{%
+           family={Latombe},
+           familyi={L\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \strng{fullhash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \strng{bibnamehash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \strng{authorbibnamehash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \strng{authornamehash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \strng{authorfullhash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0278-3649}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{6}
+      \field{title}{Robot Motion Planning: A Distributed Representation Approach}
+      \field{type}{Journal Article}
+      \field{volume}{10}
+      \field{year}{1991}
+      \field{pages}{628\bibrangedash 649}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1177/027836499101000604
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/027836499101000604
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/027836499101000604
+      \endverb
+    \endentry
     \entry{Antonio04_NewPRM}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=0dafc47d3304fc8004f4c256d7bd9f88}{%
@@ -61,8 +103,8 @@
       \strng{editorbibnamehash}{b694734157cc9ea29930928de772f662}
       \strng{editornamehash}{a0180833f35b6b5861798eb900408436}
       \strng{editorfullhash}{b694734157cc9ea29930928de772f662}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Artificial Intelligence – IBERAMIA 2004}
@@ -91,8 +133,8 @@
       \strng{authorbibnamehash}{91035c77fd23389872ad28796feca334}
       \strng{authornamehash}{91035c77fd23389872ad28796feca334}
       \strng{authorfullhash}{91035c77fd23389872ad28796feca334}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'94)}
@@ -126,8 +168,8 @@
       \strng{authorbibnamehash}{2c3418467015e8d20038e200f91dd1fe}
       \strng{authornamehash}{2c3418467015e8d20038e200f91dd1fe}
       \strng{authorfullhash}{2c3418467015e8d20038e200f91dd1fe}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings. 1987 IEEE International Conference on Robotics and Automation}
@@ -158,8 +200,8 @@
       \strng{authorbibnamehash}{d489561d244344393eb26a974d85d1ba}
       \strng{authornamehash}{d489561d244344393eb26a974d85d1ba}
       \strng{authorfullhash}{d489561d244344393eb26a974d85d1ba}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Adaptation in Natural and Artificial Systems}
@@ -190,8 +232,8 @@
       \strng{authorbibnamehash}{db01fe48d0b0f2faa69698e2cea03fd8}
       \strng{authornamehash}{030666db125af9273e7edb63f6277bbf}
       \strng{authorfullhash}{db01fe48d0b0f2faa69698e2cea03fd8}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1552-3098}
@@ -205,48 +247,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1109/TRO.2010.2053733
-      \endverb
-    \endentry
-    \entry{Barraquand91_MP_DisctributedRepresenation}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5bc1f0ca797e56ec552a9d15531742c9}{%
-           family={Barraquand},
-           familyi={B\bibinitperiod},
-           given={Jérôme},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f1b7494703264d3e562759a836f6d716}{%
-           family={Latombe},
-           familyi={L\bibinitperiod},
-           given={Jean-Claude},
-           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{fullhash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{bibnamehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{authorbibnamehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{authornamehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{authorfullhash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0278-3649}
-      \field{journaltitle}{The International Journal of Robotics Research}
-      \field{number}{6}
-      \field{title}{Robot Motion Planning: A Distributed Representation Approach}
-      \field{type}{Journal Article}
-      \field{volume}{10}
-      \field{year}{1991}
-      \field{pages}{628\bibrangedash 649}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1177/027836499101000604
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/027836499101000604
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/027836499101000604
       \endverb
     \endentry
   \enddatalist

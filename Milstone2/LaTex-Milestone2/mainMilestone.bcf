@@ -2131,12 +2131,12 @@
     <bcf:datasource type="file" datatype="bibtex">citation.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Antonio04_NewPRM</bcf:citekey>
-    <bcf:citekey order="2">Kavraki02_Random_ConfigurationSpace_PP</bcf:citekey>
-    <bcf:citekey order="3">Cai87_SpatialMotion_PointContact</bcf:citekey>
-    <bcf:citekey order="4">Holland75_GAMethod</bcf:citekey>
-    <bcf:citekey order="5">Alouges10_MotionPlanning_RollingBody</bcf:citekey>
-    <bcf:citekey order="6">Barraquand91_MP_DisctributedRepresenation</bcf:citekey>
+    <bcf:citekey order="1">Barraquand91_MP_DisctributedRepresenation</bcf:citekey>
+    <bcf:citekey order="2">Antonio04_NewPRM</bcf:citekey>
+    <bcf:citekey order="3">Kavraki02_Random_ConfigurationSpace_PP</bcf:citekey>
+    <bcf:citekey order="4">Cai87_SpatialMotion_PointContact</bcf:citekey>
+    <bcf:citekey order="5">Holland75_GAMethod</bcf:citekey>
+    <bcf:citekey order="6">Alouges10_MotionPlanning_RollingBody</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
