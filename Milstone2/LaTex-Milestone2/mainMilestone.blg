@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
-[0] Config.pm:307> INFO - Logfile is 'mainMilestone.blg'
-[23] biber-MSWIN64:315> INFO - === 
-[38] Biber.pm:375> INFO - Reading 'mainMilestone.bcf'
-[119] Biber.pm:905> INFO - Found 6 citekeys in bib section 0
-[132] Biber.pm:4196> INFO - Processing section 0
-[133] Utils.pm:75> INFO - Globbing data source 'citation.bib'
-[141] Utils.pm:91> INFO - Globbed data source 'citation.bib' to citation.bib
-[152] Biber.pm:4373> INFO - Looking for bibtex format file 'citation.bib' for section 0
-[172] bibtex.pm:1462> INFO - LaTeX decoding ...
-[565] bibtex.pm:1281> INFO - Found BibTeX data source 'citation.bib'
-[642] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[642] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[642] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[642] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
-[650] bbl.pm:648> INFO - Writing 'mainMilestone.bbl' with encoding 'UTF-8'
-[654] bbl.pm:751> INFO - Output to mainMilestone.bbl
+[1] Config.pm:307> INFO - Logfile is 'mainMilestone.blg'
+[59] biber-MSWIN64:315> INFO - === 
+[92] Biber.pm:375> INFO - Reading 'mainMilestone.bcf'
+[325] Biber.pm:905> INFO - Found 6 citekeys in bib section 0
+[346] Biber.pm:4196> INFO - Processing section 0
+[348] Utils.pm:75> INFO - Globbing data source 'citation.bib'
+[361] Utils.pm:91> INFO - Globbed data source 'citation.bib' to citation.bib
+[382] Biber.pm:4373> INFO - Looking for bibtex format file 'citation.bib' for section 0
+[416] bibtex.pm:1462> INFO - LaTeX decoding ...
+[1321] bibtex.pm:1281> INFO - Found BibTeX data source 'citation.bib'
+[1480] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1480] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1481] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1481] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[1501] bbl.pm:648> INFO - Writing 'mainMilestone.bbl' with encoding 'UTF-8'
+[1507] bbl.pm:751> INFO - Output to mainMilestone.bbl
