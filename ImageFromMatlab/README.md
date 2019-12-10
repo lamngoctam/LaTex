@@ -40,3 +40,23 @@ again on the same figure, produces this:
 ![](https://farm6.staticflickr.com/5608/15405803908_934512c1fe_o_d.png)
 
 Notice that all the noise has gone.
+
+**Example code in Matlab - LaTex**
+```
+- run simulation in Matlab-
+  export_fig test.pdf
+```
+
+```
+\usepackage{pdfpages}
+....
+\newpage
+\begin{center}
+\begin{figure}[ht]
+  \includegraphics[page=1,width=.5\textwidth]{image/test.pdf}
+  \includegraphics[page=1,width=.5\textwidth]{image/test.pdf}
+  \caption{Test}
+  \label{fig:Test}
+\end{figure}
+\end{center}
+```
