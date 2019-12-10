@@ -73,13 +73,17 @@ ylabel('Recall','Fontsize',12);
 ```
 
 **Best view in Matlab plot** 
+References from MatWork: 
+ - https://au.mathworks.com/help/releases/R2014b/matlab/ref/view.html
+ - https://www.mathworks.com/help/releases/R2014b/matlab/ref/axes-properties.html
 ```
 %%
 ax = gca;
-ax.GridColor = [0, 0, 0];
+ax.GridColor = [0, 0, 0]; % [R, G, B]
 ax.LineWidth =1;
 view([-20,-45,110]);
 % axis(gca,'square');
+
 %%
 zlim([-0.5 3]);
 % ylim([0 10.5]);
