@@ -60,3 +60,14 @@ Notice that all the noise has gone.
 \end{figure}
 \end{center}
 ```
+
+**Change size of xticks in Matlab plot** 
+link: https://au.mathworks.com/matlabcentral/answers/321518-subplot-change-size-of-xtick-ytick
+```
+set(gca, 'XTick', 0.5:0.1:1, 'YTick', 0:0.2:1);
+set(gca, 'FontSize', 18)
+axis(gca,'square');
+legend('3DOP', 'MCG-D', 'MCG', 'EB', 'SS', 'BING');
+xlabel('Intersection Over Union','Fontsize',12);
+ylabel('Recall','Fontsize',12);
+```
