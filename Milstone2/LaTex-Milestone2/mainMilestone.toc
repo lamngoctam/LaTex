@@ -1,9 +1,9 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {section}{\numberline {1}ABSTRACT}{1}{section.1}% 
-\contentsline {section}{\numberline {2}INTRODUCTION}{1}{section.2}% 
-\contentsline {section}{\numberline {3}PROBLEM FORMULATION}{2}{section.3}% 
-\contentsline {section}{\numberline {4}ALGORITHM\textbackslash METHODOLOGY}{2}{section.4}% 
-\contentsline {section}{\numberline {5}EVALUATION}{2}{section.5}% 
-\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{5}{section.6}% 
-\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{8}{section.7}% 
-\contentsline {section}{\numberline {A}APPENDIX}{10}{appendix.A}% 
+\contentsline {section}{\numberline {1}ABSTRACT}{1}{section.1}%
+\contentsline {section}{\numberline {2}INTRODUCTION}{1}{section.2}%
+\contentsline {section}{\numberline {3}PROBLEM FORMULATION}{2}{section.3}%
+\contentsline {section}{\numberline {4}ALGORITHM\textbackslash METHODOLOGY}{2}{section.4}%
+\contentsline {section}{\numberline {5}EVALUATION}{2}{section.5}%
+\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{6}{section.6}%
+\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{9}{section.7}%
+\contentsline {section}{\numberline {A}APPENDIX}{11}{appendix.A}%
