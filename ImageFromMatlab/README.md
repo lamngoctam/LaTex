@@ -71,3 +71,24 @@ legend('3DOP', 'MCG-D', 'MCG', 'EB', 'SS', 'BING');
 xlabel('Intersection Over Union','Fontsize',12);
 ylabel('Recall','Fontsize',12);
 ```
+
+**Best view in Matlab plot** 
+```
+%%
+ax = gca;
+ax.GridColor = [0, 0, 0];
+ax.LineWidth =1;
+view([-20,-45,110]);
+% axis(gca,'square');
+%%
+zlim([-0.5 3]);
+% ylim([0 10.5]);
+
+%%
+% set(gca, 'XTick', 0.5:0.1:10, 'YTick', 0:0.2:6);
+set(gca, 'FontSize', 20)
+% axis(gca,'square');
+% legend('3DOP', 'MCG-D', 'MCG', 'EB', 'SS', 'BING');
+% xlabel('Intersection Over Union','Fontsize',12);
+% ylabel('Recall','Fontsize',12);
+```
