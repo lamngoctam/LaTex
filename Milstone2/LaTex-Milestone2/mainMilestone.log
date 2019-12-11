@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  10 DEC 2019 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  11 DEC 2019 11:21
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -1766,6 +1766,12 @@ LaTeX Warning: Label `fig:Tetra2Case1' multiply defined.
 LaTeX Warning: Label `sub@fig:Tetra2Case1' multiply defined.
 
 
+LaTeX Warning: Label `fig:Octa1Case1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Octa1Case1' multiply defined.
+
+
 LaTeX Warning: Label `fig:Tetra2Case1' multiply defined.
 
 
@@ -2238,11 +2244,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
  []
 
 [3 <./image/cube11.jpg> <./image/cubePath4Dirs.jpg>]
-<image/TetraPath1.jpg, id=114, 870.25125pt x 668.4975pt>
-File: image/TetraPath1.jpg Graphic file (type jpg)
-<use image/TetraPath1.jpg>
-Package pdftex.def Info: image/TetraPath1.jpg  used on input line 96.
-(pdftex.def)             Requested size: 227.62206pt x 174.84569pt.
+<image/Tetra1.png, id=114, 799.788pt x 650.12888pt>
+File: image/Tetra1.png Graphic file (type png)
+<use image/Tetra1.png>
+Package pdftex.def Info: image/Tetra1.png  used on input line 96.
+(pdftex.def)             Requested size: 227.62206pt x 185.02081pt.
+<image/TetraPath1.jpg, id=115, 870.25125pt x 668.4975pt>
 File: image/TetraPath1.jpg Graphic file (type jpg)
 <use image/TetraPath1.jpg>
 Package pdftex.def Info: image/TetraPath1.jpg  used on input line 101.
@@ -2260,11 +2267,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-File: image/TetraPath1.jpg Graphic file (type jpg)
-<use image/TetraPath1.jpg>
-Package pdftex.def Info: image/TetraPath1.jpg  used on input line 114.
-(pdftex.def)             Requested size: 227.62206pt x 174.84569pt.
-<image/test3.png, id=115, 10879.64626pt x 8305.0275pt>
+
+
+pdfTeX warning: pdflatex (file ./image/Tetra1.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<image/Tetra1.pdf, id=116, page=1, 829.0975pt x 669.50125pt>
+File: image/Tetra1.pdf Graphic file (type pdf)
+<use image/Tetra1.pdf, page 1>
+Package pdftex.def Info: image/Tetra1.pdf , page1 used on input line 114.
+(pdftex.def)             Requested size: 227.62206pt x 183.80183pt.
+<image/test3.png, id=117, 10879.64626pt x 8305.0275pt>
 File: image/test3.png Graphic file (type png)
 <use image/test3.png>
 Package pdftex.def Info: image/test3.png  used on input line 119.
@@ -2293,27 +2305,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
+<image/Octa1.png, id=129, 943.46227pt x 666.61546pt>
+File: image/Octa1.png Graphic file (type png)
+<use image/Octa1.png>
+Package pdftex.def Info: image/Octa1.png  used on input line 146.
+(pdftex.def)             Requested size: 227.62206pt x 160.82506pt.
+File: image/Octa1.png Graphic file (type png)
+<use image/Octa1.png>
+Package pdftex.def Info: image/Octa1.png  used on input line 151.
+(pdftex.def)             Requested size: 227.62206pt x 160.82506pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 146--152
+[][]  [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
+
+ []
+
+[5 <./image/Tetra1.png (PNG copy)> <./image/TetraPath1.jpg> <./image/Tetra1.pdf
+> <./image/test3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--155
-
- []
-
-[5 <./image/TetraPath1.jpg> <./image/test3.png>]) (conclusion.tex
+) (conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
@@ -2323,16 +2353,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<image/IEEEDisCon.png, id=138, 384.2355pt x 254.1495pt>
+<image/IEEEDisCon.png, id=190, 384.2355pt x 254.1495pt>
 File: image/IEEEDisCon.png Graphic file (type png)
 <use image/IEEEDisCon.png>
 Package pdftex.def Info: image/IEEEDisCon.png  used on input line 19.
 (pdftex.def)             Requested size: 455.24411pt x 301.12701pt.
-) [6 <./image/IEEEDisCon.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [6 <./image/Octa1.png (PNG copy)>]
 
 pdfTeX warning: pdflatex (file ./image/test44.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test44.pdf, id=146, page=1, 779.91376pt x 672.5125pt>
+<image/test44.pdf, id=199, page=1, 779.91376pt x 672.5125pt>
 File: image/test44.pdf Graphic file (type pdf)
 <use image/test44.pdf, page 1>
 Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
@@ -2341,7 +2374,7 @@ Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
 
 pdfTeX warning: pdflatex (file ./image/test43.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test43.pdf, id=147, page=1, 779.91376pt x 672.5125pt>
+<image/test43.pdf, id=200, page=1, 779.91376pt x 672.5125pt>
 File: image/test43.pdf Graphic file (type pdf)
 <use image/test43.pdf, page 1>
 Package pdftex.def Info: image/test43.pdf , page1 used on input line 36.
@@ -2355,7 +2388,7 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 35--37
 
 pdfTeX warning: pdflatex (file ./image/test2.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<image/test2.pdf, id=148, page=1, 851.18pt x 659.46375pt>
+<image/test2.pdf, id=201, page=1, 851.18pt x 659.46375pt>
 File: image/test2.pdf Graphic file (type pdf)
 <use image/test2.pdf, page 1>
 Package pdftex.def Info: image/test2.pdf , page1 used on input line 47.
@@ -2369,7 +2402,11 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 47--53
 [][]  [][] 
  []
 
-[7 <./image/test44.pdf> <./image/test43.pdf> <./image/test2.pdf>] [8]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./image/IEEEDisCon.png> <./image/test44.pdf> <./image/test43.pdf>] [8 <./im
+age/test2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 72--80
 
  []
@@ -2396,10 +2433,10 @@ Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 55012 strings out of 492450
- 1237822 string characters out of 3118604
- 1795572 words of memory out of 3000000
- 58450 multiletter control sequences out of 15000+200000
+ 55034 strings out of 492450
+ 1238249 string characters out of 3118604
+ 1795661 words of memory out of 3000000
+ 58467 multiletter control sequences out of 15000+200000
  543218 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,16n,100p,1140b,1225s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2425,9 +2462,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
 msfonts/cm/cmti8.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/19107262/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on mainMilestone.pdf (12 pages, 13431975 bytes).
+Output written on mainMilestone.pdf (12 pages, 15818329 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 454 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
