@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'exampleTable.blg'
+[28] biber-MSWIN64:315> INFO - === 
+[413] Utils.pm:316> ERROR - Cannot find 'exampleTable.bcf'!
+[413] Biber.pm:114> INFO - ERRORS: 1
