@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  4 FEB 2020 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  5 FEB 2020 14:17
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -1725,55 +1725,34 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 -obj-angles.tex")
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tkz-euclide\tkz
 -obj-protractor.tex")
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithm2e\alg
-orithm2e.sty"
-Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count412
-\algocf@hangindent=\skip91
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithms\algo
+rithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks72
+\c@algorithm=\count412
+)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithmicx\al
+gpseudocode.sty"
+Package: algpseudocode 
 
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.st
-y"
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithmicx\al
+gorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count413
+\c@ALG@rem=\count414
+\c@ALG@nested=\count415
+\ALG@tlm=\skip91
+\ALG@thistlm=\skip92
+\c@ALG@Lnr=\count416
+\c@ALG@blocknr=\count417
+\c@ALG@storecount=\count418
+\c@ALG@tmpcounter=\count419
+\ALG@tmplength=\skip93
 )
-("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/relsize\relsize
-.sty"
-Package: relsize 2013/03/29 ver 4.1
-)
-\skiptotal=\skip92
-\skiplinenumber=\skip93
-\skiprule=\skip94
-\skiphlne=\skip95
-\skiptext=\skip96
-\skiplength=\skip97
-\algomargin=\skip98
-\skipalgocfslide=\skip99
-\algowidth=\dimen372
-\inoutsize=\dimen373
-\inoutindent=\dimen374
-\interspacetitleruled=\dimen375
-\interspacealgoruled=\dimen376
-\interspacetitleboxruled=\dimen377
-\algocf@ruledwidth=\skip100
-\algocf@inoutbox=\box107
-\algocf@inputbox=\box108
-\AlCapSkip=\skip101
-\AlCapHSkip=\skip102
-\algoskipindent=\skip103
-\algocf@nlbox=\box109
-\algocf@hangingbox=\box110
-\algocf@untilbox=\box111
-\algocf@skipuntil=\skip104
-\algocf@capbox=\box112
-\algocf@lcaptionbox=\skip105
-\algoheightruledefault=\skip106
-\algoheightrule=\skip107
-\algotitleheightruledefault=\skip108
-\algotitleheightrule=\skip109
-\c@algocfline=\count413
-\c@algocfproc=\count414
-\c@algocf=\count415
-\algocf@algoframe=\box113
-\algocf@algobox=\box114
+Document Style - pseudocode environments for use with the `algorithmicx' style
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.sty"
@@ -1782,67 +1761,67 @@ Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.s
 ty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count416
+\lrq@indent=\count420
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.d
 ef"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count417
-\c@listtotal=\count418
-\c@listcount=\count419
-\c@liststart=\count420
-\c@liststop=\count421
-\c@citecount=\count422
-\c@citetotal=\count423
-\c@multicitecount=\count424
-\c@multicitetotal=\count425
-\c@instcount=\count426
-\c@maxnames=\count427
-\c@minnames=\count428
-\c@maxitems=\count429
-\c@minitems=\count430
-\c@citecounter=\count431
-\c@maxcitecounter=\count432
-\c@savedcitecounter=\count433
-\c@uniquelist=\count434
-\c@uniquename=\count435
-\c@refsection=\count436
-\c@refsegment=\count437
-\c@maxextratitle=\count438
-\c@maxextratitleyear=\count439
-\c@maxextraname=\count440
-\c@maxextradate=\count441
-\c@maxextraalpha=\count442
-\c@abbrvpenalty=\count443
-\c@highnamepenalty=\count444
-\c@lownamepenalty=\count445
-\c@maxparens=\count446
-\c@parenlevel=\count447
-\blx@tempcnta=\count448
-\blx@tempcntb=\count449
-\blx@tempcntc=\count450
-\blx@maxsection=\count451
-\blx@maxsegment@0=\count452
-\blx@notetype=\count453
-\blx@parenlevel@text=\count454
-\blx@parenlevel@foot=\count455
-\blx@sectionciteorder@0=\count456
-\blx@entrysetcounter=\count457
-\labelnumberwidth=\skip110
-\labelalphawidth=\skip111
-\biblabelsep=\skip112
-\bibitemsep=\skip113
-\bibnamesep=\skip114
-\bibinitsep=\skip115
-\bibparsep=\skip116
-\bibhang=\skip117
+\c@tabx@nest=\count421
+\c@listtotal=\count422
+\c@listcount=\count423
+\c@liststart=\count424
+\c@liststop=\count425
+\c@citecount=\count426
+\c@citetotal=\count427
+\c@multicitecount=\count428
+\c@multicitetotal=\count429
+\c@instcount=\count430
+\c@maxnames=\count431
+\c@minnames=\count432
+\c@maxitems=\count433
+\c@minitems=\count434
+\c@citecounter=\count435
+\c@maxcitecounter=\count436
+\c@savedcitecounter=\count437
+\c@uniquelist=\count438
+\c@uniquename=\count439
+\c@refsection=\count440
+\c@refsegment=\count441
+\c@maxextratitle=\count442
+\c@maxextratitleyear=\count443
+\c@maxextraname=\count444
+\c@maxextradate=\count445
+\c@maxextraalpha=\count446
+\c@abbrvpenalty=\count447
+\c@highnamepenalty=\count448
+\c@lownamepenalty=\count449
+\c@maxparens=\count450
+\c@parenlevel=\count451
+\blx@tempcnta=\count452
+\blx@tempcntb=\count453
+\blx@tempcntc=\count454
+\blx@maxsection=\count455
+\blx@maxsegment@0=\count456
+\blx@notetype=\count457
+\blx@parenlevel@text=\count458
+\blx@parenlevel@foot=\count459
+\blx@sectionciteorder@0=\count460
+\blx@entrysetcounter=\count461
+\labelnumberwidth=\skip94
+\labelalphawidth=\skip95
+\biblabelsep=\skip96
+\bibitemsep=\skip97
+\bibnamesep=\skip98
+\bibinitsep=\skip99
+\bibparsep=\skip100
+\bibhang=\skip101
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language82
-\c@mincomprange=\count458
-\c@maxcomprange=\count459
-\c@mincompwidth=\count460
+\c@mincomprange=\count462
+\c@maxcomprange=\count463
+\c@mincompwidth=\count464
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1854,88 +1833,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'nature.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count461
-\c@savedafterword=\count462
-\c@annotator=\count463
-\c@savedannotator=\count464
-\c@author=\count465
-\c@savedauthor=\count466
-\c@bookauthor=\count467
-\c@savedbookauthor=\count468
-\c@commentator=\count469
-\c@savedcommentator=\count470
-\c@editor=\count471
-\c@savededitor=\count472
-\c@editora=\count473
-\c@savededitora=\count474
-\c@editorb=\count475
-\c@savededitorb=\count476
-\c@editorc=\count477
-\c@savededitorc=\count478
-\c@foreword=\count479
-\c@savedforeword=\count480
-\c@holder=\count481
-\c@savedholder=\count482
-\c@introduction=\count483
-\c@savedintroduction=\count484
-\c@namea=\count485
-\c@savednamea=\count486
-\c@nameb=\count487
-\c@savednameb=\count488
-\c@namec=\count489
-\c@savednamec=\count490
-\c@translator=\count491
-\c@savedtranslator=\count492
-\c@shortauthor=\count493
-\c@savedshortauthor=\count494
-\c@shorteditor=\count495
-\c@savedshorteditor=\count496
-\c@labelname=\count497
-\c@savedlabelname=\count498
-\c@institution=\count499
-\c@savedinstitution=\count500
-\c@lista=\count501
-\c@savedlista=\count502
-\c@listb=\count503
-\c@savedlistb=\count504
-\c@listc=\count505
-\c@savedlistc=\count506
-\c@listd=\count507
-\c@savedlistd=\count508
-\c@liste=\count509
-\c@savedliste=\count510
-\c@listf=\count511
-\c@savedlistf=\count512
-\c@location=\count513
-\c@savedlocation=\count514
-\c@organization=\count515
-\c@savedorganization=\count516
-\c@origlocation=\count517
-\c@savedoriglocation=\count518
-\c@origpublisher=\count519
-\c@savedorigpublisher=\count520
-\c@publisher=\count521
-\c@savedpublisher=\count522
-\c@language=\count523
-\c@savedlanguage=\count524
-\c@origlanguage=\count525
-\c@savedoriglanguage=\count526
-\c@pageref=\count527
-\c@savedpageref=\count528
-\shorthandwidth=\skip118
-\shortjournalwidth=\skip119
-\shortserieswidth=\skip120
-\shorttitlewidth=\skip121
-\shortauthorwidth=\skip122
-\shorteditorwidth=\skip123
-\locallabelnumberwidth=\skip124
-\locallabelalphawidth=\skip125
-\localshorthandwidth=\skip126
-\localshortjournalwidth=\skip127
-\localshortserieswidth=\skip128
-\localshorttitlewidth=\skip129
-\localshortauthorwidth=\skip130
-\localshorteditorwidth=\skip131
+\c@afterword=\count465
+\c@savedafterword=\count466
+\c@annotator=\count467
+\c@savedannotator=\count468
+\c@author=\count469
+\c@savedauthor=\count470
+\c@bookauthor=\count471
+\c@savedbookauthor=\count472
+\c@commentator=\count473
+\c@savedcommentator=\count474
+\c@editor=\count475
+\c@savededitor=\count476
+\c@editora=\count477
+\c@savededitora=\count478
+\c@editorb=\count479
+\c@savededitorb=\count480
+\c@editorc=\count481
+\c@savededitorc=\count482
+\c@foreword=\count483
+\c@savedforeword=\count484
+\c@holder=\count485
+\c@savedholder=\count486
+\c@introduction=\count487
+\c@savedintroduction=\count488
+\c@namea=\count489
+\c@savednamea=\count490
+\c@nameb=\count491
+\c@savednameb=\count492
+\c@namec=\count493
+\c@savednamec=\count494
+\c@translator=\count495
+\c@savedtranslator=\count496
+\c@shortauthor=\count497
+\c@savedshortauthor=\count498
+\c@shorteditor=\count499
+\c@savedshorteditor=\count500
+\c@labelname=\count501
+\c@savedlabelname=\count502
+\c@institution=\count503
+\c@savedinstitution=\count504
+\c@lista=\count505
+\c@savedlista=\count506
+\c@listb=\count507
+\c@savedlistb=\count508
+\c@listc=\count509
+\c@savedlistc=\count510
+\c@listd=\count511
+\c@savedlistd=\count512
+\c@liste=\count513
+\c@savedliste=\count514
+\c@listf=\count515
+\c@savedlistf=\count516
+\c@location=\count517
+\c@savedlocation=\count518
+\c@organization=\count519
+\c@savedorganization=\count520
+\c@origlocation=\count521
+\c@savedoriglocation=\count522
+\c@origpublisher=\count523
+\c@savedorigpublisher=\count524
+\c@publisher=\count525
+\c@savedpublisher=\count526
+\c@language=\count527
+\c@savedlanguage=\count528
+\c@origlanguage=\count529
+\c@savedoriglanguage=\count530
+\c@pageref=\count531
+\c@savedpageref=\count532
+\shorthandwidth=\skip102
+\shortjournalwidth=\skip103
+\shortserieswidth=\skip104
+\shorttitlewidth=\skip105
+\shortauthorwidth=\skip106
+\shorteditorwidth=\skip107
+\locallabelnumberwidth=\skip108
+\locallabelalphawidth=\skip109
+\localshorthandwidth=\skip110
+\localshortjournalwidth=\skip111
+\localshortserieswidth=\skip112
+\localshorttitlewidth=\skip113
+\localshortauthorwidth=\skip114
+\localshorteditorwidth=\skip115
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1949,19 +1928,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.def"
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count529
-\c@textcitetotal=\count530
-\c@textcitemaxnames=\count531
-\c@biburlbigbreakpenalty=\count532
-\c@biburlbreakpenalty=\count533
-\c@biburlnumpenalty=\count534
-\c@biburlucpenalty=\count535
-\c@biburllcpenalty=\count536
+\c@textcitecount=\count533
+\c@textcitetotal=\count534
+\c@textcitemaxnames=\count535
+\c@biburlbigbreakpenalty=\count536
+\c@biburlbreakpenalty=\count537
+\c@biburlnumpenalty=\count538
+\c@biburlucpenalty=\count539
+\c@biburllcpenalty=\count540
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count537
+\c@smartand=\count541
 )
 Package biblatex Info: Trying to load bibliography style 'nature'...
 Package biblatex Info: ... file 'nature.bbx' found.
@@ -1987,8 +1966,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\st
 andard.bbx"
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count538
-\c@bbx:relatedtotal=\count539
+\c@bbx:relatedcount=\count542
+\c@bbx:relatedtotal=\count543
 ))))
 Package biblatex Info: Trying to load citation style 'nature'...
 Package biblatex Info: ... file 'nature.cbx' found.
@@ -2002,8 +1981,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\nu
 meric-comp.cbx"
 File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count540
-\c@cbx@tempcntb=\count541
+\c@cbx@tempcnta=\count544
+\c@cbx@tempcntb=\count545
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2022,7 +2001,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
 ex.cfg"
 File: biblatex.cfg 
-))) (AlgorithmStyle.tex)
+)))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2030,8 +2009,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 glish.lbx"
 File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
-\@quotelevel=\count542
-\@quotereset=\count543
+\@quotelevel=\count546
+\@quotereset=\count547
  (mainMilestone.aux
 
 LaTeX Warning: Label `fig:platonicSolids' multiply defined.
@@ -2115,7 +2094,7 @@ LaTeX Font Info:    ... okay on input line 10.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box115
+\AtBeginShipoutBox=\box107
 Package hyperref Info: Link coloring OFF on input line 10.
 
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
@@ -2130,7 +2109,7 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count544
+\c@section@level=\count548
 )
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
@@ -2143,17 +2122,17 @@ LaTeX Info: Redefining \nameref on input line 10.
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count545
-\scratchdimen=\dimen378
-\scratchbox=\box116
-\nofMPsegments=\count546
-\nofMParguments=\count547
-\everyMPshowfont=\toks72
-\MPscratchCnt=\count548
-\MPscratchDim=\dimen379
-\MPnumerator=\count549
-\makeMPintoPDFobject=\count550
-\everyMPtoPDFconversion=\toks73
+\scratchcounter=\count549
+\scratchdimen=\dimen372
+\scratchbox=\box108
+\nofMPsegments=\count550
+\nofMParguments=\count551
+\everyMPshowfont=\toks73
+\MPscratchCnt=\count552
+\MPscratchDim=\dimen373
+\MPnumerator=\count553
+\makeMPintoPDFobject=\count554
+\everyMPtoPDFconversion=\toks74
 )
 ("C:\Users\19107262\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
 stopdf-base.sty"
@@ -2372,102 +2351,20 @@ File: image/rollingDir2.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/rollingDir2.pdf  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--16
 
  []
 
 
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 25.
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
+ []
 
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 35.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 67.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 69.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 71.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
-
-Package relsize Warning: Font size 4.86111pt is too small.
-(relsize)                Using 5.0pt instead on input line 90.
-
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 20.
 [4
 
- <./image/rollingDir2.pdf>] [5] (Nodes.tex
-Overfull \hbox (9.1534pt too wide) in paragraph at lines 201--202
-[][] 
- []
-
-) [6
+ <./image/rollingDir2.pdf>] [5] (Nodes.tex) [6
 
 ]) (discussion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -2479,12 +2376,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-<image/cube11.jpg, id=150, 864.831pt x 660.066pt>
+<image/cube11.jpg, id=121, 864.831pt x 660.066pt>
 File: image/cube11.jpg Graphic file (type jpg)
 <use image/cube11.jpg>
 Package pdftex.def Info: image/cube11.jpg  used on input line 13.
 (pdftex.def)             Requested size: 227.62206pt x 173.72818pt.
-<image/cubePath4Dirs.jpg, id=151, 839.5365pt x 668.4975pt>
+<image/cubePath4Dirs.jpg, id=122, 839.5365pt x 668.4975pt>
 File: image/cubePath4Dirs.jpg Graphic file (type jpg)
 <use image/cubePath4Dirs.jpg>
 Package pdftex.def Info: image/cubePath4Dirs.jpg  used on input line 19.
@@ -2498,7 +2395,7 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 13--20
 
 pdfTeX warning: pdflatex (file ./image/cubePath1.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/cubePath1.pdf, id=152, 741.77126pt x 671.50874pt>
+<image/cubePath1.pdf, id=123, 741.77126pt x 671.50874pt>
 File: image/cubePath1.pdf Graphic file (type pdf)
 <use image/cubePath1.pdf>
 Package pdftex.def Info: image/cubePath1.pdf  used on input line 27.
@@ -2506,12 +2403,12 @@ Package pdftex.def Info: image/cubePath1.pdf  used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<image/cubeCase2Path1.jpg, id=153, 879.88725pt x 666.69075pt>
+<image/cubeCase2Path1.jpg, id=124, 879.88725pt x 666.69075pt>
 File: image/cubeCase2Path1.jpg Graphic file (type jpg)
 <use image/cubeCase2Path1.jpg>
 Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 55.
 (pdftex.def)             Requested size: 227.62206pt x 172.47081pt.
-<image/cubeCase2Path2.jpg, id=154, 867.24pt x 667.89525pt>
+<image/cubeCase2Path2.jpg, id=125, 867.24pt x 667.89525pt>
 File: image/cubeCase2Path2.jpg Graphic file (type jpg)
 <use image/cubeCase2Path2.jpg>
 Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 60.
@@ -2541,7 +2438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
 pdfTeX warning: pdflatex (file ./image/tetraPath2.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<image/tetraPath2.pdf, id=216, 930.47626pt x 671.50874pt>
+<image/tetraPath2.pdf, id=187, 930.47626pt x 671.50874pt>
 File: image/tetraPath2.pdf Graphic file (type pdf)
 <use image/tetraPath2.pdf>
 Package pdftex.def Info: image/tetraPath2.pdf  used on input line 87.
@@ -2550,7 +2447,7 @@ Package pdftex.def Info: image/tetraPath2.pdf  used on input line 87.
 
 pdfTeX warning: pdflatex (file ./image/tetraPath1.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<image/tetraPath1.pdf, id=217, 919.435pt x 655.44875pt>
+<image/tetraPath1.pdf, id=188, 919.435pt x 655.44875pt>
 File: image/tetraPath1.pdf Graphic file (type pdf)
 <use image/tetraPath1.pdf>
 Package pdftex.def Info: image/tetraPath1.pdf  used on input line 92.
@@ -2571,7 +2468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
 pdfTeX warning: pdflatex (file ./image/octoPath1.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/octoPath1.pdf, id=318, 779.91376pt x 671.50874pt>
+<image/octoPath1.pdf, id=289, 779.91376pt x 671.50874pt>
 File: image/octoPath1.pdf Graphic file (type pdf)
 <use image/octoPath1.pdf>
 Package pdftex.def Info: image/octoPath1.pdf  used on input line 115.
@@ -2580,7 +2477,7 @@ Package pdftex.def Info: image/octoPath1.pdf  used on input line 115.
 
 pdfTeX warning: pdflatex (file ./image/octoPath2.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/octoPath2.pdf, id=319, 784.9325pt x 670.505pt>
+<image/octoPath2.pdf, id=290, 784.9325pt x 670.505pt>
 File: image/octoPath2.pdf Graphic file (type pdf)
 <use image/octoPath2.pdf>
 Package pdftex.def Info: image/octoPath2.pdf  used on input line 120.
@@ -2596,7 +2493,7 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 115--121
 
 pdfTeX warning: pdflatex (file ./image/icosaPath.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/icosaPath.pdf, id=404, 666.49pt x 665.48625pt>
+<image/icosaPath.pdf, id=375, 666.49pt x 665.48625pt>
 File: image/icosaPath.pdf Graphic file (type pdf)
 <use image/icosaPath.pdf>
 Package pdftex.def Info: image/icosaPath.pdf  used on input line 143.
@@ -2605,7 +2502,7 @@ Package pdftex.def Info: image/icosaPath.pdf  used on input line 143.
 
 pdfTeX warning: pdflatex (file ./image/icosaPathTopView.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<image/icosaPathTopView.pdf, id=405, 681.54625pt x 693.59125pt>
+<image/icosaPathTopView.pdf, id=376, 681.54625pt x 693.59125pt>
 File: image/icosaPathTopView.pdf Graphic file (type pdf)
 <use image/icosaPathTopView.pdf>
 Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 148.
@@ -2621,7 +2518,7 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 143--149
 
 pdfTeX warning: pdflatex (file ./image/dodecahedron3.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<image/dodecahedron3.pdf, id=491, 845.1575pt x 597.23125pt>
+<image/dodecahedron3.pdf, id=462, 845.1575pt x 597.23125pt>
 File: image/dodecahedron3.pdf Graphic file (type pdf)
 <use image/dodecahedron3.pdf>
 Package pdftex.def Info: image/dodecahedron3.pdf  used on input line 174.
@@ -2663,7 +2560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<image/IEEEDisCon.png, id=522, 384.2355pt x 254.1495pt>
+<image/IEEEDisCon.png, id=493, 384.2355pt x 254.1495pt>
 File: image/IEEEDisCon.png Graphic file (type png)
 <use image/IEEEDisCon.png>
 Package pdftex.def Info: image/IEEEDisCon.png  used on input line 19.
@@ -2675,7 +2572,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex (file ./image/test44.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test44.pdf, id=527, page=1, 779.91376pt x 672.5125pt>
+<image/test44.pdf, id=498, page=1, 779.91376pt x 672.5125pt>
 File: image/test44.pdf Graphic file (type pdf)
 <use image/test44.pdf, page 1>
 Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
@@ -2684,7 +2581,7 @@ Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
 
 pdfTeX warning: pdflatex (file ./image/test43.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test43.pdf, id=528, page=1, 779.91376pt x 672.5125pt>
+<image/test43.pdf, id=499, page=1, 779.91376pt x 672.5125pt>
 File: image/test43.pdf Graphic file (type pdf)
 <use image/test43.pdf, page 1>
 Package pdftex.def Info: image/test43.pdf , page1 used on input line 36.
@@ -2698,12 +2595,12 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 35--37
 
 pdfTeX warning: pdflatex (file ./image/test2.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<image/test2.pdf, id=529, page=1, 851.18pt x 659.46375pt>
+<image/test2.pdf, id=500, page=1, 851.18pt x 659.46375pt>
 File: image/test2.pdf Graphic file (type pdf)
 <use image/test2.pdf, page 1>
 Package pdftex.def Info: image/test2.pdf , page1 used on input line 47.
 (pdftex.def)             Requested size: 227.62206pt x 176.34694pt.
-<image/test3.png, id=530, 10879.64626pt x 8305.0275pt>
+<image/test3.png, id=501, 10879.64626pt x 8305.0275pt>
 File: image/test3.png Graphic file (type png)
 <use image/test3.png>
 Package pdftex.def Info: image/test3.png  used on input line 52.
@@ -2733,7 +2630,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `mainMilestone.out' has not changed.
-(rerunfilecheck)             Checksum: CA27BBB1AA8ED2331F9CDEA57016393B;567.
+(rerunfilecheck)             Checksum: BF3CE0CCAB93BEBD834805E81D073C35;614.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2744,44 +2641,34 @@ Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 67024 strings out of 492450
- 1561644 string characters out of 3118604
- 2131083 words of memory out of 3000000
- 70296 multiletter control sequences out of 15000+200000
- 543823 words of font info for 69 fonts, out of 3000000 for 9000
+ 66597 strings out of 492450
+ 1554300 string characters out of 3118604
+ 2118268 words of memory out of 3000000
+ 69904 multiletter control sequences out of 15000+200000
+ 538526 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,24n,127p,1636b,2681s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 77i,26n,127p,1636b,2858s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/19107262/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/19107262/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/191
-07262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.
-pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/19107262/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/19107262/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/User
-s/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/19107262/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/19107262/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/19107
-262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/1
+9107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/19107262/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/19107262/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/1910
+7262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 <C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmssbx10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/19107262/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/19107
-262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
-><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmti8.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmtt10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on mainMilestone.pdf (20 pages, 18828974 bytes).
+s/cm/cmr8.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/19107262/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/19107262
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on mainMilestone.pdf (20 pages, 18764180 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

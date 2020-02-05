@@ -1,6 +1,3 @@
-This is the node tree for searching algorithm. Different colors indicate different level of searching steps. %\vskip 0.5cm
-
-
 \tikzset{
 	level/.style={sibling distance=35mm/#1},
 	treenode/.style={align=center,inner sep=0pt},
@@ -14,6 +11,7 @@ This is the node tree for searching algorithm. Different colors indicate differe
 	node_nil/.style={treenode,rectangle,fill=black,minimum width=0.3cm,minimum height=0.3cm}
 }
 \begin{tikzpicture}
+
 \node[node_red] (z){$S$}
   child {node[node_black] (a) {$R$}								%%% Right
     child[black] {node[node_black]  (b) {$R$}
@@ -47,7 +45,7 @@ This is the node tree for searching algorithm. Different colors indicate differe
          child[black] {node[node_black] (f11) {$U$}}
         }
         child[red] {node (f2) {$\vdots$}
-         child[red] {node[node_red] (f12) {$D$}}
+         child[red] {node[node_red] (f12) {$G$}}
         }
       }
     }
@@ -106,14 +104,31 @@ This is the node tree for searching algorithm. Different colors indicate differe
 \path (f11) -- (f12) node [midway] {$\cdots$};
 \path (k11) -- (k12) node [midway] {$\cdots$};
 \path (l11) -- (l12) node [midway] {$\cdots$};
+
+%\begin{tikzlegend}[legend entries={monopolist profit within entry allowance,
+%      monopolist profit within entry deterrence,something else},
+%        legend style={at={(0,-1)},anchor=north west}, legend cell align=left]
+%     \addlegendimage{dotted,sharp plot}
+%     \addlegendimage{sharp plot}
+%     \addlegendimage{dashed, sharp plot}
+%\end{tikzlegend}   
+   
 \end{tikzpicture}
 
 %% take notes
 
+\vskip 0.5cm
 
 \begin{tikzpicture}
-%\node[node_black] (n12) {}
-%\node[node_red] (n12) {}
-%\node[node_blue] (n12) {}
+\draw (-0.5,-2.5) rectangle(6,0.7);
+\draw[-][draw=black, very thick] (0,0) -- (1.5,0);
+\draw (1.8,0) node[node_black]{S}  ;
+\draw (3.7,0) node{Possible path} ;
+\draw[-][draw=blue, very thick] (0,-1) -- (1.5,-1);
+\draw (1.8,-1) node[node_blue]{R} ;
+\draw (4.3,-1) node{Achieving same path} ;
+\draw[-][draw=red, very thick] (0,-2) -- (1.5,-2);
+\draw (1.8,-2) node[node_red]{G} ;
+\draw (3.5,-2) node{Final path} ;
 \end{tikzpicture}
-
+%\vskip 0.5cm

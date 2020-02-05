@@ -1,6 +1,6 @@
 \section{ALGORITHM\textbackslash METHODOLOGY}
 
-\subsection{Algorithm}
+\subsection{Path Planning Based Rolling Contact}
 \noindent\uline{Five types of Platonic Solids}: 
 \begin{figure}[h]
 \centering
@@ -12,82 +12,62 @@
 % 
 %
 %
-%
-%
-%
 \uline{Version1}: \\
 
-
 Example:\\
-\begin{algorithm}[H]
-\SetAlgoLined
-\KwResult{\textit{Write here the result }}
- initialization\;
- \While{While condition}{
-  instructions\;
-  \eIf{condition}{
-   instructions1\;
-   instructions2\;
-   }{
-   instructions3\;
-  }
- }
- \caption{How to write algorithms}
-\end{algorithm}
 
-
-\noindent\uline{Version2}: 
-% algorithm code (for this example)
 \begin{algorithm}
-
-% functions
-\SetKwFunction{cumprod}{cumprod}
-\SetKwFunction{length}{length}
-\SetKwFunction{zeros}{zeros}
-\SetKwFunction{ceil}{ceil}
-
-% input/ouput names
-\SetKwInOut{Input}{Input}
-\SetKwInOut{Output}{Output}
-
-% caption
-\caption{Creation of edge set for a specific perfect matching number.\label{alg:singlepm}}
-
-\Input{%
-		\xvbox{2mm}{$\xvar{N}$} -- number of vertices (should be even) \\
-		\xvbox{2mm}{$\xvar{I}$} -- perfect matching number, integer between 1 and $(\xvar{N}-1)!!$
-	  }
-\Output{%
-		\xvbox{2mm}{$\xvar{E}$} -- vector of edges in sequential pairs
-	   }
-
-  \BlankLine % blank line for spacing
-  
-  % start of the pseudocode
-  \xvbox{2mm}{$\xvar{J}$} $\leftarrow$ $[ 1,3,5,\dots,\xvar{N}-1 ]$ \tcc*{odd numbers from 1 to N-1}
-
-  \xvbox{2mm}{$\xvar{P}$} $\leftarrow$ $[ 1,\cumprod(\xvar{J}) ]$ \tcc*{cumulative double factorial}
-    
-  \xvbox{2mm}{$\xvar{V}$} $\leftarrow$ $[ 1,2,\dots,\xvar{N} ]$ \tcc*{create initial list of available vertices}
-        
-  \For{$\xvar{j}\leftarrow$ $\xvar{J}$ }{
-
-    \xvbox{1mm}{$\xvar{q}$} $\leftarrow$ $(\xvar{N}+1-\xvar{j})/2$ \tcc*{index for 2nd to last entry in P}
-
-    \xvbox{1mm}{$\xvar{I}$} $\leftarrow$ $\ceil\big(\xvar{I}/\xvar{P}(\xvar{q})\big)$ \tcc*{calculate smaller vertex index}
-
-    $\xvar{E}(\xvar{j})$ $\leftarrow$ $\xvar{V}(\xvar{end})$ \tcc*{assign largest remaining value}
-
-    remove element $\xvar{V}(\xvar{end})$ \tcc*{remove largest remaining value}
-
-    $\xvar{E}(\xvar{j}+1)$ $\leftarrow$ $\xvar{V}(\xvar{i})$ \tcc*{assign smaller selected value}
-
-    remove element $\xvar{V}(\xvar{i})$ \tcc*{remove the smaller selected value}
-
-    \xvbox{1mm}{$\xvar{I}$} $\leftarrow$ $\xvar{I} - \big( (\xvar{i} - 1) \times \xvar{P} (\xvar{q}) \big)$ \tcc*{subtract to get index in subgraph with 2 vertices removed}
-	
-  } % end for j	
-
+\caption{Path planning based rolling contact for Cube model.\label{alg:rollingPath}}
+\begin{algorithmic}[1]
+\Procedure {CubePathPlanning}{$S_p$, $G_p$}               \Comment{Find the shortest path from start to goal position with different orientation}
+	\State $flag$ $\leftarrow$ $false$
+	\State $Path[S_p]$ $\leftarrow$ $S_p$
+	\State $newPoints$ $\leftarrow$ \textsc{rolling4Directions}($S_p$)	\Comment{Generate first four updated points}
+	\While{$newPoints$ $!=$ $G_p$} 
+		\State $updatedPoints$ $\leftarrow$ \textsc{treeExploration}($newPoints$)	\Comment{Update new three right rolling models}
+		\State $n$ $\leftarrow$ \textit{size}$(updatedPoints)$
+		\For{$i\gets 0, n$}		
+			\For{$j\gets 1, n$}	
+				\If {$updatedPoints[i]$ $=$ $updatedPoints[j]$}
+					\State \textit{remove}($updatedPoints[i]$)
+				\EndIf
+			\EndFor
+		\EndFor		
+		\State $flag$ $\leftarrow$ \textsc{checkingTargetPoint}($updatedPoints$) 	\Comment{Compare updated points with goal point}  	
+			\If {$flag$ $=$ $true$}
+				\State \Return {\textit{"path found"}} 								\Comment{Store new point to $Path$}
+			\EndIf
+			\State $newPoints$ $=$ $updatedPoints$ 
+	\EndWhile
+	\State  \Return {\textit{"no path found"}} 	
+\EndProcedure
+\Statex
+\Procedure {rolling4Directions}{$S_p$}\Comment{Generate new points in different direction of rolling}
+	\State $(newRightPoint,newLeftPoint,newUpPoint,newDownPoint)$ $\leftarrow$ \textsc{rollingContact}($S_p$)				
+	\State \Return{$newPoints$ $\leftarrow$ $(newRightPoint,newLeftPoint,newUpPoint,newDownPoint)$}
+\EndProcedure
+\Statex
+\Procedure {treeExploration}{$newPoints$}
+	\If {$dir$ $=$ $right$}
+		\State  $updatedPoints$ $\leftarrow$  $(newRightPoint,newUpPoint,newDownPoint)$
+	\ElsIf {$dir$ $=$ $left$}
+		\State $updatedPoints$ $\leftarrow$  $(newLeftPoint,newUpPoint,newDownPoint)$
+	\ElsIf {$dir$ $=$ $up$}
+		\State $updatedPoints$ $\leftarrow$  $(newRightPoint,newLeftPoint,newUpPoint)$
+	\Else %{$dir$ $=$ $right$}
+		\State $updatedPoints$ $\leftarrow$  $(newRightPoint,newLeftPoint,newDownPoint)$
+	\EndIf
+	\State \Return {$updatedPoints$}
+\EndProcedure
+\Statex
+\Procedure {checkingTargetPoints}{$updatedPoints$,$G_p$}
+	\State 
+	\If {$updatedPoints$ $=$ $G_p$}									\Comment{Consider both position and orientation}
+		\State $flag$ $\leftarrow$ $true$
+	\EndIf
+	\State \Return {$flag$}
+\EndProcedure
+\end{algorithmic}
 \end{algorithm}
 
 
@@ -95,10 +75,24 @@ Example:\\
 \newpage
 
 %----------------------------------
-\subsection{Nodes}
-%\begin{figure}
+\subsection{Tree Exploration Algorithm}
+The node tree exploration for searching algorithm described in Algorithm\ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm.
+The graph search in the Figure\ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $level^1 ... level^n$.
+Each nodes indicates the position of the cube's center and the orientation of the cube. The node $S$ means Start-Point while $R,L,U,D$ are labelled for four different directions including right, left, up and down respectively. 
+
+\vskip 0.5cm
+\begin{figure}[h]
 	\input{Nodes}
-%\end{figure}
+	\caption{Tree Exploration of Cube Rolling}
+\label{fig:nodeTree}
+\end{figure}
+
+Starting form the root $S$, path planning based rolling of the cube model at the first level of expansion will generate to four different direction $R,L,U,D$. In the next level, the cube can only roll with three directions without rolling back to the previous position.  An example of the second level is that node $R$ will roll to right, up, and down directions. 
+ 
+%
+% 
+%
+%
 
 %----------------------------------
 \clearpage
