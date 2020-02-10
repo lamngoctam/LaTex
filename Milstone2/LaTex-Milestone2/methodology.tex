@@ -1,21 +1,44 @@
 \section{ALGORITHM\textbackslash METHODOLOGY}
 
 \subsection{Path Planning Based Rolling Contact}
-\noindent\uline{Five types of Platonic Solids}: 
+\noindent\uline{Rolling on discretized surfaces}:
+The surface contacts between platonic solids and the plane can be categorized into three types as shown in Figure\ref{fig:gridPlatonic} including square shape for cube, triangle shape for tetrahedron, octahedron, and dodecahedron, pentagon shape for dodecahedron. However, in the case of dodecahedron rolling contact, the Figure\ref{fig:gridPlatonic}d shows the two types of connections between pentagons where the first case has a gap (Figure\ref{fig:gridPlatonic}c) and the other has overlap pentagon connection. A regular pentagon has five interior angles of $\ang{108}$ which generate a gap between three pentagons surrounding because of $3*\ang{108}=\ang{324}$, which is different $\ang{360}$ of the full circle. Another case of four overlap pentagons with $4*\ang{108}=\ang{432}$ is greater than the circle of $\ang{360}$.
+%
+\begin{figure}[h]
+\centering
+	\includegraphics[width=1\textwidth]{image/gridPlatonic.pdf}
+	\caption{Grid of platonic solids}
+	\label{fig:gridPlatonic}
+\end{figure}
+%
+%
+
+\clearpage
+\newpage
+\noindent\uline{Algorithms}:
+Due to the different surface contacts, there are three types of direction for the rolling of platonic solids. As shown in the Figure\ref{fig:rollingDir}, the cube has four directions with the square surface contact while tetrahedron, octahedron and icosahedron have three rolling directions with the triangular surface contact. The dodecahedron with pentagon surface contact has five rolling directions. In the case of rolling cube, the surface contact is surrounded by four edges which means there are four possible directions through the edges. In this work, the proposed path planning algorithm deals with rolling from initial configuration with position and orientation to the goal with the same position but different orientation. While rolling on the smooth plane, the platonic solid models will contact to the plane though their edges.\\
+
+The Algorithm\ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. The first step is to initial the coordinates and the orientations of the initial cube and the target cube. The same as tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions. An example for this step is that from the initial coordinate the cube achieves a new position after doing rolling for right direction, the three new positions of the cube by rolling through right, up, and down direction. 
+% 
+%
+%
+%%==================================================================================
 \begin{figure}[h]
 \centering
 	\includegraphics[width=1\textwidth]{image/rollingDir2.pdf}
 	\caption{Rolling direction for each types of platonic solids}
-	\label{fig:platonicSolids}
-\end{figure}\\
+	\label{fig:rollingDir}
+\end{figure}
 %
 % 
 %
 %
-\uline{Version1}: \\
-
-Example:\\
-
+%%==================================================================================
+%
+%
+%%==================================================================================
+\clearpage
+\newpage
 \begin{algorithm}
 \caption{Path planning based rolling contact for Cube model.\label{alg:rollingPath}}
 \begin{algorithmic}[1]
@@ -35,18 +58,18 @@ Example:\\
 		\EndFor		
 		\State $flag$ $\leftarrow$ \textsc{checkingTargetPoint}($updatedPoints$) 	\Comment{Compare updated points with goal point}  	
 			\If {$flag$ $=$ $true$}
-				\State \Return {\textit{"path found"}} 								\Comment{Store new point to $Path$}
+				\State \Return {$Path[S_p,G_p]$} 								    \Comment{Store new point to $Path$}
 			\EndIf
 			\State $newPoints$ $=$ $updatedPoints$ 
 	\EndWhile
 	\State  \Return {\textit{"no path found"}} 	
 \EndProcedure
-\Statex
+%\Statex
 \Procedure {rolling4Directions}{$S_p$}\Comment{Generate new points in different direction of rolling}
 	\State $(newRightPoint,newLeftPoint,newUpPoint,newDownPoint)$ $\leftarrow$ \textsc{rollingContact}($S_p$)				
 	\State \Return{$newPoints$ $\leftarrow$ $(newRightPoint,newLeftPoint,newUpPoint,newDownPoint)$}
 \EndProcedure
-\Statex
+%%\Statex
 \Procedure {treeExploration}{$newPoints$}
 	\If {$dir$ $=$ $right$}
 		\State  $updatedPoints$ $\leftarrow$  $(newRightPoint,newUpPoint,newDownPoint)$
@@ -59,9 +82,8 @@ Example:\\
 	\EndIf
 	\State \Return {$updatedPoints$}
 \EndProcedure
-\Statex
+%\Statex
 \Procedure {checkingTargetPoints}{$updatedPoints$,$G_p$}
-	\State 
 	\If {$updatedPoints$ $=$ $G_p$}									\Comment{Consider both position and orientation}
 		\State $flag$ $\leftarrow$ $true$
 	\EndIf
@@ -71,9 +93,8 @@ Example:\\
 \end{algorithm}
 
 
-\clearpage
+%\clearpage
 \newpage
-
 %----------------------------------
 \subsection{Tree Exploration Algorithm}
 The node tree exploration for searching algorithm described in Algorithm\ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm.
