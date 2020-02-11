@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  10 FEB 2020 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  11 FEB 2020 17:00
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -2339,18 +2339,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 1.
 
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+
+ []
+
+
 
 pdfTeX warning: pdflatex (file ./image/gridPlatonic.pdf): PDF inclusion: found 
 PDF version <1.6>, but at most version <1.5> allowed
 <image/gridPlatonic.pdf, id=95, 845.1575pt x 597.23125pt>
 File: image/gridPlatonic.pdf Graphic file (type pdf)
 <use image/gridPlatonic.pdf>
-Package pdftex.def Info: image/gridPlatonic.pdf  used on input line 9.
+Package pdftex.def Info: image/gridPlatonic.pdf  used on input line 15.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
 [4
 
  <./image/gridPlatonic.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
@@ -2361,13 +2366,13 @@ DF version <1.6>, but at most version <1.5> allowed
 <image/rollingDir2.pdf, id=112, 845.1575pt x 597.23125pt>
 File: image/rollingDir2.pdf Graphic file (type pdf)
 <use image/rollingDir2.pdf>
-Package pdftex.def Info: image/rollingDir2.pdf  used on input line 28.
+Package pdftex.def Info: image/rollingDir2.pdf  used on input line 34.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
 [5
 
  <./image/rollingDir2.pdf>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 43.
+put line 49.
  (Nodes.tex) [6
 
 ] [7]) (discussion.tex
@@ -2520,12 +2525,12 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 143--149
 
  <./image/icosaPath.pdf> <./image/icosaPathTopView.pdf>]
 
-pdfTeX warning: pdflatex (file ./image/dodecahedron3.pdf): PDF inclusion: found
+pdfTeX warning: pdflatex (file ./image/dodecahedron2.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<image/dodecahedron3.pdf, id=483, 845.1575pt x 597.23125pt>
-File: image/dodecahedron3.pdf Graphic file (type pdf)
-<use image/dodecahedron3.pdf>
-Package pdftex.def Info: image/dodecahedron3.pdf  used on input line 174.
+<image/dodecahedron2.pdf, id=483, 845.1575pt x 597.23125pt>
+File: image/dodecahedron2.pdf Graphic file (type pdf)
+<use image/dodecahedron2.pdf>
+Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 174.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
@@ -2544,7 +2549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
 [13
 
- <./image/dodecahedron3.pdf>] [14]
+ <./image/dodecahedron2.pdf>] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
@@ -2564,7 +2569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<image/IEEEDisCon.png, id=513, 384.2355pt x 254.1495pt>
+<image/IEEEDisCon.png, id=517, 384.2355pt x 254.1495pt>
 File: image/IEEEDisCon.png Graphic file (type png)
 <use image/IEEEDisCon.png>
 Package pdftex.def Info: image/IEEEDisCon.png  used on input line 19.
@@ -2576,7 +2581,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex (file ./image/test44.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test44.pdf, id=518, page=1, 779.91376pt x 672.5125pt>
+<image/test44.pdf, id=522, page=1, 779.91376pt x 672.5125pt>
 File: image/test44.pdf Graphic file (type pdf)
 <use image/test44.pdf, page 1>
 Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
@@ -2585,7 +2590,7 @@ Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
 
 pdfTeX warning: pdflatex (file ./image/test43.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test43.pdf, id=519, page=1, 779.91376pt x 672.5125pt>
+<image/test43.pdf, id=523, page=1, 779.91376pt x 672.5125pt>
 File: image/test43.pdf Graphic file (type pdf)
 <use image/test43.pdf, page 1>
 Package pdftex.def Info: image/test43.pdf , page1 used on input line 36.
@@ -2599,12 +2604,12 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 35--37
 
 pdfTeX warning: pdflatex (file ./image/test2.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<image/test2.pdf, id=520, page=1, 851.18pt x 659.46375pt>
+<image/test2.pdf, id=524, page=1, 851.18pt x 659.46375pt>
 File: image/test2.pdf Graphic file (type pdf)
 <use image/test2.pdf, page 1>
 Package pdftex.def Info: image/test2.pdf , page1 used on input line 47.
 (pdftex.def)             Requested size: 227.62206pt x 176.34694pt.
-<image/test3.png, id=521, 10879.64626pt x 8305.0275pt>
+<image/test3.png, id=525, 10879.64626pt x 8305.0275pt>
 File: image/test3.png Graphic file (type png)
 <use image/test3.png>
 Package pdftex.def Info: image/test3.png  used on input line 52.
@@ -2670,9 +2675,9 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/19107262/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/19107262
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on mainMilestone.pdf (21 pages, 18862413 bytes).
+Output written on mainMilestone.pdf (21 pages, 18927343 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
+ 768 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
