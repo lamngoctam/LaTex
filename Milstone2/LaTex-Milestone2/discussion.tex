@@ -167,45 +167,45 @@ This is the rolling path of icosahedron type \ref{fig:icosaPaths}.
 An dodecahedron has 12 faces and 20 vertices of which generates a pentagon as shown in Figure \ref{fig:dodecahedron2}.
 It will be assumed that the coordinates $Oxyz$ lie on $ABCDE$ surface within $Oy$ through $A$ and $Oz$ perpendicular to $ABCDE$.
 The 30 edges have the same length as $a$. It should be determined all the vertices' coordinates in the three dimensional system.
-The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertices from $d_1$ to $d_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
+The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertices from $l_1$ to $l_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
 
 \begin{figure}[h]
 \centering
-	\includegraphics[width=1\textwidth]{image/dodecahedron3.pdf}
+	\includegraphics[width=1\textwidth]{image/dodecahedron2.pdf}
 	\caption{Dodecahedron's vertices.}
 	\label{fig:dodecahedron2}
 \end{figure}
 
 The path planning will implement on a surface but it will be considered in $3D$ spaces. Then, each of vertices will be determined on $3D$ coordinates such as the vertices $A$ has coordinate with $[A_x A_y A_z]$. Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$. Because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. Then the other two angles $\alpha_2$ and $\alpha_3$ can be determined by $\alpha_2 = \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}$ and $\alpha_3 = \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}$.\\
 
-From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $d_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $d_2 = d_1\cos{\alpha_4}$, $d_3 = d_1\cos{\alpha_2}$, and $d_4 = d_1\sin{\alpha_2}$. Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
+From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
 
 There are total $20$ vertices of a dodecahedron. This article focuses on the rolling contact to $2D$ surface, the bottom surface of the dodecahedron integrated to the $Oxy$ which contact to the $2D$ surface. This condition express the $Oz$ dimension of the vertices $ABCDE$ equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. Then $P_z = Q_z = R_z = S_z = T_z = 2.r_i = \frac{a}{10}\sqrt{10(25+11\sqrt{5})}$.\\
 
-It can be seen that the distance $|AF|$ is $a$ and the distance $|BF|$ is $2d_3$. Using the distance properties and squaring the results give:
+It can be seen that the distance $|AF|$ is $a$ and the distance $|BF|$ is $2l_3$. Using the distance properties and squaring the results give:
 \begin{equation} 
 \label{dodeca:eq1}
 \begin{split}
 AF^2 & = a^2 = (A_x-F_x)^2 + (A_y-F_y)^2 + (A_z-F_z)^2 \\
-BF^2 & = (2d_3)^2 = (B_x-F_x)^2 + (B_y-F_y)^2 + (B_z-F_z)^2
+BF^2 & = (2l_3)^2 = (B_x-F_x)^2 + (B_y-F_y)^2 + (B_z-F_z)^2
 \end{split}
 \end{equation}
 
-Figure \ref{fig:dodecahedron2}(d) shows that $A_x = F_x = 0$, $A_y = d_1$, $B_y = d_4$, $B_x = d_3$, $A_z = B_z$. Define $d_5=A_z-F_z$, the relations of these equations are:
+Figure \ref{fig:dodecahedron2}(d) shows that $A_x = F_x = 0$, $A_y = l_1$, $B_y = l_4$, $B_x = l_3$, $A_z = B_z$. Define $l_5=A_z-F_z$, the relations of these equations are:
 \begin{equation} 
 \label{dodeca:eq2}
 \begin{split}
-a^2 & = (F_y-d_1)^2 + d_5^2\\
-(2d_3)^2 & = (F_y-d_4)^2 + d_5^2 + d_3^2
+a^2 & = (F_y-l_1)^2 + l_5^2\\
+(2l_3)^2 & = (F_y-l_4)^2 + l_5^2 + l_3^2
 \end{split}
 \end{equation}
 
-Solving $F_y$ and $d_5$ gives:
+Solving $F_y$ and $l_5$ gives:
 \begin{equation} 
 \label{dodeca:eq3}
 \begin{split}
-F_y & = \frac{a^2-(2d_3)^2-(d_1^2-d_3^2-d_4^2)}{2(d_4-d_1)} \\
-d_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2d_3)^2-(F_y-d_1)^2-(F_y-d_4)^2-d_3^2}
+F_y & = \frac{a^2-(2l_3)^2-(l_1^2-l_3^2-l_4^2)}{2(l_4-l_1)} \\
+l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 \end{split}
 \end{equation}
 
@@ -216,7 +216,13 @@ From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the
 %%
 %%
 %%==================================================================================
-%%
+%
+%\begin{figure}[h]
+%\centering
+%	\includegraphics[width=1\textwidth]{image/dodecaOverlap.png}
+%	\caption{Pentagons connect around a point with a gap and overlap}
+%	\label{fig:dodecaOverlap}
+%\end{figure}
 %%==================================================================================
 %%
 %%

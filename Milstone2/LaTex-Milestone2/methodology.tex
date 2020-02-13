@@ -1,90 +1,126 @@
 \section{ALGORITHM\textbackslash METHODOLOGY}
-\noindent\uline{Five types of Platonic Solids}: 
+
+\subsection{Path Planning Based Rolling Contact}
+\noindent\uline{Rolling on discretized surfaces}:
+The surface contacts between platonic solids and the plane can be categorized into three types as shown in Figure\ref{fig:gridPlatonic} including square shape for cube, triangle shape for tetrahedron, octahedron, and dodecahedron, pentagon shape for dodecahedron. 
+The bottom surface of a cube occupies each square on the grid when the path planning process is executed. This property is applied for triangular grid with different rotation angle. 
+In physics, the rotation angle of the cube is $\pi/2(rad)$ while the rotation angles of tetrahedron, octahedron, icosahedron and dodecahedron are $\pi-\arctan{(2\sqrt{2})}$, $\pi-2\arctan{\sqrt{2}}$, $\arccos{(-\sqrt{5}/3)}$, and $\pi-\arccos{(-\sqrt{5}/5)}$ in radian respectively.\\
+
+The square grid has $\pi/2$ at all corners while the triangular grid has $\pi/3$ between two arbitrary edges at a vertex. In the case of dodecahedron rolling contact, the Figure\ref{fig:gridPlatonic}d shows the two types of connections between pentagons where the first case has a gap (Figure\ref{fig:gridPlatonic}c) and the other has overlap pentagon connection. A regular pentagon has five interior angles of $\ang{108}$ which generate a gap between three pentagons surrounding because of $3*\ang{108}=\ang{324}$, which is different $\ang{360}$ of the full circle. Another case of four overlap pentagons with $4*\ang{108}=\ang{432}$ is greater than the circle of $\ang{360}$. The path planning through rolling of the dodecahedron solid can be categorized into two these cases. 
+It would be found the possible paths in the first case of dodecahedron without overlap rolling while the second case with overlap rolling cannot guarantee the paths. 
+%
+%
+\begin{figure}[h]
+\centering
+	\includegraphics[width=1\textwidth]{image/gridPlatonic.pdf}
+	\caption{Grid of platonic solids}
+	\label{fig:gridPlatonic}
+\end{figure}
+%
+%
+
+\clearpage
+\newpage
+\noindent\uline{Algorithms}:
+Due to the different surface contacts, there are three types of direction for the rolling of platonic solids. As shown in the Figure\ref{fig:rollingDir}, the cube has four directions with the square surface contact while tetrahedron, octahedron and icosahedron have three rolling directions with the triangular surface contact. The dodecahedron with pentagon surface contact has five rolling directions. In the case of rolling cube, the surface contact is surrounded by four edges which means there are four possible directions through the edges. In this work, the proposed path planning algorithm deals with rolling from initial configuration within the position and orientation to the goal within the same position but different orientation. While rolling on the smooth plane, the platonic solid models will contact to the plane though their edges.\\
+
+The Algorithm\ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. The first step is to initial the coordinates and the orientations of the initial cube and the target cube which is stored as the initial path. The same as tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions. An example for this step is that from the initial coordinate the cube achieves a new position after doing rolling for right direction, the new three positions of the cube by rolling through right, up, and down direction. After implementing the expansion steps through rolling, the function of checking whether updated models reach the goal is called through the loop. By that means, the loop will stop when reaching the goal whereas the loop will continue to execute and store new models to the initial path. While the searching algorithm is executing, the data structure is used to store the positions and orientations from the start to the current. This process runs in time $O(|E|^3)$ (where $|E|$ is the number of updated cubes) which causes the longer the running time of the searching technique. 
+% 
+%
+%
+%%==================================================================================
 \begin{figure}[h]
 \centering
 	\includegraphics[width=1\textwidth]{image/rollingDir2.pdf}
 	\caption{Rolling direction for each types of platonic solids}
-	\label{fig:platonicSolids}
-\end{figure}\\
+	\label{fig:rollingDir}
+\end{figure}
 %
 % 
 %
 %
+%%==================================================================================
 %
 %
-%
-\uline{Version1}: \\
-
-Example:\\
-\begin{algorithm}[H]
-\SetAlgoLined
-\KwResult{\textit{Write here the result }}
- initialization\;
- \While{While condition}{
-  instructions\;
-  \eIf{condition}{
-   instructions1\;
-   instructions2\;
-   }{
-   instructions3\;
-  }
- }
- \caption{How to write algorithms}
-\end{algorithm}
-
-
-\noindent\uline{Version2}: 
-% algorithm code (for this example)
+%%==================================================================================
+\clearpage
+\newpage
 \begin{algorithm}
-
-% functions
-\SetKwFunction{cumprod}{cumprod}
-\SetKwFunction{length}{length}
-\SetKwFunction{zeros}{zeros}
-\SetKwFunction{ceil}{ceil}
-
-% input/ouput names
-\SetKwInOut{Input}{Input}
-\SetKwInOut{Output}{Output}
-
-% caption
-\caption{Creation of edge set for a specific perfect matching number.\label{alg:singlepm}}
-
-\Input{%
-		\xvbox{2mm}{$\xvar{N}$} -- number of vertices (should be even) \\
-		\xvbox{2mm}{$\xvar{I}$} -- perfect matching number, integer between 1 and $(\xvar{N}-1)!!$
-	  }
-\Output{%
-		\xvbox{2mm}{$\xvar{E}$} -- vector of edges in sequential pairs
-	   }
-
-  \BlankLine % blank line for spacing
-  
-  % start of the pseudocode
-  \xvbox{2mm}{$\xvar{J}$} $\leftarrow$ $[ 1,3,5,\dots,\xvar{N}-1 ]$ \tcc*{odd numbers from 1 to N-1}
-
-  \xvbox{2mm}{$\xvar{P}$} $\leftarrow$ $[ 1,\cumprod(\xvar{J}) ]$ \tcc*{cumulative double factorial}
-    
-  \xvbox{2mm}{$\xvar{V}$} $\leftarrow$ $[ 1,2,\dots,\xvar{N} ]$ \tcc*{create initial list of available vertices}
-        
-  \For{$\xvar{j}\leftarrow$ $\xvar{J}$ }{
-
-    \xvbox{1mm}{$\xvar{q}$} $\leftarrow$ $(\xvar{N}+1-\xvar{j})/2$ \tcc*{index for 2nd to last entry in P}
-
-    \xvbox{1mm}{$\xvar{I}$} $\leftarrow$ $\ceil\big(\xvar{I}/\xvar{P}(\xvar{q})\big)$ \tcc*{calculate smaller vertex index}
-
-    $\xvar{E}(\xvar{j})$ $\leftarrow$ $\xvar{V}(\xvar{end})$ \tcc*{assign largest remaining value}
-
-    remove element $\xvar{V}(\xvar{end})$ \tcc*{remove largest remaining value}
-
-    $\xvar{E}(\xvar{j}+1)$ $\leftarrow$ $\xvar{V}(\xvar{i})$ \tcc*{assign smaller selected value}
-
-    remove element $\xvar{V}(\xvar{i})$ \tcc*{remove the smaller selected value}
-
-    \xvbox{1mm}{$\xvar{I}$} $\leftarrow$ $\xvar{I} - \big( (\xvar{i} - 1) \times \xvar{P} (\xvar{q}) \big)$ \tcc*{subtract to get index in subgraph with 2 vertices removed}
-	
-  } % end for j	
-
+\caption{Path planning based rolling contact for Cube model.\label{alg:rollingPath}}
+\begin{algorithmic}[1]
+\Procedure {CubePathPlanning}{$S_p$, $G_p$}               \Comment{Find the shortest path from start to goal position with different orientation}
+	\State $flag$ $\leftarrow$ $false$
+	\State $Path[S_p]$ $\leftarrow$ $S_p$
+	\State $newPoints$ $\leftarrow$ \textsc{rolling4Directions}($S_p$)	\Comment{Generate first four updated points}
+	\While{$newPoints$ $!=$ $G_p$} 
+		\State $updatedPoints$ $\leftarrow$ \textsc{treeExploration}($newPoints$)	\Comment{Update new three right rolling models}
+		\State $n$ $\leftarrow$ \textit{size}$(updatedPoints)$
+		\For{$i\gets 0, n$}		
+			\For{$j\gets 1, n$}	
+				\If {$updatedPoints[i]$ $=$ $updatedPoints[j]$}
+					\State \textit{remove}($updatedPoints[i]$)
+				\EndIf
+			\EndFor
+		\EndFor		
+		\State $flag$ $\leftarrow$ \textsc{checkingTargetPoint}($updatedPoints$) 	\Comment{Compare updated points with goal point}  	
+			\If {$flag$ $=$ $true$}
+				\State \Return {$Path[S_p,G_p]$} 								    \Comment{Store new point to $Path$}
+			\EndIf
+			\State $newPoints$ $=$ $updatedPoints$ 
+	\EndWhile
+	\State  \Return {\textit{"no path found"}} 	
+\EndProcedure
+%\Statex
+\Procedure {rolling4Directions}{$S_p$}\Comment{Generate new points in different direction of rolling}
+	\State $(newRightPoint,newLeftPoint,newUpPoint,newDownPoint)$ $\leftarrow$ \textsc{rollingContact}($S_p$)				
+	\State \Return{$newPoints$ $\leftarrow$ $(newRightPoint,newLeftPoint,newUpPoint,newDownPoint)$}
+\EndProcedure
+%%\Statex
+\Procedure {treeExploration}{$newPoints$}
+	\If {$dir$ $=$ $right$}
+		\State  $updatedPoints$ $\leftarrow$  $(newRightPoint,newUpPoint,newDownPoint)$
+	\ElsIf {$dir$ $=$ $left$}
+		\State $updatedPoints$ $\leftarrow$  $(newLeftPoint,newUpPoint,newDownPoint)$
+	\ElsIf {$dir$ $=$ $up$}
+		\State $updatedPoints$ $\leftarrow$  $(newRightPoint,newLeftPoint,newUpPoint)$
+	\Else %{$dir$ $=$ $right$}
+		\State $updatedPoints$ $\leftarrow$  $(newRightPoint,newLeftPoint,newDownPoint)$
+	\EndIf
+	\State \Return {$updatedPoints$}
+\EndProcedure
+%\Statex
+\Procedure {checkingTargetPoints}{$updatedPoints$,$G_p$}
+	\If {$updatedPoints$ $=$ $G_p$}									\Comment{Consider both position and orientation}
+		\State $flag$ $\leftarrow$ $true$
+	\EndIf
+	\State \Return {$flag$}
+\EndProcedure
+\end{algorithmic}
 \end{algorithm}
+
+
+%\clearpage
+\newpage
+%----------------------------------
+\subsection{Tree Exploration Algorithm}
+The node tree exploration for searching algorithm described in Algorithm\ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm.
+The graph search in the Figure\ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $level^1 ... level^n$.
+Each nodes indicates the position of the cube's center and the orientation of the cube. The node $S$ means Start-Point while $R,L,U,D$ are labelled for four different directions including right, left, up and down respectively. 
+
+\vskip 0.5cm
+\begin{figure}[h]
+	\input{Nodes}
+	\caption{Tree Exploration of Cube Rolling}
+\label{fig:nodeTree}
+\end{figure}
+
+Starting form the root $S$, path planning based rolling of the cube model at the first level of expansion will generate to four different direction $R,L,U,D$. In the next level, the cube can only roll with three directions without rolling back to the previous position.  An example of the second level is that node $R$ will roll to right, up, and down directions. 
+ 
+%
+% 
+%
+%
+
+%----------------------------------
 \clearpage
 \newpage

@@ -13,6 +13,7 @@
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{amssymb}
+%\usepackage{arevmath}     % For math symbols
 
 \usepackage{enumerate}
 \usepackage{fancyhdr} %footer-header
@@ -59,6 +60,14 @@
 \usepackage{tikz-3dplot}
 \usepackage{subfigure}
 
+\usepackage[edges]{forest}
+\usetikzlibrary{arrows.meta}
+\usepackage{adjustbox}
+\usetikzlibrary{fit}
+
+
+\usetikzlibrary{trees,snakes}
+
 \usepackage{pdfpages}
 
 \usetikzlibrary{shapes.geometric} % draw the flow chart
@@ -70,21 +79,19 @@
 %         PACKAGES for \tkzDefPoints,\tkzPolygon
 %-----------------------------------------------
 \usepackage{tkz-euclide} % will load tkz-base
-\usepackage{siunitx} 	 % to display angle in degree \ang{180}
+\usepackage{siunitx} 	 % to display angle in degree \ang{180} or \usepackage{gensymb}
 \usetkzobj{all}			 % loads all objects used by tkz-euclide
 
 %%%%%%%%%%\usepackage{verbatim} 
 % a  drawing of a tetrahedron inscibed in a parallelepipe from https://www.overleaf.com/project/5dc97a9a3af030000156a35f
 
 %%---------- Algorithm---------
-\usepackage[ruled,vlined]{algorithm2e}
+%\usepackage[ruled,vlined]{algorithm2e}
 
-%%%--------References----------
-%\usepackage[numbers,sort&compress]{natbib}
+\usepackage{algorithm}
+%\usepackage{caption}
+\usepackage{algpseudocode}
 
-%\usepackage[square,sort,comma,numbers]{natbib}
-%\usepackage[nottoc,notlof,notlot]{tocbibind} 
-%\renewcommand\bibname{REFERENCES}
 
 % https://gking.harvard.edu/files/natnotes2.pdf  -> # types of natbib
 

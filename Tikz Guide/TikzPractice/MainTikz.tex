@@ -4,6 +4,19 @@
 %%==============================
 %%
 %%==============================
+% for only 1st example
+\makeatletter
+\newenvironment{tikzlegend}[1][]{%
+   \begingroup
+     \csname pgfplots@init@cleared@structures\endcsname
+     \pgfplotsset{#1}}{\csname pgfplots@createlegend\endcsname
+   \endgroup
+}
+\def\addlegendimage{\csname pgfplots@addlegendimage\endcsname}
+\makeatother
+%-------------------------
+
+
 \begin{document}
 
 %-------------------------
@@ -17,6 +30,36 @@
 %%			CONTENT
 %%==============================
 
+% 1st example
+\begin{tikzpicture}
+   \draw[semithick,->] (0,0) -- (3.5,0) node[right] {$ \alpha $};
+   \draw[semithick,->] (0,0) -- (0,2.5) node[above]  {$ \pi_m $};  
+ 
+   \path[thick,cyan,draw]     (0,0) node[right]{} .. controls (2,2) .. (3.2,2);
+   \path[thick,dotted,draw]   (0,0) node[right]{} .. controls (1.2,2) .. (2.8,2);
+   \path[thick,dashed,draw]   (2.2,0) node[below]{\small $\alpha{'}_{\max}$} .. controls (2.2,0) .. (2.2,2);
+   \path[thick,dashed,draw]   (0.631,0) node[below]{\small $\hat{ \alpha}{'}$} .. controls (0.631,1) .. (0.631,1);
+ 
+   \path[thick,dashdotted,draw,purple]   (0,1) node[left]{\small $\pi^{ea}$}
+     .. controls (2,1) ..     (3.2,1);
+   \path[thick,dashed,draw]   (2.8,2) node[above]{}
+     .. controls (2.8,0) ..   (2.8,0);
+   \path[thick,dashed,draw]   (3,0) node[below]{\small $\alpha_{\max}$}
+         .. controls (3,0) .. (3,0);
+   \path[thick,dashed,draw]   (1,0) node[below]{\small $\hat{\alpha}$}
+         .. controls (1,1) .. (1,1);
+ 
+   \begin{tikzlegend}[legend entries={monopolist profit within entry allowance,
+      monopolist profit within entry deterrence,something else},
+        legend style={at={(0,-1)},anchor=north west}, legend cell align=left]
+     \addlegendimage{dotted,sharp plot}
+     \addlegendimage{sharp plot}
+     \addlegendimage{dashed, sharp plot}
+   \end{tikzlegend}
+\end{tikzpicture}
+
+\clearpage
+\newpage
 \input{Practice1}
 \newpage
 \section{Draw Sphere}

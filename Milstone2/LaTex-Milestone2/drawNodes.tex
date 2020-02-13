@@ -1,0 +1,211 @@
+
+%\begin{figure}
+%\centering
+%
+%\forestset{
+% default preamble={
+% for tree={circle,draw,align=center}
+%                  }
+%}
+%
+%\begin{forest}
+%[$S_p$
+% 	[R, red]
+% 	[L, red]
+% 	[U, red]
+%   	[D, red]
+%]
+%\end{forest}
+%
+%\vskip 0.5cm
+%
+%\begin{forest}
+%[R, red
+% 		[R, blue
+% 			[R [\vdots]]
+% 			[U [\vdots]]
+% 			[D [\vdots]]]
+% 		[U, blue
+% 			[U]
+% 			[R]
+% 			[L]]
+% 		[D, blue
+% 			[D]
+% 			[R]
+% 			[L]]
+%]
+%\end{forest}
+%%%
+%\vskip 0.5cm
+%\begin{forest}
+%[L,red
+%	[L, blue
+% 			[L]
+% 			[U]
+% 			[D]]
+%	[U, blue
+%			[U]
+%			[R]
+%			[L]] 		
+% 	[D,blue
+% 			[D]
+% 			[R]
+% 			[L]]
+%] 			
+%\end{forest}
+%\vskip 0.5cm
+%%
+%\begin{forest}
+% 	[U, red
+% 		[U, blue
+%			[U]
+%			[R]
+%			[L]]
+% 		[R, blue
+%			[R]
+%			[U]
+%			[D]]
+% 		[L, blue
+%			[L]
+%			[U]
+%			[D]]]
+%\end{forest}
+%\vskip 0.5cm
+%\begin{forest}
+%[D, red
+%		[D, blue
+%			[D]
+%			[R]
+%			[L]]
+%   		[R, blue
+%			[R]
+%			[U]
+%			[D]]
+%   		[L, blue
+%			[L]
+%			[U]
+%			[D]]] 
+%\end{forest}
+%
+%\end{figure}
+%%-------------
+%%
+%\clearpage
+%\newpage
+
+
+%\tikzstyle{level 1}=[sibling angle=120]
+%\tikzstyle{level 2}=[sibling angle=60]
+%\tikzstyle{level 3}=[sibling angle=30]
+%\tikzstyle{every node}=[fill]
+%\tikzstyle{edge from parent}=[snake=expanding waves,segment length=1mm,
+%                              segment angle=10,draw]
+%\begin{tikzpicture}[grow cyclic,shape=circle,very thick,level distance=13mm,
+%                    cap=round]
+%\node {} child [color=\A] foreach \A in {red,green,blue}
+%    { node {} child [color=\A!50!\B] foreach \B in {red,green,blue}
+%        { node {} child [color=\A!50!\B!50!\C] foreach \C in {black,gray,white}
+%            { node {} }
+%        }
+%    };
+%\end{tikzpicture}
+%
+%
+%
+%%\tikzset{
+%%	treenode/.style={align=center,inner sep=0pt},
+%%	% Black nodes
+%%	node_black/.style={treenode,circle,white,font=\bfseries, draw=black, fill=black, text width=0.8cm},
+%%	% Red nodes
+%%	node_red/.style={treenode,circle,red,draw=red,very thick,text width=0.8cm},
+%%	% Nil nodes
+%%	node_nil/.style={treenode,rectangle,fill=black,minimum width=0.3cm,minimum height=0.3cm}
+%%}
+%
+%%%%---------------tree1-----------------------
+%%\begin{tikzpicture}[->,level/.style={sibling distance=2.5cm, level distance=2.5cm}]
+%%	\node[node_black]{$S_p$}	
+%%		child{node[node_red]{R}
+%%			child{node{R}}
+%%			child{node{U}}
+%%			child{node{D}}
+%%			}
+%%		child{node[node_red]{L}
+%%			child{node{L}}
+%%			child{node{U}}
+%%			child{node{D}}
+%%			}	
+%%		child{node[node_red]{U}
+%%			child{node{U}}
+%%			child{node{R}}
+%%			child{node{L}}
+%%			}
+%%		child{node[node_red]{D}
+%%			child{node{D}}
+%%			child{node{R}}
+%%			child{node{L}}		
+%%			}	
+%%	;
+%%\end{tikzpicture}
+%
+%
+%%%%---------------tree1-----------------------
+%%\begin{tikzpicture}[->,level/.style={sibling distance=2cm, level distance=1.5cm}]
+%%	\node[node_black]{38}	
+%%		child{node[node_red]{2}
+%%			child{node[node_black]{4}}
+%%			child{node[node_nil]{}}
+%%		 	}
+%%		child{node[node_red]{3}}	
+%%	
+%%	;
+%%\end{tikzpicture}
+%
+%%%%---------------tree2-----------------------
+%%\begin{tikzpicture}[every node/.style={circle, draw=black}]
+%%
+%%\node{1}
+%%	child{node{2}
+%%		child{node{4}}
+%%		child{node{5}}
+%%		 }
+%%	child{node{3}};
+%%\end{tikzpicture}
+%
+%
+%
+%
+%
+%%%--------------------------------------
+%%\begin{forest}
+%%for tree={
+%%  treenode/.style = {align=center,inner sep=2pt, text centered, font=\sffamily},
+%%  nextArr/.style = {treenode, text width=0.5em},
+%%  endArr/.style = {treenode},
+%%  black-arrow/.style = {draw=black},
+%%  edge=-{Stealth}
+%%  }
+%%[NP, red, nextArr
+%%    [N', red, nextArr
+%%        [N', red, nextArr
+%%            [aa, nextArr
+%%                [der, endArr]]
+%%            [N', red, nextArr
+%%                [AP, nextArr
+%%                    [geduldigsten, endArr]]
+%%                [N', red, nextArr
+%%                    [N, red, nextArr
+%%                        [Konservativen,red, dotted, endArr]]]]]
+%%        [N', nextArr
+%%            [aa, nextArr
+%%                [unserer, endArr]]
+%%            [N', nextArr
+%%                [N, nextArr
+%%                    [Partei, endArr]]]]]]
+%%\end{forest}
+%%
+%%
+%%
+
+
+%%--------------------------------------
