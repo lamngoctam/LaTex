@@ -1,10 +1,22 @@
 \section{EVALUATION}
-\uline{\textbf{Simulations}}: Our algorithm was implemented in MATLAB. Three case studies of path planning are considered for validation: same location and different orientation between initial configuration and goal configuration, long distance between two configuration, and bi-direction path finding.\\
+\uline{\textbf{Simulations}}: 
+The proposed algorithm for platonic solids path planning by rolling through edge contact was implemented in MATLAB environment. 
+In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path finding. To validate the proposed algorithm, this study only considers the first case study of path planning that both initial and goal configuration have the same positions and different orientations.\\  
 
 \noindent\uline{\textbf{Cube solid}}:
-Writing about cube solid properties\\
+The cube has a length which is the same as the length of side of each grid square. The only way to move from initial position to goal position is by rolling from square to square without moving diagonal. The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. The algorithm implements in $O(|E|^3)$ running time from the second layer. The executed time can be reduced when the updated cubes achieved the same configurations. The $*$ position in the grid is occupied by the two updated cubes with different orientations. To be more visualized, the Figure \ref{fig:Cube1Case1} indicates the first step of rolling of the cube with its coordinates in three arrows red, green and blue colors. Four paths of cube rolling are shown in the Figure \ref{fig:Cube2Case1}.
 
-\noindent\uline{Case study 1}: Dennis also went his own way and divided the sides of the triangles into equal-angles (as measured from the center of the geodesic), instead of equal-length pieces. This technique is slightly more effective at evenly distributing the triangles across the surface of the sphere. For example, compare an octahedron subdivided with frequency 20, using the linear technique (as outlined by the quiz) versus the angular technique Dennis used in this picture. Note how the linear technique has the triangles piling up along the edges of the original face of the octahedron, where the radial technique does a better job of spacing them out.
+\begin{figure}[h]
+\centering
+	\includegraphics[width=1\textwidth]{image/cubePath0.png}
+	\caption{The first three layers of cube rolling}
+	\label{fig:cubePath0}
+\end{figure}
+
+
+
+\noindent ABC here.
+
 \begin{center}
 \begin{figure}[h]
 \subfigure[The initial configuration is the same position but different orientation with goal configuration]{
@@ -24,10 +36,13 @@ Writing about cube solid properties\\
 \noindent\uline{Result}: 
 \begin{figure}[h]
 \centering
-	\includegraphics[width=1\textwidth]{image/cubePath1.pdf}
+	\includegraphics[width=0.5\textwidth]{image/cubePath1.pdf}
+%	\includepdf[pages=-,pagecommand={},width=0.5\textwidth]{image/cubePath1.pdf}
 	\caption{Shortest path of cube rolling}
 	\label{fig:cubePath1}
 \end{figure}
+
+
 
 %\begin{figure}[h]
 %	\centering
@@ -47,18 +62,28 @@ Writing about cube solid properties\\
 %%
 %%
 %%
+\clearpage
+\newpage
+\noindent Although considering the case study within 
+The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
+Figure \ref{fig:cubeLongDist} shows an example with two different paths.
+Shortest path-finding algorithm is added to the original algorithm to find the shortest path from start point to the goal point. 
+After finishing this step, the cube updated to a new orientation with different orientation at the goal configuration. Then, the original algorithm will be implemented from the updated cube to the goal configuration.
+Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$. In the first step, the red segment $S_1S_2$ shows the shortest distance from start position to goal position. The cube will roll through this segment and achieve the updated orientation at the goal position called shortest path for the case of long distance. 
+
 \begin{center}
 \begin{figure}[h]
 \subfigure[Path1]{
 	\includegraphics[width=0.5\textwidth]{image/cubeCase2Path1.jpg}
-	\label{fig:Cube3Case2}
+	\label{fig:cubeLongDistPath1}
 	}
 \hfill
 \subfigure[Path2]{
 	\includegraphics[width=0.5\textwidth]{image/cubeCase2Path2.jpg}
-	\label{fig:Cube4Case2}
+	\label{fig:cubeLongDistPath2}
 	}
-\caption{Blah Blah 3}
+\caption{The case study of long distance between the initial and goal configurations}
+\label{fig:cubeLongDist}
 \end{figure}
 \end{center}
 %%

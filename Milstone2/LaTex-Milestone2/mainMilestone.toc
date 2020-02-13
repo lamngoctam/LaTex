@@ -1,11 +1,11 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {section}{\numberline {1}ABSTRACT}{1}{section.1}%
-\contentsline {section}{\numberline {2}INTRODUCTION}{1}{section.2}%
-\contentsline {section}{\numberline {3}PROBLEM FORMULATION}{2}{section.3}%
-\contentsline {section}{\numberline {4}ALGORITHM\textbackslash METHODOLOGY}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Path Planning Based Rolling Contact}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Tree Exploration Algorithm}{6}{subsection.4.2}%
-\contentsline {section}{\numberline {5}EVALUATION}{8}{section.5}%
-\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{15}{section.6}%
-\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{18}{section.7}%
-\contentsline {section}{\numberline {A}APPENDIX}{20}{appendix.A}%
+\contentsline {section}{\numberline {1}ABSTRACT}{1}{section.1}% 
+\contentsline {section}{\numberline {2}INTRODUCTION}{1}{section.2}% 
+\contentsline {section}{\numberline {3}PROBLEM FORMULATION}{2}{section.3}% 
+\contentsline {section}{\numberline {4}ALGORITHM\textbackslash METHODOLOGY}{4}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Path Planning Based Rolling Contact}{4}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Tree Exploration Algorithm}{6}{subsection.4.2}% 
+\contentsline {section}{\numberline {5}EVALUATION}{8}{section.5}% 
+\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{16}{section.6}% 
+\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{19}{section.7}% 
+\contentsline {section}{\numberline {A}APPENDIX}{21}{appendix.A}% 
