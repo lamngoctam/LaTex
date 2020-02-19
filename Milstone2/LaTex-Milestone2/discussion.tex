@@ -66,6 +66,8 @@ The cube has a length which is the same as the length of side of each grid squar
 \clearpage
 \newpage
 \noindent Although considering the case study within 
+
+
 The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
 Figure \ref{fig:cubeLongDist} shows an example with two different paths.
 Shortest path-finding algorithm is added to the original algorithm to find the shortest path from start point to the goal point. 
@@ -115,7 +117,7 @@ Because of $r=OH=a\sqrt{6}/12$ (the radius of insphere) and $R=OA=a\sqrt{6}/4$ (
 \noindent\uline{Path Planning}:
 The case study of tetrahedron in this study is the same of the rolling cube path finding which only considering the path planning through rolling from initial configuration to origin coordinate with different orientation. 
 The Figure \ref{fig:TetraPathFiding} illustrates two of four cases of the tetrahedron path-finding within rolling (red and cyan arrows are pointing down to plane respectively). Tetrahedron has symmetry properties with indistinguishable for any two faces, edges and vertices. To be more specific, dihedral triangles have same three angles within $\ang{60}$. 
-In one cycle of rolling a tetrahedron around any vertices, the tetrahedron always achieve the initial configuration due to six times of rolling ($6*\ang{60}=\ang{360}$ - a full circle). \\
+In one cycle of rolling a tetrahedron around any vertices, the tetrahedron always achieve the initial configuration due to six times of rolling ($6*\ang{60}=\ang{360}$, a full circle). \\
 
 \begin{center}
 \begin{figure}[h]
@@ -171,14 +173,16 @@ AK & = 2OK = 2\sqrt{(MK^2-MO^2)} = a\sqrt{2}\\
 \end{split}
 \end{equation*}
 
-\noindent Note how l face of the octahedron, where the radial technique does a better job of spacing them out. 
+\noindent WTF here 
 
 \begin{equation*} 
 \label{octa:eq2}
 \begin{split}
-\beta & = \angle OPK = \arctan{\frac{OK}{OP}} = \arctan{\frac{2\sqrt{2}}{2}}
+\alpha & = \angle OPK = \arctan{\frac{OK}{OP}} = \arctan{\sqrt{2}}
 \end{split}
 \end{equation*}
+
+\noindent Then, the rotation angle has the result as  $\beta = \pi-2\alpha = \pi-2\arctan{\sqrt{2}}$, \\
 
 \noindent Due to $\angle POK=\ang{90}$, we have
 
@@ -235,23 +239,23 @@ Based on the classical path planning which is the movement from point to other p
 \newpage
 \subsection{Icosahedron solid}
 \noindent\uline{Properties}:
-The convex regular icosahedron in the Figure \ref{fig:icosaGeo1} is one of the five regular Platonic solids has 12 vertices, 20 triangular faces, and 30 edges. Assume that the icosahedron has the edge length of $a$. The crossing surface of the solid at vertex $A$ perpendicular with $OD$ will generate a pentagon $ABCEF$.
+The convex regular icosahedron in the Figure \ref{fig:icosaGeo2} is one of the five regular Platonic solids has 12 vertices, 20 triangular faces, and 30 edges. Assume that the icosahedron has the edge length with $a$. The crossing surface of the solid at vertex $A$ perpendicular with $OD$ will generate a pentagon $ABCEF$.
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width=\textwidth]{image/icosaGeo2.png}
 %	\includepdf[pages=-,pagecommand={},width=0.5\textwidth]{image/cubePath1.pdf}
 	\caption{Icosahedron geometrical properties}
-	\label{fig:icosaGeo1}
+	\label{fig:icosaGeo2}
 \end{figure}
 
-\noindent At the right side of  the Figure \ref{fig:icosaGeo1}, the pentagon $ABCEF$ has circumcircle radius $R$, inscribed circle $r_i$, and the height $d_{CS}$ ($R+r_i$).
+\noindent At the right side of  the Figure \ref{fig:icosaGeo2}, the pentagon $ABCEF$ has circumcircle radius $R$, inscribed circle $r_i$, and the height $d_{CS}$ ($R+r_i$).
 Within the golden ratio $\Phi$ (irrational number), $\Phi = \frac{1+\sqrt{5}}{2}$, the detail dimensions of the icosahedron to be proved is the following. 
 
 \begin{equation*} 
 \label{icosa:eq1}
 \begin{split}
-\Phi & = \frac{OX}{XB}\\
+\Phi & = \frac{OX}{XB} = \frac{OX}{\frac{1}{2}a}\\
 \sin(\angle XOB) & = \frac{XB}{OB} = \frac{\frac{1}{2}a}{\frac{\sqrt{\Phi^2+1}}{2}a}\\
 				 & = \frac{1}{\sqrt{\Phi^2 + 1}}\\
 \Rightarrow \angle{XOB} & = \arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
@@ -259,7 +263,19 @@ Within the golden ratio $\Phi$ (irrational number), $\Phi = \frac{1+\sqrt{5}}{2}
 \end{split}
 \end{equation*}
 
-\noindent 111111 CHeck book "A geometric analysis of the Platonic solids". ksdhajkdas
+\noindent Same as the case of cube path planning algorithm, the initial step of rolling icosahedron is to find the rotation angle. To be more details in the Figure \ref{fig:icosaGeo3}, the rotation angle is a supplementary of the $\angle{QRS}$. A line $OR$ is perpendicular to $QS$ and $OS = OQ = OM = r_i = \frac{\Phi^2}{2\sqrt{3}}a$. $BI$ is a diagonal of pentagon $BCLIJ$ and $\angle{QRS}=2\angle{ORS}$.\\
+
+\noindent Otherwise, $OR=OX=\frac{1}{2}a\Phi$. And
+
+\begin{equation*} 
+\label{icosa:eq2}
+\begin{split}
+\angle{QRS} & = 2\angle{ORS}\\
+\sin{\angle{ORS}} & = \frac{OS}{OR} = \frac{ \frac{\Phi^2}{2\sqrt{3}}a}{\frac{1}{2}a\Phi} = \frac{\Phi}{\sqrt{3}}\\
+\Rightarrow \angle{QRS} & =2\arcsin{\frac{\Phi}{\sqrt{3}}}\\
+\end{split}
+\end{equation*}
+
 George Odom has given a remarkably simple construction for jh involving an equilateral triangle: if an equilateral triangle is inscribed in a circle and the line segment joining the midpoints of two sides is produced to intersect the circle in either of two points, then these three points are in golden proportion. This result is a straightforward consequence of the intersecting chords theorem and can be used to construct a regular pentagon, a construction that attracted the attention of the noted Canadian geometer H. S. M. Coxeter who published it in Odom's name as a diagram in the American Mathematical Monthly accompanied by the single word
 
 \begin{figure}[h]
@@ -267,7 +283,7 @@ George Odom has given a remarkably simple construction for jh involving an equil
 	\includegraphics[width=\textwidth]{image/icosaGeo3.png}
 %	\includepdf[pages=-,pagecommand={},width=0.5\textwidth]{image/cubePath1.pdf}
 	\caption{Icosahedron geometrical properties}
-	\label{fig:icosaGeo2}
+	\label{fig:icosaGeo3}
 \end{figure}
 
 \noindent 22222 CHeck book "A geometric analysis of the Platonic solids". ksdhajkdas
