@@ -6,6 +6,11 @@
 \contentsline {subsection}{\numberline {4.1}Path Planning Based Rolling Contact}{4}{subsection.4.1}% 
 \contentsline {subsection}{\numberline {4.2}Tree Exploration Algorithm}{6}{subsection.4.2}% 
 \contentsline {section}{\numberline {5}EVALUATION}{8}{section.5}% 
-\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{16}{section.6}% 
-\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{19}{section.7}% 
-\contentsline {section}{\numberline {A}APPENDIX}{21}{appendix.A}% 
+\contentsline {subsection}{\numberline {5.1}Cube solid}{8}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Tetrahedron solid}{11}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Octahedron solid}{12}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Icosahedron solid}{14}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.5}Dodecahedron solid}{17}{subsection.5.5}% 
+\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{19}{section.6}% 
+\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{22}{section.7}% 
+\contentsline {section}{\numberline {A}APPENDIX}{24}{appendix.A}% 
