@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  19 FEB 2020 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  19 FEB 2020 22:49
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -1890,12 +1890,6 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 
 (mainMilestone.aux
 
-LaTeX Warning: Label `octa:eq0' multiply defined.
-
-
-LaTeX Warning: Label `octa:eq2' multiply defined.
-
-
 LaTeX Warning: Label `fig:Tetra2Case1' multiply defined.
 
 
@@ -2400,6 +2394,11 @@ File: image/icosaGeo2.png Graphic file (type png)
 Package pdftex.def Info: image/icosaGeo2.png  used on input line 246.
 (pdftex.def)             Requested size: 455.24411pt x 256.07938pt.
 
+
+LaTeX Warning: Reference `fig:icosaGeo3' on page 14 undefined on input line 266
+.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
@@ -2407,77 +2406,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 [14
 
  <./image/icosaGeo2.png>]
-<image/icosaGeo3.png, id=464, 1168.96725pt x 585.98924pt>
-File: image/icosaGeo3.png Graphic file (type png)
-<use image/icosaGeo3.png>
-Package pdftex.def Info: image/icosaGeo3.png  used on input line 283.
-(pdftex.def)             Requested size: 455.24411pt x 228.21298pt.
-<image/icosaGeo4.png, id=465, 657.657pt x 1140.05925pt>
-File: image/icosaGeo4.png Graphic file (type png)
-<use image/icosaGeo4.png>
-Package pdftex.def Info: image/icosaGeo4.png  used on input line 294.
-(pdftex.def)             Requested size: 113.81102pt x 197.28668pt.
- [15 <./image/icosaGeo3.png> <./image/icosaGeo4.png>]
 
 pdfTeX warning: pdflatex (file ./image/icosaPath.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/icosaPath.pdf, id=474, 666.49pt x 665.48625pt>
+<image/icosaPath.pdf, id=463, 666.49pt x 665.48625pt>
 File: image/icosaPath.pdf Graphic file (type pdf)
 <use image/icosaPath.pdf>
-Package pdftex.def Info: image/icosaPath.pdf  used on input line 330.
+Package pdftex.def Info: image/icosaPath.pdf  used on input line 301.
 (pdftex.def)             Requested size: 227.62206pt x 227.27777pt.
 
 
 pdfTeX warning: pdflatex (file ./image/icosaPathTopView.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<image/icosaPathTopView.pdf, id=475, 681.54625pt x 693.59125pt>
+<image/icosaPathTopView.pdf, id=464, 681.54625pt x 693.59125pt>
 File: image/icosaPathTopView.pdf Graphic file (type pdf)
 <use image/icosaPathTopView.pdf>
-Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 335.
+Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 306.
 (pdftex.def)             Requested size: 227.62206pt x 231.64807pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 330--336
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 301--307
 [][]  [][] 
  []
 
-[16 <./image/icosaPath.pdf> <./image/icosaPathTopView.pdf>]
+[15 <./image/icosaPath.pdf> <./image/icosaPathTopView.pdf>]
 
 pdfTeX warning: pdflatex (file ./image/dodecahedron2.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<image/dodecahedron2.pdf, id=561, 845.1575pt x 597.23125pt>
+<image/dodecahedron2.pdf, id=550, 845.1575pt x 597.23125pt>
 File: image/dodecahedron2.pdf Graphic file (type pdf)
 <use image/dodecahedron2.pdf>
-Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 369.
+Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 340.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+[16
+
+ <./image/dodecahedron2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
-[17
-
- <./image/dodecahedron2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--433
+Underfull \hbox (badness 10000) in paragraph at lines 400--404
 
  []
 
@@ -2491,7 +2479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<image/IEEEDisCon.png, id=592, 384.2355pt x 254.1495pt>
+<image/IEEEDisCon.png, id=580, 384.2355pt x 254.1495pt>
 File: image/IEEEDisCon.png Graphic file (type png)
 <use image/IEEEDisCon.png>
 Package pdftex.def Info: image/IEEEDisCon.png  used on input line 19.
@@ -2499,11 +2487,11 @@ Package pdftex.def Info: image/IEEEDisCon.png  used on input line 19.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [19]
+) [18]
 
 pdfTeX warning: pdflatex (file ./image/test44.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test44.pdf, id=597, page=1, 779.91376pt x 672.5125pt>
+<image/test44.pdf, id=586, page=1, 779.91376pt x 672.5125pt>
 File: image/test44.pdf Graphic file (type pdf)
 <use image/test44.pdf, page 1>
 Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
@@ -2512,7 +2500,7 @@ Package pdftex.def Info: image/test44.pdf , page1 used on input line 35.
 
 pdfTeX warning: pdflatex (file ./image/test43.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<image/test43.pdf, id=598, page=1, 779.91376pt x 672.5125pt>
+<image/test43.pdf, id=587, page=1, 779.91376pt x 672.5125pt>
 File: image/test43.pdf Graphic file (type pdf)
 <use image/test43.pdf, page 1>
 Package pdftex.def Info: image/test43.pdf , page1 used on input line 36.
@@ -2526,12 +2514,12 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 35--37
 
 pdfTeX warning: pdflatex (file ./image/test2.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<image/test2.pdf, id=599, page=1, 851.18pt x 659.46375pt>
+<image/test2.pdf, id=588, page=1, 851.18pt x 659.46375pt>
 File: image/test2.pdf Graphic file (type pdf)
 <use image/test2.pdf, page 1>
 Package pdftex.def Info: image/test2.pdf , page1 used on input line 47.
 (pdftex.def)             Requested size: 227.62206pt x 176.34694pt.
-<image/test3.png, id=600, 10879.64626pt x 8305.0275pt>
+<image/test3.png, id=589, 10879.64626pt x 8305.0275pt>
 File: image/test3.png Graphic file (type png)
 <use image/test3.png>
 Package pdftex.def Info: image/test3.png  used on input line 52.
@@ -2544,15 +2532,15 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 47--53
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <./image/IEEEDisCon.png> <./image/test44.pdf> <./image/test43.pdf>]
-[21 <./image/test2.pdf> <./image/test3.png>]
+[19 <./image/IEEEDisCon.png> <./image/test44.pdf> <./image/test43.pdf>]
+[20 <./image/test2.pdf> <./image/test3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 72--80
 
  []
 
-[22] [23
+[21] [22
 
-] [24
+] [23
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
@@ -2564,6 +2552,9 @@ Package rerunfilecheck Info: File `mainMilestone.out' has not changed.
 (rerunfilecheck)             Checksum: 3ABCC918D81BD3C7A3F4F6151D72E214;942.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
@@ -2572,10 +2563,10 @@ Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 66852 strings out of 492453
- 1549509 string characters out of 3129819
- 2132205 words of memory out of 3000000
- 70129 multiletter control sequences out of 15000+200000
+ 66836 strings out of 492453
+ 1549179 string characters out of 3129819
+ 2132186 words of memory out of 3000000
+ 70118 multiletter control sequences out of 15000+200000
  538526 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,26n,127p,1636b,2859s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2594,9 +2585,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb>
-Output written on mainMilestone.pdf (25 pages, 19844428 bytes).
+Output written on mainMilestone.pdf (24 pages, 19133978 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
