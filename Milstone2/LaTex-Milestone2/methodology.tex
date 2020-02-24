@@ -1,5 +1,5 @@
 \section{ALGORITHM\textbackslash METHODOLOGY}
-
+\label{sec:Algorithm}
 \subsection{Path Planning Based Rolling Contact}
 \noindent\uline{Rolling on discretized surfaces}:
 The surface contacts between platonic solids and the plane can be categorized into three types as shown in Figure \ref{fig:gridPlatonic} including square shape for cube, triangle shape for tetrahedron, octahedron, and dodecahedron, pentagon shape for dodecahedron. 
@@ -11,10 +11,8 @@ In the case of dodecahedron rolling contact, the Figure \ref{fig:gridPlatonic}d 
 A regular pentagon has five interior angles of $\ang{108}$ which generate a gap between three pentagons surrounding because of $3*\ang{108}=\ang{324}$, which is different $\ang{360}$ of the full circle.
 Another case of four overlap pentagons with $4*\ang{108}=\ang{432}$ is greater than the circle of $\ang{360}$. 
 The path planning through rolling of the dodecahedron solid can be categorized into two these cases. 
-It would be found the possible paths in the first case of dodecahedron without overlap rolling while the second case with overlap rolling cannot guarantee the paths.}\\
+It would be found the possible paths in the first case of dodecahedron without overlap rolling while the second case with overlap rolling cannot guarantee the paths.}
 
-\textcolor{green}{The Algorithm \ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. The first step is to initial the coordinates and the orientations of the initial cube and the target cube which is stored as the initial path. The same as tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions.}
-%
 %
 \begin{figure}[h]
 \centering
@@ -22,9 +20,12 @@ It would be found the possible paths in the first case of dodecahedron without o
 	\caption{Grid of platonic solids}
 	\label{fig:gridPlatonic}
 \end{figure}
-%
-%
 
+
+\noindent\uline{Rodrigues' roatation}: It is assumed that the motion of rolling the platonic solids is a pure rolling without slipping or spinning at the line contact.
+Rolling the platonic solids means rolling all its vertices in $3D$ environment indicated by changing the coordinates. There were several algorithms to transform vertices stored in a matrix in $3D$ space. In this case, the Rodrigues's rotation method in \cite{Dai_Rodrigues_2015} is used to represent the rotation matrix in the path planning algorithm. The method is explained in the Section \ref{sec:eva}. 
+
+%
 \clearpage
 \newpage
 \noindent\uline{Algorithms}:
@@ -32,7 +33,7 @@ Due to the different surface contacts, there are three types of direction for th
 
 \noindent The Algorithm \ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. The first step is to initial the coordinates and the orientations of the initial cube and the target cube which is stored as the initial path. The same as tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions. An example for this step is that from the initial coordinate the cube achieves a new position after doing rolling for right direction, the new three positions of the cube by rolling through right, up, and down direction. After implementing the expansion steps through rolling, the function of checking whether updated models reach the goal is called through the loop. By that means, the loop will stop when reaching the goal whereas the loop will continue to execute and store new models to the initial path. While the searching algorithm is executing, the data structure is used to store the positions and orientations from the start to the current. This process runs in time $O(|E|^3)$ (where $|E|$ is the number of updated cubes) which causes the longer the running time of the searching technique. \\
 
-\textcolor{green}{The Algorithm \ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. The first step is to initial the coordinates and the orientations of the initial cube and the target cube which is stored as the initial path. The same as tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions.} 
+\noindent  
 % 
 %
 %
@@ -111,10 +112,17 @@ Due to the different surface contacts, there are three types of direction for th
 \newpage
 %----------------------------------
 \subsection{Tree Exploration Algorithm}
-The node tree exploration for searching algorithm described in Algorithm \ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm.
-The graph search in the Figure \ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $level^1 ... level^n$.
+The node tree exploration for searching algorithm described in Algorithm \ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm. The graph search in the Figure \ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $1^{st} level ... n^{th} level$ for the case study of a cube solid.
+%
 Each nodes indicates the position of the cube's center and the orientation of the cube. The node $S$ means Start-Point while $R,L,U,D$ are labelled for four different directions including right, left, up and down respectively. 
+%
+For each iterations, a tree with a node including $3D$ coordinate and orientation is stored in each levels. At the same time, the algorithm of checking the goal configuration will be called to check whether the current executing level achieves the target.\\
 
+
+\noindent In other cases of tetrahedron, octahedron and icosahedron with the triangular grid (Figure \ref{fig:gridPlatonic}b), there are three directions at the first rolling and only two directions for the rest of path-finding process.
+%
+Only the case of dodecahedron has the different approach from the algorithm. The path planning algorithm depends on the environment including gaps or overlaps between two pentagon connections as can be seen in the Figure \ref{fig:gridPlatonic}b.
+%
 \vskip 0.5cm
 \begin{figure}[h]
 	\input{Nodes}
@@ -123,13 +131,21 @@ Each nodes indicates the position of the cube's center and the orientation of th
 \end{figure}
 
 \noindent Starting form the root $S$, path planning based rolling of the cube model at the first level of expansion will generate to four different direction $R,L,U,D$. In the next level, the cube can only roll with three directions without rolling back to the previous position.  
-An example of the second level is that node $R$ will roll to right, up, and down directions. 
- 
-%
+An example of the second level is that node $R$ will roll to right, up, and down directions indicated by node $R,U,D$ respectively.\\
 % 
-%
-%
 
+\noindent To eliminate the processing time in the proposed algorithms, whenever any updated points achieved the same position and orientation, these nodes will merge at that $level$. An example from Figure \ref{fig:nodeTree} shows two updated nodes $R$ (blue node) at $(n-1)^{th} level$ have achieved the same position. The next path is generated from this merged nodes. 
+%
+From the tree exploration algorithm, the result can show only one path or various paths which depends on the initial and goal configuration. The first path is the shortest path because the executing time is shortest based on the condition of achieving goal configuration.
+% 
+%\vskip 0.5cm
+%\begin{figure}[h]
+%    \centering
+%	\input{mergeNode}
+%	\caption{Merge Nodes of Cube Rolling}
+%\label{fig:mergeNode}
+%\end{figure}
+%
 %----------------------------------
 \clearpage
 \newpage

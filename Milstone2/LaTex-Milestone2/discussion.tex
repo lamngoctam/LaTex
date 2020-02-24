@@ -1,7 +1,9 @@
 \section{EVALUATION}
-
+\label{sec:eva}
 The proposed algorithm for platonic solids path planning by rolling through edge contact was implemented in MATLAB environment. 
 In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path finding. To validate the proposed algorithm, this study only considers the first case study of path planning that both initial and goal configuration have the same positions and different orientations.\\  
+
+\noindent Assume that the platonic solids' edges has the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$.
 
 \subsection{Cube solid}
 \noindent\uline{Properties}:
@@ -13,8 +15,6 @@ The cube has a length which is the same as the length of side of each grid squar
 	\caption{The first three layers of cube rolling}
 	\label{fig:cubePath0}
 \end{figure}
-
-
 
 \noindent\uline{Path planning}:  ABC here.
 
@@ -72,7 +72,7 @@ The proposed algorithm in this study can be applied for the case study of long d
 Figure \ref{fig:cubeLongDist} shows an example with two different paths.
 Shortest path-finding algorithm is added to the original algorithm to find the shortest path from start point to the goal point. 
 After finishing this step, the cube updated to a new orientation with different orientation at the goal configuration. Then, the original algorithm will be implemented from the updated cube to the goal configuration.
-Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$. In the first step, the red segment $S_1S_2$ shows the shortest distance from start position to goal position. The cube will roll through this segment and achieve the updated orientation at the goal position called shortest path for the case of long distance. 
+Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$. In the first step, the red line segment $S_1S_2$ shows the shortest distance from start position to goal position. The cube will roll through this line segment and achieve the updated orientation at the goal position called shortest path for the case of long distance. 
 
 \begin{center}
 \begin{figure}[h]
@@ -209,7 +209,7 @@ EP & = FQ = a\frac{\sqrt{3}}{6}
 \noindent\uline{Path planning}:
 Based on the classical path planning which is the movement from point to other points, the octahedron path planning within rolling has three directions to move. In the Figure \ref{fig:octaGeo1}, the bottom layer $\triangle ABC$ which contacts to $OXY$ can roll with the directions $FQ, FO_1, FR$. The distance between two shortest positions is $2FR= 2a\frac{\sqrt{3}}{6}=a\frac{\sqrt{3}}{3}$. 
 
-\noindent As can be seen from the Figure \ref{fig:octaPath1}, the shortest path within red line includes ten segments for rolling the octahedron. The total length of the path equals $10a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
+\noindent As can be seen from the Figure \ref{fig:octaPath1}, the shortest path within red line includes ten line segments for rolling the octahedron. The total length of the path equals $10a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
 
 \begin{center}
 \begin{figure}[h]
@@ -250,20 +250,20 @@ The convex regular icosahedron in the Figure \ref{fig:icosaGeo2} is one of the f
 \end{figure}
 
 \noindent At the right side of  the Figure \ref{fig:icosaGeo2}, the pentagon $ABCEF$ has circumcircle radius $R$, inscribed circle $r_i$, and the height $d_{CS}$ ($R+r_i$).
-Within the golden ratio $\Phi$ (irrational number), $\Phi = \frac{1+\sqrt{5}}{2}$, the detail dimensions of the icosahedron to be proved is the following. 
-
+The golden ratio $\Phi$ (irrational number) has the value of $\frac{1+\sqrt{5}}{2}$ can be found by:
 \begin{equation*} 
 \label{icosa:eq1}
 \begin{split}
 \Phi & = \frac{OX}{XB} = \frac{OX}{\frac{1}{2}a}\\
-\sin(\angle XOB) & = \frac{XB}{OB} = \frac{\frac{1}{2}a}{\frac{\sqrt{\Phi^2+1}}{2}a}\\
-				 & = \frac{1}{\sqrt{\Phi^2 + 1}}\\
-\Rightarrow \angle{XOB} & = \arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
-\Rightarrow \angle{DOB} & = 2\angle{XOB} = 2\arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
 \end{split}
 \end{equation*}
 
-\noindent Same as the case of cube path planning algorithm, the initial step of rolling icosahedron is to find the rotation angle. To be more details in the Figure \ref{fig:icosaGeo3}, the rotation angle is a supplementary of the $\angle{QRS}$. A line $OR$ is perpendicular to $QS$ and $OS = OQ = OM = r_i = \frac{\Phi^2}{2\sqrt{3}}a$. $BI$ is a diagonal of pentagon $BCLIJ$ and $\angle{QRS}=2\angle{ORS}$.\\
+%\sin(\angle XOB) & = \frac{XB}{OB} = \frac{\frac{1}{2}a}{\frac{\sqrt{\Phi^2+1}}{2}a}\\
+%				 & = \frac{1}{\sqrt{\Phi^2 + 1}}\\
+%\Rightarrow \angle{XOB} & = \arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
+%\Rightarrow \angle{DOB} & = 2\angle{XOB} = 2\arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
+
+\noindent Same as the case of cube path planning algorithm, the initial step of rolling icosahedron is to find the rotation angle. the rotation angle is a supplementary of the $\angle{QRS}$. The line $OR$ is perpendicular to $QS$ and $OS = OQ = OM = r_i = \frac{\Phi^2}{2\sqrt{3}}a$. $BI$ is a diagonal of pentagon $BCLIJ$ and $\angle{QRS}=2\angle{ORS}$.\\
 
 \noindent Otherwise, $OR=OX=\frac{1}{2}a\Phi$, and
 
@@ -276,7 +276,7 @@ Within the golden ratio $\Phi$ (irrational number), $\Phi = \frac{1+\sqrt{5}}{2}
 \end{split}
 \end{equation*}
 
-\noindent From the result of $\angle{QRS}$, the rotation angle of icosahedron can be determined as the following. 
+\noindent To be more detail in the Figure \ref{fig:icosaGeo5}, the rotation angle of icosahedron can be determined from the result of $\angle{QRS}$, as the following. 
 
 \begin{equation*} 
 \label{icosa:eq3}
@@ -287,11 +287,30 @@ Within the golden ratio $\Phi$ (irrational number), $\Phi = \frac{1+\sqrt{5}}{2}
 \end{split}
 \end{equation*}
 
+\noindent To calculate the rotation axis for all the cases of the triangular surface contact, there are three axis such as $IJ$, $JK$, and $IK$ with the $3D$ coordinates as following.
+
+%\begin{equation*} 
+\begin{align*}
+\label{icosa:eq4}
+JK & = [a\quad  0\quad  0]\\
+IJ & = [-\frac{1}{2}a\quad  (\frac{\sqrt{3}}{6}+\frac{\sqrt{3}}{3})a\quad  0]\\
+IK & = [-\frac{1}{2}a\quad  -(\frac{\sqrt{3}}{6}+\frac{\sqrt{3}}{3})a\quad  0]
+\end{align*}
+%\end{equation*}
+
+\begin{figure}[h]
+\centering
+	\includegraphics[width=0.5\textwidth]{image/icosaGeo5.png}
+	\caption{Rotation angle and rotation axis}
+	\label{fig:icosaGeo5}
+\end{figure}
+
 %
 % ===================================
 %
 \noindent\uline{Path planning} 
-This is the rolling path of an icosahedron solid (Figure \ref{fig:icosaPaths}).
+Path planning of the regular icosahedron through rolling in known environment has initial coordinate at $[6.5, 5.5, 0]$ and the surface contact with red arrow points to bottom. The goal configuration with same as the initial coordinate has the contact surface with black arrow as shown in the Figure \ref{fig:icosaPath1}. This figure shows the shortest path with the red line including 14 line segments. It means that the icosahedron rolled 14 times from the initial configuration to the goal configuration. The path can be seen more precisely from the top view in the Figure \ref{fig:icosaPath2}.
+The total length of this icosahedron path equals $14a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
 
 \begin{center}
 \begin{figure}[h]
@@ -342,40 +361,40 @@ The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertices from $
 	\label{fig:dodecahedron2}
 \end{figure}
 
-The path planning will implement on a surface but it will be considered in $3D$ spaces. Then, each of vertices will be determined on $3D$ coordinates such as the vertices $A$ has coordinate with $[A_x A_y A_z]$. Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$. Because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. Then the other two angles $\alpha_2$ and $\alpha_3$ can be determined by $\alpha_2 = \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}$ and $\alpha_3 = \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}$.\\
+\noindent The path planning will implement on a surface but it will be considered in $3D$ spaces. Then, each of vertices will be determined on $3D$ coordinates such as the vertices $A$ has coordinate with $[A_x A_y A_z]$. Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$. Because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. Then the other two angles $\alpha_2$ and $\alpha_3$ can be determined by $\alpha_2 = \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}$ and $\alpha_3 = \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}$.\\
 
-From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
+\noindent From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
 
-There are total $20$ vertices of a dodecahedron. This article focuses on the rolling contact to $2D$ surface, the bottom surface of the dodecahedron integrated to the $Oxy$ which contact to the $2D$ surface. This condition express the $Oz$ dimension of the vertices $ABCDE$ equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. Then $P_z = Q_z = R_z = S_z = T_z = 2.r_i = \frac{a}{10}\sqrt{10(25+11\sqrt{5})}$.\\
+\noindent There are total $20$ vertices of a dodecahedron. This article focuses on the rolling contact to $2D$ surface, the bottom surface of the dodecahedron integrated to the $Oxy$ which contact to the $2D$ surface. This condition express the $Oz$ dimension of the vertices $ABCDE$ equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. Then $P_z = Q_z = R_z = S_z = T_z = 2.r_i = \frac{a}{10}\sqrt{10(25+11\sqrt{5})}$.\\
 
-It can be seen that the distance $|AF|$ is $a$ and the distance $|BF|$ is $2l_3$. Using the distance properties and squaring the results give:
-\begin{equation*} 
+\noindent It can be seen that the distance $|AF|$ is $a$ and the distance $|BF|$ is $2l_3$. Using the distance properties and squaring the results give:
+\begin{equation} 
 \label{dodeca:eq1}
 \begin{split}
 AF^2 & = a^2 = (A_x-F_x)^2 + (A_y-F_y)^2 + (A_z-F_z)^2 \\
 BF^2 & = (2l_3)^2 = (B_x-F_x)^2 + (B_y-F_y)^2 + (B_z-F_z)^2
 \end{split}
-\end{equation*}
+\end{equation}
 
-Figure \ref{fig:dodecahedron2}(d) shows that $A_x = F_x = 0$, $A_y = l_1$, $B_y = l_4$, $B_x = l_3$, $A_z = B_z$. Define $l_5=A_z-F_z$, the relations of these equations are:
-\begin{equation*} 
+\noindent Figure \ref{fig:dodecahedron2}(d) shows that $A_x = F_x = 0$, $A_y = l_1$, $B_y = l_4$, $B_x = l_3$, $A_z = B_z$. Define $l_5=A_z-F_z$, the relations of these equations are:
+\begin{equation} 
 \label{dodeca:eq2}
 \begin{split}
 a^2 & = (F_y-l_1)^2 + l_5^2\\
 (2l_3)^2 & = (F_y-l_4)^2 + l_5^2 + l_3^2
 \end{split}
-\end{equation*}
+\end{equation}
 
 Solving $F_y$ and $l_5$ gives:
-\begin{equation*} 
+\begin{equation} 
 \label{dodeca:eq3}
 \begin{split}
 F_y & = \frac{a^2-(2l_3)^2-(l_1^2-l_3^2-l_4^2)}{2(l_4-l_1)} \\
 l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 \end{split}
-\end{equation*}
+\end{equation}
 
-From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the vertices will be founded in the three-dimensional space. Path planning based on rolling is the motion of all these vertices through edges' contact.\\
+\noindent From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the vertices will be founded in the three-dimensional space. Path planning based on rolling is the motion of all these vertices through edges' contact.\\
 
 \noindent\uline{Path Planning}: 
 %%

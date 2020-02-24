@@ -19,135 +19,162 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{Barraquand91_MP_DisctributedRepresenation}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5bc1f0ca797e56ec552a9d15531742c9}{%
-           family={Barraquand},
-           familyi={B\bibinitperiod},
-           given={Jérôme},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f1b7494703264d3e562759a836f6d716}{%
-           family={Latombe},
+    \entry{Zhang2018_PP_mobileRobot}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2267d9b5097447c179cba482806a18a7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.-y.},
+           giveni={H\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=aa26562c9608e03fd16d81f4578d37e5}{%
+           family={Lin},
            familyi={L\bibinitperiod},
-           given={Jean-Claude},
-           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+           given={W.-m.},
+           giveni={W\bibinithyphendelim m\bibinitperiod}}}%
+        {{hash=aac3de82415c1d2ec8d94e9bec5e8062}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={A.-x.},
+           giveni={A\bibinithyphendelim x\bibinitperiod}}}%
       }
-      \strng{namehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{fullhash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{bibnamehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{authorbibnamehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{authornamehash}{b9e28b992d42c567b24ad7bc38428ecd}
-      \strng{authorfullhash}{b9e28b992d42c567b24ad7bc38428ecd}
+      \strng{namehash}{2dc0b53d45e799e05d806db42bd5846d}
+      \strng{fullhash}{32970007fc04fd6a2df8e57343161bf9}
+      \strng{bibnamehash}{32970007fc04fd6a2df8e57343161bf9}
+      \strng{authorbibnamehash}{32970007fc04fd6a2df8e57343161bf9}
+      \strng{authornamehash}{2dc0b53d45e799e05d806db42bd5846d}
+      \strng{authorfullhash}{32970007fc04fd6a2df8e57343161bf9}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0278-3649}
-      \field{journaltitle}{The International Journal of Robotics Research}
-      \field{number}{6}
-      \field{title}{Robot Motion Planning: A Distributed Representation Approach}
+      \field{journaltitle}{Symmetry}
+      \field{number}{10}
+      \field{title}{Path Planning for the Mobile Robot: A Review}
       \field{type}{Journal Article}
       \field{volume}{10}
-      \field{year}{1991}
-      \field{pages}{628\bibrangedash 649}
-      \range{pages}{22}
+      \field{year}{2018}
+      \field{pages}{450}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1177/027836499101000604
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/027836499101000604
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/027836499101000604
+      \verb https://doi.org/10.3390/sym10100450
       \endverb
     \endentry
-    \entry{Antonio04_NewPRM}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=0dafc47d3304fc8004f4c256d7bd9f88}{%
-           family={Benitez},
-           familyi={B\bibinitperiod},
-           given={Antonio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e945fe322f71b7e61e5715eeb11df397}{%
-           family={Vallejo},
-           familyi={V\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=d4140fdaac2bf0c7c34666faf920c3c9}{%
-           family={Lemaître},
+    \entry{LaValle06_PlanningAlgorithm}{book}{}
+      \name{author}{1}{}{%
+        {{hash=10b09a560dbab6229987301f9a193d77}{%
+           family={LaValle},
            familyi={L\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=5cc0bcfbaba47b30d7cf437900e1129c}{%
-           family={Reyes},
-           familyi={R\bibinitperiod},
-           given={Carlos\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=eeb1c91f6a1f20c512ceea8777c2ae17}{%
-           family={González},
-           familyi={G\bibinitperiod},
-           given={Jesús\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
       }
       \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
+        {Cambridge University Press}%
       }
-      \strng{namehash}{2595ecebd6771e01ebb6881e3c14802e}
-      \strng{fullhash}{2595ecebd6771e01ebb6881e3c14802e}
-      \strng{bibnamehash}{2595ecebd6771e01ebb6881e3c14802e}
-      \strng{authorbibnamehash}{2595ecebd6771e01ebb6881e3c14802e}
-      \strng{authornamehash}{2595ecebd6771e01ebb6881e3c14802e}
-      \strng{authorfullhash}{2595ecebd6771e01ebb6881e3c14802e}
-      \strng{editorbibnamehash}{b694734157cc9ea29930928de772f662}
-      \strng{editornamehash}{a0180833f35b6b5861798eb900408436}
-      \strng{editorfullhash}{b694734157cc9ea29930928de772f662}
+      \strng{namehash}{10b09a560dbab6229987301f9a193d77}
+      \strng{fullhash}{10b09a560dbab6229987301f9a193d77}
+      \strng{bibnamehash}{10b09a560dbab6229987301f9a193d77}
+      \strng{authorbibnamehash}{10b09a560dbab6229987301f9a193d77}
+      \strng{authornamehash}{10b09a560dbab6229987301f9a193d77}
+      \strng{authorfullhash}{10b09a560dbab6229987301f9a193d77}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Artificial Intelligence – IBERAMIA 2004}
-      \field{isbn}{978-3-540-30498-2}
-      \field{title}{New Technique to Improve Probabilistic Roadmap Methods}
-      \field{type}{Conference Proceedings}
-      \field{pages}{514\bibrangedash 523}
-      \range{pages}{10}
+      \field{isbn}{0521862051}
+      \field{title}{Planning Algorithms}
+      \field{year}{2006}
     \endentry
-    \entry{Kavraki02_Random_ConfigurationSpace_PP}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=3468bd8f0b456c9dd83279b5eae72d89}{%
+    \entry{Kavraki96_PRM_HighDimensionSPace}{article}{}
+      \name{author}{4}{}{%
+        {{hash=aa9bc870d77204ff8d97cd769a076c19}{%
            family={Kavraki},
            familyi={K\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dbc947a3afd2f3e3c62cfce6aab62152}{%
+           family={Svestka},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
         {{hash=ca7afd6df810228f4c87f4f53b3c56b0}{%
            family={Latombe},
            familyi={L\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
+        {{hash=23a0114857febda51c53176b3eddffe4}{%
+           family={Overmars},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{91035c77fd23389872ad28796feca334}
-      \strng{fullhash}{91035c77fd23389872ad28796feca334}
-      \strng{bibnamehash}{91035c77fd23389872ad28796feca334}
-      \strng{authorbibnamehash}{91035c77fd23389872ad28796feca334}
-      \strng{authornamehash}{91035c77fd23389872ad28796feca334}
-      \strng{authorfullhash}{91035c77fd23389872ad28796feca334}
+      \strng{namehash}{3ccfc1961f2e57d44d3662694ee9beb1}
+      \strng{fullhash}{50a7464b71181a275f7f38b47d2351d0}
+      \strng{bibnamehash}{50a7464b71181a275f7f38b47d2351d0}
+      \strng{authorbibnamehash}{50a7464b71181a275f7f38b47d2351d0}
+      \strng{authornamehash}{3ccfc1961f2e57d44d3662694ee9beb1}
+      \strng{authorfullhash}{50a7464b71181a275f7f38b47d2351d0}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'94)}
-      \field{title}{Randomized preprocessing of configuration space for path planning: articulated robots}
-      \field{type}{Conference Proceedings}
-      \field{volume}{3}
-      \field{year}{1994}
-      \field{pages}{1764\bibrangedash 1771 vol.3}
-      \range{pages}{-1}
+      \field{issn}{1042-296X}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{4}
+      \field{title}{Probabilistic roadmaps for path planning in high-dimensional configuration spaces}
+      \field{type}{Journal Article}
+      \field{volume}{12}
+      \field{year}{1996}
+      \field{pages}{566\bibrangedash 580}
+      \range{pages}{15}
       \verb{doi}
-      \verb 10.1109/IROS.1994.407619
+      \verb 10.1109/70.508439
       \endverb
-      \keyw{robots path planning search problems optimisation configuration space articulated robots randomized preprocessing connected network collision-free configurations shortest path search Orbital robotics Workstations Motion planning Robot programming Computer science Application software Computer networks Costs Joining processes}
+    \endentry
+    \entry{Cai86_PlanarMotion_PointContact}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bca90bfb02e6ee83450b893de6b1258b}{%
+           family={Chun\bibnamedelima Sheng},
+           familyi={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cai},
+           giveni={C\bibinitperiod}}}%
+        {{hash=437ec9c1c949a7d89143d28da8aa94fe}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fe33f16dd72da93ddb1933656ca317e}
+      \strng{fullhash}{6fe33f16dd72da93ddb1933656ca317e}
+      \strng{bibnamehash}{6fe33f16dd72da93ddb1933656ca317e}
+      \strng{authorbibnamehash}{6fe33f16dd72da93ddb1933656ca317e}
+      \strng{authornamehash}{6fe33f16dd72da93ddb1933656ca317e}
+      \strng{authorfullhash}{6fe33f16dd72da93ddb1933656ca317e}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0094-114X}
+      \field{journaltitle}{Mechanism and Machine Theory}
+      \field{number}{6}
+      \field{title}{On the planar motion of rigid bodies with point contact}
+      \field{type}{Journal Article}
+      \field{volume}{21}
+      \field{year}{1986}
+      \field{pages}{453\bibrangedash 466}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0094-114X(86)90128-X
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/0094114X8690128X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0094114X8690128X
+      \endverb
     \endentry
     \entry{Cai87_SpatialMotion_PointContact}{inproceedings}{}
       \name{author}{2}{}{%
@@ -168,8 +195,9 @@
       \strng{authorbibnamehash}{2c3418467015e8d20038e200f91dd1fe}
       \strng{authornamehash}{2c3418467015e8d20038e200f91dd1fe}
       \strng{authorfullhash}{2c3418467015e8d20038e200f91dd1fe}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings. 1987 IEEE International Conference on Robotics and Automation}
@@ -183,71 +211,489 @@
       \verb 10.1109/ROBOT.1987.1087971
       \endverb
     \endentry
-    \entry{Holland75_GAMethod}{book}{}
-      \name{author}{1}{}{%
-        {{hash=d489561d244344393eb26a974d85d1ba}{%
-           family={Holland},
-           familyi={H\bibinitperiod},
-           given={John\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+    \entry{Cai88_SpatialMotion_LineContact}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e28beb4a7e1814b0a1804a4377f5600c}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=82182641b25309c23ea4c72ad3d4cdda}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {In University of Michigan Press, Ann Arbor.}%
-      }
-      \strng{namehash}{d489561d244344393eb26a974d85d1ba}
-      \strng{fullhash}{d489561d244344393eb26a974d85d1ba}
-      \strng{bibnamehash}{d489561d244344393eb26a974d85d1ba}
-      \strng{authorbibnamehash}{d489561d244344393eb26a974d85d1ba}
-      \strng{authornamehash}{d489561d244344393eb26a974d85d1ba}
-      \strng{authorfullhash}{d489561d244344393eb26a974d85d1ba}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \strng{namehash}{d5b7d05512bca21b51ced2ab9949ae97}
+      \strng{fullhash}{d5b7d05512bca21b51ced2ab9949ae97}
+      \strng{bibnamehash}{d5b7d05512bca21b51ced2ab9949ae97}
+      \strng{authorbibnamehash}{d5b7d05512bca21b51ced2ab9949ae97}
+      \strng{authornamehash}{d5b7d05512bca21b51ced2ab9949ae97}
+      \strng{authorfullhash}{d5b7d05512bca21b51ced2ab9949ae97}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Adaptation in Natural and Artificial Systems}
-      \field{type}{Book}
-      \field{year}{1975}
+      \field{booktitle}{Proceedings. 1988 IEEE International Conference on Robotics and Automation}
+      \field{title}{On the spatial motion of a rigid body with line contact}
+      \field{type}{Conference Proceedings}
+      \field{year}{1988}
+      \field{pages}{1036\bibrangedash 1041 Vol.2}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1988.12197
+      \endverb
     \endentry
-    \entry{Alouges10_MotionPlanning_RollingBody}{article}{}
+    \entry{Borisov08_ChaplypinBall_FixSphere}{article}{}
       \name{author}{3}{}{%
-        {{hash=4c9ccd34a236951681d21362a9720ec8}{%
-           family={Alouges},
+        {{hash=83ff62348c24e8f846ccdcfd22ec0ba1}{%
+           family={Borisov},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ef77b438fa712bd8ae0058c400b4c824}{%
+           family={Fedorov},
+           familyi={F\bibinitperiod},
+           given={Yu\bibnamedelima N.},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=63754ee5771f94c03175e85c01a88a3a}{%
+           family={Mamaev},
+           familyi={M\bibinitperiod},
+           given={I.\bibnamedelimi S.},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fdfba3731f0c1aa259a9e74075932a0}
+      \strng{fullhash}{70fce792363d8dd4ef24849a4a4169d2}
+      \strng{bibnamehash}{70fce792363d8dd4ef24849a4a4169d2}
+      \strng{authorbibnamehash}{70fce792363d8dd4ef24849a4a4169d2}
+      \strng{authornamehash}{3fdfba3731f0c1aa259a9e74075932a0}
+      \strng{authorfullhash}{70fce792363d8dd4ef24849a4a4169d2}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider a nonholonomic system describing the rolling of a dynamically nonsymmetric sphere over a fixed sphere without slipping. The system generalizes the classical nonholonomic Chaplygin sphere problem and it is shown to be integrable for one special ratio of radii of the spheres. After a time reparameterization the system becomes a Hamiltonian one and admits a separation of variables and reduction to Abel-Jacobi quadratures. The separating variables that we found appear to be a non-trivial generalization of ellipsoidal (spheroconic) coordinates on the Poisson sphere, which can be useful in other integrable problems. Using the quadratures we also perform an explicit integration of the problem in theta-functions of the new time.}
+      \field{issn}{1468-4845}
+      \field{journaltitle}{Regular and Chaotic Dynamics}
+      \field{number}{6}
+      \field{title}{Chaplygin ball over a fixed sphere: an explicit integration}
+      \field{type}{Journal Article}
+      \field{volume}{13}
+      \field{year}{2008}
+      \field{pages}{557\bibrangedash 571}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1134/S1560354708060063
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1134/S1560354708060063
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1134/S1560354708060063
+      \endverb
+    \endentry
+    \entry{Bicchi2004_Reachability_steering_Polyhedra}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b7bc8ac71ff78ba3f937c873147d3a97}{%
+           family={A.\bibnamedelimi Bicchi},
+           familyi={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Y.\bibnamedelimi Chitour},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=8fe09b7ee4e4914c418468f4649ead91}{%
+           family={Marigo},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{685acab21e945e6f0d72b582a49900cd}
+      \strng{fullhash}{685acab21e945e6f0d72b582a49900cd}
+      \strng{bibnamehash}{685acab21e945e6f0d72b582a49900cd}
+      \strng{authorbibnamehash}{685acab21e945e6f0d72b582a49900cd}
+      \strng{authornamehash}{685acab21e945e6f0d72b582a49900cd}
+      \strng{authorfullhash}{685acab21e945e6f0d72b582a49900cd}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{title}{Reachability and steering of rolling polyhedra: a case study in discrete nonholonomy}
+      \field{year}{2004}
+      \field{pages}{710\bibrangedash 726}
+      \range{pages}{17}
+    \endentry
+    \entry{Aiyama93_Pivoting}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4b7b841381e92e7ae3a7eaa9b3bc9e55}{%
+           family={Aiyama},
            familyi={A\bibinitperiod},
-           given={F.},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ebdb530764399b1fc87cc4f672f24106}{%
+           family={Inaba},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3675719530172e537626cc7ea7859724}{%
+           family={Inoue},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc7fd590b4ce4a714591a1cf41ad49f0}
+      \strng{fullhash}{5984399a9c7d8c50598d721a5f10e9bd}
+      \strng{bibnamehash}{5984399a9c7d8c50598d721a5f10e9bd}
+      \strng{authorbibnamehash}{5984399a9c7d8c50598d721a5f10e9bd}
+      \strng{authornamehash}{dc7fd590b4ce4a714591a1cf41ad49f0}
+      \strng{authorfullhash}{5984399a9c7d8c50598d721a5f10e9bd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 1993 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{month}{7}
+      \field{title}{Pivoting: A new method of graspless manipulation of object by robot fingers}
+      \field{type}{Conference Proceedings}
+      \field{volume}{1}
+      \field{pages}{136\bibrangedash 143}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS.1993.583091
+      \endverb
+    \endentry
+    \entry{Erdmann91_polyhedronRolling_on_table}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=927cefac0abad36553136ef5c24f6724}{%
+           family={{Erdmann}},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=987e576ab3b2a189c4fc83aeefa626e0}{%
+           family={{Mason}},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=cb7894dcf20030f7ddc0e0a437deb79f}{%
+           family={{Vanecek}},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc9c36b4d2806b95ede17dc0c1f5f80b}
+      \strng{fullhash}{e6ebd88608684481de5ecf3b900a4e4b}
+      \strng{bibnamehash}{e6ebd88608684481de5ecf3b900a4e4b}
+      \strng{authorbibnamehash}{e6ebd88608684481de5ecf3b900a4e4b}
+      \strng{authornamehash}{bc9c36b4d2806b95ede17dc0c1f5f80b}
+      \strng{authorfullhash}{e6ebd88608684481de5ecf3b900a4e4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 1991 IEEE International Conference on Robotics and Automation}
+      \field{month}{4}
+      \field{title}{Mechanical parts orienting: the case of a polyhedron on a table}
+      \field{year}{1991}
+      \field{pages}{360\bibrangedash 365 vol.1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1991.131602
+      \endverb
+      \keyw{computational complexity;computational geometry;pattern recognition;planning (artificial intelligence);mechanical parts orientation;3D polyhedral parts;planning;computational complexity;pattern recognition;polyhedron;uncertainty;tilting operations;Computer aided software engineering;Uncertainty;Assembly;Friction;Computer science;Machine vision;Manufacturing systems;Manufacturing industries;Algorithm design and analysis}
+    \endentry
+    \entry{Lavalle98rapidly_exploringrandom}{report}{}
+      \name{author}{1}{}{%
+        {{hash=3068a4de31fc23f2b01082f0ea20c702}{%
+           family={Lavalle},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Department of Computer Science; Iowa State University}%
+      }
+      \strng{namehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{fullhash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{bibnamehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{authorbibnamehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{authornamehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{authorfullhash}{3068a4de31fc23f2b01082f0ea20c702}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rapidly-Exploring Random Trees: A New Tool for Path Planning}
+      \field{type}{techreport}
+      \field{year}{1998}
+    \endentry
+    \entry{Thomas_2003_Trajectory}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=1fab788d83719c074b37bb1b6175cd85}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b1e2c454ed656adabe617d235a682a9}{%
+           family={Blair},
+           familyi={B\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2f11f27ecdb1aa875cfab05fcff91ac9}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d1a488f735c1f85d47f8127cea9020e5}
+      \strng{fullhash}{506de8818385159f8531623d7a938148}
+      \strng{bibnamehash}{506de8818385159f8531623d7a938148}
+      \strng{authorbibnamehash}{506de8818385159f8531623d7a938148}
+      \strng{authornamehash}{d1a488f735c1f85d47f8127cea9020e5}
+      \strng{authorfullhash}{506de8818385159f8531623d7a938148}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intelligent Robots and Systems, 2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ International Conference on}
+      \field{title}{Towards an efficient optimal trajectory planner for multiple mobile robots}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{pages}{2291\bibrangedash 2296}
+      \range{pages}{6}
+    \endentry
+    \entry{Lamiraux_2001_Smooth_MP}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e912189b158ada9a5662c2620dc49b09}{%
+           family={Lamiraux},
+           familyi={L\bibinitperiod},
+           given={Florent},
            giveni={F\bibinitperiod}}}%
+        {{hash=3d780130d3b56c6ddee11eb292984767}{%
+           family={Lammond},
+           familyi={L\bibinitperiod},
+           given={J-P},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0d89f5c47c6e70a6297dc6939a8dce10}
+      \strng{fullhash}{0d89f5c47c6e70a6297dc6939a8dce10}
+      \strng{bibnamehash}{0d89f5c47c6e70a6297dc6939a8dce10}
+      \strng{authorbibnamehash}{0d89f5c47c6e70a6297dc6939a8dce10}
+      \strng{authornamehash}{0d89f5c47c6e70a6297dc6939a8dce10}
+      \strng{authorfullhash}{0d89f5c47c6e70a6297dc6939a8dce10}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{4}
+      \field{title}{Smooth motion planning for car-like vehicles}
+      \field{volume}{17}
+      \field{year}{2001}
+      \field{pages}{498\bibrangedash 501}
+      \range{pages}{4}
+    \endentry
+    \entry{Cheng01_RRT-BasedTrajectory}{article}{}
+      \name{author}{3}{}{%
+        {{hash=edc88214d45510c94ed4f6ad3d18c91a}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fa9a5ae7001bbfe887613744eabf475f}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5f688b7b02721f44757d55b822a1ae9e}{%
+           family={Lavalle},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b76b32652dbc795b4959daf10fb50d4}
+      \strng{fullhash}{f2569892167f1a8cebf68092f753a75a}
+      \strng{bibnamehash}{f2569892167f1a8cebf68092f753a75a}
+      \strng{authorbibnamehash}{f2569892167f1a8cebf68092f753a75a}
+      \strng{authornamehash}{4b76b32652dbc795b4959daf10fb50d4}
+      \strng{authorfullhash}{f2569892167f1a8cebf68092f753a75a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Control Sciences}
+      \field{number}{3-4}
+      \field{title}{RRT-Based Trajectory Design for Autonomous Automobiles and Spacecraft}
+      \field{type}{Journal Article}
+      \field{volume}{11}
+      \field{year}{2001}
+      \field{pages}{167\bibrangedash 194}
+      \range{pages}{28}
+      \verb{doi}
+      \verb citeulike-article-id:4232681
+      \endverb
+      \keyw{robotics}
+    \endentry
+    \entry{Conner03_LocalFunction_Nagivation}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=192fabbcb40c3a3a8a8ad81a7a39bced}{%
+           family={Conner},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=bc711022ee12b989208314489b7409ec}{%
+           family={Rizzi},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7b19175757b2fb9d913a6669ff8278df}{%
+           family={Choset},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8022a903f9e896fcea8283c676d3c3df}
+      \strng{fullhash}{83ac4569529ef1aa0ad64bfa183d2c7c}
+      \strng{bibnamehash}{83ac4569529ef1aa0ad64bfa183d2c7c}
+      \strng{authorbibnamehash}{83ac4569529ef1aa0ad64bfa183d2c7c}
+      \strng{authornamehash}{8022a903f9e896fcea8283c676d3c3df}
+      \strng{authorfullhash}{83ac4569529ef1aa0ad64bfa183d2c7c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2003) (Cat. No.03CH37453)}
+      \field{title}{Composition of local potential functions for global robot control and navigation}
+      \field{type}{Conference Proceedings}
+      \field{volume}{4}
+      \field{pages}{3546\bibrangedash 3551 vol.3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/IROS.2003.1249705
+      \endverb
+    \endentry
+    \entry{Marigo97_PolyhedraManipulation_rolling}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=8fe09b7ee4e4914c418468f4649ead91}{%
+           family={Marigo},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
         {{hash=ff3f4f8bf89e28966749f9706507ca4d}{%
            family={Chitour},
            familyi={C\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod}}}%
-        {{hash=093c307c676bd27c4da352e69288ecb2}{%
-           family={Long},
-           familyi={L\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
+        {{hash=e79e2a6af7e36a3126b6244ad9754990}{%
+           family={Bicchi},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{030666db125af9273e7edb63f6277bbf}
-      \strng{fullhash}{db01fe48d0b0f2faa69698e2cea03fd8}
-      \strng{bibnamehash}{db01fe48d0b0f2faa69698e2cea03fd8}
-      \strng{authorbibnamehash}{db01fe48d0b0f2faa69698e2cea03fd8}
-      \strng{authornamehash}{030666db125af9273e7edb63f6277bbf}
-      \strng{authorfullhash}{db01fe48d0b0f2faa69698e2cea03fd8}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \strng{namehash}{f4024494f98bb0252d81deab8cf0f0e2}
+      \strng{fullhash}{fb7e995e1a41a40f2ee96cc549eb666e}
+      \strng{bibnamehash}{fb7e995e1a41a40f2ee96cc549eb666e}
+      \strng{authorbibnamehash}{fb7e995e1a41a40f2ee96cc549eb666e}
+      \strng{authornamehash}{f4024494f98bb0252d81deab8cf0f0e2}
+      \strng{authorfullhash}{fb7e995e1a41a40f2ee96cc549eb666e}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1552-3098}
-      \field{journaltitle}{IEEE Transactions on Robotics}
-      \field{number}{5}
-      \field{title}{A Motion-Planning Algorithm for the Rolling-Body Problem}
+      \field{booktitle}{Proceedings of International Conference on Robotics and Automation}
+      \field{title}{Manipulation of polyhedral parts by rolling}
+      \field{type}{Conference Proceedings}
+      \field{volume}{4}
+      \field{year}{1997}
+      \field{pages}{2992\bibrangedash 2997 vol.4}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1997.606742
+      \endverb
+    \endentry
+    \entry{Marigo00_PlanningMotion_Polyhedra_Rolling}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8fe09b7ee4e4914c418468f4649ead91}{%
+           family={Marigo},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e759673aaee7a6b44f0620f99b3b5f1}{%
+           family={Ceccarelli},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f87384855a4bdb9b7be261e6991f39fb}{%
+           family={Piccinocchi},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e79e2a6af7e36a3126b6244ad9754990}{%
+           family={Bicchi},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4024494f98bb0252d81deab8cf0f0e2}
+      \strng{fullhash}{22477cad0a3b80720584fc80e69d9bf4}
+      \strng{bibnamehash}{22477cad0a3b80720584fc80e69d9bf4}
+      \strng{authorbibnamehash}{22477cad0a3b80720584fc80e69d9bf4}
+      \strng{authornamehash}{f4024494f98bb0252d81deab8cf0f0e2}
+      \strng{authorfullhash}{22477cad0a3b80720584fc80e69d9bf4}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The nonholonomic nature of rolling between rigid bodies can be exploited to achieve dextrous manipulation of industrial parts with minimally complex robotic effectors. While for parts with smooth surfaces a relatively well-developed theory exists, planning for parts with only piecewise smooth surfaces is largely an open problem.}
+      \field{issn}{1432-0541}
+      \field{journaltitle}{Algorithmica}
+      \field{number}{3}
+      \field{title}{Planning Motions of Polyhedral Parts by Rolling}
       \field{type}{Journal Article}
       \field{volume}{26}
-      \field{year}{2010}
-      \field{pages}{827\bibrangedash 836}
-      \range{pages}{10}
+      \field{year}{2000}
+      \field{pages}{560\bibrangedash 576}
+      \range{pages}{17}
       \verb{doi}
-      \verb 10.1109/TRO.2010.2053733
+      \verb 10.1007/s004539910024
       \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s004539910024
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s004539910024
+      \endverb
+    \endentry
+    \entry{Dai_Rodrigues_2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2d5c39196383ef4035e9ae99f2ca488f}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d5c39196383ef4035e9ae99f2ca488f}
+      \strng{fullhash}{2d5c39196383ef4035e9ae99f2ca488f}
+      \strng{bibnamehash}{2d5c39196383ef4035e9ae99f2ca488f}
+      \strng{authorbibnamehash}{2d5c39196383ef4035e9ae99f2ca488f}
+      \strng{authornamehash}{2d5c39196383ef4035e9ae99f2ca488f}
+      \strng{authorfullhash}{2d5c39196383ef4035e9ae99f2ca488f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mechanism and Machine Theory}
+      \field{month}{10}
+      \field{title}{Euler–Rodrigues formula variations, quaternion conjugation and intrinsic connections}
+      \field{volume}{92}
+      \field{year}{2015}
+      \field{pages}{144\bibrangedash 152}
+      \range{pages}{9}
     \endentry
   \enddatalist
 \endrefsection

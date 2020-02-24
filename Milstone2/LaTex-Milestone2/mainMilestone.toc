@@ -12,5 +12,5 @@
 \contentsline {subsection}{\numberline {5.4}Icosahedron solid}{14}{subsection.5.4}% 
 \contentsline {subsection}{\numberline {5.5}Dodecahedron solid}{16}{subsection.5.5}% 
 \contentsline {section}{\numberline {6}CONCLUSION AND FUTURE PROSPECTS}{18}{section.6}% 
-\contentsline {section}{\numberline {7}Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}{21}{section.7}% 
-\contentsline {section}{\numberline {A}APPENDIX}{23}{appendix.A}% 
+\contentsline {section}{\numberline {7}TIME LINE}{18}{section.7}% 
+\contentsline {section}{\numberline {A}APPENDIX}{21}{appendix.A}% 

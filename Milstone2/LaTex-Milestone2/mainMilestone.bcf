@@ -2131,12 +2131,25 @@
     <bcf:datasource type="file" datatype="bibtex">citation.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Barraquand91_MP_DisctributedRepresenation</bcf:citekey>
-    <bcf:citekey order="2">Antonio04_NewPRM</bcf:citekey>
-    <bcf:citekey order="3">Kavraki02_Random_ConfigurationSpace_PP</bcf:citekey>
-    <bcf:citekey order="4">Cai87_SpatialMotion_PointContact</bcf:citekey>
-    <bcf:citekey order="5">Holland75_GAMethod</bcf:citekey>
-    <bcf:citekey order="6">Alouges10_MotionPlanning_RollingBody</bcf:citekey>
+    <bcf:citekey order="1">Zhang2018_PP_mobileRobot</bcf:citekey>
+    <bcf:citekey order="2">LaValle06_PlanningAlgorithm</bcf:citekey>
+    <bcf:citekey order="3">Kavraki96_PRM_HighDimensionSPace</bcf:citekey>
+    <bcf:citekey order="4">Cai86_PlanarMotion_PointContact</bcf:citekey>
+    <bcf:citekey order="5">Cai87_SpatialMotion_PointContact</bcf:citekey>
+    <bcf:citekey order="6">Cai88_SpatialMotion_LineContact</bcf:citekey>
+    <bcf:citekey order="7">Borisov08_ChaplypinBall_FixSphere</bcf:citekey>
+    <bcf:citekey order="8">Bicchi2004_Reachability_steering_Polyhedra</bcf:citekey>
+    <bcf:citekey order="9">Aiyama93_Pivoting</bcf:citekey>
+    <bcf:citekey order="10">Erdmann91_polyhedronRolling_on_table</bcf:citekey>
+    <bcf:citekey order="11">Lavalle98rapidly_exploringrandom</bcf:citekey>
+    <bcf:citekey order="12">Thomas_2003_Trajectory</bcf:citekey>
+    <bcf:citekey order="13">Lamiraux_2001_Smooth_MP</bcf:citekey>
+    <bcf:citekey order="14">Cheng01_RRT-BasedTrajectory</bcf:citekey>
+    <bcf:citekey order="15">Conner03_LocalFunction_Nagivation</bcf:citekey>
+    <bcf:citekey order="16">Aiyama93_Pivoting</bcf:citekey>
+    <bcf:citekey order="17">Marigo97_PolyhedraManipulation_rolling</bcf:citekey>
+    <bcf:citekey order="18">Marigo00_PlanningMotion_Polyhedra_Rolling</bcf:citekey>
+    <bcf:citekey order="19">Dai_Rodrigues_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

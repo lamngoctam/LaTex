@@ -2,17 +2,17 @@
 	level/.style={sibling distance=35mm/#1},
 	treenode/.style={align=center,inner sep=0pt},
 	% Black nodes
-	node_black/.style={treenode,circle,black,draw=black,very thick,text width=0.5cm},
+	node_black/.style={treenode,circle,black,draw=black,very thick,text width=0.4cm},
 	% Red nodes
-	node_red/.style={treenode,circle,red,draw=red,very thick,text width=0.5cm},
+	node_red/.style={treenode,circle,red,draw=red,very thick,text width=0.4cm},
 	% Blue nodes
-	node_blue/.style={treenode,circle,blue,draw=blue,very thick,text width=0.5cm},
+	node_blue/.style={treenode,circle,blue,draw=blue,very thick,text width=0.4cm},
 	% Nil nodes
 	node_nil/.style={treenode,rectangle,fill=black,minimum width=0.3cm,minimum height=0.3cm}
 }
 \begin{tikzpicture}
 
-\node[node_red] (z){$S$}
+\node[node_red] (Root){$S$}
   child {node[node_black] (a) {$R$}								%%% Right
     child[black] {node[node_black]  (b) {$R$}
       child {node (b1) {$\vdots$}
@@ -31,7 +31,7 @@
       }
     }
   }
-   child[red] {node[node_red] (d) {$L$}                    %%%% LEft - the shortest parth
+   child[red] {node[node_red] (d) {$L$}         %% LEft - the shortest parth
       child[black] {node[node_black]  (e) {$L$}
         child {node (e1) {$\vdots$}
          child {node[node_black] (e11) {$R$}}
@@ -45,7 +45,11 @@
          child[black] {node[node_black] (f11) {$U$}}
         }
         child[red] {node (f2) {$\vdots$}
-         child[red] {node[node_red] (f12) {$G$}}
+         child[red] {node[node_red] (f12) {$L$} 
+         	child[black] {node[node_black] (g44) {$L$}}
+         	child[red] {node[node_red] (g22) {$G$}} 
+         	child[black] {node[node_black] (g33) {$D$}}  
+          }
         }
       }
     }
@@ -63,9 +67,14 @@
          child {node[node_black] (o11) {$U$}}
         }
         child {node (o2) {$\vdots$}
-         child[blue] {node[node_blue] (o12) {$R$}}
-        }
-      }
+         	child[blue] {node[node_blue] (o12) {$R$}
+         		child[black] {node[node_black] (merge1) {$R$}  }
+         		child[black] {node[node_black] (merge2) {$U$}  }
+         		child[black] {node[node_black] (merge3) {$D$}  
+         		    }
+                  }
+              }
+           }
     }
   child[black] {node[node_black]  (j) {$D$}   %%% Down
     child {node[node_black] (k) {$D$}
@@ -82,28 +91,33 @@
     }
     child {node (c){$\vdots$}
      child {node[node_black] (l12) {$L$}
-            child [grow=right] {node (r) {$level^n$} edge from parent[draw=none]
-              child [grow=up] {node (s) {$\vdots$} edge from parent[draw=none]
-                child [grow=up] {node (t) {$level^2$} edge from parent[draw=none]
-                  child [grow=up] {node (u) {$level^1$} edge from parent[draw=none]
-                   child [grow=up] {node (u) {$root$} edge from parent[draw=none]}
-                                   }
-                                 }
-                               }
-                               }
+%            child [grow=right] {node (r) {$level^n$} edge from parent[draw=none]
+%              child [grow=up] {node (s) {$\vdots$} edge from parent[draw=none]
+%                child [grow=up] {node (t) {$level^2$} edge from parent[draw=none]
+%                  child [grow=up] {node (u) {$level^1$} edge from parent[draw=none]
+%                   child [grow=up] {node (u) {$root$} edge from parent[draw=none]}
+%                                   }
+%                                 }
+%                               }
+%                               }
             }
           }
          }
 };
-\path (b) -- (g) node [midway] {$\cdots$};\path (n) -- (o) node [midway] {$\cdots$};
+\path (b) -- (g) node [midway] {$\cdots$};
+\path (n) -- (o) node [midway] {$\cdots$};
 \path (e) -- (f) node [midway] {$\cdots$};
 \path (k) -- (l) node [midway] {$\cdots$};
 \path (b11) -- (b12) node [midway] {$\cdots$};
-\path (g11) -- (g12) node [midway] {$\cdots$};\path (n11) -- (n12) node [midway] {$\cdots$};
-\path (e11) -- (e12) node [midway] {$\cdots$};\path (o11) -- (o12) node [midway] {$\cdots$};
+\path (g11) -- (g12) node [midway] {$\cdots$};
+%\path (g22) -- (g33) node [midway] {$\cdots$};
+\path (n11) -- (n12) node [midway] {$\cdots$};
+\path (e11) -- (e12) node [midway] {$\cdots$};
+\path (o11) -- (o12) node [midway] {$\cdots$};
 \path (f11) -- (f12) node [midway] {$\cdots$};
 \path (k11) -- (k12) node [midway] {$\cdots$};
 \path (l11) -- (l12) node [midway] {$\cdots$};
+\path (g33) -- (merge1) node [midway] {$\cdots$};
 
 %\begin{tikzlegend}[legend entries={monopolist profit within entry allowance,
 %      monopolist profit within entry deterrence,something else},
@@ -112,6 +126,15 @@
 %     \addlegendimage{sharp plot}
 %     \addlegendimage{dashed, sharp plot}
 %\end{tikzlegend}   
+   
+   % Comments to each level
+\begin{scope}[every node/.style={right}]
+    \path (Root) ++(5cm,0) node {$\Rightarrow$} ++(5mm,0) node {$1^{st}$ level};
+    \path (j) ++(5mm,0) node {$\Rightarrow$} ++(5mm,0) node {$2^{nd}$ level};
+    \path (l) ++(5mm,0) node {$\Rightarrow$} ++(5mm,0) node {$3^{rd}$ level};
+    \path (l12) ++(5mm,0) node {$\Rightarrow$} ++(5mm,0) node {$(n-1)^{th}$ level};
+    \path (merge3) ++(2cm,0) node {$\Rightarrow$} ++(5mm,0) node {$n^{th}$ level};
+\end{scope}
    
 \end{tikzpicture}
 
@@ -122,13 +145,15 @@
 \begin{tikzpicture}
 \draw (-0.5,-2.5) rectangle(6,0.7);
 \draw[-][draw=black, very thick] (0,0) -- (1.5,0);
-\draw (1.8,0) node[node_black]{S}  ;
+\draw (1.75,0) node[node_black]{S}  ;
 \draw (3.7,0) node{Possible path} ;
 \draw[-][draw=blue, very thick] (0,-1) -- (1.5,-1);
-\draw (1.8,-1) node[node_blue]{R} ;
+\draw (1.75,-1) node[node_blue]{R} ;
 \draw (4.3,-1) node{Achieving same path} ;
 \draw[-][draw=red, very thick] (0,-2) -- (1.5,-2);
-\draw (1.8,-2) node[node_red]{G} ;
+\draw (1.75,-2) node[node_red]{G} ;
 \draw (3.5,-2) node{Final path} ;
 \end{tikzpicture}
 %\vskip 0.5cm
+
+

@@ -9,7 +9,7 @@
 %%==============================
 \begin{document}
 
-%\include{title_page1}
+\include{title_page1}
 %-------------------------
 \tableofcontents
 \thispagestyle{empty}
@@ -28,32 +28,7 @@
 \input{methodology}
 \input{discussion}
 \input{conclusion}
-
-\newpage
-\begin{center}
-\begin{figure}[ht]
-  \includegraphics[page=1,width=.5\textwidth]{image/test44.pdf}
-  \includegraphics[page=1,width=.5\textwidth]{image/test43.pdf}
-  \caption{Test}
-  \label{fig:Test}
-\end{figure}
-\end{center}
-
-\begin{center}
-\begin{figure}[h]
-\subfigure[Cube1]{
-	\includegraphics[page=1,width=.5\textwidth]{image/test2.pdf}
-	\label{fig:Cube1Case2}
-	}
-\hfill
-\subfigure[First four paths of the cube rolling]{
-	\includegraphics[width=0.5\textwidth]{image/test3.png}
-	\label{fig:Tetra2Case1}
-	}
-\caption{Blah Blah}
-\end{figure}
-\end{center}
-
+\input{timeline}
 
 \newpage
 Refer to the Data Management Plan in Appendix \ref{appendix:A}.
@@ -65,23 +40,22 @@ Refer to the Data Management Plan in Appendix \ref{appendix:A}.
 %\input{timeline}
 %\input{notes}
 %\input{tablenotes}
-\cite{Barraquand91_MP_DisctributedRepresenation}
+%\cite{Barraquand91_MP_DisctributedRepresenation}
 
-\newpage
-\section{Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}
-• Include a discussion of the motivation and advantages for rolling contact for in-hand manipulation\\
-•	Reduce the length of the discussion on modelling the kinematics of rolling motion\\
-•	Add a brief review of path planning for two general objects under nonholonomic constraints\\
-•	Simply the aims: remove specific techniques and algorithms, and describe the broad aim of the project general terms, and in one or two sentences. Ensure that specific objectives are framed so that the aim can be achieved.\\
-•	Include a section which describes how a discretised model will be produced such that the discrete planning algorithms described can be applied. How is this discrete model to be obtained from the continuous-time models discussed?\\
-•	If optimal planning is discussed, ensure you are specific about in what sense the solution is optimal. In some cases, optimality is not required, only a satisfactory or satisficing solution in the sense of a cost function being below some bound. In such cases, sampling-based solutions (such as RRT) are appropriate.\\
-•	Please also review the writing for grammatical correctness (seek some assistance on this if needed).\\
-•	Note Robot Operating System (not Software) in Table 1.\\
-
-\cite{Antonio04_NewPRM},
-\cite{Kavraki02_Random_ConfigurationSpace_PP},\cite{Cai87_SpatialMotion_PointContact},\cite{Holland75_GAMethod},
-\cite{Alouges10_MotionPlanning_RollingBody}.
-
+%\newpage
+%\section{Reviews from Prof. Jonathan Paxman for PhD Candidacy Proposal}
+%• Include a discussion of the motivation and advantages for rolling contact for in-hand manipulation\\
+%•	Reduce the length of the discussion on modelling the kinematics of rolling motion\\
+%•	Add a brief review of path planning for two general objects under nonholonomic constraints\\
+%•	Simply the aims: remove specific techniques and algorithms, and describe the broad aim of the project general terms, and in one or two sentences. Ensure that specific objectives are framed so that the aim can be achieved.\\
+%•	Include a section which describes how a discretised model will be produced such that the discrete planning algorithms described can be applied. How is this discrete model to be obtained from the continuous-time models discussed?\\
+%•	If optimal planning is discussed, ensure you are specific about in what sense the solution is optimal. In some cases, optimality is not required, only a satisfactory or satisficing solution in the sense of a cost function being below some bound. In such cases, sampling-based solutions (such as RRT) are appropriate.\\
+%•	Please also review the writing for grammatical correctness (seek some assistance on this if needed).\\
+%•	Note Robot Operating System (not Software) in Table 1.\\
+%
+%\cite{Antonio04_NewPRM},
+%\cite{Kavraki02_Random_ConfigurationSpace_PP},\cite{Cai87_SpatialMotion_PointContact},\cite{Holland75_GAMethod},
+%\cite{Alouges10_MotionPlanning_RollingBody}.
 
 
 
