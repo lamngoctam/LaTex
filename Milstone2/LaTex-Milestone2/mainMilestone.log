@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  24 FEB 2020 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  25 FEB 2020 09:35
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -1895,7 +1895,14 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 \@quotelevel=\count547
 \@quotereset=\count548
 
-(mainMilestone.aux (title_page1.aux))
+(mainMilestone.aux (title_page1.aux)
+
+LaTeX Warning: Label `fig:octaPath2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:octaPath2' multiply defined.
+
+)
 \openout1 = `mainMilestone.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -2389,7 +2396,7 @@ pdfTeX warning: pdflatex (file ./image/octoPath1.pdf): PDF inclusion: found PDF
 <image/octoPath1.pdf, id=415, 779.91376pt x 671.50874pt>
 File: image/octoPath1.pdf Graphic file (type pdf)
 <use image/octoPath1.pdf>
-Package pdftex.def Info: image/octoPath1.pdf  used on input line 219.
+Package pdftex.def Info: image/octoPath1.pdf  used on input line 218.
 (pdftex.def)             Requested size: 227.62206pt x 195.9826pt.
 
 
@@ -2398,52 +2405,56 @@ pdfTeX warning: pdflatex (file ./image/octoPath2.pdf): PDF inclusion: found PDF
 <image/octoPath2.pdf, id=416, 784.9325pt x 670.505pt>
 File: image/octoPath2.pdf Graphic file (type pdf)
 <use image/octoPath2.pdf>
-Package pdftex.def Info: image/octoPath2.pdf  used on input line 224.
+Package pdftex.def Info: image/octoPath2.pdf  used on input line 223.
+(pdftex.def)             Requested size: 227.62206pt x 194.43124pt.
+File: image/octoPath2.pdf Graphic file (type pdf)
+<use image/octoPath2.pdf>
+Package pdftex.def Info: image/octoPath2.pdf  used on input line 227.
 (pdftex.def)             Requested size: 227.62206pt x 194.43124pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 219--225
-[][]  [][] 
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 218--228
+[][]  [][]
  []
 
 [13 <./image/octoPath1.pdf> <./image/octoPath2.pdf>]
-<image/icosaGeo2.png, id=501, 1040.688pt x 585.387pt>
+<image/icosaGeo2.png, id=502, 1040.688pt x 585.387pt>
 File: image/icosaGeo2.png Graphic file (type png)
 <use image/icosaGeo2.png>
-Package pdftex.def Info: image/icosaGeo2.png  used on input line 246.
+Package pdftex.def Info: image/icosaGeo2.png  used on input line 248.
 (pdftex.def)             Requested size: 455.24411pt x 256.07938pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 [14
 
  <./image/icosaGeo2.png>]
-<image/icosaGeo5.png, id=512, 272.217pt x 181.27725pt>
+<image/icosaGeo5.png, id=513, 272.217pt x 181.27725pt>
 File: image/icosaGeo5.png Graphic file (type png)
 <use image/icosaGeo5.png>
-Package pdftex.def Info: image/icosaGeo5.png  used on input line 303.
+Package pdftex.def Info: image/icosaGeo5.png  used on input line 305.
 (pdftex.def)             Requested size: 227.62206pt x 151.58586pt.
 
 
 pdfTeX warning: pdflatex (file ./image/icosaPath.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/icosaPath.pdf, id=515, 666.49pt x 665.48625pt>
+<image/icosaPath.pdf, id=516, 666.49pt x 665.48625pt>
 File: image/icosaPath.pdf Graphic file (type pdf)
 <use image/icosaPath.pdf>
-Package pdftex.def Info: image/icosaPath.pdf  used on input line 320.
+Package pdftex.def Info: image/icosaPath.pdf  used on input line 322.
 (pdftex.def)             Requested size: 227.62206pt x 227.27777pt.
 
 
 pdfTeX warning: pdflatex (file ./image/icosaPathTopView.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<image/icosaPathTopView.pdf, id=516, 681.54625pt x 693.59125pt>
+<image/icosaPathTopView.pdf, id=517, 681.54625pt x 693.59125pt>
 File: image/icosaPathTopView.pdf Graphic file (type pdf)
 <use image/icosaPathTopView.pdf>
-Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 325.
+Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 327.
 (pdftex.def)             Requested size: 227.62206pt x 231.64807pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 320--326
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 322--328
 [][]  [][] 
  []
 
@@ -2452,16 +2463,11 @@ df>]
 
 pdfTeX warning: pdflatex (file ./image/dodecahedron2.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<image/dodecahedron2.pdf, id=602, 845.1575pt x 597.23125pt>
+<image/dodecahedron2.pdf, id=603, 845.1575pt x 597.23125pt>
 File: image/dodecahedron2.pdf Graphic file (type pdf)
 <use image/dodecahedron2.pdf>
-Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 359.
+Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 361.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
@@ -2472,25 +2478,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
 [16
 
  <./image/dodecahedron2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 416--418
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
+Underfull \hbox (badness 10000) in paragraph at lines 421--425
 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 426.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 428.
 ) (conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -2522,15 +2533,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `mainMilestone.out' has not changed.
 (rerunfilecheck)             Checksum: EA2A27C55768264D548F471DE6BF0276;890.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 \openout1 = `mainMilestone.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 66916 strings out of 492453
- 1551981 string characters out of 3129819
- 2142836 words of memory out of 3000000
+ 66917 strings out of 492453
+ 1551995 string characters out of 3129819
+ 2142877 words of memory out of 3000000
  70177 multiletter control sequences out of 15000+200000
  539132 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2551,9 +2566,9 @@ onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on mainMilestone.pdf (23 pages, 7387675 bytes).
+Output written on mainMilestone.pdf (23 pages, 7387878 bytes).
 PDF statistics:
- 736 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
