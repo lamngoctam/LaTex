@@ -3,47 +3,58 @@
 The proposed algorithm for platonic solids path planning by rolling through edge contact was implemented in MATLAB environment. 
 In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path finding. To validate the proposed algorithm, this study only considers the first case study of path planning that both initial and goal configuration have the same positions and different orientations.\\  
 
-\noindent Assume that the platonic solids' edges has the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$.
+\noindent Assume that the platonic solids' edges has the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$. The environment for each types of platonic solids is discretized from the smooth surface. For example, cube solid will roll on the square grid while tetrahedron, octahedron, and icosahedron solids roll on the triangle gird. Only dodecahedron solid rolls on the pentagon grid with the two specific cases including the gaps and overlaps between pentagons. The path planning based on rolling for the five cases of platonic solids is represented as the following. 
 
 \subsection{Cube solid}
 \noindent\uline{Properties}:
-The cube has a length which is the same as the length of side of each grid square. The only way to move from initial position to goal position is by rolling from square to square without moving diagonal. The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. The algorithm implements in $O(|E|^3)$ running time from the second layer. The executed time can be reduced when the updated cubes achieved the same configurations. The $*$ position in the grid is occupied by the two updated cubes with different orientations. To be more visualized, the Figure \ref{fig:Cube1Case1} indicates the first step of rolling of the cube with its coordinates in three arrows red, green and blue colors. Four paths of cube rolling are shown in the Figure \ref{fig:Cube2Case1}.
+The cube has a length $a$ which is the same as the length of side of each grid square.
+Path planning for rolling a cube is not complex as other cases of platonic solids. The rolling angle $\beta$ has the value of $\frac{\pi}{2}$ as shown in the Figure \ref{fig:cubeGeo1}. The center of cube will move along the curve $II_2I_1$ following the $Ox$ axis. We also have $\beta=\angle{IKI_1}=\frac{\pi}{2}$.
 
-\begin{figure}[h]
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1\textwidth]{image/cubeGeo1.png}
+	\caption{The first three layers of cube rolling}
+	\label{fig:cubeGeo1}
+\end{figure}
+
+\noindent\uline{Path planning}: 
+The only way to move from initial position to goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. The algorithm implements in $O(|E|^3)$ running time from the second layer. The executed time can be reduced when the updated cubes achieved the same configurations. The $*$ position in the grid is occupied by the two updated cubes with different orientations. To be more visualized, the Figure \ref{fig:Cube1Case1} indicates the first step of rolling of the cube with its coordinates in the red, green and blue arrows. The first shortest path of cube rolling are shown in the Figure \ref{fig:Cube2Case1}.
+
+\begin{figure}[H]
 \centering
 	\includegraphics[width=1\textwidth]{image/cubePath00.png}
 	\caption{The first three layers of cube rolling}
 	\label{fig:cubePath0}
 \end{figure}
 
-\noindent\uline{Path planning}:  ABC here.
+\noindent\uline{Path planning}: 
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[H]
 \subfigure[The initial configuration is the same position but different orientation with goal configuration]{
 	\includegraphics[width=0.5\textwidth]{image/cube11.jpg}
 	\label{fig:Cube1Case1}
 	}
 \hfill
-\subfigure[First four paths of the cube rolling]{
-	\includegraphics[width=0.5\textwidth]{image/cubePath4Dirs.jpg}
+%\subfigure[First four paths of the cube rolling]{	
+%	\includegraphics[width=0.5\textwidth]{image/cubePath4Dirs.jpg}
+\subfigure[Shortest path of cube rolling]{
+\includegraphics[width=0.5\textwidth]{image/cubePath1.pdf}
 %    \includegraphics[page=2,width=.5\textwidth]{image/test2.pdf}	
 	\label{fig:Cube2Case1}
 	}
-\caption{Blah Blah}
+\caption{Initial configuration and shortest path of cube rolling}
 \end{figure}
 \end{center}
 
-\noindent\uline{Result}: 
-\begin{figure}[h]
-\centering
-	\includegraphics[width=0.5\textwidth]{image/cubePath1.pdf}
-%	\includepdf[pages=-,pagecommand={},width=0.5\textwidth]{image/cubePath1.pdf}
-	\caption{Shortest path of cube rolling}
-	\label{fig:cubePath1}
-\end{figure}
-
-
+%%\noindent\uline{Result}: 
+%\begin{figure}[h]
+%\centering
+%	\includegraphics[width=0.5\textwidth]{image/cubePath1.pdf}
+%%	\includepdf[pages=-,pagecommand={},width=0.5\textwidth]{image/cubePath1.pdf}
+%	\caption{Shortest path of cube rolling}
+%	\label{fig:cubePath1}
+%\end{figure}
 
 %\begin{figure}[h]
 %	\centering
@@ -63,19 +74,19 @@ The cube has a length which is the same as the length of side of each grid squar
 %%
 %%
 %%
-\clearpage
-\newpage
-\noindent Although considering the case study within 
+%\clearpage
+%\newpage
+%\noindent Although considering the case study within \\ 
 
 
-The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
+\noindent The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
 Figure \ref{fig:cubeLongDist} shows an example with two different paths.
 Shortest path-finding algorithm is added to the original algorithm to find the shortest path from start point to the goal point. 
 After finishing this step, the cube updated to a new orientation with different orientation at the goal configuration. Then, the original algorithm will be implemented from the updated cube to the goal configuration.
 Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$. In the first step, the red line segment $S_1S_2$ shows the shortest distance from start position to goal position. The cube will roll through this line segment and achieve the updated orientation at the goal position called shortest path for the case of long distance. 
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[H]
 \subfigure[Path1]{
 	\includegraphics[width=0.5\textwidth]{image/cubeCase2Path1.jpg}
 	\label{fig:cubeLongDistPath1}

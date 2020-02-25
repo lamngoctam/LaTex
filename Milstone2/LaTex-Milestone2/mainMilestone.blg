@@ -1,23 +1,23 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'mainMilestone.blg'
-[25] biber-MSWIN64:315> INFO - === 
-[43] Biber.pm:375> INFO - Reading 'mainMilestone.bcf'
-[127] Biber.pm:905> INFO - Found 18 citekeys in bib section 0
-[139] Biber.pm:4196> INFO - Processing section 0
-[140] Utils.pm:75> INFO - Globbing data source 'citation.bib'
-[148] Utils.pm:91> INFO - Globbed data source 'citation.bib' to citation.bib
-[159] Biber.pm:4373> INFO - Looking for bibtex format file 'citation.bib' for section 0
-[180] bibtex.pm:1462> INFO - LaTeX decoding ...
-[577] bibtex.pm:1281> INFO - Found BibTeX data source 'citation.bib'
-[649] Utils.pm:300> WARN - month field 'Jul' in entry 'Aiyama93_Pivoting' is not an integer - this will probably not sort properly.
-[654] Utils.pm:300> WARN - month field 'April' in entry 'Erdmann91_polyhedronRolling_on_table' is not an integer - this will probably not sort properly.
-[684] Utils.pm:300> WARN - month field 'Oct' in entry 'Dai_Rodrigues_2015' is not an integer - this will probably not sort properly.
-[689] Utils.pm:300> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[689] Utils.pm:300> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[708] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[708] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
-[722] bbl.pm:648> INFO - Writing 'mainMilestone.bbl' with encoding 'UTF-8'
-[732] bbl.pm:751> INFO - Output to mainMilestone.bbl
-[737] Biber.pm:110> INFO - WARNINGS: 5
+[66] biber-MSWIN64:315> INFO - === 
+[111] Biber.pm:375> INFO - Reading 'mainMilestone.bcf'
+[300] Biber.pm:905> INFO - Found 18 citekeys in bib section 0
+[321] Biber.pm:4196> INFO - Processing section 0
+[324] Utils.pm:75> INFO - Globbing data source 'citation.bib'
+[337] Utils.pm:91> INFO - Globbed data source 'citation.bib' to citation.bib
+[354] Biber.pm:4373> INFO - Looking for bibtex format file 'citation.bib' for section 0
+[381] bibtex.pm:1462> INFO - LaTeX decoding ...
+[1237] bibtex.pm:1281> INFO - Found BibTeX data source 'citation.bib'
+[1365] Utils.pm:300> WARN - month field 'Jul' in entry 'Aiyama93_Pivoting' is not an integer - this will probably not sort properly.
+[1372] Utils.pm:300> WARN - month field 'April' in entry 'Erdmann91_polyhedronRolling_on_table' is not an integer - this will probably not sort properly.
+[1421] Utils.pm:300> WARN - month field 'Oct' in entry 'Dai_Rodrigues_2015' is not an integer - this will probably not sort properly.
+[1422] Utils.pm:300> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1422] Utils.pm:300> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[1478] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1478] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1478] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1479] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[1514] bbl.pm:648> INFO - Writing 'mainMilestone.bbl' with encoding 'UTF-8'
+[1529] bbl.pm:751> INFO - Output to mainMilestone.bbl
+[1529] Biber.pm:110> INFO - WARNINGS: 5
