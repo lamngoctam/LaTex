@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  26 FEB 2020 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  26 FEB 2020 21:38
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -2330,23 +2330,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<image/5Platonic.png, id=137, 1058.7555pt x 211.992pt>
-File: image/5Platonic.png Graphic file (type png)
-<use image/5Platonic.png>
-Package pdftex.def Info: image/5Platonic.png  used on input line 8.
-(pdftex.def)             Requested size: 455.24411pt x 91.15154pt.
+<image/5Platonic1.png, id=137, 984.67876pt x 466.1415pt>
+File: image/5Platonic1.png Graphic file (type png)
+<use image/5Platonic1.png>
+Package pdftex.def Info: image/5Platonic1.png  used on input line 8.
+(pdftex.def)             Requested size: 455.24411pt x 215.50882pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--23
 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./image/5Platonic.png>] [3]) (methodology.tex
+[2 <./image/5Platonic1.png>] [3]) (methodology.tex
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 1.
 
@@ -2659,8 +2653,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
  66849 strings out of 492450
- 1560117 string characters out of 3118604
- 2142219 words of memory out of 3000000
+ 1560123 string characters out of 3118604
+ 2140219 words of memory out of 3000000
  70113 multiletter control sequences out of 15000+200000
  539132 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2686,7 +2680,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb>
-Output written on mainMilestone.pdf (23 pages, 8552430 bytes).
+Output written on mainMilestone.pdf (23 pages, 8567942 bytes).
 PDF statistics:
  790 PDF objects out of 1000 (max. 8388607)
  93 named destinations out of 1000 (max. 500000)
