@@ -8,26 +8,33 @@ In general of path planning, there are three case studies including same locatio
 \subsection{Cube solid}
 \noindent\uline{Properties}:
 The cube has a length $a$ which is the same as the length of side of each grid square.
-Path planning for rolling a cube is not complex as other cases of platonic solids. The rolling angle $\beta$ has the value of $\frac{\pi}{2}$ as shown in the Figure \ref{fig:cubeGeo1}. The center of cube will move along the curve $II_2I_1$ following the $Ox$ axis. We also have $\beta=\angle{IKI_1}=\frac{\pi}{2}$.
+Path planning for rolling a cube is not complex as other cases of platonic solids. 
+The rolling angle $\beta$ has the value of $\frac{\pi}{2}$ as shown in the Figure \ref{fig:cubeGeo1} ($\beta=\angle{IKI_1}=\frac{\pi}{2}$). 
+The center of cube will move along the curve $II_2I_1$ following the $Ox$ axis. 
+The proposed algorithms will focus on rolling along $Ox$ or $Oy$ axis. However, all the vertices are stored in a matrix will change their coordinates in $3D$ space. 
+An example from the Figure \ref{fig:cubeGeo1}, eight vertices of the cube $ABCDMNOP$ and the center $I$ are stored in a matrix $M(9,3)$ with $9$ rows for nine $3D$ points, and $3$ columns for $3D$ coordinate $Ox,Oy,Oz$ of each point. After finishing the rotation angle $\beta$ based on the rotation axis $MN$, the coordinates of the cube's vertices are updated within a new cube $MA'D'PN'B'C'O'$. This is the basic step of rolling a cube through a line contact.
 
 \begin{figure}[H]
 \centering
 	\includegraphics[width=1\textwidth]{image/cubeGeo1.png}
-	\caption{The first three layers of cube rolling}
+	\caption{Rotation angle of a cube on a plane}
 	\label{fig:cubeGeo1}
 \end{figure}
 
 \noindent\uline{Path planning}: 
-The only way to move from initial position to goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. The algorithm implements in $O(|E|^3)$ running time from the second layer. The executed time can be reduced when the updated cubes achieved the same configurations. The $*$ position in the grid is occupied by the two updated cubes with different orientations. To be more visualized, the Figure \ref{fig:Cube1Case1} indicates the first step of rolling of the cube with its coordinates in the red, green and blue arrows. The first shortest path of cube rolling are shown in the Figure \ref{fig:Cube2Case1}.
+The only way to move from initial position to goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. 
+The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. The algorithm implements in $O(|E|^3)$ running time from the second layer called the expansion three branches from a tree. All $3D$ coordinates of the cube are stored in a matrix which can affect to the computer's storage capacity. 
+When the updated cubes achieved one of the same previous configurations, the execution time can be reduced by releasing this configuration or stopping the expansion of this tree branch.
+The $*$ position in the grid (Figure \ref{fig:cubePath0}) is occupied by the two updated cubes with different orientations in the $Layer\ 2$. 
 
 \begin{figure}[H]
 \centering
 	\includegraphics[width=1\textwidth]{image/cubePath00.png}
-	\caption{The first three layers of cube rolling}
+	\caption{The first four layers of cube rolling}
 	\label{fig:cubePath0}
 \end{figure}
 
-\noindent\uline{Path planning}: 
+\noindent To be more visualized, the Figure \ref{fig:Cube1Case1} indicates the first step of rolling of the cube with its coordinates in the red, green and blue arrows. The first shortest path of cube rolling are shown in the Figure \ref{fig:Cube2Case1}. 
 
 \begin{center}
 \begin{figure}[H]
@@ -79,27 +86,28 @@ The only way to move from initial position to goal position of the cube solid is
 %\noindent Although considering the case study within \\ 
 
 
-\noindent The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
+\noindent \uline{Extension case}: The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
 Figure \ref{fig:cubeLongDist} shows an example with two different paths.
 Shortest path-finding algorithm is added to the original algorithm to find the shortest path from start point to the goal point. 
 After finishing this step, the cube updated to a new orientation with different orientation at the goal configuration. Then, the original algorithm will be implemented from the updated cube to the goal configuration.
 Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$. In the first step, the red line segment $S_1S_2$ shows the shortest distance from start position to goal position. The cube will roll through this line segment and achieve the updated orientation at the goal position called shortest path for the case of long distance. 
 
-\begin{center}
+%\begin{center}
 \begin{figure}[H]
+\centering
 \subfigure[Path1]{
-	\includegraphics[width=0.5\textwidth]{image/cubeCase2Path1.jpg}
+	\includegraphics[width=0.75\textwidth]{image/cubeCase2Path1.jpg}
 	\label{fig:cubeLongDistPath1}
 	}
 \hfill
 \subfigure[Path2]{
-	\includegraphics[width=0.5\textwidth]{image/cubeCase2Path2.jpg}
+	\includegraphics[width=0.75\textwidth]{image/cubeCase2Path2.jpg}
 	\label{fig:cubeLongDistPath2}
 	}
 \caption{The case study of long distance between the initial and goal configurations}
 \label{fig:cubeLongDist}
 \end{figure}
-\end{center}
+%\end{center}
 %%
 %%
 %%
@@ -411,28 +419,24 @@ l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 
 \noindent\uline{Path Planning}: 
 %%
-%%
-%%
-%%==================================================================================
 %
-%\begin{figure}[h]
-%\centering
-%	\includegraphics[width=1\textwidth]{image/dodecaOverlap.png}
-%	\caption{Pentagons connect around a point with a gap and overlap}
-%	\label{fig:dodecaOverlap}
-%\end{figure}
+\begin{figure}[h]
+\centering
+	\includegraphics[width=1\textwidth]{image/dodecaPath1.pdf}
+	\caption{Dodecahedron in the initial configuration}
+	\label{fig:dodecaPath1}
+\end{figure}
 %%==================================================================================
 %%
 %%
 %%
 \newpage
-\noindent\uline{\textbf{Experiments}}:
-Writing about cube solid properties\\
-
+%\noindent\uline{\textbf{Experiments}}:
+%Writing about cube solid properties\\
 \noindent\uline{\textbf{Discussion}}: 
 \textcolor{blue}{Q2 \& Q3\\
 - Q2: What are the new things you learned after you did whatever you did?\\
-- Q3: What exactly did you do?}\\
+- Q3: What exactly did you do?}
 
 \begin{itemize}
 \color{red}
