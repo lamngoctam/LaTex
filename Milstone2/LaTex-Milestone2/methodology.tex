@@ -42,7 +42,7 @@ Due to the different surface contacts, there are three types of direction for th
 \begin{figure}[h]
 \centering
 	\includegraphics[width=1\textwidth]{image/rollingDir2.pdf}
-	\caption{Rolling direction for each types of platonic solids}
+	\caption{Rolling direction for each type of platonic solids}
 	\label{fig:rollingDir}
 \end{figure}
 %
@@ -115,9 +115,9 @@ Due to the different surface contacts, there are three types of direction for th
 \subsection{Tree Exploration Algorithm}
 The node tree exploration for searching algorithm described in Algorithm \ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm. The graph search in the Figure \ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $1^{st} level ... n^{th} level$ for the case study of a cube solid.
 %
-Each nodes indicates the position of the cube's center and the orientation of the cube. The node $S$ means Start-Point while $R,L,U,D$ are labelled for four different directions including right, left, up and down respectively. 
+Each node indicates the position of the cube's center and the orientation of the cube. The node $S$ means Start-Point while $R,L,U,D$ are labelled for four different directions including right, left, up and down respectively. 
 %
-For each iterations, a tree with a node including $3D$ coordinate and orientation is stored in each levels. At the same time, the algorithm of checking the goal configuration will be called to check whether the current executing level achieves the target.\\
+For each iteration, a tree with a node including $3D$ coordinate and orientation is stored in each level. At the same time, the algorithm of checking the goal configuration will be called to check whether the current executing level achieves the target.\\
 
 
 \noindent In other cases of tetrahedron, octahedron and icosahedron with the triangular grid (Figure \ref{fig:gridPlatonic}b), there are three directions at the first rolling and only two directions for the rest of path-finding process.

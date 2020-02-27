@@ -1,9 +1,14 @@
 \section{EVALUATION}
 \label{sec:eva}
 The proposed algorithm for platonic solids path planning by rolling through edge contact was implemented in MATLAB environment. 
-In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path finding. To validate the proposed algorithm, this study only considers the first case study of path planning that both initial and goal configuration have the same positions and different orientations.\\  
+In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path finding. 
+To validate the proposed algorithm, this study only considers the first case study of path planning that both initial and goal configuration have the same positions and different orientations.\\  
 
-\noindent Assume that the platonic solids' edges has the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$. The environment for each types of platonic solids is discretized from the smooth surface. For example, cube solid will roll on the square grid while tetrahedron, octahedron, and icosahedron solids roll on the triangle gird. Only dodecahedron solid rolls on the pentagon grid with the two specific cases including the gaps and overlaps between pentagons. The path planning based on rolling for the five cases of platonic solids is represented as the following. 
+\noindent Assume that the platonic solids' edges has the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$. 
+The environment for each type of platonic solids is discretized from the smooth surface. 
+For example, cube solid will roll on the square grid while tetrahedron, octahedron, and icosahedron solids roll on the triangle gird. 
+Only dodecahedron solid rolls on the pentagon grid with the two specific cases including the gaps and overlaps between pentagons. 
+The path planning based on rolling for the five cases of platonic solids is represented as the following. 
 
 \subsection{Cube solid}
 \noindent\uline{Properties}:
@@ -11,8 +16,11 @@ The cube has a length $a$ which is the same as the length of side of each grid s
 Path planning for rolling a cube is not complex as other cases of platonic solids. 
 The rolling angle $\beta$ has the value of $\frac{\pi}{2}$ as shown in the Figure \ref{fig:cubeGeo1} ($\beta=\angle{IKI_1}=\frac{\pi}{2}$). 
 The center of cube will move along the curve $II_2I_1$ following the $Ox$ axis. 
-The proposed algorithms will focus on rolling along $Ox$ or $Oy$ axis. However, all the vertices are stored in a matrix will change their coordinates in $3D$ space. 
-An example from the Figure \ref{fig:cubeGeo1}, eight vertices of the cube $ABCDMNOP$ and the center $I$ are stored in a matrix $M(9,3)$ with $9$ rows for nine $3D$ points, and $3$ columns for $3D$ coordinate $Ox,Oy,Oz$ of each point. After finishing the rotation angle $\beta$ based on the rotation axis $MN$, the coordinates of the cube's vertices are updated within a new cube $MA'D'PN'B'C'O'$. This is the basic step of rolling a cube through a line contact.
+The proposed algorithms will focus on rolling along $Ox$ or $Oy$ axis. 
+However, all the vertices are stored in a matrix will change their coordinates in $3D$ space. 
+An example from the Figure \ref{fig:cubeGeo1}, eight vertices of the cube $ABCDMNOP$ and the center $I$ are stored in a matrix $M(9,3)$ with $9$ rows for nine $3D$ points, and $3$ columns for $3D$ coordinate $Ox,Oy,Oz$ of each point. 
+After finishing the rotation angle $\beta$ based on the rotation axis $MN$, the coordinates of the cube's vertices are updated within a new cube $MA'D'PN'B'C'O'$. 
+This is the basic step of rolling a cube through a line contact.
 
 \begin{figure}[H]
 \centering
@@ -23,7 +31,9 @@ An example from the Figure \ref{fig:cubeGeo1}, eight vertices of the cube $ABCDM
 
 \noindent\uline{Path planning}: 
 The only way to move from initial position to goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. 
-The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. The algorithm implements in $O(|E|^3)$ running time from the second layer called the expansion three branches from a tree. All $3D$ coordinates of the cube are stored in a matrix which can affect to the computer's storage capacity. 
+The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. 
+The algorithm implements in $O(|E|^3)$ running time from the second layer called the expansion three branches from a tree. 
+All $3D$ coordinates of the cube are stored in a matrix which can affect to the computer's storage capacity. 
 When the updated cubes achieved one of the same previous configurations, the execution time can be reduced by releasing this configuration or stopping the expansion of this tree branch.
 The $*$ position in the grid (Figure \ref{fig:cubePath0}) is occupied by the two updated cubes with different orientations in the $Layer\ 2$. 
 
@@ -260,7 +270,9 @@ Based on the classical path planning which is the movement from point to other p
 \newpage
 \subsection{Icosahedron solid}
 \noindent\uline{Properties}:
-The convex regular icosahedron in the Figure \ref{fig:icosaGeo2} is one of the five regular Platonic solids has 12 vertices, 20 triangular faces, and 30 edges. Assume that the icosahedron has the edge length with $a$. The crossing surface of the solid at vertex $A$ perpendicular with $OD$ will generate a pentagon $ABCEF$.
+The convex regular icosahedron in the Figure \ref{fig:icosaGeo2} is one of the five regular Platonic solids has 12 vertices, 20 triangular faces, and 30 edges. 
+Assume that the icosahedron has the edge length with $a$. 
+The crossing surface of the solid at vertex $A$ perpendicular with $OD$ will generate a pentagon $ABCEF$.
 
 \begin{figure}[h]
 \centering
@@ -284,7 +296,10 @@ The golden ratio $\Phi$ (irrational number) has the value of $\frac{1+\sqrt{5}}{
 %\Rightarrow \angle{XOB} & = \arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
 %\Rightarrow \angle{DOB} & = 2\angle{XOB} = 2\arcsin{\frac{1}{\sqrt{\Phi^2 + 1}}}\\
 
-\noindent Same as the case of cube path planning algorithm, the initial step of rolling icosahedron is to find the rotation angle. the rotation angle is a supplementary of the $\angle{QRS}$. The line $OR$ is perpendicular to $QS$ and $OS = OQ = OM = r_i = \frac{\Phi^2}{2\sqrt{3}}a$. $BI$ is a diagonal of pentagon $BCLIJ$ and $\angle{QRS}=2\angle{ORS}$.\\
+\noindent Same as the case of cube's path planning algorithm, the initial step of rolling icosahedron is to find the rotation angle. 
+The rotation angle is a supplementary of the $\angle{QRS}$. 
+The line $OR$ is perpendicular to $QS$ and $OS = OQ = OM = r_i = \frac{\Phi^2}{2\sqrt{3}}a$. 
+$BI$ is a diagonal of pentagon $BCLIJ$ and $\angle{QRS}=2\angle{ORS}$.\\
 
 \noindent Otherwise, $OR=OX=\frac{1}{2}a\Phi$, and
 
@@ -330,7 +345,11 @@ IK & = [-\frac{1}{2}a\quad  -(\frac{\sqrt{3}}{6}+\frac{\sqrt{3}}{3})a\quad  0]
 % ===================================
 %
 \noindent\uline{Path planning} 
-Path planning of the regular icosahedron through rolling in known environment has initial coordinate at $[6.5, 5.5, 0]$ and the surface contact with red arrow points to bottom. The goal configuration with same as the initial coordinate has the contact surface with black arrow as shown in the Figure \ref{fig:icosaPath1}. This figure shows the shortest path with the red line including 14 line segments. It means that the icosahedron rolled 14 times from the initial configuration to the goal configuration. The path can be seen more precisely from the top view in the Figure \ref{fig:icosaPath2}.
+Path planning of the regular icosahedron through rolling in known environment has initial coordinate at $[6.5, 5.5, 0]$ and the surface contact with red arrow points to bottom. 
+The goal configuration with same as the initial coordinate has the contact surface with black arrow as shown in the Figure \ref{fig:icosaPath1}. 
+This figure shows the shortest path with the red line including 14 line segments. 
+It means that the icosahedron rolled 14 times from the initial configuration to the goal configuration. 
+The path can be seen more precisely from the top view in the Figure \ref{fig:icosaPath2}.
 The total length of this icosahedron path equals $14a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
 
 \begin{center}
@@ -373,7 +392,7 @@ The total length of this icosahedron path equals $14a\frac{\sqrt{3}}{3}$ (edge l
 An dodecahedron has 12 faces and 20 vertices of which generates a pentagon as shown in Figure \ref{fig:dodecahedron2}.
 It will be assumed that the coordinates $Oxyz$ lie on $ABCDE$ surface within $Oy$ through $A$ and $Oz$ perpendicular to $ABCDE$.
 The 30 edges have the same length as $a$. It should be determined all the vertices' coordinates in the three dimensional system.
-The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertices from $l_1$ to $l_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
+The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertex from $l_1$ to $l_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
 
 \begin{figure}[h]
 \centering
@@ -382,11 +401,19 @@ The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertices from $
 	\label{fig:dodecahedron2}
 \end{figure}
 
-\noindent The path planning will implement on a surface but it will be considered in $3D$ spaces. Then, each of vertices will be determined on $3D$ coordinates such as the vertices $A$ has coordinate with $[A_x A_y A_z]$. Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$. Because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. Then the other two angles $\alpha_2$ and $\alpha_3$ can be determined by $\alpha_2 = \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}$ and $\alpha_3 = \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}$.\\
+\noindent The path planning will implement on a surface but it will be considered in $3D$ spaces. 
+Then, each vertex will be determined on $3D$ coordinates such as the vertex $A$ has coordinate with $[A_x A_y A_z]$. 
+Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$. 
+Because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. 
+Then the other two angles $\alpha_2$ and $\alpha_3$ can be determined by $\alpha_2 = \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}$ and $\alpha_3 = \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}$.\\
 
-\noindent From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
+\noindent From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. 
+Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
 
-\noindent There are total $20$ vertices of a dodecahedron. This article focuses on the rolling contact to $2D$ surface, the bottom surface of the dodecahedron integrated to the $Oxy$ which contact to the $2D$ surface. This condition express the $Oz$ dimension of the vertices $ABCDE$ equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. Then $P_z = Q_z = R_z = S_z = T_z = 2.r_i = \frac{a}{10}\sqrt{10(25+11\sqrt{5})}$.\\
+\noindent There are total $20$ vertices of a dodecahedron. 
+This article focuses on the rolling contact to $2D$ surface, the bottom surface of the dodecahedron integrated to the $Oxy$ which contact to the $2D$ surface. 
+This condition express the $Oz$ dimension of the vertices $ABCDE$ equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. 
+Then $P_z = Q_z = R_z = S_z = T_z = 2.r_i = \frac{a}{10}\sqrt{10(25+11\sqrt{5})}$.\\
 
 \noindent It can be seen that the distance $|AF|$ is $a$ and the distance $|BF|$ is $2l_3$. Using the distance properties and squaring the results give:
 \begin{equation} 
@@ -415,38 +442,35 @@ l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 \end{split}
 \end{equation}
 
-\noindent From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the vertices will be founded in the three-dimensional space. Path planning based on rolling is the motion of all these vertices through edges' contact.\\
+\noindent From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the vertices can be determined in the three-dimensional space. 
+Path planning based on rolling contact is the rotation of all these vertices through edges' contact.\\
 
-\noindent\uline{Path Planning}: 
-%%
+\noindent\uline{Path Planning}: As mentioned in the Section \ref{sec:Algorithm}, the dodecahedron can roll on the two grid types. The simple case has a gap at the connection between three regular pentagons as shown in Figure \ref{fig:dodecaGrid}. From a regular pentagon, attaching other five pentagons generates five $\ang{36}$ gaps. The six pentagons has a shape of large pentagon and the cycle of attaching more five larger pentagons will shape a grid of pentagons.
+
 %
 \begin{figure}[h]
 \centering
-	\includegraphics[width=1\textwidth]{image/dodecaPath1.pdf}
+	\includegraphics[width=\textwidth]{image/dodecaGrid.png}
+	\caption{Dodecahedron grid with gaps}
+	\label{fig:dodecaGrid}
+\end{figure}
+
+\noindent This is the path\\
+
+%
+\begin{figure}[h]
+\centering
+	\includegraphics[width=0.5\textwidth]{image/dodecaPath1.pdf}
 	\caption{Dodecahedron in the initial configuration}
 	\label{fig:dodecaPath1}
 \end{figure}
+
+
 %%==================================================================================
 %%
 %%
 %%
-\newpage
-%\noindent\uline{\textbf{Experiments}}:
-%Writing about cube solid properties\\
-\noindent\uline{\textbf{Discussion}}: 
-\textcolor{blue}{Q2 \& Q3\\
-- Q2: What are the new things you learned after you did whatever you did?\\
-- Q3: What exactly did you do?}
 
-\begin{itemize}
-\color{red}
-\item \textbf{Discussion}
-\item \textit{What your results mean}
-\item \textit{Why it makes a difference}
-\item \textbf{Conclusion}
-\item \textit{Broader implications}
-\item \textit{Areas for further study}
-\end{itemize}
 
 
 
