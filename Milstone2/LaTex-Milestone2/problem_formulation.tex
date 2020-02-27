@@ -1,12 +1,15 @@
-\section{PROBLEM FORMULATION}
+\section{MODEL DESCRIPTION}
 \label{sec:problemFormulation}
-\noindent\uline{Five types of platonic solids}:
-The platonic solids are also called regular polyhedra have the convex polyhedra properties. There are only five solids namely cube, tetrahedron, octahedron, dodecahedron and icosahedron. Some of the equivalent statements are used to describe the platonic solids including all the vertices lie on a sphere, all the dihedral angle are equal, and all solid angles are equivalent.\\
+\noindent\uline{Platonic solids}:
+The platonic solids are also called regular polyhedra have the convex polyhedra properties. 
+There are exactly five regular polyhedra namely cube, tetrahedron, octahedron, dodecahedron and icosahedron (Figure \ref{fig:platonicSolids}). 
+Some of the equivalent statements are used to describe the platonic solids, including all the vertices lie on a sphere, all the dihedral angle are equal, and all solid angles are equivalent. 
+The tetrahedron is folded by 4-sided pyramid, the octahedron has the double-pyramid with $8$ faces and 20-sided pyramid for the icosahedron. The cube is constructed by $6$ square faces while the dodecahedron is composed of 12-sided of regular pentagons.\\
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width=1\textwidth]{image/5Platonic1.png}
-	\caption{Platonic solids. From left to right: Tetrahedron, Cube, Octahedron, Dodecahedron, and Icosahedron}
+	\caption{The platonic solids. From left to right with models and unfolding models: the tetrahedron, the cube, the octahedron, the dodecahedron, and the icosahedron}
 	\label{fig:platonicSolids}
 \end{figure}
 %
@@ -15,13 +18,24 @@ The platonic solids are also called regular polyhedra have the convex polyhedra 
 %
 %
 \noindent \uline{Geometrical parameters}: 
-The number of faces, edges, and vertices of each types of platonic solids is described in the Table \ref{tab:tb1}. In mathematics, the Euler's formula shows the relationship between total number of vertices ($V$), edges ($E$), and faces ($F$) by the equation $V-E+F=2$. The icosahedron has the largest number of faces with $20$ while the tetrahedron has only $4$ faces. The number of faces is high the close to sphere is approximate.
+The number of faces, edges, and vertices of each types of platonic solids is described in the Table \ref{tab:tb1}. 
+In mathematics, the Euler's formula shows the relationship between total number of vertices ($V$), edges ($E$), and faces ($F$) by the Eq. \ref{platSolProp:eq1}
 %
+\begin{equation} 
+\label{platSolProp:eq1}
+\begin{split}
+V-E+F=2
+\end{split}
+\end{equation}
+% 
+The icosahedron has the largest number of faces with $20$ while the tetrahedron has only $4$ faces. 
+If each face of platonic solids has $i$ sides and $k$ edges of the polyhedron meet at each vertex.
+The conditions are $i,k$ greater than $3$ ($i,k\geq3$) because every face have at least three edges and at least three edges of faces meet at each vertex.
+The faces are equilateral triangle if $i=3$ and changing the values of $k$ will yield the other three types of polyhedron, including the tetrahedron ($k=3$), the octahedron ($k=4$),and the icosahedron ($k=5$). When $i=4$, the faces are square and the cube has $k=3$ edges which meet at each vertex. The last case with $i=4$ of regular pentagons and only $k=3$ will generate the dodecahedron. 
 %
+% %Check p.61 Euler's gem book
 %
-The Table \ref{tab:tb2} shows the radii of each solids with inradius ($r_i$), midradius ($\rho$) and circumradius ($R$).\\
-
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Properties of polyhedron}
 \label{tab:tb1}
@@ -37,12 +51,24 @@ Icosahedron  & 20    & 30    & 12       & 3                  & 5                
 \end{table}
 % generate the table from https://www.tablesgenerator.com/#
 %
+% %Check p.61 Euler's gem book
+
+\noindent The path planning for platonic solids focuses on the rolling of the models through edge contact. Each edge is shared by two faces and each face may has $e$ edges. Assume that $\Delta $ is the quantity faces which contact at an edge or $E=\frac{1}{2}\Delta $. However, each vertex will be shared by $f$ faces. Then, $V=\frac{\Delta}{f}$. After substituting these two quantities into the Eq. \ref{platSolProp:eq1}, the result is:
 %
-% 
 %
+%\begin{equation*} 
+%\label{platSolProp:eq1}
+%\begin{split}
+%V-E+F &= 2\\
+%\frac{\Delta}{f} - \frac{1}{2}\Delta + F &= 2\\
+%F &= \frac{4f}{2e-fe+2f}\\
+%\end{split}
+%\end{equation*}
 %
-%
-Here is your table \ref{tab:tb2}
+
+\noindent The Table \ref{tab:tb2} shows the radii of each solids with inradius ($r_i$), midradius ($\rho$) and circumradius ($R$).
+Rotation angle is the important condition in the path planning through rolling contact. 
+In the context of regular convex polyhedra, a rotation angle is supplementary with a dihedral angle which is the angle between two faces inside the polyhedra.\\
 
 \begin{table}[h]
 \centering
