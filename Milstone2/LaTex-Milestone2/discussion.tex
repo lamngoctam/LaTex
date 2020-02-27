@@ -433,7 +433,7 @@ a^2 & = (F_y-l_1)^2 + l_5^2\\
 \end{split}
 \end{equation}
 
-Solving $F_y$ and $l_5$ gives:
+\noindent Solving $F_y$ and $l_5$ gives:
 \begin{equation} 
 \label{dodeca:eq3}
 \begin{split}
@@ -445,23 +445,42 @@ l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 \noindent From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the vertices can be determined in the three-dimensional space. 
 Path planning based on rolling contact is the rotation of all these vertices through edges' contact.\\
 
-\noindent\uline{Path Planning}: As mentioned in the Section \ref{sec:Algorithm}, the dodecahedron can roll on the two grid types. The simple case has a gap at the connection between three regular pentagons as shown in Figure \ref{fig:dodecaGrid}. From a regular pentagon, attaching other five pentagons generates five $\ang{36}$ gaps. The six pentagons has a shape of large pentagon and the cycle of attaching more five larger pentagons will shape a grid of pentagons.
+\noindent\uline{Path Planning}: As mentioned in the Section \ref{sec:Algorithm}, the dodecahedron can roll on the two grid types. 
+The simple case has a gap at the connection between three regular pentagons as shown in Figure \ref{fig:dodecaGrid}. 
+In this paper, we do not apply the proposed algorithm to find the path of dodecahedron with rolling on the case of overlaps between four pentagons. 
+This overlap grid is complicated environment which can not guarantee to generate paths with proposed algorithm. 
+In the case of gird with gaps (Figure \ref{fig:dodecaGrid}), attaching other five pentagons generates five $\ang{36}$ gaps from a regular pentagon. 
+The six pentagons has a shape of large pentagon and the cycle of attaching more five larger pentagons will shape a grid of pentagons.\\
 
 %
 \begin{figure}[h]
 \centering
 	\includegraphics[width=\textwidth]{image/dodecaGrid.png}
-	\caption{Dodecahedron grid with gaps}
+	\caption{Initial dodecahedron grid with gaps}
 	\label{fig:dodecaGrid}
 \end{figure}
 
-\noindent This is the path\\
+\noindent The rotation angle of dodecahedron on the above grid equals 
+($\pi-\arccos{(\frac{-\sqrt{5}}{5})}$). 
+One of the shortest paths is shown in the Figure \ref{fig:dodecaPath1} with $[4.0\ 1.0\ 0.0]$ for both the initial and goal coordinates.
+One time rolling of dodecahedron generates a new dodecahedron which has a distance $d=2l_2$. 
+From the Figure \ref{fig:dodecahedron2}b, the distance $d_d$ can be determined as following.
+\begin{equation*} 
+\label{dodeca:eq4}
+\begin{split}
+l_2 & = l_1\cos{\alpha_4}\\
+    & = \frac{a}{2\sin{\alpha_4}}\cos{\alpha_4}\\
+    & = \frac{1}{2}a\cot{\alpha_4}\\
+\rightarrow d_d & = a\cot{\alpha_4}
+\end{split}
+\end{equation*}
 
-%
+\noindent Then, the total length of the shortest path equals $15a\cot{\alpha_4}$.\\
+
 \begin{figure}[h]
 \centering
-	\includegraphics[width=0.5\textwidth]{image/dodecaPath1.pdf}
-	\caption{Dodecahedron in the initial configuration}
+	\includegraphics[width=\textwidth]{image/dodecaPath1.pdf}
+	\caption{The rolling path of dodecahedron at $[4.0\ 1.0\ 0.0]$ coordinate}
 	\label{fig:dodecaPath1}
 \end{figure}
 
