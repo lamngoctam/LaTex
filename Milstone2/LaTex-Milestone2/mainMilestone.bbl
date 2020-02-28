@@ -695,6 +695,34 @@
       \field{pages}{144\bibrangedash 152}
       \range{pages}{9}
     \endentry
+    \entry{Tarjan1972_DepthFirstSearch}{article}{}
+      \name{author}{1}{}{%
+        {{hash=554d334d2af10fcbf6d59d1194d9191b}{%
+           family={Tarjan},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{554d334d2af10fcbf6d59d1194d9191b}
+      \strng{fullhash}{554d334d2af10fcbf6d59d1194d9191b}
+      \strng{bibnamehash}{554d334d2af10fcbf6d59d1194d9191b}
+      \strng{authorbibnamehash}{554d334d2af10fcbf6d59d1194d9191b}
+      \strng{authornamehash}{554d334d2af10fcbf6d59d1194d9191b}
+      \strng{authorfullhash}{554d334d2af10fcbf6d59d1194d9191b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal of Computing}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Depth-first search and linear graph algorithms}
+      \field{type}{Journal Article}
+      \field{volume}{1}
+      \field{year}{1972}
+      \field{pages}{146\bibrangedash 160}
+      \range{pages}{15}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

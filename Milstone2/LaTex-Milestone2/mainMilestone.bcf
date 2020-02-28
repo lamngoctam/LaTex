@@ -2150,6 +2150,7 @@
     <bcf:citekey order="17">Marigo97_PolyhedraManipulation_rolling</bcf:citekey>
     <bcf:citekey order="18">Marigo00_PlanningMotion_Polyhedra_Rolling</bcf:citekey>
     <bcf:citekey order="19">Dai_Rodrigues_2015</bcf:citekey>
+    <bcf:citekey order="20">Tarjan1972_DepthFirstSearch</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
