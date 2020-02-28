@@ -19,10 +19,10 @@ The tetrahedron is folded by 4-sided pyramid, the octahedron has the double-pyra
 %
 \noindent \uline{Geometrical parameters}: 
 The number of faces, edges, and vertices of each type of platonic solids is described in the Table \ref{tab:tb1}. 
-In mathematics, the Euler's formula shows the relationship between total number of vertices ($V$), edges ($E$), and faces ($F$) by the Eq. \ref{platSolProp:eq1}
+In mathematics, the Euler's formula shows the relationship between total number of vertices ($V$), edges ($E$), and faces ($F$) by the Eq. \ref{equa:eq1}
 %
 \begin{equation} 
-\label{platSolProp:eq1}
+\label{equa:eq1}
 \begin{split}
 V-E+F=2
 \end{split}
@@ -53,20 +53,24 @@ Icosahedron  & 20    & 30    & 12       & 3                  & 5                
 %
 % %Check p.61 Euler's gem book
 
-\noindent The path planning for platonic solids focuses on the rolling of the models through edge contact. Each edge is shared by two faces and each face may has $e$ edges. Assume that $\Delta $ is the quantity faces which contact at an edge or $E=\frac{1}{2}\Delta $. However, each vertex will be shared by $f$ faces. Then, $V=\frac{\Delta}{f}$. After substituting these two quantities into the Eq. \ref{platSolProp:eq1}, the result is:
+\noindent The path planning for platonic solids focuses on the rolling of the models through edge contact. Each edge is shared by two faces and each face may has $e$ edges. Assume that $\Delta $ is the quantity faces which contact at an edge or $E=\frac{1}{2}\Delta $. However, each vertex will be shared by $f$ faces. Then, $V=\frac{\Delta}{f}$. After substituting these two quantities into the Eq. \ref{equa:eq1}, the result is:
 %
 %
-\begin{equation*} 
-\label{platSolProp:eq1}
+\begin{equation} 
+\label{equa:eq2}
 \begin{split}
 V-E+F &= 2\\
 \frac{\Delta}{f} - \frac{1}{2}\Delta + F &= 2\\
-F &= \frac{4f}{2e-fe+2f}\\
+\rightarrow F &= \frac{4f}{2e-fe+2f}\\
 \end{split}
-\end{equation*}
+\end{equation}
 %
 
-\noindent Rotation angle is the important condition in the path planning through rolling contact. 
+\noindent From the Eq. \ref{equa:eq2}, the condition is that $2e-fe+2f$ should positive because $F$ and $4f$ are both positive. 
+As above requirements with ($e\geq3$) and ($f\geq3$), there are only five pairs of integers ($e,f$) satisfy this condition. 
+So, the results of these pairs are shown in the last two columns in the Figure \ref{tab:tb1}.\\
+
+\noindent The important condition in the path planning through rolling contact is rotation angle. 
 In the context of regular convex polyhedra, a rotation angle is supplementary with a dihedral angle which is the angle between two faces inside the polyhedra.
 The Table \ref{tab:tb2} shows the radii of each solid with the inradius ($r_i$), the midradius ($\rho$), the circumradius ($R$) and the dihedral angles ($\beta$).\\
 

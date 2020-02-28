@@ -389,9 +389,14 @@ The total length of this icosahedron path equals $14a\frac{\sqrt{3}}{3}$ (edge l
 %\end{figure}
 
 \noindent\uline{Properties}: 
-An dodecahedron has 12 faces and 20 vertices of which generates a pentagon as shown in Figure \ref{fig:dodecahedron2}.
+An dodecahedron is constructed from twelve self-intersecting faces with the same pentagon shape. These faces meet at each vertex and there are total of twenty vertices in a dodecahedron as shown in Figure \ref{fig:dodecahedron2}.
+%
+From the Eq. \ref{equa:eq1}, the great dodecahedron satisfy the Euler's formula ($V=20, F=12, E=30$).
+%
 It will be assumed that the coordinates $Oxyz$ lie on $ABCDE$ surface within $Oy$ through $A$ and $Oz$ perpendicular to $ABCDE$.
+%
 The 30 edges have the same length as $a$. It should be determined all the vertices' coordinates in the three dimensional system.
+%
 The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertex from $l_1$ to $l_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
 
 \begin{figure}[h]
@@ -403,52 +408,72 @@ The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertex from $l_
 
 \noindent The path planning will implement on a surface but it will be considered in $3D$ spaces. 
 Then, each vertex will be determined on $3D$ coordinates such as the vertex $A$ has coordinate with $[A_x A_y A_z]$. 
-Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$. 
-Because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. 
-Then the other two angles $\alpha_2$ and $\alpha_3$ can be determined by $\alpha_2 = \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}$ and $\alpha_3 = \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}$.\\
+Based on the properties of pentagon, the angle $\alpha_1=\frac{2\pi}{5}$ and $\alpha_4=\frac{\pi}{5}$, 
+because the angle between $Ox$ and $Oy$ is $\frac{\pi}{2}$, the sum of $\alpha_1$ and $\alpha_2$ is $\alpha_1 + \alpha_2 = \frac{\pi}{2}$. 
+Then the other two angles $\alpha_2$ and $\alpha_3$ can be founded as below. 
+\begin{equation*} 
+\label{equa:eq0}
+\begin{split}
+\alpha_2 &= \frac{\pi}{2}-\alpha_1 = \frac{\pi}{2}-\frac{2\pi}{5} = \frac{\pi}{10}\\ 
+\alpha_3 &= \alpha_1-\alpha_2 = \frac{2\pi}{5}-\frac{pi}{10} = \frac{3\pi}{10}
+\end{split}
+\end{equation*}
 
 \noindent From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. 
-Referencing to the properties of a dodecahedron with length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
+The golden ratio $\Phi$ with the value of $\frac{1+\sqrt{5}}{2}$ which is the length of the diagonal of a square with $1$ unit length of sides is used to calculate the circumscribed sphere radius of dodecahedron.
+Assume that the dodecahedron has the length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
 
-\noindent There are total $20$ vertices of a dodecahedron. 
-This article focuses on the rolling contact to $2D$ surface, the bottom surface of the dodecahedron integrated to the $Oxy$ which contact to the $2D$ surface. 
-This condition express the $Oz$ dimension of the vertices $ABCDE$ equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. 
-Then $P_z = Q_z = R_z = S_z = T_z = 2.r_i = \frac{a}{10}\sqrt{10(25+11\sqrt{5})}$.\\
 
+\noindent In the path-finding through rolling, the proposed algorithm focuses on the transformation and translation of $20$ vertices of a dodecahedron. 
+Although rolling dodecahedron's faces on $2D$ surface, the bottom surface which integrates to the $Oxy$ will contact to the surface in the three dimensional space. 
+This condition expresses the $Oz$ dimension of all the $(A,B,C,D,E)$ vertices which equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. 
+Then, 
+\begin{equation*} 
+\label{equa:eq01}
+\begin{split}
+P_z = Q_z = R_z = S_z = T_z &= 2.r_i \\
+							&= \frac{a}{10}\sqrt{10(25+11\sqrt{5})}
+\end{split}
+\end{equation*}
 \noindent It can be seen that the distance $|AF|$ is $a$ and the distance $|BF|$ is $2l_3$. Using the distance properties and squaring the results give:
-\begin{equation} 
+\begin{equation*} 
 \label{dodeca:eq1}
 \begin{split}
 AF^2 & = a^2 = (A_x-F_x)^2 + (A_y-F_y)^2 + (A_z-F_z)^2 \\
 BF^2 & = (2l_3)^2 = (B_x-F_x)^2 + (B_y-F_y)^2 + (B_z-F_z)^2
 \end{split}
-\end{equation}
+\end{equation*}
 
 \noindent Figure \ref{fig:dodecahedron2}(d) shows that $A_x = F_x = 0$, $A_y = l_1$, $B_y = l_4$, $B_x = l_3$, $A_z = B_z$. Define $l_5=A_z-F_z$, the relations of these equations are:
-\begin{equation} 
+\begin{equation*} 
 \label{dodeca:eq2}
 \begin{split}
 a^2 & = (F_y-l_1)^2 + l_5^2\\
 (2l_3)^2 & = (F_y-l_4)^2 + l_5^2 + l_3^2
 \end{split}
-\end{equation}
+\end{equation*}
 
 \noindent Solving $F_y$ and $l_5$ gives:
-\begin{equation} 
+\begin{equation*} 
 \label{dodeca:eq3}
 \begin{split}
 F_y & = \frac{a^2-(2l_3)^2-(l_1^2-l_3^2-l_4^2)}{2(l_4-l_1)} \\
 l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 \end{split}
-\end{equation}
+\end{equation*}
 
-\noindent From these equations \ref{dodeca:eq1},\ref{dodeca:eq2},\ref{dodeca:eq3}, all the vertices can be determined in the three-dimensional space. 
-Path planning based on rolling contact is the rotation of all these vertices through edges' contact.\\
+\noindent From these above equations, all the vertices can be determined and stored in a $3D$ matrix. 
+Path planning based on rolling contact is the rotation of this matrix through edges' contact.\\
+%
+%
+%===========================Path Planning=============================
 
 \noindent\uline{Path Planning}: As mentioned in the Section \ref{sec:Algorithm}, the dodecahedron can roll on the two grid types. 
 The simple case has a gap at the connection between three regular pentagons as shown in Figure \ref{fig:dodecaGrid}. 
+%
 In this paper, we do not apply the proposed algorithm to find the path of dodecahedron with rolling on the case of overlaps between four pentagons. 
 This overlap grid is complicated environment which can not guarantee to generate paths with proposed algorithm. 
+%
 In the case of gird with gaps (Figure \ref{fig:dodecaGrid}), attaching other five pentagons generates five $\ang{36}$ gaps from a regular pentagon. 
 The six pentagons has a shape of large pentagon and the cycle of attaching more five larger pentagons will shape a grid of pentagons.\\
 
@@ -462,8 +487,8 @@ The six pentagons has a shape of large pentagon and the cycle of attaching more 
 
 \noindent The rotation angle of dodecahedron on the above grid equals 
 ($\pi-\arccos{(\frac{-\sqrt{5}}{5})}$). 
-One of the shortest paths is shown in the Figure \ref{fig:dodecaPath1} with $[4.0\ 1.0\ 0.0]$ for both the initial and goal coordinates.
-One time rolling of dodecahedron generates a new dodecahedron which has a distance $d=2l_2$. 
+One of the shortest paths is shown in the Figure \ref{fig:dodecaPath1} with $[3.0\ 2.25\ 0.0]$ for both the initial and goal coordinates.
+One time rolling of dodecahedron generates a new dodecahedron which has a distance $d=2l_2$ from the previous coordinate. 
 From the Figure \ref{fig:dodecahedron2}b, the distance $d_d$ can be determined as following.
 \begin{equation*} 
 \label{dodeca:eq4}
@@ -475,18 +500,18 @@ l_2 & = l_1\cos{\alpha_4}\\
 \end{split}
 \end{equation*}
 
-\noindent Then, the total length of the shortest path equals $15a\cot{\alpha_4}$.\\
-
+\noindent Then, the total length of the shortest path equals $15a\cot{\alpha_4}$ as shown in the Figure \ref{fig:dodecaPath1} with the red line.\\
 \begin{figure}[h]
 \centering
 	\includegraphics[width=\textwidth]{image/dodecaPath1.pdf}
-	\caption{The rolling path of dodecahedron at $[4.0\ 1.0\ 0.0]$ coordinate}
+	\caption{The rolling path of dodecahedron at $[3.0\ 2.25\ 0.0]$ coordinate}
 	\label{fig:dodecaPath1}
 \end{figure}
 
-
+\noindent Path planning through rolling contact for the case of dodecahedron is complex. According to the simulation results, implementing the proposed algorithm for other four types of platonic solids (cube, tetrahedron, octahedron, and icosahedron) is more effective than for the dodecahedron case.  Executing the algorithm is no guarantee of path-finding results with the case of overlap grid.
 %%==================================================================================
 %%
+
 %%
 %%
 
