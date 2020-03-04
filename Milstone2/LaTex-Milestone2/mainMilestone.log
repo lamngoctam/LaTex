@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  28 FEB 2020 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  4 MAR 2020 12:03
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -2293,7 +2293,27 @@ been already used, duplicate ignored
 l.16 \clearpage
                 [1
 
-] (abstract.tex) (introduction.tex
+] (abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+) (introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
@@ -2308,19 +2328,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 
+l.27 
       [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
  []
@@ -2330,17 +2350,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-<image/5Platonic1.png, id=138, 984.67876pt x 466.1415pt>
+<image/5Platonic1.png, id=135, 984.67876pt x 466.1415pt>
 File: image/5Platonic1.png Graphic file (type png)
 <use image/5Platonic1.png>
 Package pdftex.def Info: image/5Platonic1.png  used on input line 11.
-(pdftex.def)             Requested size: 455.24411pt x 215.50882pt.
-[2 <./image/5Platonic1.png>]
+(pdftex.def)             Requested size: 409.71692pt x 193.95723pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 29--35
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
@@ -2350,7 +2373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
-[3]) (methodology.tex
+[3 <./image/5Platonic1.png>]) (methodology.tex
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 1.
 
@@ -2689,7 +2712,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb>
-Output written on mainMilestone.pdf (24 pages, 8864598 bytes).
+Output written on mainMilestone.pdf (24 pages, 8864373 bytes).
 PDF statistics:
  805 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
