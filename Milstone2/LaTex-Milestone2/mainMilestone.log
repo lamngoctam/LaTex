@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  4 MAR 2020 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  5 MAR 2020 22:36
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -2264,7 +2264,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `title_page1.aux'.
 
  (title_page1.tex
-<Curtinlogo.jpg, id=66, 770.88pt x 128.48pt>
+<Curtinlogo.jpg, id=74, 770.88pt x 128.48pt>
 File: Curtinlogo.jpg Graphic file (type jpg)
 <use Curtinlogo.jpg>
 Package pdftex.def Info: Curtinlogo.jpg  used on input line 7.
@@ -2294,17 +2294,17 @@ l.16 \clearpage
                 [1
 
 ] (abstract.tex) (introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--19
+Underfull \hbox (badness 10000) in paragraph at lines 14--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--27
+Underfull \hbox (badness 10000) in paragraph at lines 22--30
 
  []
 
@@ -2312,16 +2312,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 
+l.30 
       [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
+Underfull \hbox (badness 10000) in paragraph at lines 31--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--47
 
  []
 
@@ -2330,7 +2330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-<image/5Platonic1.png, id=137, 984.67876pt x 466.1415pt>
+<image/5Platonic1.png, id=146, 984.67876pt x 466.1415pt>
 File: image/5Platonic1.png Graphic file (type png)
 <use image/5Platonic1.png>
 Package pdftex.def Info: image/5Platonic1.png  used on input line 11.
@@ -2365,7 +2365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
 pdfTeX warning: pdflatex (file ./image/gridPlatonic.pdf): PDF inclusion: found 
 PDF version <1.6>, but at most version <1.5> allowed
-<image/gridPlatonic.pdf, id=170, 845.1575pt x 597.23125pt>
+<image/gridPlatonic.pdf, id=180, 845.1575pt x 597.23125pt>
 File: image/gridPlatonic.pdf Graphic file (type pdf)
 <use image/gridPlatonic.pdf>
 Package pdftex.def Info: image/gridPlatonic.pdf  used on input line 19.
@@ -2386,7 +2386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
 pdfTeX warning: pdflatex (file ./image/rollingDir2.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<image/rollingDir2.pdf, id=189, 845.1575pt x 597.23125pt>
+<image/rollingDir2.pdf, id=199, 845.1575pt x 597.23125pt>
 File: image/rollingDir2.pdf Graphic file (type pdf)
 <use image/rollingDir2.pdf>
 Package pdftex.def Info: image/rollingDir2.pdf  used on input line 45.
@@ -2418,58 +2418,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-<image/cubeGeo1.png, id=226, 1174.98975pt x 654.64575pt>
+<image/cubeGeo1.png, id=236, 1174.98975pt x 654.64575pt>
 File: image/cubeGeo1.png Graphic file (type png)
 <use image/cubeGeo1.png>
 Package pdftex.def Info: image/cubeGeo1.png  used on input line 27.
 (pdftex.def)             Requested size: 455.24411pt x 253.64264pt.
-<image/cubePath00.png, id=229, 821.469pt x 637.78275pt>
+
+LaTeX Warning: Reference `fig:cubePath0' on page 8 undefined on input line 34.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--39
+
+ []
+
+<image/cubePath00.png, id=238, 821.469pt x 637.78275pt>
 File: image/cubePath00.png Graphic file (type png)
 <use image/cubePath00.png>
 Package pdftex.def Info: image/cubePath00.png  used on input line 42.
 (pdftex.def)             Requested size: 455.24411pt x 353.45782pt.
 [8
 
- <./image/cubeGeo1.png>]
-<image/cube11.jpg, id=240, 864.831pt x 660.066pt>
+ <./image/cubeGeo1.png>] [9 <./image/cubePath00.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+<image/cube11.jpg, id=258, 864.831pt x 660.066pt>
 File: image/cube11.jpg Graphic file (type jpg)
 <use image/cube11.jpg>
-Package pdftex.def Info: image/cube11.jpg  used on input line 54.
+Package pdftex.def Info: image/cube11.jpg  used on input line 114.
 (pdftex.def)             Requested size: 227.62206pt x 173.72818pt.
+<image/cubeIteration2.jpg, id=259, 984.0765pt x 694.9965pt>
+File: image/cubeIteration2.jpg Graphic file (type jpg)
+<use image/cubeIteration2.jpg>
+Package pdftex.def Info: image/cubeIteration2.jpg  used on input line 122.
+(pdftex.def)             Requested size: 227.62206pt x 160.75784pt.
 
-
-pdfTeX warning: pdflatex (file ./image/cubePath1.pdf): PDF inclusion: found PDF
- version <1.7>, but at most version <1.5> allowed
-<image/cubePath1.pdf, id=241, 741.77126pt x 671.50874pt>
-File: image/cubePath1.pdf Graphic file (type pdf)
-<use image/cubePath1.pdf>
-Package pdftex.def Info: image/cubePath1.pdf  used on input line 62.
-(pdftex.def)             Requested size: 227.62206pt x 206.0548pt.
-
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 54--63
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 114--123
 [][]  [][] 
  []
 
-[9 <./image/cubePath00.png> <./image/cube11.jpg> <./image/cubePath1.pdf>]
-<image/cubeCase2Path1.jpg, id=297, 879.88725pt x 666.69075pt>
-File: image/cubeCase2Path1.jpg Graphic file (type jpg)
-<use image/cubeCase2Path1.jpg>
-Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 111.
-(pdftex.def)             Requested size: 341.43307pt x 258.7062pt.
-<image/cubeCase2Path2.jpg, id=298, 867.24pt x 667.89525pt>
-File: image/cubeCase2Path2.jpg Graphic file (type jpg)
-<use image/cubeCase2Path2.jpg>
-Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 116.
-(pdftex.def)             Requested size: 341.43307pt x 262.95457pt.
 
-[10 <./image/cubeCase2Path1.jpg> <./image/cubeCase2Path2.jpg>]
-<image/TetraGeo11.png, id=307, 1430.946pt x 668.4975pt>
+
+pdfTeX warning: pdflatex (file ./image/cubePath0.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<image/cubePath0.pdf, id=261, 909.3975pt x 672.5125pt>
+File: image/cubePath0.pdf Graphic file (type pdf)
+<use image/cubePath0.pdf>
+Package pdftex.def Info: image/cubePath0.pdf  used on input line 134.
+(pdftex.def)             Requested size: 227.62206pt x 168.32268pt.
+
+
+pdfTeX warning: pdflatex (file ./image/cubePath2.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<image/cubePath2.pdf, id=262, 894.34125pt x 673.51625pt>
+File: image/cubePath2.pdf Graphic file (type pdf)
+<use image/cubePath2.pdf>
+Package pdftex.def Info: image/cubePath2.pdf  used on input line 142.
+(pdftex.def)             Requested size: 227.62206pt x 171.42064pt.
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 134--143
+[][]  [][] 
+ []
+
+[10 <./image/cube11.jpg> <./image/cubeIteration2.jpg> <./image/cubePath0.pdf> <
+./image/cubePath2.pdf>]
+<image/TetraGeo11.png, id=368, 1430.946pt x 668.4975pt>
 File: image/TetraGeo11.png Graphic file (type png)
 <use image/TetraGeo11.png>
-Package pdftex.def Info: image/TetraGeo11.png  used on input line 140.
+Package pdftex.def Info: image/TetraGeo11.png  used on input line 221.
 (pdftex.def)             Requested size: 455.24411pt x 212.66891pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 
  []
 
@@ -2477,35 +2497,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--150
 
 pdfTeX warning: pdflatex (file ./image/tetraPath2.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<image/tetraPath2.pdf, id=309, 930.47626pt x 671.50874pt>
+<image/tetraPath2.pdf, id=370, 930.47626pt x 671.50874pt>
 File: image/tetraPath2.pdf Graphic file (type pdf)
 <use image/tetraPath2.pdf>
-Package pdftex.def Info: image/tetraPath2.pdf  used on input line 156.
+Package pdftex.def Info: image/tetraPath2.pdf  used on input line 237.
 (pdftex.def)             Requested size: 227.62206pt x 164.27003pt.
 
 
 pdfTeX warning: pdflatex (file ./image/tetraPath1.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<image/tetraPath1.pdf, id=310, 919.435pt x 655.44875pt>
+<image/tetraPath1.pdf, id=371, 919.435pt x 655.44875pt>
 File: image/tetraPath1.pdf Graphic file (type pdf)
 <use image/tetraPath1.pdf>
-Package pdftex.def Info: image/tetraPath1.pdf  used on input line 161.
+Package pdftex.def Info: image/tetraPath1.pdf  used on input line 242.
 (pdftex.def)             Requested size: 227.62206pt x 162.26157pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 156--162
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 237--243
 [][]  [][] 
  []
 
 [11
 
  <./image/TetraGeo11.png> <./image/tetraPath2.pdf> <./image/tetraPath1.pdf>]
-<image/octaGeo11.png, id=414, 1250.87325pt x 637.78275pt>
+<image/octaGeo11.png, id=475, 1250.87325pt x 637.78275pt>
 File: image/octaGeo11.png Graphic file (type png)
 <use image/octaGeo11.png>
-Package pdftex.def Info: image/octaGeo11.png  used on input line 183.
+Package pdftex.def Info: image/octaGeo11.png  used on input line 264.
 (pdftex.def)             Requested size: 455.24411pt x 232.11241pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
@@ -2515,68 +2535,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
 pdfTeX warning: pdflatex (file ./image/octoPath1.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/octoPath1.pdf, id=424, 779.91376pt x 671.50874pt>
+<image/octoPath1.pdf, id=485, 779.91376pt x 671.50874pt>
 File: image/octoPath1.pdf Graphic file (type pdf)
 <use image/octoPath1.pdf>
-Package pdftex.def Info: image/octoPath1.pdf  used on input line 247.
+Package pdftex.def Info: image/octoPath1.pdf  used on input line 328.
 (pdftex.def)             Requested size: 227.62206pt x 195.9826pt.
 
 
 pdfTeX warning: pdflatex (file ./image/octoPath2.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/octoPath2.pdf, id=425, 784.9325pt x 670.505pt>
+<image/octoPath2.pdf, id=486, 784.9325pt x 670.505pt>
 File: image/octoPath2.pdf Graphic file (type pdf)
 <use image/octoPath2.pdf>
-Package pdftex.def Info: image/octoPath2.pdf  used on input line 252.
+Package pdftex.def Info: image/octoPath2.pdf  used on input line 333.
 (pdftex.def)             Requested size: 227.62206pt x 194.43124pt.
 File: image/octoPath2.pdf Graphic file (type pdf)
 <use image/octoPath2.pdf>
-Package pdftex.def Info: image/octoPath2.pdf  used on input line 256.
+Package pdftex.def Info: image/octoPath2.pdf  used on input line 337.
 (pdftex.def)             Requested size: 227.62206pt x 194.43124pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 247--257
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 328--338
 [][]  [][]
  []
 
 [13 <./image/octoPath1.pdf> <./image/octoPath2.pdf>]
-<image/icosaGeo22.png, id=511, 1455.036pt x 669.09975pt>
+<image/icosaGeo22.png, id=572, 1455.036pt x 669.09975pt>
 File: image/icosaGeo22.png Graphic file (type png)
 <use image/icosaGeo22.png>
-Package pdftex.def Info: image/icosaGeo22.png  used on input line 279.
+Package pdftex.def Info: image/icosaGeo22.png  used on input line 360.
 (pdftex.def)             Requested size: 455.24411pt x 209.33818pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--303
+Underfull \hbox (badness 10000) in paragraph at lines 380--384
 
  []
 
 [14
 
  <./image/icosaGeo22.png>]
-<image/icosaGeo55.png, id=522, 1014.189pt x 659.46375pt>
+<image/icosaGeo55.png, id=583, 1014.189pt x 659.46375pt>
 File: image/icosaGeo55.png Graphic file (type png)
 <use image/icosaGeo55.png>
-Package pdftex.def Info: image/icosaGeo55.png  used on input line 339.
+Package pdftex.def Info: image/icosaGeo55.png  used on input line 420.
 (pdftex.def)             Requested size: 227.62206pt x 148.00061pt.
 
 
 pdfTeX warning: pdflatex (file ./image/icosaPath.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/icosaPath.pdf, id=525, 666.49pt x 665.48625pt>
+<image/icosaPath.pdf, id=586, 666.49pt x 665.48625pt>
 File: image/icosaPath.pdf Graphic file (type pdf)
 <use image/icosaPath.pdf>
-Package pdftex.def Info: image/icosaPath.pdf  used on input line 360.
+Package pdftex.def Info: image/icosaPath.pdf  used on input line 441.
 (pdftex.def)             Requested size: 227.62206pt x 227.27777pt.
 
 
 pdfTeX warning: pdflatex (file ./image/icosaPathTopView.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<image/icosaPathTopView.pdf, id=526, 681.54625pt x 693.59125pt>
+<image/icosaPathTopView.pdf, id=587, 681.54625pt x 693.59125pt>
 File: image/icosaPathTopView.pdf Graphic file (type pdf)
 <use image/icosaPathTopView.pdf>
-Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 365.
+Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 446.
 (pdftex.def)             Requested size: 227.62206pt x 231.64807pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 360--366
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 441--447
 [][]  [][] 
  []
 
@@ -2585,43 +2605,64 @@ pdf>]
 
 pdfTeX warning: pdflatex (file ./image/dodecahedron2.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<image/dodecahedron2.pdf, id=614, 845.1575pt x 597.23125pt>
+<image/dodecahedron2.pdf, id=675, 845.1575pt x 597.23125pt>
 File: image/dodecahedron2.pdf Graphic file (type pdf)
 <use image/dodecahedron2.pdf>
-Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 404.
+Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 485.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--425
+Underfull \hbox (badness 10000) in paragraph at lines 503--506
 
  []
 
 [16
 
  <./image/dodecahedron2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 465--470
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--479
+Underfull \hbox (badness 10000) in paragraph at lines 552--560
 
  []
 
-<image/dodecaGrid.png, id=640, 1526.70375pt x 665.48625pt>
+<image/dodecaGrid.png, id=701, 1526.70375pt x 665.48625pt>
 File: image/dodecaGrid.png Graphic file (type png)
 <use image/dodecaGrid.png>
-Package pdftex.def Info: image/dodecaGrid.png  used on input line 483.
+Package pdftex.def Info: image/dodecaGrid.png  used on input line 564.
 (pdftex.def)             Requested size: 455.24411pt x 198.43903pt.
 [17 <./image/dodecaGrid.png>]
 
 pdfTeX warning: pdflatex (file ./image/dodecaPath1.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<image/dodecaPath1.pdf, id=652, 757.83125pt x 667.49374pt>
+<image/dodecaPath1.pdf, id=713, 757.83125pt x 667.49374pt>
 File: image/dodecaPath1.pdf Graphic file (type pdf)
 <use image/dodecaPath1.pdf>
-Package pdftex.def Info: image/dodecaPath1.pdf  used on input line 506.
-(pdftex.def)             Requested size: 455.24411pt x 400.97804pt.
-) (conclusion.tex [18 <./image/dodecaPath1.pdf>]
+Package pdftex.def Info: image/dodecaPath1.pdf  used on input line 587.
+(pdftex.def)             Requested size: 364.19667pt x 320.7804pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--603
+
+ []
+
+<image/cubeCase2Path1.jpg, id=715, 879.88725pt x 666.69075pt>
+File: image/cubeCase2Path1.jpg Graphic file (type jpg)
+<use image/cubeCase2Path1.jpg>
+Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 607.
+(pdftex.def)             Requested size: 227.62206pt x 172.47081pt.
+<image/cubeCase2Path2.jpg, id=716, 867.24pt x 667.89525pt>
+File: image/cubeCase2Path2.jpg Graphic file (type jpg)
+<use image/cubeCase2Path2.jpg>
+Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 610.
+(pdftex.def)             Requested size: 227.62206pt x 175.29965pt.
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 607--611
+[][] [][] 
+ []
+
+[18 <./image/dodecaPath1.pdf>]) (conclusion.tex [19 <./image/cubeCase2Path1.jpg
+> <./image/cubeCase2Path2.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -2631,29 +2672,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
-) (timeline.tex
+) (ethical_issues.tex) (timeline.tex
 
 Package array Warning: Column s is already defined on input line 8.
 
+) [20
 
-Overfull \hbox (28.48686pt too wide) in paragraph at lines 14--27
- [][] 
- []
-
-) [19
-
-] [20] [21
+] [21
 
 ] [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (mainMilestone.aux (title_page1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `mainMilestone.out' has not changed.
-(rerunfilecheck)             Checksum: 7EFB8BE8529BD22D59FB8549AA6FC269;868.
+(rerunfilecheck)             Checksum: 2A8361AD745B19D67E5ECE8631B21740;1000.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2661,40 +2700,45 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 \openout1 = `mainMilestone.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 66864 strings out of 492450
- 1560772 string characters out of 3118604
- 2142711 words of memory out of 3000000
- 70125 multiletter control sequences out of 15000+200000
- 539132 words of font info for 51 fonts, out of 3000000 for 9000
+ 66941 strings out of 492450
+ 1561944 string characters out of 3118604
+ 2142070 words of memory out of 3000000
+ 70175 multiletter control sequences out of 15000+200000
+ 545814 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,18n,127p,1636b,2097s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 77i,25n,127p,1636b,2097s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/19107262/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/19107262/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/1
-9107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/19107262/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/19107262/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/191
-07262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb
-><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/19107262/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
-/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb>
-Output written on mainMilestone.pdf (24 pages, 8864449 bytes).
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/191
+07262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.
+pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/19107262/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/19107262/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/191
+07262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/19107262/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/19107262/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
+sers/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Users/19107262/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/19107262/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/19107262/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Use
+rs/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb>
+Output written on mainMilestone.pdf (24 pages, 9933098 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 889 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
