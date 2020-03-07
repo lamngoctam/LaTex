@@ -1,5 +1,5 @@
-\clearpage
-\newpage
+%\clearpage
+%\newpage
 \section{CONCLUSIONS}
 %%\noindent\uline{\textbf{Experiments}}:
 %%Writing about cube solid properties\\
@@ -17,7 +17,13 @@
 %\item \textit{Broader implications}
 %\item \textit{Areas for further study}
 %\end{itemize}
-\noindent In this paper, we have proposed a method of path-finding for platonic solids - regular convex polyhedra - that is able to produce paths and a shortest path under rolling constraint without sliding. In particular, using tree exploration algorithm can find the path for cube, tetrahedron, octahedron and icosahedron solids. In the first case of dodecahedron with a gap between two pentagons in the initial environment, the algorithm is be applied to find shortest paths while the other case with overlaps is not guaranteed to find a path.\\
+\noindent In this paper, we have proposed a method of closed-path planning for the platonic solids able to successfully generate closed-paths under rolling constraint without sliding. 
+%
+In particular, the algorithm works by developing the tree exploration method to efficiently search possible paths for cube, tetrahedron, octahedron and icosahedron solids. 
+%
+In the case of dodecahedron, the initial environments with a gap between two pentagons are vary which may lead to different paths.
+
+ with a gap between two pentagons in the initial environment, the algorithm is be applied to find shortest paths while the other case with overlaps is not guaranteed to find a path.\\
 
 
 \noindent The results of this study concern path planning in discrete environment through rolling for only platonic solids with free-obstacles.

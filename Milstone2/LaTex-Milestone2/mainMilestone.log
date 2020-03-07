@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  5 MAR 2020 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  7 MAR 2020 16:17
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -2642,33 +2642,37 @@ File: image/dodecaPath1.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/dodecaPath1.pdf  used on input line 587.
 (pdftex.def)             Requested size: 364.19667pt x 320.7804pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--603
+Underfull \hbox (badness 10000) in paragraph at lines 598--606
 
  []
 
 <image/cubeCase2Path1.jpg, id=715, 879.88725pt x 666.69075pt>
 File: image/cubeCase2Path1.jpg Graphic file (type jpg)
 <use image/cubeCase2Path1.jpg>
-Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 607.
+Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 610.
 (pdftex.def)             Requested size: 227.62206pt x 172.47081pt.
 <image/cubeCase2Path2.jpg, id=716, 867.24pt x 667.89525pt>
 File: image/cubeCase2Path2.jpg Graphic file (type jpg)
 <use image/cubeCase2Path2.jpg>
-Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 610.
+Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 613.
 (pdftex.def)             Requested size: 227.62206pt x 175.29965pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 607--611
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 610--614
 [][] [][] 
  []
 
-[18 <./image/dodecaPath1.pdf>]) (conclusion.tex [19 <./image/cubeCase2Path1.jpg
-> <./image/cubeCase2Path2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[18 <./image/dodecaPath1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 623--626
+
+ []
+
+) (conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
@@ -2676,11 +2680,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
 Package array Warning: Column s is already defined on input line 8.
 
-) [20
+) [19 <./image/cubeCase2Path1.jpg> <./image/cubeCase2Path2.jpg>] [20] [21
 
-] [21
-
-] [22
+]
+[22
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
@@ -2705,7 +2708,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
 Here is how much of TeX's memory you used:
  66941 strings out of 492450
  1561944 string characters out of 3118604
- 2142070 words of memory out of 3000000
+ 2142134 words of memory out of 3000000
  70175 multiletter control sequences out of 15000+200000
  545814 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2736,9 +2739,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/19107262/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Use
 rs/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb>
-Output written on mainMilestone.pdf (24 pages, 9933098 bytes).
+Output written on mainMilestone.pdf (24 pages, 9934231 bytes).
 PDF statistics:
- 889 PDF objects out of 1000 (max. 8388607)
+ 892 PDF objects out of 1000 (max. 8388607)
  103 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

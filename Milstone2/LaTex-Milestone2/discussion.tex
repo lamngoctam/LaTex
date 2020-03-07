@@ -581,11 +581,11 @@ l_2 & = l_1\cos{\alpha_4}\\
 \end{split}
 \end{equation*}
 
-\noindent Then, the total length of the shortest path equals $15a\cot{\alpha_4}$ as shown in the Figure \ref{fig:dodecaPath1} with the red line.\\
+\noindent Then, the total length of the first path with the red line equals $15a\cot{\alpha_4}$ as shown in the Figure \ref{fig:dodecaPath1}.\\
 \begin{figure}[h]
 \centering
 	\includegraphics[width=0.8\textwidth]{image/dodecaPath1.pdf}
-	\caption{The rolling path of dodecahedron at $[3.0\ 2.25\ 0.0]$ coordinate}
+	\caption{The rolling path of dodecahedron at an coordinate with $[3.0\ 2.25\ 0.0]$}
 	\label{fig:dodecaPath1}
 \end{figure}
 
@@ -597,9 +597,12 @@ l_2 & = l_1\cos{\alpha_4}\\
 %%
 \noindent \uline{Extension case}: The proposed algorithm in this study can be applied for the case study of long distance between the initial and goal configurations. 
 Figure \ref{fig:cubeLongDist} shows an example with two different paths.
-Shortest path-finding algorithm is added to the original algorithm to find the shortest path from start point to the goal point. 
-After finishing this step, the cube updated to a new orientation with different orientation at the goal configuration. Then, the original algorithm will be implemented from the updated cube to the goal configuration.
-Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$. In the first step, the red line segment $S_1S_2$ shows the shortest distance from start position to goal position. The cube will roll through this line segment and achieve the updated orientation at the goal position called shortest path for the case of long distance.\\ 
+The closed-path planning algorithm is added to the point-to-point algorithm based on rolling in order to find the path from start point to the goal point. 
+Assume that the initial configuration is at $S_1$ and the goal configuration is at $S2$.
+At the stage of point-to-point planning, the red line segment $S_1S_2$ shows the shortest distance from start position to goal position and the path can be generated along this red line. 
+After achieving the goal position without considering the orientation, the cube updates this configuration as a new start configuration.
+Then, the proposed closed-path planning algorithm will implement with this updated configuration to achieve the original goal configuration.
+\\ 
 
 \begin{figure}[H]
 \subfigure[Path 1]{
@@ -617,11 +620,13 @@ Assume that the initial configuration is at $S_1$ and the goal configuration is 
 %%
 %%
 
-\noindent Path1 has 16 steps while path2 has 18 steps to achieve the goal as shown in the Table \ref{tab:timeCubeExtension}.
+\noindent \uline{Execution time}:
+As can be seen in the Figure \ref{fig:cubeLongDist}, the point-to-point path planning in the first stage generates two same path from $S_1S_2$. In the second stage, the closed path planning algorithm finds two different closed-paths. The first closed-path has $16$ steps while the second closed-path has $18$ steps of rolling to achieve the goal.
+The execution times are shown in the Table \ref{tab:timeCubeExtension}. The shorter path has less time to implement the closed-path planning algorithm than the longer path with more steps.\\
 
 %https://www.tablesgenerator.com/
 \begin{table}[H]
-\caption{Table of ABC}
+\caption{The execution times of two paths shown in Figure \ref{fig:cubeLongDist}}
 \centering
 \begin{tabular}{cccll}
 \cline{1-3}
