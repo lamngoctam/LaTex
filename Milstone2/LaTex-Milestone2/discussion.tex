@@ -322,18 +322,18 @@ Based on the classical path planning which is the movement from point to other p
 \noindent As can be seen from the Figure \ref{fig:octaPath1}, the shortest path within red line includes ten line segments for rolling the octahedron. The total length of the path equals $10a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
 
 \begin{figure}[h!]
-\subfigure[The first shortest path of Octahedron path rolling]{
+\subfigure[The first closed-path of Octahedron path rolling]{
 	\includegraphics[width=0.5\textwidth]{image/octoPath1.pdf}
 	\label{fig:octaPath1}
 	}
 \hfill
-\subfigure[The second shortest path of Octahedron path rolling]{
+\subfigure[The second closed-path of Octahedron path rolling]{
 	\includegraphics[width=0.5\textwidth]{image/octoPath2.pdf}
 	\label{fig:octaPath2}
 	}
-\subfigure[The second shortest path of Octahedron path rolling]{
-	\includegraphics[width=0.5\textwidth]{image/octoPath2.pdf}
-	\label{fig:octaPath2}
+\subfigure[The third closed-path of Octahedron path rolling]{
+	\includegraphics[width=0.5\textwidth]{image/octoPath3.pdf}
+	\label{fig:octaPath3}
 	}
 \caption{Three shortest paths of octahedron based rolling}
 \label{fig:octaPaths}
@@ -474,7 +474,7 @@ An dodecahedron is constructed from twelve self-intersecting faces with the same
 %
 From the Eq. \ref{equa:eq1}, the great dodecahedron satisfy the Euler's formula ($V=20, F=12, E=30$).
 %
-It will be assumed that the coordinates $Oxyz$ lie on $ABCDE$ surface within $Oy$ through $A$ and $Oz$ perpendicular to $ABCDE$.
+It will be assumed that the coordinates $Oxyz$ lies on $ABCDE$ surface within $Oy$ through $A$ and $Oz$ perpendicular to $ABCDE$.
 %
 The 30 edges have the same length as $a$. It should be determined all the vertices' coordinates in the three dimensional system.
 %
@@ -501,10 +501,13 @@ Then the other two angles $\alpha_2$ and $\alpha_3$ can be founded as below.
 \end{equation*}
 
 \noindent From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. 
-The golden ratio $\Phi$ with the value of $\frac{1+\sqrt{5}}{2}$ which is the length of the diagonal of a square with $1$ unit length of sides is used to calculate the circumscribed sphere radius of dodecahedron.
-Assume that the dodecahedron has the length $a$, the radius of an inscribed sphere is $r_i = \frac{a}{20}\sqrt{10(25+11\sqrt{5})}$ and the circumscribed sphere radius is $r = a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}$.\\
-
-
+The golden ratio $\Phi$ with the value of $\frac{1+\sqrt{5}}{2}$ which is the length of the diagonal of a square with $1$ unit length of sides is used to calculate the circumscribed sphere radius of dodecahedron. It can be assumed that the dodecahedron has the length $a$, the radius of an inscribed sphere ($r_i$)and the circumscribed sphere radius ($r$) are shown as below.
+\begin{equation*}
+\begin{split}
+r_i &= \frac{a}{20}\sqrt{10(25+11\sqrt{5})}\\
+r &= a\frac{\sqrt{3}}{2}\frac{1+\sqrt{5}}{2}
+\end{split}
+\end{equation*}
 \noindent In the path-finding through rolling, the proposed algorithm focuses on the transformation and translation of $20$ vertices of a dodecahedron. 
 Although rolling dodecahedron's faces on $2D$ surface, the bottom surface which integrates to the $Oxy$ will contact to the surface in the three dimensional space. 
 This condition expresses the $Oz$ dimension of all the $(A,B,C,D,E)$ vertices which equal to $0$ or $A_z = B_z = C_z = D_z = E_z = 0$. 
@@ -544,7 +547,8 @@ l_5 & = \frac{1}{\sqrt{2}}\sqrt{a^2+(2l_3)^2-(F_y-l_1)^2-(F_y-l_4)^2-l_3^2}
 \end{equation*}
 
 \noindent From these above equations, all the vertices can be determined and stored in a $3D$ matrix. 
-Path planning based on rolling contact is the rotation of this matrix through edges' contact.\\
+In every single position, another matrix stores the edge's contact and the rotated-direction. 
+Using these information with the rotation matrix $R_{\hat{\omega}(\theta)}$, the path planning algorithm will generate a new matrix for the dodecahedron at new position after rolling through its edge.\\
 %
 %
 %===========================Path Planning=============================
@@ -556,16 +560,14 @@ In this paper, we do not apply the proposed algorithm to find the path of dodeca
 This overlap grid is complicated environment which can not guarantee to generate paths with proposed algorithm. 
 %
 In the case of gird with gaps (Figure \ref{fig:dodecaGrid}), attaching other five pentagons generates five $\ang{36}$ gaps from a regular pentagon. 
-The six pentagons has a shape of large pentagon and the cycle of attaching more five larger pentagons will shape a grid of pentagons.\\
-
+The six pentagons has a shape of large pentagon and the cycle of attaching more five larger pentagons will shape a grid of pentagons.
 %
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 	\includegraphics[width=\textwidth]{image/dodecaGrid.png}
 	\caption{Initial dodecahedron grid with gaps}
 	\label{fig:dodecaGrid}
 \end{figure}
-
 \noindent The rotation angle of dodecahedron on the above grid equals 
 ($\pi-\arccos{(\frac{-\sqrt{5}}{5})}$). 
 One of the shortest paths is shown in the Figure \ref{fig:dodecaPath1} with $[3.0\ 2.25\ 0.0]$ for both the initial and goal coordinates.
@@ -581,15 +583,35 @@ l_2 & = l_1\cos{\alpha_4}\\
 \end{split}
 \end{equation*}
 
-\noindent Then, the total length of the first path with the red line equals $15a\cot{\alpha_4}$ as shown in the Figure \ref{fig:dodecaPath1}.\\
-\begin{figure}[h]
-\centering
-	\includegraphics[width=0.8\textwidth]{image/dodecaPath1.pdf}
-	\caption{The rolling path of dodecahedron at an coordinate with $[3.0\ 2.25\ 0.0]$}
-	\label{fig:dodecaPath1}
-\end{figure}
+\noindent Then, the total length of the first path with the red line equals $15a\cot{\alpha_4}$ as shown in the Figure \ref{fig:dodecaPath}.\\
+%\begin{figure}[h]
+%\centering
+%	\includegraphics[width=\textwidth]{image/dodecaPath1.pdf}
+%	\caption{The rolling path of dodecahedron at an coordinate with $[3.0\ 2.25\ 0.0]$}
+%	\label{fig:dodecaPath1}
+%\end{figure}
 
-\noindent Path planning through rolling contact for the case of dodecahedron is complex. According to the simulation results, implementing the proposed algorithm for other four types of platonic solids (cube, tetrahedron, octahedron, and icosahedron) is more effective than for the dodecahedron case.  Executing the algorithm is no guarantee of path-finding results with the case of overlap grid.
+\begin{center}
+\begin{figure}[h]
+\subfigure[The top view of the grid for the gap case]{
+	\includegraphics[width=0.45\textwidth]{image/dodecaGridPath1.png}
+	\label{fig:dodecaGridPath1}
+	}
+\hfill
+\subfigure[Simulation result in Matlab]{
+	\includegraphics[width=0.5\textwidth]{image/dodecaPath1.pdf}
+	\label{fig:fig:dodecaPath1}
+	}
+\caption{The rolling path of dodecahedron at an coordinate with $[3.0\ 2.25\ 0.0]$}
+\label{fig:dodecaPath}
+\end{figure}
+\end{center}
+
+\noindent According to the simulation results, implementing the proposed algorithm for other four types of platonic solids including cube, tetrahedron, octahedron, and icosahedron is more effective than for the dodecahedron case. 
+%
+The closed-path planning algorithm through rolling contact for the case of dodecahedron is complex due the various initial environments. 
+%
+Executing the algorithm is no guarantee of path-finding results with the other cases of overlap grid.
 %%==================================================================================
 %%
 \subsection{Result comparisons}
@@ -631,7 +653,7 @@ The execution times are shown in the Table \ref{tab:timeCubeExtension}. The shor
 \begin{tabular}{cccll}
 \cline{1-3}
 \multicolumn{1}{|c|}{Time}          & \multicolumn{1}{c|}{Path 1} & \multicolumn{1}{c|}{Path 2} &  &  \\ \cline{1-3}
-\multicolumn{1}{|c|}{Poin-to-point} & \multicolumn{1}{c|}{1ms}    & \multicolumn{1}{c|}{1ms}    &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Poin-to-point} & \multicolumn{1}{c|}{0.25ms}    & \multicolumn{1}{c|}{0.25ms}    &  &  \\ \cline{1-3}
 \multicolumn{1}{|c|}{Proposed algorithm} & \multicolumn{1}{c|}{1.2ms} & \multicolumn{1}{c|}{1.3ms} &  &  \\ \cline{1-3}
 \multicolumn{1}{l}{}                & \multicolumn{1}{l}{}        & \multicolumn{1}{l}{}        &  & 
 \end{tabular}

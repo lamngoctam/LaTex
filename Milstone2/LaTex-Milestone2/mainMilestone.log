@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  7 MAR 2020 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  9 MAR 2020 19:26
 entering extended mode
 **./mainMilestone.tex
 (mainMilestone.tex
@@ -2026,14 +2026,7 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
 \@quotelevel=\count547
 \@quotereset=\count548
- (mainMilestone.aux (title_page1.aux)
-
-LaTeX Warning: Label `fig:octaPath2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:octaPath2' multiply defined.
-
-)
+ (mainMilestone.aux (title_page1.aux))
 \openout1 = `mainMilestone.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -2549,17 +2542,22 @@ File: image/octoPath2.pdf Graphic file (type pdf)
 <use image/octoPath2.pdf>
 Package pdftex.def Info: image/octoPath2.pdf  used on input line 333.
 (pdftex.def)             Requested size: 227.62206pt x 194.43124pt.
-File: image/octoPath2.pdf Graphic file (type pdf)
-<use image/octoPath2.pdf>
-Package pdftex.def Info: image/octoPath2.pdf  used on input line 337.
-(pdftex.def)             Requested size: 227.62206pt x 194.43124pt.
+
+
+pdfTeX warning: pdflatex (file ./image/octoPath3.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<image/octoPath3.pdf, id=487, 953.5625pt x 675.52374pt>
+File: image/octoPath3.pdf Graphic file (type pdf)
+<use image/octoPath3.pdf>
+Package pdftex.def Info: image/octoPath3.pdf  used on input line 337.
+(pdftex.def)             Requested size: 227.62206pt x 161.25285pt.
 
 Overfull \hbox (15.55553pt too wide) in paragraph at lines 328--338
 [][]  [][]
  []
 
-[13 <./image/octoPath1.pdf> <./image/octoPath2.pdf>]
-<image/icosaGeo22.png, id=572, 1455.036pt x 669.09975pt>
+[13 <./image/octoPath1.pdf> <./image/octoPath2.pdf> <./image/octoPath3.pdf>]
+<image/icosaGeo22.png, id=618, 1455.036pt x 669.09975pt>
 File: image/icosaGeo22.png Graphic file (type png)
 <use image/icosaGeo22.png>
 Package pdftex.def Info: image/icosaGeo22.png  used on input line 360.
@@ -2572,7 +2570,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--384
 [14
 
  <./image/icosaGeo22.png>]
-<image/icosaGeo55.png, id=583, 1014.189pt x 659.46375pt>
+<image/icosaGeo55.png, id=629, 1014.189pt x 659.46375pt>
 File: image/icosaGeo55.png Graphic file (type png)
 <use image/icosaGeo55.png>
 Package pdftex.def Info: image/icosaGeo55.png  used on input line 420.
@@ -2581,7 +2579,7 @@ Package pdftex.def Info: image/icosaGeo55.png  used on input line 420.
 
 pdfTeX warning: pdflatex (file ./image/icosaPath.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<image/icosaPath.pdf, id=586, 666.49pt x 665.48625pt>
+<image/icosaPath.pdf, id=632, 666.49pt x 665.48625pt>
 File: image/icosaPath.pdf Graphic file (type pdf)
 <use image/icosaPath.pdf>
 Package pdftex.def Info: image/icosaPath.pdf  used on input line 441.
@@ -2590,7 +2588,7 @@ Package pdftex.def Info: image/icosaPath.pdf  used on input line 441.
 
 pdfTeX warning: pdflatex (file ./image/icosaPathTopView.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<image/icosaPathTopView.pdf, id=587, 681.54625pt x 693.59125pt>
+<image/icosaPathTopView.pdf, id=633, 681.54625pt x 693.59125pt>
 File: image/icosaPathTopView.pdf Graphic file (type pdf)
 <use image/icosaPathTopView.pdf>
 Package pdftex.def Info: image/icosaPathTopView.pdf  used on input line 446.
@@ -2605,74 +2603,79 @@ pdf>]
 
 pdfTeX warning: pdflatex (file ./image/dodecahedron2.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<image/dodecahedron2.pdf, id=675, 845.1575pt x 597.23125pt>
+<image/dodecahedron2.pdf, id=721, 845.1575pt x 597.23125pt>
 File: image/dodecahedron2.pdf Graphic file (type pdf)
 <use image/dodecahedron2.pdf>
 Package pdftex.def Info: image/dodecahedron2.pdf  used on input line 485.
 (pdftex.def)             Requested size: 455.24411pt x 321.70723pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--506
-
- []
-
 [16
 
  <./image/dodecahedron2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 546--551
+Underfull \hbox (badness 10000) in paragraph at lines 549--555
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 552--560
-
- []
-
-<image/dodecaGrid.png, id=701, 1526.70375pt x 665.48625pt>
+<image/dodecaGrid.png, id=747, 1526.70375pt x 665.48625pt>
 File: image/dodecaGrid.png Graphic file (type png)
 <use image/dodecaGrid.png>
-Package pdftex.def Info: image/dodecaGrid.png  used on input line 564.
+Package pdftex.def Info: image/dodecaGrid.png  used on input line 567.
 (pdftex.def)             Requested size: 455.24411pt x 198.43903pt.
+
+LaTeX Warning: Reference `fig:dodecaPath1' on page 17 undefined on input line 5
+73.
+
 [17 <./image/dodecaGrid.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 586--593
+
+ []
+
+<image/dodecaGridPath1.png, id=757, 819.06pt x 779.3115pt>
+File: image/dodecaGridPath1.png Graphic file (type png)
+<use image/dodecaGridPath1.png>
+Package pdftex.def Info: image/dodecaGridPath1.png  used on input line 599.
+(pdftex.def)             Requested size: 204.85846pt x 194.91063pt.
+
 
 pdfTeX warning: pdflatex (file ./image/dodecaPath1.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<image/dodecaPath1.pdf, id=713, 757.83125pt x 667.49374pt>
+<image/dodecaPath1.pdf, id=758, 757.83125pt x 667.49374pt>
 File: image/dodecaPath1.pdf Graphic file (type pdf)
 <use image/dodecaPath1.pdf>
-Package pdftex.def Info: image/dodecaPath1.pdf  used on input line 587.
-(pdftex.def)             Requested size: 364.19667pt x 320.7804pt.
+Package pdftex.def Info: image/dodecaPath1.pdf  used on input line 604.
+(pdftex.def)             Requested size: 227.62206pt x 200.48393pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--606
+Underfull \hbox (badness 10000) in paragraph at lines 620--628
 
  []
 
-<image/cubeCase2Path1.jpg, id=715, 879.88725pt x 666.69075pt>
+<image/cubeCase2Path1.jpg, id=760, 879.88725pt x 666.69075pt>
 File: image/cubeCase2Path1.jpg Graphic file (type jpg)
 <use image/cubeCase2Path1.jpg>
-Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 610.
+Package pdftex.def Info: image/cubeCase2Path1.jpg  used on input line 632.
 (pdftex.def)             Requested size: 227.62206pt x 172.47081pt.
-<image/cubeCase2Path2.jpg, id=716, 867.24pt x 667.89525pt>
+<image/cubeCase2Path2.jpg, id=761, 867.24pt x 667.89525pt>
 File: image/cubeCase2Path2.jpg Graphic file (type jpg)
 <use image/cubeCase2Path2.jpg>
-Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 613.
+Package pdftex.def Info: image/cubeCase2Path2.jpg  used on input line 635.
 (pdftex.def)             Requested size: 227.62206pt x 175.29965pt.
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 610--614
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 632--636
 [][] [][] 
  []
 
-[18 <./image/dodecaPath1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 623--626
+[18 <./image/dodecaGridPath1.png> <./image/dodecaPath1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 645--648
 
  []
 
-) (conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+) (conclusion.tex [19 <./image/cubeCase2Path1.jpg> <./image/cubeCase2Path2.jpg>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
 
@@ -2680,10 +2683,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
 Package array Warning: Column s is already defined on input line 8.
 
-) [19 <./image/cubeCase2Path1.jpg> <./image/cubeCase2Path2.jpg>] [20] [21
+) [20
 
-]
-[22
+] [21
+
+] [22
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
@@ -2697,19 +2701,16 @@ Package rerunfilecheck Info: File `mainMilestone.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'mainMilestone.run.xml'.
 \openout1 = `mainMilestone.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 66941 strings out of 492450
- 1561944 string characters out of 3118604
- 2142134 words of memory out of 3000000
- 70175 multiletter control sequences out of 15000+200000
+ 66962 strings out of 492450
+ 1562428 string characters out of 3118604
+ 2142380 words of memory out of 3000000
+ 70192 multiletter control sequences out of 15000+200000
  545814 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,25n,127p,1636b,2097s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2739,9 +2740,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/19107262/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Use
 rs/19107262/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb>
-Output written on mainMilestone.pdf (24 pages, 9934231 bytes).
+Output written on mainMilestone.pdf (24 pages, 10917887 bytes).
 PDF statistics:
- 892 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 941 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
