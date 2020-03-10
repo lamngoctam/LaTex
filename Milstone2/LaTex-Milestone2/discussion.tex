@@ -1,10 +1,10 @@
 \section{EVALUATION}
 \label{sec:eva}
 The proposed algorithm for platonic solids path planning by rolling through edge contact was implemented in MATLAB environment. 
-In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path finding. 
+In general of path planning, there are three case studies including same location and different orientation between initial configuration and goal configuration, long distance between two configurations, and bi-direction path-finding. 
 To validate the proposed algorithm, this study only considers the first case study of path planning that both initial and goal configuration have the same positions and different orientations.\\  
 
-\noindent Assume that the platonic solids' edges has the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$. 
+\noindent Assume that the platonic solids' edges have the same length with $a$ ($a=1$) and one of the faces of the platonic solids contact to $OXY$. 
 The environment for each type of platonic solids is discretized from the smooth surface. 
 For example, cube solid will roll on the square grid while tetrahedron, octahedron, and icosahedron solids roll on the triangle gird. 
 Only dodecahedron solid rolls on the pentagon grid with the two specific cases including the gaps and overlaps between pentagons. 
@@ -12,9 +12,9 @@ The path planning based on rolling for the five cases of platonic solids is repr
 
 \subsection{Cube solid}
 \noindent\uline{Properties}:
-The cube has a length $a$ which is the same as the length of side of each grid square.
-Path planning for rolling a cube is not complex as other cases of platonic solids. 
-The rolling angle $\beta$ has the value of $\frac{\pi}{2}$ as shown in the Figure \ref{fig:cubeGeo1} ($\beta=\angle{IKI_1}=\frac{\pi}{2}$). 
+The cube has a length $a$ which is the same as the length of the side of each grid square.
+Path planning for rolling a cube is not as complex as other cases of platonic solids. 
+The rolling angle $\beta$ has the value of $\frac{\pi}{2}$ as shown in Figure \ref{fig:cubeGeo1} ($\beta=\angle{IKI_1}=\frac{\pi}{2}$). 
 The center of cube will move along the curve $II_2I_1$ following the $Ox$ axis. 
 The proposed algorithms will focus on rolling along $Ox$ or $Oy$ axis. 
 However, all the vertices are stored in a matrix will change their coordinates in $3D$ space. 
@@ -30,12 +30,12 @@ This is the basic step of rolling a cube through a line contact.
 \end{figure}
 
 \noindent\uline{Path planning}: 
-The only way to move from initial position to goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. 
-The Figure \ref{fig:cubePath0} shows the first three layers of cube path finding on the grid. 
+The only way to move from the initial position to the goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. 
+Figure \ref{fig:cubePath0} shows the first three layers of the cube path-finding on the grid. 
 The algorithm implements in $O(|E|^3)$ running time from the second layer called the expansion three branches from a tree. 
-All $3D$ coordinates of the cube are stored in a matrix which can affect to the computer's storage capacity. 
+All $3D$ coordinates of the cube are stored in a matrix which can affect the computer's storage capacity. 
 When the updated cubes achieved one of the same previous configurations, the execution time can be reduced by releasing this configuration or stopping the expansion of this tree branch.
-The $*$ position in the grid (Figure \ref{fig:cubeLayer}) is occupied by the two updated cubes with different orientations in the $Layer\ 2$. \\
+The star position ($*$) in the grid (Figure \ref{fig:cubeLayer}) is occupied by the two updated cubes with different orientations in $Layer\ 2$. \\
 
 \begin{figure}[H]
 \centering
@@ -103,8 +103,8 @@ where $A(m,n)$ is the matrix of $m$ rows for vertices and $n$ columns for $3D$ c
 %
 % =========================the paths ==================
 %
-\noindent To be more visualized, the Figure \ref{fig:Cube1Case1} shows the initial configuration and the first step of rolling of the cube with its coordinates in the red, green and blue arrows. 
-The expansion of the cube after running the algorithm six iterations is shown in the Figure \ref{fig:Cube2Case1}. 
+\noindent To be more visualized, Figure \ref{fig:Cube1Case1} shows the initial configuration and the first step of rolling the cube with its coordinates in the red, green and blue arrows. 
+The expansion of the cube after running the algorithm six iterations are shown in Figure \ref{fig:Cube2Case1}. 
 
 \begin{center}
 \begin{figure}[H]
@@ -124,7 +124,7 @@ The expansion of the cube after running the algorithm six iterations is shown in
 \end{figure}
 \end{center}
 
-\noindent The Figure \ref{fig:twoCubePaths} shows that the two closed-paths are found at the same time after executing the proposed path planning algorithm six iterations. The initial configuration includes the position at $[2.5,2.5,0.5]$ and the orientation with three arrows $(green,red,blue)$ corresponding to $(Ox,Oy,-Oz)$ while the goal configuration has the same position with the initial position and the orientation with $(green,red,blue)$ corresponding to $(Ox,-Oy,Oz)$. If the initial or the goal configuration changes their orientation, the algorithm will implement in different times and generates different paths.
+\noindent Figure \ref{fig:twoCubePaths} shows that the two closed-paths are found at the same time after executing the proposed path planning algorithm six iterations. The initial configuration includes the position at $[2.5,2.5,0.5]$ and the orientation with three arrows $(green,red,blue)$ corresponding to $(Ox,Oy,-Oz)$ while the goal configuration has the same position with the initial position and the orientation with $(green,red,blue)$ corresponding to $(Ox,-Oy,Oz)$. If the initial or the goal configuration change their orientation, the algorithm will implement at different times and generates different paths.
 
 \begin{center}
 \begin{figure}[H]
@@ -213,7 +213,7 @@ The expansion of the cube after running the algorithm six iterations is shown in
 \newpage
 \subsection{Tetrahedron solid}
 \noindent\uline{Properties} 
-As can be seen from the Figure \ref{fig:tetraGeo1}, the Tetrahedron has constructed by four faces of the equilateral triangles. Then the height of triangle $ABC$ is $AM$ and $AM=DM=a\sqrt{3}/2$.
+As can be seen from Figure \ref{fig:tetraGeo1}, the Tetrahedron has constructed by four faces of the equilateral triangles. Then the height of triangle $ABC$ is $AM$ and $AM=DM=a\sqrt{3}/2$.
 Because of $r=OH=a\sqrt{6}/12$ (the radius of insphere) and $R=OA=a\sqrt{6}/4$ (the radius of circumsphere), the height of tetrahedron is $AH=OA+OH=a\sqrt{6}/3$. The rotation angle is $\beta$ determined by supplementary angles $\alpha=\arctan(2\sqrt{2})$ or $\beta=\pi-\alpha = \pi-\arctan(2\sqrt{2})$.
  
 \begin{figure}[h]
@@ -225,9 +225,10 @@ Because of $r=OH=a\sqrt{6}/12$ (the radius of insphere) and $R=OA=a\sqrt{6}/4$ (
 \end{figure}
 
 \noindent\uline{Path Planning}:
-The case study of tetrahedron in this study is the same of the rolling cube path finding which only considering the path planning through rolling from initial configuration to origin coordinate with different orientation. 
-The Figure \ref{fig:TetraPathFiding} illustrates two of four cases of the tetrahedron path-finding within rolling (red and cyan arrows are pointing down to plane respectively). Tetrahedron has symmetry properties with indistinguishable for any two faces, edges and vertices. To be more specific, dihedral triangles have same three angles within $\ang{60}$. 
-In one cycle of rolling a tetrahedron around any vertices, the tetrahedron always achieve the initial configuration due to six times of rolling ($6*\ang{60}=\ang{360}$, a full circle). \\
+The case study of the tetrahedron in this study is the same as the rolling cube path-finding which only considering the path planning through rolling from initial configuration to origin coordinate with different orientations. 
+Figure \ref{fig:TetraPathFiding} illustrates two of four cases of the tetrahedron path-finding within rolling (red and cyan arrows are pointing down to plane respectively). 
+A tetrahedron has symmetry properties with indistinguishable for any two faces, edges and vertices. To be more specific, dihedral triangles have the same three angles within $\ang{60}$. 
+In one cycle of rolling a tetrahedron around any vertices, the tetrahedron always achieves the initial configuration due to six times of rolling ($6*\ang{60}=\ang{360}$, a full circle). \\
 
 \begin{center}
 \begin{figure}[h]
@@ -257,7 +258,7 @@ In one cycle of rolling a tetrahedron around any vertices, the tetrahedron alway
 \newpage
 \subsection{Octahedron solid}
 \noindent\uline{Properties}: 
-Dennis also went his own way and divided the sides of the triangles into equal-angles (as measured from the center of the geodesic), instead of equal-length pieces. This technique is slightly more effective at evenly distributing the triangles across the surface of the sphere. For example, compare an octahedron subdivided with frequency 20, using the linear technique (as outlined by the quiz) versus the angular technique Dennis used in this picture. 
+An octahedron has six vertices and twelve edges which generates eight equilateral triangles. Figure \ref{fig:octaGeo1} shows that an octahedron has length $a$ with the based surface $ABC$. In each step of a rolling, the octahedron will roll into three direction through edge contacts with same rotation angle which is determined as below.   
 
 \begin{figure}[h]
 \centering
@@ -294,7 +295,7 @@ AK & = 2OK = 2\sqrt{(MK^2-MO^2)} = a\sqrt{2}\\
 
 \noindent Then, the rotation angle has the result as  $\beta = \pi-2\alpha = \pi-2\arctan{\sqrt{2}}$, \\
 
-\noindent Due to $\angle POK=\ang{90}$, we have
+\noindent Due to $\angle POK=\ang{90}$, a distance from the center $O$ of the octahedron to the center of bottom triangle is calculated.
 
 \begin{equation*} 
 \label{octa:eq3}
@@ -319,7 +320,7 @@ EP & = FQ = a\frac{\sqrt{3}}{6}
 \noindent\uline{Path planning}:
 Based on the classical path planning which is the movement from point to other points, the octahedron path planning within rolling has three directions to move. In the Figure \ref{fig:octaGeo1}, the bottom layer $\triangle ABC$ which contacts to $OXY$ can roll with the directions $FQ, FO_1, FR$. The distance between two shortest positions is $2FR= 2a\frac{\sqrt{3}}{6}=a\frac{\sqrt{3}}{3}$. 
 
-\noindent As can be seen from the Figure \ref{fig:octaPath1}, the shortest path within red line includes ten line segments for rolling the octahedron. The total length of the path equals $10a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
+\noindent As can be seen from Figure \ref{fig:octaPath1}, the shortest path within red line includes ten line segments for rolling the octahedron. The total length of the path equals $10a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
 
 \begin{figure}[h!]
 \subfigure[The first closed-path of Octahedron path rolling]{
@@ -472,7 +473,7 @@ The total length of this icosahedron path equals $14a\frac{\sqrt{3}}{3}$ (edge l
 \noindent\uline{Properties}: 
 An dodecahedron is constructed from twelve self-intersecting faces with the same pentagon shape. These faces meet at each vertex and there are total of twenty vertices in a dodecahedron as shown in Figure \ref{fig:dodecahedron2}.
 %
-From the Eq. \ref{equa:eq1}, the great dodecahedron satisfy the Euler's formula ($V=20, F=12, E=30$).
+From Eq. \ref{equa:eq1}, the great dodecahedron satisfy the Euler's formula ($V=20, F=12, E=30$).
 %
 It will be assumed that the coordinates $Oxyz$ lies on $ABCDE$ surface within $Oy$ through $A$ and $Oz$ perpendicular to $ABCDE$.
 %
@@ -569,10 +570,10 @@ The six pentagons has a shape of large pentagon and the cycle of attaching more 
 	\label{fig:dodecaGrid}
 \end{figure}
 \noindent The rotation angle of dodecahedron on the above grid equals 
-($\pi-\arccos{(\frac{-\sqrt{5}}{5})}$). 
-One of the shortest paths is shown in the Figure \ref{fig:dodecaPath1} with $[3.0\ 2.25\ 0.0]$ for both the initial and goal coordinates.
-One time rolling of dodecahedron generates a new dodecahedron which has a distance $d=2l_2$ from the previous coordinate. 
-From the Figure \ref{fig:dodecahedron2}b, the distance $d_d$ can be determined as following.
+to $\pi-\arccos{(\frac{-\sqrt{5}}{5})}$. 
+One of the closed-paths shown in Figure \ref{fig:dodecaPath} is initialized for both the initial and goal coordinates with $[3.0\ 2.25\ 0.0]$.
+Each step of the rolling dodecahedron generates a new dodecahedron which has a distance of $d=2l_2$ from the previous coordinate. 
+From Figure \ref{fig:dodecahedron2}b, the distance $d_d$ can be determined as following.
 \begin{equation*} 
 \label{dodeca:eq4}
 \begin{split}
@@ -643,8 +644,8 @@ Then, the proposed closed-path planning algorithm will implement with this updat
 %%
 
 \noindent \uline{Execution time}:
-As can be seen in the Figure \ref{fig:cubeLongDist}, the point-to-point path planning in the first stage generates two same path from $S_1S_2$. In the second stage, the closed path planning algorithm finds two different closed-paths. The first closed-path has $16$ steps while the second closed-path has $18$ steps of rolling to achieve the goal.
-The execution times are shown in the Table \ref{tab:timeCubeExtension}. The shorter path has less time to implement the closed-path planning algorithm than the longer path with more steps.\\
+As can be seen in Figure \ref{fig:cubeLongDist}, the point-to-point path planning in the first stage generates two same path from $S_1S_2$. In the second stage, the closed path planning algorithm finds two different closed-paths. The first closed-path has $16$ steps while the second closed-path has $18$ steps of rolling to achieve the goal.
+The execution times are shown in Table \ref{tab:timeCubeExtension}. The shorter path has less time to implement the closed-path planning algorithm than the longer path with more steps.\\
 
 %https://www.tablesgenerator.com/
 \begin{table}[H]
@@ -654,7 +655,7 @@ The execution times are shown in the Table \ref{tab:timeCubeExtension}. The shor
 \cline{1-3}
 \multicolumn{1}{|c|}{Time}          & \multicolumn{1}{c|}{Path 1} & \multicolumn{1}{c|}{Path 2} &  &  \\ \cline{1-3}
 \multicolumn{1}{|c|}{Poin-to-point} & \multicolumn{1}{c|}{0.25ms}    & \multicolumn{1}{c|}{0.25ms}    &  &  \\ \cline{1-3}
-\multicolumn{1}{|c|}{Proposed algorithm} & \multicolumn{1}{c|}{1.2ms} & \multicolumn{1}{c|}{1.3ms} &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Proposed algorithm} & \multicolumn{1}{c|}{2.02ms} & \multicolumn{1}{c|}{2.34ms} &  &  \\ \cline{1-3}
 \multicolumn{1}{l}{}                & \multicolumn{1}{l}{}        & \multicolumn{1}{l}{}        &  & 
 \end{tabular}
 \label{tab:timeCubeExtension}

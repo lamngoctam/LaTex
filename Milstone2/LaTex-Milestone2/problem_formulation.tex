@@ -53,7 +53,7 @@ Icosahedron  & 20    & 30    & 12       & 3                  & 5                
 %
 % %Check p.61 Euler's gem book
 
-\noindent The path planning for platonic solids focuses on the rolling of the models through edge contact. Each edge is shared by two faces and each face may has $e$ edges. Assume that $\Delta $ is the quantity faces which contact at an edge or $E=\frac{1}{2}\Delta $. However, each vertex will be shared by $f$ faces. Then, $V=\frac{\Delta}{f}$. After substituting these two quantities into the Eq. \ref{equa:eq1}, the result is:
+\noindent The path planning for platonic solids focuses on the rolling of the models through edge-contact. Each edge is shared by two faces and each face may has $e$ edges. Assume that $\Delta $ is the quantity faces which contact at an edge or $E=\frac{1}{2}\Delta $. However, each vertex will be shared by $f$ faces. Then, $V=\frac{\Delta}{f}$. After substituting these two quantities into the Eq. \ref{equa:eq1}, the result is:
 %
 %
 \begin{equation} 
@@ -70,8 +70,8 @@ V-E+F &= 2\\
 As above requirements with ($e\geq3$) and ($f\geq3$), there are only five pairs of integers ($e,f$) satisfy this condition. 
 So, the results of these pairs are shown in the last two columns in the Figure \ref{tab:tb1}.\\
 
-\noindent The important condition in the path planning through rolling contact is rotation angle. 
-In the context of regular convex polyhedra, a rotation angle is supplementary with a dihedral angle which is the angle between two faces inside the polyhedra.
+\noindent In order to execute the transformation stage, a rotation angle needs to determine in the path planning algorithm.
+In the context of regular convex polyhedra, a rotation angle is supplementary with a dihedral angle which is the angle between two connected faces along an edge inside the polyhedra.
 The Table \ref{tab:tb2} shows the radii of each solid with the inradius ($r_i$), the midradius ($\rho$), the circumradius ($R$) and the dihedral angles ($\beta$).\\
 
 \begin{table}[h]

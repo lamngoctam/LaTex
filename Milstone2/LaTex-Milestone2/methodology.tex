@@ -3,15 +3,16 @@
 \subsection{Path Planning Based Rolling Contact}
 \noindent\uline{Rolling on discretized surfaces}:
 The surface contacts between platonic solids and the plane can be categorized into three types as shown in Figure \ref{fig:gridPlatonic} including square polygon for a cube, triangle polygon for the tetrahedron, the octahedron, and the dodecahedron, pentagon polygon for the dodecahedron. 
-The bottom surface of a cube occupies each square on the grid when the path planning process is executed. This property is applied for triangular grid with different rotation angle. 
+The bottom surface of a cube occupies each square on the grid when the path planning process is executed. 
+This property is applied for a triangular grid with different rotation angles. 
 In physics, the rotation angle of the cube is $\pi/2(rad)$ while the rotation angles of tetrahedron, octahedron, icosahedron and dodecahedron are $\pi-\arctan{(2\sqrt{2})}$, $\pi-2\arctan{\sqrt{2}}$, $\arccos{(-\sqrt{5}/3)}$, and $\pi-\arccos{(-\sqrt{5}/5)}$ in radian respectively.\\
 
 \noindent{The square grid has $\pi/2$ at all corners while the triangular grid has $\pi/3$ between two arbitrary edges at a vertex. 
 In the case of dodecahedron rolling contact, the Figure \ref{fig:gridPlatonic}d shows the two types of connections between pentagons where the first case has a gap (Figure \ref{fig:gridPlatonic}c) and the other has overlap pentagon connection. 
 A regular pentagon has five interior angles of $\ang{108}$ which generate a gap between three pentagons surrounding because of $3*\ang{108}=\ang{324}$, which is different $\ang{360}$ of the full circle.
 Another case of four overlap pentagons with $4*\ang{108}=\ang{432}$ is greater than the circle of $\ang{360}$. 
-The path planning through rolling of the dodecahedron solid can be categorized into two these cases. 
-It would be found the possible paths in the first case of dodecahedron without overlap rolling while the second case with overlap rolling cannot guarantee the paths.}
+The path planning through the rolling of the dodecahedron solid can be categorized into two of these cases. However, the environment can be complex due to various types of the grid in the latter case.
+It would be found possible paths in the first case of dodecahedron without overlap rolling while the other cases with overlap rolling cannot guarantee the paths.}
 
 %
 \begin{figure}[h]
@@ -23,7 +24,7 @@ It would be found the possible paths in the first case of dodecahedron without o
 
 
 \noindent\uline{Rodrigues' roatation}: It is assumed that the motion of rolling the platonic solids is a pure rolling without slipping or spinning at a line contact.
-Rolling the platonic solids means rolling all its vertices in $3D$ environment indicated by changing the coordinates. There were several algorithms to transform vertices stored in a matrix in $3D$ space. In this case, the Rodrigues's rotation method in \cite{Dai_Rodrigues_2015} is used to represent the rotation matrix in the path planning algorithm. 
+Rolling the platonic solids means rolling all its vertices in $3D$ environments indicated by changing the coordinates. There were several algorithms to transform vertices stored in a matrix in $3D$ space. In this case, the Rodrigues's rotation method in \cite{Dai_Rodrigues_2015} is used to represent the rotation matrix in the path planning algorithm. 
 
 %The method is explained in the Section \ref{sec:eva}. \textcolor{red}{Check the paper "Kinematics of Spherical Robots Rolling Over 3D Terrains"}.
 
@@ -31,9 +32,17 @@ Rolling the platonic solids means rolling all its vertices in $3D$ environment i
 \clearpage
 \newpage
 \noindent\uline{Algorithms}:
-Due to the different surface contacts, there are three types of direction for the rolling of platonic solids. As shown in the Figure \ref{fig:rollingDir}, the cube has four directions with the square surface contact while the tetrahedron, the octahedron and the icosahedron have three rolling directions with the triangular surface contact. The dodecahedron with pentagon surface contact has five rolling directions. In the case of rolling cube, the surface contact is surrounded by four edges which means there are four possible directions through the edges. In this work, the proposed path planning algorithm deals with rolling from initial configuration within the position and orientation to the goal within the same position but different orientation. While rolling on the smooth plane, the platonic solid models will contact to the plane through their edges.\\
+Due to the different surface contacts, there are three types of direction for the rolling of platonic solids. As shown in Figure \ref{fig:rollingDir}, the cube has four directions with the square surface contact while the tetrahedron, the octahedron and the icosahedron have three rolling directions with the triangular surface contact. The dodecahedron with pentagon surface contact has five rolling directions. 
+In the case of a rolling cube, the surface contact is surrounded by four edges which means there are four possible directions through the edges. In this work, the proposed path planning algorithm deals with rolling from initial configuration within the position and orientation to the goal within the same position but different orientation. While rolling on the smooth plane, the platonic solid models will contact to the plane through their edges.\\
 
-\noindent The Algorithm \ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. The first step is to initial the coordinates and the orientations of the initial cube and the target cube which is stored as the initial path. The same as tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. From these new positions and orientations, the cubes will continue expand with only three directions to avoid return the previous positions. An example for this step is that from the initial coordinate the cube achieves a new position after doing rolling for right direction, the new three positions of the cube by rolling through right, up, and down direction. After implementing the expansion steps through rolling, the function of checking whether updated models reach the goal is called through the loop. By that means, the loop will stop when reaching the goal, whereas the loop will continue to execute and store new models to the initial path. While the searching algorithm is executing, the data structure is used to store the positions and orientations from the start to the current. This process runs in time $O(|E|^3)$ (where $|E|$ is the number of updated cubes) which causes the longer the running time of the searching technique. \\
+\noindent Algorithm \ref{alg:rollingPath} shows that path planning for cube rolling based on tree graph search has some important steps. 
+The first step is to initialize the coordinates and the orientations of the initial cube and the target cube which is stored as the initial path. 
+The same as the tree expansion, cube will roll in four different directions including the right, left, up and down is the next step. 
+From these new positions and orientations, the cubes will continue to expand with only three directions to avoid return the previous positions. 
+An example of this step is that from the initial coordinate the cube achieves a new position after doing rolling for the right direction, the new three positions of the cube by rolling through right, up, and down direction. 
+After implementing the expansion steps through rolling, the function of checking whether updated models reach the goal is called through the loop. 
+By that means, the loop will stop when reaching the goal, whereas the loop will continue to execute and store new models to the initial path.
+While the searching algorithm is executing, the data structure is used to store the positions and orientations from the start to the current. This process runs in time $O(|E|^3)$ (where $|E|$ is the number of updated cubes) which causes the longer the running time of the searching technique. \\
 
 \noindent  
 % 
@@ -43,7 +52,7 @@ Due to the different surface contacts, there are three types of direction for th
 \begin{figure}[h]
 \centering
 	\includegraphics[width=1\textwidth]{image/rollingDir2.pdf}
-	\caption{Rolling direction for each type of platonic solids}
+	\caption{Rolling directions for each type of platonic solids}
 	\label{fig:rollingDir}
 \end{figure}
 %
@@ -114,16 +123,16 @@ Due to the different surface contacts, there are three types of direction for th
 \newpage
 %----------------------------------
 \subsection{Tree Exploration Algorithm}
-The node tree exploration for searching algorithm described in Algorithm \ref{alg:rollingPath} is similar to non-recursive depth-first-search algorithm \cite{Tarjan1972_DepthFirstSearch}. The graph search in the Figure \ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $1^{st}\ level\ ...\ n^{th}\ level$ for the case study of a cube solid.
+The node tree exploration for the searching algorithm described in Algorithm \ref{alg:rollingPath} is similar to the non-recursive depth-first-search algorithm \cite{Tarjan1972_DepthFirstSearch}. The graph search in Figure \ref{fig:nodeTree} shows the expansion from the $root$ with node $S$ to multi-level from $1^{st}\ level\ ...\ n^{th}\ level$ for the case study of a cube solid.
 %
 Each node indicates the position of the cube's center and the orientation of the cube. The node $S$ means Start-Point while $R,L,U,D$ are labelled for four different directions including right, left, up and down respectively. 
 %
-For each iteration, a tree with a node including $3D$ coordinate and orientation is stored in each level. At the same time, the algorithm of checking the goal configuration will be called to check whether the current executing level achieves the target.\\
+For each iteration, a tree with a node including $3D$ coordinate and orientation is stored at each level. At the same time, the algorithm of checking the goal configuration will be called to check whether the current executing level achieves the target.\\
 
 
-\noindent In other cases of tetrahedron, octahedron and icosahedron with the triangular grid (Figure \ref{fig:gridPlatonic}b), there are three directions at the first rolling and only two directions for the rest of path-finding process.
+\noindent In other cases of tetrahedron, octahedron, and icosahedron with the triangular grid (Figure \ref{fig:gridPlatonic}b), there are three directions at the first rolling and only two directions for the rest of the path-finding process.
 %
-Only the case of dodecahedron has the different approach from the algorithm. The path planning algorithm depends on the environment including gaps or overlaps between two pentagon connections as can be seen in the Figure \ref{fig:gridPlatonic}b.
+Only the case of dodecahedron has a different approach from the algorithm. The path planning algorithm depends on the environment including gaps or overlaps between two pentagon connections as can be seen in Figure \ref{fig:gridPlatonic}b.
 %
 \vskip 0.5cm
 \begin{figure}[h]
@@ -132,13 +141,13 @@ Only the case of dodecahedron has the different approach from the algorithm. The
 \label{fig:nodeTree}
 \end{figure}
 
-\noindent Starting form the root $S$, path planning based rolling of the cube model at the first level of expansion will generate to four different direction $R,L,U,D$. In the next level, the cube can only roll with three directions without rolling back to the previous position.  
+\noindent Starting from the root $S$, path planning based rolling of the cube model at the first level of expansion will generate to four different directions $R,L,U,D$. In the next level, the cube can only roll with three directions without rolling back to the previous position.  
 An example of the second level is that node $R$ will roll to right, up, and down directions indicated by node $R,U,D$ respectively.\\
 % 
 
-\noindent To eliminate the processing time in the proposed algorithms, whenever any updated points achieved the same position and orientation, these nodes will merge at that $level$. An example from Figure \ref{fig:nodeTree} shows two updated nodes $R$ (blue node) at $(n-1)^{th} level$ have achieved the same position. The next path is generated from this merged nodes. 
+\noindent To eliminate the processing time in the proposed algorithms, whenever any updated points achieved the same position and orientation, these nodes will merge at that $level$. An example from Figure \ref{fig:nodeTree} shows that two updated $R$ nodes (blue nodes at $(n-1)^{th} level$) have achieved the same position. The next path is generated from this merged nodes. 
 %
-From the tree exploration algorithm, the result can show only one path or various paths which depends on the initial and goal configuration. The first path is the shortest path because the executing time is shortest based on the condition of achieving goal configuration.
+From the tree exploration algorithm, the result can show only one path or various paths which depends on the initial and goal configuration. The first path is the shortest path because the execution time is shortest based on the condition of achieving goal configuration.
 % 
 %\vskip 0.5cm
 %\begin{figure}[h]

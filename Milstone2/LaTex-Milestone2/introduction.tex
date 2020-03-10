@@ -19,7 +19,7 @@ A simple experiment of a rolling polyhedral part on a table, mentioned in \cite{
 Some cases of rolling polyhedral objects through graspless manipulation have been studied in the robotics field \cite{Aiyama93_Pivoting}, \cite{Erdmann91_polyhedronRolling_on_table}. 
 Due to the lack of complete research of contact kinematics and rolling manipulation with discretized objects, planning for rolling polyhedral parts under reorientation with smooth and non-smooth systems still attracts attention from the research community.\\
 
-\noindent \uline{Path planning in continuous space}:
+\noindent \uline{Discrete path planning in continuous space}:
 Planning techniques are categorized into different aspects. 
 The basic idea of discrete path planning in most cases is that state-space models will be used to demonstrate the distinct situation in which the task of a planning algorithm solves the sequence actions, transforming from an initial state to other states \cite{Lavalle98rapidly_exploringrandom}. 
 For example, Thomas \cite{Thomas_2003_Trajectory} applied Delaunay triangulations to discretize the environment, and cubic spline representations are proposed to meet robot kinematic constraints.
@@ -28,7 +28,7 @@ Whereas dealing with nonholonomic constraints, a sampling-based road map techniq
 Based on decomposing space into cells \cite{Conner03_LocalFunction_Nagivation}, a potential field without local minima was assigned with polygonal partitions of planar environments to solve the Laplace’s equation problems in each presence cell. 
 Applications for these techniques in discrete space is limited by a grid.\\
 
-\noindent \uline{Polyhedron rolling}:
+\noindent \uline{Polyhedra path planning}:
 Not much work has been done in path planning considering rolling contact constraint. Some types of moving polyhedral parts have been investigated on a plane such as sliding on a face, tumbling through the edges or pivoting \cite{Aiyama93_Pivoting} through the vertex. 
 The planning motions of rolling polyhedral parts through the edges were clearly represented in \cite{Marigo97_PolyhedraManipulation_rolling}. 
 This paper presented some results about changing an orientation of a polyhedron through its edge's contact on a fixed plane without slipping.
@@ -37,18 +37,17 @@ In the experimental validation, a unit cube will reach the next position by roll
 The paper also proposed a concept of path planning algorithm with the tolerance to achieve the goal configuration, which was considered as an important condition to generate an accurate path.
 However, the practical application may not be successful on robot manipulation.\\
 
-\noindent \uline{Polyhedra path planning}:
-Marigo \cite{Marigo00_PlanningMotion_Polyhedra_Rolling} proposed the path planning for polyhedron in the case of an octahedron with eight faces rolling and translating on a plane. 
+\noindent Marigo \cite{Marigo00_PlanningMotion_Polyhedra_Rolling} proposed the path planning for polyhedron in the case of an octahedron with eight faces rolling and translating on a plane. 
 For the octahedron rolling algorithm, a list of faces containing the vertices and edges stored parts of the polyhedron. 
 The defect angles are also computed between two connected faces.
 The algorithm initialized a start configuration, a desired final configuration, and given a polyhedron with a set of geometrical parameters. 
 The steps of planning include displacing and reorienting the polyhedral part until achieving the final configuration. 
-Nevertheless, the algorithm may not satisfy with the accuracy for more general polyhedron.\\
+Nevertheless, the algorithm may not satisfy with the accuracy for other types of convex polyhedrons.\\
 
 \noindent \uline{Conclusion}:
-Therefore, in this study, we propose a discrete path planning algorithm based on the tree exploration method for the five types of platonic solids including cube, tetrahedron, octahedron, icosahedron, and dodecahedron. The path-finding algorithm focuses on rolling a solid on the associate grid from an original position to its initial position with different orientation. 
+Therefore, in this study, we propose a closed-path planning algorithm based on the tree exploration method for the five types of platonic solids including cube, tetrahedron, octahedron, icosahedron, and dodecahedron. The path-finding algorithm focuses on rolling a solid on the associate grid from an original position to its initial position with different orientation. 
 %
-The study is organized as following. Section \ref{sec:problemFormulation} covers the general properties in geometrical aspect of the five types platonic solids. Section \ref{sec:Algorithm} describes path planning algorithm based on tree exploration technique. Finally, section \ref{sec:eva} shows the results of the proposed path planning algorithm under considering their different geometrical properties, then comes the conclusion of the paper.
+The study is organized as following. Section \ref{sec:problemFormulation} covers the general properties in geometrical aspect of the five types platonic solids. Section \ref{sec:Algorithm} describes the closed-path planning algorithm based on tree exploration technique. Finally, section \ref{sec:eva} shows the results of the proposed path planning algorithm under considering their different geometrical properties, then comes the conclusion of the paper.
 
 %
 %%%================
