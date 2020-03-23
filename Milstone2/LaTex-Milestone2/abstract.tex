@@ -2,22 +2,22 @@
 \noindent\section{ABSTRACT}
 %\textcolor{red}{250 words or less, concise summary of research conducted, results obtained, and conclusion reached}
 \noindent \uline{Background}: 
-Rolling geometry between two regular rigid surfaces of objects in continuous space can generate paths which is a well-known nonholonomic system. However, obtaining the path planning of a compact-closed surface on a general surface is challenging. From the rolling contact viewpoint, path-finding of convex polyhedrons has not received enough attention, and their paths on discrete surfaces have remained unexplored. \\
-\noindent \uline{Aims}: The aim of this project is to develop path planning algorithms for rolling polyhedron on a surface.\\
+Rolling geometry between two regular rigid surfaces of objects in continuous space can generate paths, which is a well-known nonholonomic system. However, obtaining the path planning of a compact-closed surface on a general surface is challenging. From the rolling contact viewpoint, path-finding of convex polyhedrons has not received enough attention, and their paths on discrete surfaces have remained unexplored. \\
+\noindent \uline{Aims}: The aim of this project is to develop path planning algorithms for rolling polyhedrons on a surface.\\
 %
 \noindent \uline{Approaches}: 
-The approach presented in this paper is based on implementing tree exploration technique to solve the closed-path planning disregarding orientation with free obstacles. 
-The graph search starts from a root node, then expanding to different branches which indicates multiple levels of rolling. 
+The approach presented in this paper is based on implementing the tree exploration technique to solve the closed-path planning with regards to changing the orientation with free-obstacles. 
+The graph search starts from a root node, then expands to different branches which indicates multiple levels of rolling. 
 The tree's branches expand until achieving the target configuration. 
 A close-path planning can be executed with the Rodrigues' rotation matrix for rolling the platonic solids on discrete surface.\\
 %
 \noindent \uline{Conclusions}: 
 The results show multi-suboptimal closed-paths based on rolling for the platonic solids to achieve the desired configuration on the known environments. 
-The results also show successful in reaching the closed-path after combining with the point-to-point path planning technique in terms of changing polyhedrons' orientation.
+The results also show success in reaching the closed-path after combining with the point-to-point path planning technique in terms of changing orientation of the polyhedrons.
 Matlab simulations are carried out to demonstrate the effectiveness of the proposed path-finding algorithm for the regular polyhedra. \\ 
 %
 \noindent \uline{Implications}: 
-The improving of the graph search algorithm for closed-path planning based on rolling can be extended to any convex polyhedrons.
+The improvement graph search method for the closed-path planning algorithm based on rolling can be extended to any convex polyhedrons.
 
 
 %Background (2-3 sentences): difficulty in path planning of a compact-closed surface on a general surface. Convex polyhedrons rolling not receiving enough attention, and not solved

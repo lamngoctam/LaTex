@@ -31,7 +31,7 @@ This is the basic step of rolling a cube through a line contact.
 
 \noindent\uline{Path planning}: 
 The only way to move from the initial position to the goal position of the cube solid is by rolling from square to square on the grid without moving diagonal. 
-Figure \ref{fig:cubePath0} shows the first three layers of the cube path-finding on the grid. 
+Figure \ref{fig:cubeLayer} shows the first four layers of the cube path-finding on the grid. 
 The algorithm implements in $O(|E|^3)$ running time from the second layer called the expansion three branches from a tree. 
 All $3D$ coordinates of the cube are stored in a matrix which can affect the computer's storage capacity. 
 When the updated cubes achieved one of the same previous configurations, the execution time can be reduced by releasing this configuration or stopping the expansion of this tree branch.
@@ -48,10 +48,10 @@ The star position ($*$) in the grid (Figure \ref{fig:cubeLayer}) is occupied by 
 
 %
 \noindent \uline{Rotation matrix}: 
-In this paper, the Rodrigues' rotation matrix \cite{Dai_Rodrigues_2015} is used in each level of the proposed closed-path planning algorithm to rotate the polyhedrons from a position to other positions.
+In this paper, the Rodrigues' rotation matrix \cite{Dai_Rodrigues_2015} is used in each level of the proposed path planning algorithm to rotate the polyhedrons from a position to other positions.
 %
 In the $3D$ coordinate system, the unit vector is given by $\hat{\omega}=(\omega_x,\omega_y,\omega_z)\in{\textbf{R}^3}$.
-The Euler-Rodrigues' rotation formula can be written in a standard form and then expressed as the $3\times3$ rotation matrix from the axis-angle representation of rotations as below.
+The Euler-Rodrigues' rotation formula can be written in a standard form and then expressed as the $[3\times3]$ rotation matrix from the axis-angle representation of rotations as below.
 %\textbf{R}{\_}{\hat{\omega}(\theta)} &= \textit{e^{\omega\theta}}\\
 \begin{equation}
 \begin{split}
@@ -352,7 +352,7 @@ Based on the classical path planning which is the movement from point to other p
 \newpage
 \subsection{Icosahedron solid}
 \noindent\uline{Properties}:
-The convex regular icosahedron in the Figure \ref{fig:icosaGeo2} is one of the five regular Platonic solids has 12 vertices, 20 triangular faces, and 30 edges. 
+The convex regular icosahedron in Figure \ref{fig:icosaGeo2} is one of the five regular Platonic solids has 12 vertices, 20 triangular faces, and 30 edges. 
 Assume that the icosahedron has the edge length with $a$. 
 The crossing surface of the solid at vertex $A$ perpendicular with $OD$ will generate a pentagon $ABCEF$.
 
@@ -394,7 +394,7 @@ $BI$ is a diagonal of pentagon $BCLIJ$ and $\angle{QRS}=2\angle{ORS}$.\\
 \end{split}
 \end{equation*}
 
-\noindent To be more detail in the Figure \ref{fig:icosaGeo5}, the rotation angle of icosahedron can be determined from the result of $\angle{QRS}$, as the following. 
+\noindent To be more detail in Figure \ref{fig:icosaGeo5}, the rotation angle of icosahedron can be determined from the result of $\angle{QRS}$, as the following. 
 
 \begin{equation*} 
 \label{icosa:eq3}
@@ -428,10 +428,10 @@ IK & = [-\frac{1}{2}a\quad  -(\frac{\sqrt{3}}{6}+\frac{\sqrt{3}}{3})a\quad  0]
 %
 \noindent\uline{Path planning} 
 Path planning of the regular icosahedron through rolling in known environment has initial coordinate at $[6.5, 5.5, 0]$ and the surface contact with red arrow points to bottom. 
-The goal configuration with same as the initial coordinate has the contact surface with black arrow as shown in the Figure \ref{fig:icosaPath1}. 
+The goal configuration with same as the initial coordinate has the contact surface with black arrow as shown in Figure \ref{fig:icosaPath1}. 
 This figure shows the shortest path with the red line including 14 line segments. 
 It means that the icosahedron rolled 14 times from the initial configuration to the goal configuration. 
-The path can be seen more precisely from the top view in the Figure \ref{fig:icosaPath2}.
+The path can be seen more precisely from the top view in Figure \ref{fig:icosaPath2}.
 The total length of this icosahedron path equals $14a\frac{\sqrt{3}}{3}$ (edge length of the octahedron is $a$).
 
 \begin{center}
@@ -479,7 +479,7 @@ It will be assumed that the coordinates $Oxyz$ lies on $ABCDE$ surface within $O
 %
 The 30 edges have the same length as $a$. It should be determined all the vertices' coordinates in the three dimensional system.
 %
-The Figure \ref{fig:dodecahedron2} indicates the lengths of each vertex from $l_1$ to $l_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
+Figure \ref{fig:dodecahedron2} indicates the lengths of each vertex from $l_1$ to $l_4$ and the angles $\alpha_1$ to $\alpha_4$ which correspond to the five sides of a pentagon.
 
 \begin{figure}[h]
 \centering
@@ -501,8 +501,8 @@ Then the other two angles $\alpha_2$ and $\alpha_3$ can be founded as below.
 \end{split}
 \end{equation*}
 
-\noindent From the Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. 
-The golden ratio $\Phi$ with the value of $\frac{1+\sqrt{5}}{2}$ which is the length of the diagonal of a square with $1$ unit length of sides is used to calculate the circumscribed sphere radius of dodecahedron. It can be assumed that the dodecahedron has the length $a$, the radius of an inscribed sphere ($r_i$)and the circumscribed sphere radius ($r$) are shown as below.
+\noindent From Figure \ref{fig:dodecahedron2}(c), these labelled dimensions can be calculated as $l_1 = R_d = \frac{a}{2\sin{\alpha_4}}$ with $R_d$ is the circumradius of dodecahedron, $l_2 = l_1\cos{\alpha_4}$, $l_3 = l_1\cos{\alpha_2}$, and $l_4 = l_1\sin{\alpha_2}$. 
+The golden ratio $\Phi$ with the value of $\frac{1+\sqrt{5}}{2}$ which is the length of the diagonal of a square with $1$ unit length of sides is used to calculate the circumscribed sphere radius of dodecahedron. It can be assumed that the dodecahedron has the length $a$, the radius of an inscribed sphere ($r_i$) and the circumscribed sphere radius ($r$) are shown as below.
 \begin{equation*}
 \begin{split}
 r_i &= \frac{a}{20}\sqrt{10(25+11\sqrt{5})}\\
@@ -554,7 +554,7 @@ Using these information with the rotation matrix $R_{\hat{\omega}(\theta)}$, the
 %
 %===========================Path Planning=============================
 
-\noindent\uline{Path Planning}: As mentioned in the Section \ref{sec:Algorithm}, the dodecahedron can roll on the two grid types. 
+\noindent\uline{Path Planning}: As mentioned in Section \ref{sec:Algorithm}, the dodecahedron can roll on the two grid types. 
 The simple case has a gap at the connection between three regular pentagons as shown in Figure \ref{fig:dodecaGrid}. 
 %
 In this paper, we do not apply the proposed algorithm to find the path of dodecahedron with rolling on the case of overlaps between four pentagons. 
@@ -584,7 +584,7 @@ l_2 & = l_1\cos{\alpha_4}\\
 \end{split}
 \end{equation*}
 
-\noindent Then, the total length of the first path with the red line equals $15a\cot{\alpha_4}$ as shown in the Figure \ref{fig:dodecaPath}.\\
+\noindent Then, the total length of the first path with the red line equals $15a\cot{\alpha_4}$ as shown in Figure \ref{fig:dodecaPath}.\\
 %\begin{figure}[h]
 %\centering
 %	\includegraphics[width=\textwidth]{image/dodecaPath1.pdf}
@@ -649,15 +649,31 @@ The execution times are shown in Table \ref{tab:timeCubeExtension}. The shorter 
 
 %https://www.tablesgenerator.com/
 \begin{table}[H]
-\caption{The execution times of two paths shown in Figure \ref{fig:cubeLongDist}}
+\caption{The execution times of two paths of the rolling cube shown in Figure \ref{fig:cubeLongDist}}
 \centering
 \begin{tabular}{cccll}
 \cline{1-3}
-\multicolumn{1}{|c|}{Time}          & \multicolumn{1}{c|}{Path 1} & \multicolumn{1}{c|}{Path 2} &  &  \\ \cline{1-3}
-\multicolumn{1}{|c|}{Poin-to-point} & \multicolumn{1}{c|}{0.25ms}    & \multicolumn{1}{c|}{0.25ms}    &  &  \\ \cline{1-3}
-\multicolumn{1}{|c|}{Proposed algorithm} & \multicolumn{1}{c|}{2.02ms} & \multicolumn{1}{c|}{2.34ms} &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Execution Time (ms)}          & \multicolumn{1}{c|}{Path 1} & \multicolumn{1}{c|}{Path 2} &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Poin-to-point} & \multicolumn{1}{c|}{0.25}    & \multicolumn{1}{c|}{0.25}    &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Proposed algorithm} & \multicolumn{1}{c|}{2.02} & \multicolumn{1}{c|}{2.34} &  &  \\ \cline{1-3}
 \multicolumn{1}{l}{}                & \multicolumn{1}{l}{}        & \multicolumn{1}{l}{}        &  & 
 \end{tabular}
 \label{tab:timeCubeExtension}
 \end{table}
 
+
+\noindent Considering the execution times for the five types of platonic solids, Table \ref{tab:twoPathsPlatonics} shows that the proposed algorithm runs in a short time to find the closed-paths for the rolling cube and tetrahedron. 
+The longer execution times depend on the complex geometry of each polyhedron. In this case, the running time of the closed-path planning for the icosahedron implements extensively. \\
+
+
+\begin{table}[H]
+\centering
+\caption{The execution times of the first two paths are found for the platonic solids}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Execution Time (ms) & Cube & Tetrahedron & Octahedron & Icosahedron & Dedecahedron \\ \hline
+First path          & 4.15 & 5.02 & 48.45 & 135.34 & 89.74 \\ \hline
+Second path         & 4.15 & 5.02 & 62.78 & 179.35 & N/A          \\ \hline
+\end{tabular}
+\label{tab:twoPathsPlatonics}
+\end{table}
